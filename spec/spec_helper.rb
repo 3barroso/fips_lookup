@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "fips_code_lookup"
+require "fips_lookup"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

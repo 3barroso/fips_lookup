@@ -1,15 +1,17 @@
 PATH
   remote: .
   specs:
-    fips_code_lookup (0.1.0)
+    fips_lookup (0.1.0)
+      csv (~> 3.2)
 
 GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    csv (3.2.8)
     diff-lcs (1.5.0)
     json (2.6.2)
-    nokogiri (1.13.6-arm64-darwin)
+    nokogiri (1.16.2-arm64-darwin)
       racc (~> 1.4)
     parallel (1.22.1)
     parser (3.1.2.0)
@@ -53,13 +55,15 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  arm64-darwin-22
 
 DEPENDENCIES
-  fips_code_lookup!
+  csv (~> 3.2)
+  fips_lookup!
   rake (~> 13.0)
-  rspec (~> 3.0)
+  rspec (~> 3.2)
   rubocop (~> 1.21)
   simple_xlsx_reader
 
 BUNDLED WITH
-   2.3.6
+   2.5.6

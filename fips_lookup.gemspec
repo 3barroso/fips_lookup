@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
-require_relative "lib/fips_code_lookup/version"
+require_relative "lib/fips_lookup/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "fips_code_lookup"
-  spec.version = FipsCodeLookup::VERSION
+  spec.name = "fips_lookup"
+  spec.version = FipsLookup::VERSION
   spec.authors = ["Erik Barroso"]
-  spec.email = ["erik.barroso@primary.health"]
+  spec.email = ["erikbarroso22@gmail.com"]
 
   spec.summary = "Stores FIPS codes for US States and Counties"
   # spec.description = "TODO: Write a longer description or delete this line."
@@ -32,10 +32,12 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_dependency "csv", "~> 3.2"
 
+  spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.2"
-  spec.add_development_dependency "simple_xlsx_reader"
+  spec.add_development_dependency "rubocop", "~>1.21"
+  # spec.add_development_dependency "simple_xlsx_reader"
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 end
