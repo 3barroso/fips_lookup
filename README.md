@@ -1,6 +1,8 @@
 # FipsLookup
 
-Welcome! This gem functions as a lookup that can be used to identify county and state FIPS codes. 
+## Overview
+
+FipsLookup is a gem that functions as a lookup used to identify county and state FIPS codes.
 
 What are FIPS codes? The United States Federal Communications Commission (FCC) [says:](https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt)
 
@@ -11,7 +13,13 @@ digits in FIPS codes vary depending on the level of geography.  State-level FIPS
 codes have two digits, county-level FIPS codes have five digits of which the 
 first two are the FIPS code of the state to which the county belongs.
 
-FIPS codes are updated by the US census department and [accessed here](https://www.census.gov/library/reference/code-lists/ansi.html)
+_Note:_ FIPS codes are updated by the US census department they can be seen and accessed [here](https://www.census.gov/library/reference/code-lists/ansi.html).
+
+<br>
+
+**Interesting challenge:** <br>
+Multiple states can have the same county name — 16 states have a "Wayne County". This means a state & county pair is required to lookup and return the proper FIPS code.
+This gem utilizes memoization to increase lookup efficiency to csv files without adding complexity to your app.
 
 ## Installation
 
@@ -31,31 +39,50 @@ Or install it yourself as:
 
 ## Usage
 
-To return the 5 digit FIPS code for the state / county:
-```
-# .county(string, string, boolean)
-# FipsLookup.county(state_param, county_name_param, return_nil=false)
-FipsLookup.county("AL", "Autauga County") => "01001"
-```
-_Note:_
-* `state_param` variable is flexible, preferring the state 2 letter abbreviation or 2 digit FIPS code, but will also find the state by using state name, or the state ANSI code.
+### Find FIPS code by memoized hash with parameters: [.county("state name", "county name", _return_nil=false_)](/fips_lookup/lib/fips_lookup.rb?#L23)
 
-* `county_name_param` is not flexible and must match spelling (including "County").
+Input the state name and county name and return the corresponding 5 digit FIPS code:
+```
+FipsLookup.county("AL", "Autauga County") # => "01001"
+```
 
-* the `.county` method is a representation of the memoized hash class attribute `county_fips`. This means the `.county` method will return previously recorded look-ups before searching the county csv files.
+* `state name` - (String)  is flexible, preferring the state 2 letter abbreviation ("AL") or 2 digit FIPS code ("01"), but will also find the state by using state name ("Alabama"), or the state ANSI code ("01779775").
+* `county name` - (String) is not flexible and must match spelling set by US Census Bureau, [resource library](https://www.census.gov/library/reference/code-lists/ansi.html)
+— "Autauga County" can be found, "Autauga" can not be found.
+* `return nil` - (Boolean) is an optional parameter that when used overrides any Errors from input and returns `nil`.
+    * Ex:  `FipsLookup.county("AL", "Autauga", true) # => nil`
+
+<br>
+
+**Class attribute Hash:** [`county_fips = {["state name", "county name"] => "fips"}`](/fips_lookup/lib/fips_lookup.rb?#L21)
+
+Hash built of key value pairs that grows as the `.county` method is used. Instance variable lasts the lifespan of the FipsLookup class.
+```
+FipsLookup.county_fips # => {["AL", "Autauga County"] => "01001"}
+```
+
 <hr>
 
-To return the county and state names using a 5 digit FIPS code:
-```
-# .fips_county(string, boolean)
-# .fips_county(fips_param, return_nil=false)
-FipsLookup.fips_county("01001") => ["Autauga County", "AL"]
-```
-_Note:_
-* `fips_param` must be a 5 digit string ex: "01001"
+### State / County lookup using FIPS code [.fips_county("fips", _return_nil=false_)](/fips_lookup/lib/fips_lookup.rb?#L57)
 
-### Error Handling:
-All methods exposed in this gem have an optional boolean parameter `return_nil` that allow you to toggle if an error should be raised or if `nil` should be returned in case of a lookup error.
+Input the 5 digit FIPS code for a county and return the county name and state name in an Array:
+```
+FipsLookup.fips_county("01001") # => ["Autauga County", "AL"]
+```
+
+* `fips` - (String) must be a 5 character string of numbers ex: "01001".
+* `return_nil` - (Boolean) is an optional parameter that when used overrides any Errors from input and returns `nil`.
+    * Ex: `FipsLookup.fips_county("03000", true) # => nil`
+
+<br>
+
+**State code lookup hash** [`STATE_CODES["state code"] # => "fips code"`](/fips_lookup/lib/fips_lookup.rb?#L8)
+Can be used to translate between state 2-character abbreviations and state 2-digit FIPS code.
+```
+FipsLookup::STATE_CODES["AL"] #=> "01"
+FipsLookup::STATE_CODES.key("01") # => "AL"
+```
+
 
 ## Development
 
@@ -77,12 +104,13 @@ For PC, consult official ruby language [installation guides](https://www.ruby-la
 #### New to this gem?
 
 * The main working file is `lib/fips_lookup.rb` with usage examples in the test file: `spec/fips_lookup_spec.rb`
-* [this pull request](https://github.com/3barroso/fips_lookup/pull/1) contains more details to decisions and considerations when first launching gem.
+* [The first pull request](https://github.com/3barroso/fips_lookup/pull/1) contains more details to decisions and considerations when first launching gem.
 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at the [FipsLookup repo](https://github.com/3barroso/fips_lookup). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/3barroso/fips_lookup/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at the [FipsLookup repo](https://github.com/3barroso/fips_lookup).
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/3barroso/fips_lookup/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
