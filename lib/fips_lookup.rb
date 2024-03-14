@@ -19,68 +19,77 @@ module FipsLookup
 
   class << self
     attr_accessor :county_fips
+    attr_accessor :state_fips
 
-    def county(state_param, county_name_param, return_nil = false)
-      lookup = [state_param.upcase, county_name_param.upcase]
+    def county(state:, county_name:, return_nil: false)
+      state_code = find_state_code(state, return_nil)
+      return {} if state_code.nil?
+
+      lookup = [state_code, county_name.upcase]
       @county_fips ||= {}
-      @county_fips[lookup] ||= county_lookup(state_param, county_name_param, return_nil)
+      @county_fips[lookup] ||= county_lookup(state_code, county_name, return_nil)
     end
 
-    def county_lookup(state_param, county_name_param, return_nil = false)
-      state_code = find_state_code(state_param, return_nil)
-      return nil if state_code.nil?
-
-      CSV.foreach(state_county_file(state_code)) do |county_row|
-        # county_row = state (AL), state code (01), county fips (001), county name (Augtauga County), county class code (H1)
-        if county_row[3].upcase == county_name_param.upcase
-          return county_row[1] + county_row[2]
-        end
-      end
-
-      raise StandardError, "No county found matching: #{county_name_param}" unless return_nil
+    def state(state_param:, return_nil: false)
+      @state_fips ||= {}
+      @state_fips[state_param] ||= state_lookup(state_param, return_nil)
     end
 
-    def find_state_code(state_param, return_nil = false)
-      return state_param.upcase if STATE_CODES.key?(state_param.upcase)
-      return STATE_CODES.key(state_param) if STATE_CODES.value?(state_param)
-
-      CSV.foreach(state_file) do |state_row|
-        # state_row = state code (01), state postal code (AL), state name (Alabama), state ansi code (01779775)
-        if state_param.upcase == state_row[2].upcase || state_param == state_row[3]
-          return state_row[1]
-        end
-      end
-
-      raise StandardError, "No state found matching: #{state_param}" unless return_nil
-    end
-
-    def fips_county(fips_param, return_nil = false)
-      unless fips_param.is_a?(String) && fips_param.length == 5
+    def fips_county(fips:, return_nil: false)
+      unless fips.is_a?(String) && fips.length == 5
         return_nil ? (return nil) : (raise StandardError, "FIPS input must be 5 digit string")
       end
-      state_code = STATE_CODES.key(fips_param[0..1])
+      state_code = find_state_code(fips[0..1], return_nil)
 
       if state_code.nil?
-        return_nil ? (return nil) : (raise StandardError, "Could not find state with FIPS: #{fips_param[0..1]}")
+        return_nil ? (return nil) : (raise StandardError, "Could not find state with FIPS: #{fips[0..1]}")
       end
 
       CSV.foreach(state_county_file(state_code)) do |county_row|
-        if county_row[2] == fips_param[2..4]
+        if county_row[2] == fips[2..4]
           return [county_row[3], state_code]
         end
       end
 
-      raise StandardError, "Could not find #{state_code} county matching FIPS: #{fips_param[2..4]}" unless return_nil
+      raise StandardError, "Could not find county with fips: #{fips[2..4]}, in: #{state_code}" unless return_nil
     end
 
     private
 
     def state_county_file(state_code)
-      Pathname.getwd + "lib/county/#{state_code}.csv"
+      Pathname.getwd + "lib/data/county/#{state_code}.csv"
     end
 
     def state_file
-      Pathname.getwd + "lib/state.csv"
+      Pathname.getwd + "lib/data/state.csv"
+    end
+
+    def county_lookup(state_code, county_name_param, return_nil)
+      CSV.foreach(state_county_file(state_code)) do |county_row|
+        # county_row => state_code (AL), state fips (01), county fips (001), name (Augtauga County), class code (H1)
+        if county_row[3].upcase == county_name_param.upcase
+          return {state_code: county_row[0], fips: (county_row[1] + county_row[2]), name: county_row[3], class_code: county_row[4]}
+        end
+      end
+      return_nil ? (return {}) : (raise StandardError, "No county found matching: #{county_name_param}" unless return_nil)
+    end
+
+    def find_state_code(state_param, return_nil)
+      return state_param.upcase if STATE_CODES.key?(state_param.upcase)
+      return STATE_CODES.key(state_param) if STATE_CODES.value?(state_param)
+      return state(state_param: state_param, return_nil: return_nil)[:code]
+    end
+
+    def state_lookup(state_param, return_nil = false)
+      capitalized_state_param = state_param.split.map(&:capitalize).join(' ')
+
+      CSV.foreach(state_file) do |state_row|
+        # state_row => state fips (01), state code (AL), state name (Alabama), ansi (01779775)
+        if state_row.include?(state_param.upcase) || state_row.include?(capitalized_state_param)
+          return { fips: state_row[0], code: state_row[1], name: state_row[2], ansi: state_row[3] }
+        end
+      end
+      return_nil ? ( return {} ) : (raise StandardError, "No state found matching: #{state_param}")
     end
   end
 end
