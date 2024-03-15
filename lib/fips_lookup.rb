@@ -79,11 +79,10 @@ module FipsLookup
     end
 
     def state_lookup(state_param, return_nil = false)
-      capitalized_state_param = state_param.split.map(&:capitalize).join(' ')
-
       CSV.foreach(state_file) do |state_row|
         # state_row => state fips (01), state code (AL), state name (Alabama), ansi (01779775)
-        if state_row.include?(state_param.upcase) || state_row.include?(capitalized_state_param)
+        if ( state_row[0] == state_param || state_row[1] == state_param.upcase ||
+            state_row[2].upcase == state_param.upcase || state_row[3] == state_param )
           return { fips: state_row[0], code: state_row[1], name: state_row[2], ansi: state_row[3] }
         end
       end
