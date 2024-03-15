@@ -39,45 +39,66 @@ Or install it yourself as:
 
 ## Usage
 
-### Find FIPS code by memoized hash with parameters: [.county("state name", "county name", _return_nil=false_)](/fips_lookup/lib/fips_lookup.rb?#L23)
+### County info from lookup:  [.county(state_param: "state", county_name: "county name", _return_nil: false_)](/fips_lookup/lib/fips_lookup.rb?#L24)
+
+Find County specific details using memoized hash state and county input. [ Returns state code, county fips, county name, and county class codes ]
 
 Input the state name and county name and return the corresponding 5 digit FIPS code:
 ```
-FipsLookup.county("AL", "Autauga County") # => "01001"
+FipsLookup.county(state_param: "AL", county_name: "Autauga County") # => {:state_code=>"AL", :fips=>"01001", :name=>"Autauga County", :class_code=>"H1"}
 ```
 
-* `state name` - (String)  is flexible, preferring the state 2 letter abbreviation ("AL") or 2 digit FIPS code ("01"), but will also find the state by using state name ("Alabama"), or the state ANSI code ("01779775").
-* `county name` - (String) is not flexible and must match spelling set by US Census Bureau, [resource library](https://www.census.gov/library/reference/code-lists/ansi.html)
+* `state_param` - (String) flexible - able to find the state using its' 2 letter abbreviation ("AL"), 2 digit FIPS number ("01"), state name ("Alabama"), or the state ANSI code ("01779775").
+* `county_name` - (String) must match spelling set by US Census Bureau, [resource library](https://www.census.gov/library/reference/code-lists/ansi.html)
 — "Autauga County" can be found, "Autauga" can not be found.
-* `return nil` - (Boolean) is an optional parameter that when used overrides any Errors from input and returns `nil`.
-    * Ex:  `FipsLookup.county("AL", "Autauga", true) # => nil`
+* `return_nil` - (Boolean) is an optional parameter that when used overrides any Errors from input and returns an empty hash `{}`.
+    * Ex:  `FipsLookup.county(state_param: "AL", county_name: "Autauga", return_nil: true) # => {}`
+
+    * Ex: Access the [:fips] symbol after a lookup `FipsLookup.county(state_param: "AL", county_name: "Autauga", return_nil: true)[:fips] # => nil`
 
 <br>
 
-**Class attribute Hash:** [`county_fips = {["state name", "county name"] => "fips"}`](/fips_lookup/lib/fips_lookup.rb?#L21)
+**How does it work?:**
 
-Hash built of key value pairs that grows as the `.county` method is used. Instance variable lasts the lifespan of the FipsLookup class.
+Class attribute hash: [`@county_fips = { ["state_code", "county name"] => {:state_code, :fips, :name, :class_code} }`](/fips_lookup/lib/fips_lookup.rb?#L21)
+
+The `county_fips` hash is built of key value pairs that grows as the `.county` method is used. Calls to `county` first searches `@county_fips` attribute with `[state_code, county_name]` before opening `.csv` files.  Therefore any duplicate calls made to `county` will return the value stored in `@county_fips`.  Instance variable lasts the lifespan of the FipsLookup class.
 ```
-FipsLookup.county_fips # => {["AL", "Autauga County"] => "01001"}
+FipsLookup.county_fips # => { ["AL", "Autauga County"] => {:state_code=>"AL", :fips=>"01001", :name=>"Autauga County", :class_code=>"H1"} }
 ```
 
 <hr>
 
-### State / County lookup using FIPS code [.fips_county("fips", _return_nil=false_)](/fips_lookup/lib/fips_lookup.rb?#L57)
+### State / County lookup using FIPS code [.fips_county(fips: "fips", return_nil: _return_nil=false_)](/fips_lookup/lib/fips_lookup.rb?#L38)
 
 Input the 5 digit FIPS code for a county and return the county name and state name in an Array:
 ```
-FipsLookup.fips_county("01001") # => ["Autauga County", "AL"]
+FipsLookup.fips_county(fips: "01001") # => ["Autauga County", "AL"]
 ```
 
 * `fips` - (String) must be a 5 character string of numbers ex: "01001".
 * `return_nil` - (Boolean) is an optional parameter that when used overrides any Errors from input and returns `nil`.
-    * Ex: `FipsLookup.fips_county("03000", true) # => nil`
+    * Ex: `FipsLookup.fips_county(fips: "03000", return_nil: true) # => nil`
 
 <br>
 
+<hr>
+
+### State info from lookup [.state(state_param: "state", _return_nil: false_)](/fips_lookup/lib/fips_lookup.rb?#L33)
+
+Using state information input return a dictionary of values for keys fips, state code, state name, state ansi code.
+
+```
+FipsLookup.state(state_param: "01") # => {:fips=>"01", :code=>"AL", :name=>"Alabama", :ansi=>"01779775"}
+```
+
+* `state_param` - (String) flexible - able to find the state using its' 2 letter abbreviation ("AL"), 2 digit FIPS number ("01"), state name ("Alabama"), or the state ANSI code ("01779775").
+* `return_nil` - (Boolean) is an optional parameter that when used overrides any Errors from input and returns an empty hash `{}`.
+
+* `.state` functions similarly to the `.county` method in how it uses a memoized hash `@state_fips` to store state parameter lookups and return values before searching `state.csv` for more.
+
 **State code lookup hash** [`STATE_CODES["state code"] # => "fips code"`](/fips_lookup/lib/fips_lookup.rb?#L8)
-Can be used to translate between state 2-character abbreviations and state 2-digit FIPS code.
+Can also be used for quick lookup translation between state 2-character abbreviations and state 2-digit FIPS code.
 ```
 FipsLookup::STATE_CODES["AL"] #=> "01"
 FipsLookup::STATE_CODES.key("01") # => "AL"
