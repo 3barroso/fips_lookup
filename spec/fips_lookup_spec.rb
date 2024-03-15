@@ -9,19 +9,19 @@ RSpec.describe FipsLookup do
   describe ".county" do
     context "with valid state and county params" do
       it "returns the corresponding county row hash object" do
-        expect(FipsLookup.county(state: "Al", county_name: "Autauga County")).to eq({:state_code=>"AL", :fips=>"01001", :name=>"Autauga County", :class_code=>"H1"})
+        expect(FipsLookup.county(state_param: "Al", county_name: "Autauga County")).to eq({:state_code=>"AL", :fips=>"01001", :name=>"Autauga County", :class_code=>"H1"})
       end
     end
 
     context "with an invalid county param" do
       context "and return_nil parameter is not used" do
         it "returns an error" do
-          expect{FipsLookup.county(state: "Al", county_name:"Autauga")}.to raise_error(StandardError, "No county found matching: Autauga")
+          expect{FipsLookup.county(state_param: "Al", county_name:"Autauga")}.to raise_error(StandardError, "No county found matching: Autauga")
         end
       end
       context "and return_nil parameter is used" do
         it "returns an empty hash object" do
-          expect(FipsLookup.county(state: "Alabama", county_name: "Autauga", return_nil: true)).to eq({})
+          expect(FipsLookup.county(state_param: "Alabama", county_name: "Autauga", return_nil: true)).to eq({})
         end
       end
     end
@@ -29,12 +29,12 @@ RSpec.describe FipsLookup do
     context "with an invalid state param" do
       context "and return_nil parameter is not used" do
         it "returns an error" do
-          expect{FipsLookup.county(state: "ZZ", county_name: "County")}.to raise_error(StandardError, "No state found matching: ZZ")
+          expect{FipsLookup.county(state_param: "ZZ", county_name: "County")}.to raise_error(StandardError, "No state found matching: ZZ")
         end
       end
       context "and return_nil parameter is used" do
         it "returns nil" do
-          expect(FipsLookup.county(state: "ZZ", county_name: "County", return_nil: true)).to eq({})
+          expect(FipsLookup.county(state_param: "ZZ", county_name: "County", return_nil: true)).to eq({})
         end
       end
     end
@@ -42,7 +42,7 @@ RSpec.describe FipsLookup do
 
   describe ".county" do
     it "populates a memoized hash attribute accessor with state code and county parameter as lookups" do
-      expect(FipsLookup.county(state: "AL", county_name: "Autauga County")[:fips]).to eq("01001")
+      expect(FipsLookup.county(state_param: "AL", county_name: "Autauga County")[:fips]).to eq("01001")
 
       lookup = ["AL".upcase, "Autauga County".upcase]
       expect(FipsLookup.county_fips[lookup][:fips]).to eq("01001")

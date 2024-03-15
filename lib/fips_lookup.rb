@@ -21,8 +21,8 @@ module FipsLookup
     attr_accessor :county_fips
     attr_accessor :state_fips
 
-    def county(state:, county_name:, return_nil: false)
-      state_code = find_state_code(state, return_nil)
+    def county(state_param:, county_name:, return_nil: false)
+      state_code = find_state_code(state_param, return_nil)
       return {} if state_code.nil?
 
       lookup = [state_code, county_name.upcase]
@@ -39,11 +39,9 @@ module FipsLookup
       unless fips.is_a?(String) && fips.length == 5
         return_nil ? (return nil) : (raise StandardError, "FIPS input must be 5 digit string")
       end
-      state_code = find_state_code(fips[0..1], return_nil)
 
-      if state_code.nil?
-        return_nil ? (return nil) : (raise StandardError, "Could not find state with FIPS: #{fips[0..1]}")
-      end
+      state_code = find_state_code(fips[0..1], return_nil)
+      return nil if state_code.nil?
 
       CSV.foreach(state_county_file(state_code)) do |county_row|
         if county_row[2] == fips[2..4]
