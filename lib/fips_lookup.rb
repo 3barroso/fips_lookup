@@ -86,7 +86,7 @@ module FipsLookup
           return { fips: state_row[0], code: state_row[1], name: state_row[2], ansi: state_row[3] }
         end
       end
-      return_nil ? ( return {} ) : (raise StandardError, "No state found matching: #{state_param}")
+      return_nil ? (return {}) : (raise StandardError, "No state found matching: #{state_param}")
     end
   end
 end
