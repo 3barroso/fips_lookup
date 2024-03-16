@@ -10,13 +10,17 @@ RSpec.describe FipsLookup do
     context "with valid state and county params" do
       it "returns the corresponding county row hash object" do
         expect(FipsLookup.county(state_param: "Al", county_name: "Autauga County")).to eq({:state_code=>"AL", :fips=>"01001", :name=>"Autauga County", :class_code=>"H1"})
+        expect(FipsLookup.county(state_param: "Al", county_name: "Autauga County")[:fips]).to eq("01001")
+        expect(FipsLookup.county(state_param: "Al", county_name: "Autauga County")[:state_code]).to eq("AL")
+        expect(FipsLookup.county(state_param: "Al", county_name: "Autauga County")[:name]).to eq("Autauga County")
+        expect(FipsLookup.county(state_param: "Al", county_name: "Autauga County")[:class_code]).to eq("H1")
       end
     end
 
     context "with an invalid county param" do
       context "and return_nil parameter is not used" do
         it "returns an error" do
-          expect{FipsLookup.county(state_param: "Al", county_name:"Autauga")}.to raise_error(StandardError, "No county found matching: Autauga")
+          expect{FipsLookup.county(state_param: "Al", county_name: "Autauga")}.to raise_error(StandardError, "No county found matching: Autauga")
         end
       end
       context "and return_nil parameter is used" do
@@ -38,16 +42,52 @@ RSpec.describe FipsLookup do
         end
       end
     end
+
+    context "as .county is called" do
+      it "populates a memoized hash attribute accessor @county_fips with state code and county parameter as lookups" do
+        expect(FipsLookup.county(state_param: "AL", county_name: "Autauga County")[:fips]).to eq("01001")
+
+        lookup = ["AL", "Autauga County".upcase]
+        expect(FipsLookup.county_fips[lookup][:fips]).to eq("01001")
+      end
+    end
   end
 
-  describe ".county" do
-    it "populates a memoized hash attribute accessor with state code and county parameter as lookups" do
-      expect(FipsLookup.county(state_param: "AL", county_name: "Autauga County")[:fips]).to eq("01001")
-
-      lookup = ["AL".upcase, "Autauga County".upcase]
-      expect(FipsLookup.county_fips[lookup][:fips]).to eq("01001")
+  describe ".state" do
+    context "with valid state param" do
+      it "returns the corresponding state row hash" do
+        expect(FipsLookup.state(state_param: "AL")).to eq({:ansi=>"01779775", :code=>"AL", :fips=>"01", :name=>"Alabama"})
+        expect(FipsLookup.state(state_param: "AL")[:code]).to eq("AL")
+        expect(FipsLookup.state(state_param: "AL")[:ansi]).to eq("01779775")
+        expect(FipsLookup.state(state_param: "AL")[:fips]).to eq("01")
+        expect(FipsLookup.state(state_param: "AL")[:name]).to eq("Alabama")
+      end
     end
 
+    context "with an invalid state param" do
+      context "when return_nil parameter is not used" do
+        it "returns an error" do
+          expect{FipsLookup.state(state_param: "BC")}.to raise_error(StandardError, "No state found matching: BC")
+        end
+      end
+      context "when return_nil parameter is used" do
+        it "returns an empty dictionary" do
+          expect(FipsLookup.state(state_param: "BC", return_nil: true)).to eq({})
+        end
+      end
+    end
+    context "as .state is called the state_fips class attribute grows" do
+      it "with state param as key" do
+        expect(FipsLookup.state_fips["AL"]).to eq({:ansi=>"01779775", :code=>"AL", :fips=>"01", :name=>"Alabama"})
+      end
+
+      context "when the state cannot be found, but return_nil is used, empty objects are created" do
+        it "stores state param lookup as key when .county is called" do
+          expect(FipsLookup.state_fips["ZZ"]).to eq ({})
+          expect(FipsLookup.state_fips["BC"]).to eq ({})
+        end
+      end
+    end
   end
 
   describe "STATE_CODES" do
