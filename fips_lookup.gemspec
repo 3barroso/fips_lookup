@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Stores FIPS codes for US States and Counties"
   # spec.description = "TODO: Write a longer description or delete this line."
-  # spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage = "https://github.com/3barroso/fips_lookup"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
@@ -30,6 +30,9 @@ Gem::Specification.new do |spec|
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.files += Dir["lib/data/county/*.csv"]
+  spec.files += Dir["lib/data/*.csv"]
 
   # Uncomment to register a new dependency of your gem
   spec.add_dependency "csv", "~> 3.2"
