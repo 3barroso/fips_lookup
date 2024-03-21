@@ -2,7 +2,6 @@
 
 require_relative "fips_lookup/version"
 require "csv"
-require "pathname"
 
 # worker for county, state, fips lookups
 module FipsLookup
