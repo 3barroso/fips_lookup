@@ -108,9 +108,9 @@ FipsLookup::STATE_CODES.key("01") # => "AL"
 
 ### Accessing county and state `.csv` files in your Rails app
 
-Data `csv` files are made accessible incase extra configuration is needed. Here is an example in a Rails application that displays the list of state and county names within a form: 
+Data `csv` files are made accessible incase extra configuration is needed. Here is an example in a Rails application that displays the list of state and county names within a form. This is done by accessing the CSV files included in this gem, examples below are from Rails 7 app called [Build With](https://github.com/3barroso/build_with)
 
-Display state codes in select option dropdown:
+Display state codes in a select option dropdown by using CSV on the FipsLookup method accessing the state.csv file ( `FipsLookup.state_file #=> "path/to/data/state.csv"` )
 ```
 # in controller.rb
 @state_options = []
@@ -126,7 +126,7 @@ end
 ```
 
 
-With state code as param input, create county dropdown option
+Display County name options in a select option dropdown by using CSV on the FipsLookup method accessing the county specific .csv file ( `FipsLookup.county_file(state_code: "MI") #=> "path/to/data/county/MI.csv"` )
 ```
 # in controller.rb
 state_code = address_params[:state]
