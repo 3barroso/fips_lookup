@@ -106,11 +106,26 @@ FipsLookup::STATE_CODES.key("01") # => "AL"
 <br>
 <hr>
 
-### Accessing county and state `.csv` files in your Rails app
+### Finding state abbreviation with flexible input [.find_state_code(state_param: "state", _return_nil: false_)](/fips_lookup/lib/fips_lookup.rb?#L52)
+
+* `state_param` - (String) flexible - able to find the state using its' 2 letter abbreviation ("AL"), 2 digit FIPS number ("01"), state name ("Alabama"), or the state ANSI code ("01779775").
+* `return_nil` - (Boolean) is an optional parameter that when used overrides any Errors from input and returns nil.
+
+```
+FipsLookup.find_state_code(state_param: "MicHiGan") # => "MI"
+```
+
+<br>
+<hr>
+
+## Accessing county and state `.csv` files in your Rails app
 
 Data `csv` files are made accessible incase extra configuration is needed. Here is an example in a Rails application that displays the list of state and county names within a form. This is done by accessing the CSV files included in this gem, examples below are from Rails 7 app called [Build With](https://github.com/3barroso/build_with)
 
+### Path to state.csv file [.state_file](/fips_lookup/lib/fips_lookup.rb?#L64)
+
 Display state codes in a select option dropdown by using CSV on the FipsLookup method accessing the state.csv file ( `FipsLookup.state_file #=> "path/to/data/state.csv"` )
+
 ```
 # in controller.rb
 @state_options = []
@@ -125,11 +140,15 @@ end
 <%= form.select :state, @state_options %>
 ```
 
+### Path to state specific county csv files [.county_file(state_code: "state param")](/fips_lookup/lib/fips_lookup.rb?#L59)
 
 Display County name options in a select option dropdown by using CSV on the FipsLookup method accessing the county specific .csv file ( `FipsLookup.county_file(state_code: "MI") #=> "path/to/data/county/MI.csv"` )
+
+* `state_param` – strict parameter, must be string abbreviation of State code (suggested usage is to call `.find_state_code` above first)
+
 ```
 # in controller.rb
-state_code = address_params[:state]
+state_code = address_params[:state] # or use find_state_code from user input
 @county_options = []
 CSV.foreach(FipsLookup.county_file(state_code:)) do |county_row|
     @county_options << county_row[3]
