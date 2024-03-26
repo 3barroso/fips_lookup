@@ -38,6 +38,7 @@ Or install it yourself as:
     $ gem install fips_lookup
 
 ## Usage
+<br>
 
 ### County info from lookup:  [.county(state_param: "state", county_name: "county name", _return_nil: false_)](/fips_lookup/lib/fips_lookup.rb?#L24)
 
@@ -66,7 +67,7 @@ The `county_fips` hash is built of key value pairs that grows as the `.county` m
 ```
 FipsLookup.county_fips # => { ["AL", "Autauga County"] => {:state_code=>"AL", :fips=>"01001", :name=>"Autauga County", :class_code=>"H1"} }
 ```
-
+<br>
 <hr>
 
 ### State / County lookup using FIPS code [.fips_county(fips: "fips", return_nil: _return_nil=false_)](/fips_lookup/lib/fips_lookup.rb?#L38)
@@ -81,7 +82,6 @@ FipsLookup.fips_county(fips: "01001") # => ["Autauga County", "AL"]
     * Ex: `FipsLookup.fips_county(fips: "03000", return_nil: true) # => nil`
 
 <br>
-
 <hr>
 
 ### State info from lookup [.state(state_param: "state", _return_nil: false_)](/fips_lookup/lib/fips_lookup.rb?#L33)
@@ -103,7 +103,63 @@ Can also be used for quick lookup translation between state 2-character abbrevia
 FipsLookup::STATE_CODES["AL"] #=> "01"
 FipsLookup::STATE_CODES.key("01") # => "AL"
 ```
+<br>
+<hr>
 
+### Finding state abbreviation with flexible input [.find_state_code(state_param: "state", _return_nil: false_)](/fips_lookup/lib/fips_lookup.rb?#L52)
+
+* `state_param` - (String) flexible - able to find the state using its' 2 letter abbreviation ("AL"), 2 digit FIPS number ("01"), state name ("Alabama"), or the state ANSI code ("01779775").
+* `return_nil` - (Boolean) is an optional parameter that when used overrides any Errors from input and returns nil.
+
+```
+FipsLookup.find_state_code(state_param: "MicHiGan") # => "MI"
+```
+
+<br>
+<hr>
+
+## Accessing county and state `.csv` files in your Rails app
+
+Data `csv` files are made accessible incase extra configuration is needed. Here is an example in a Rails application that displays the list of state and county names within a form. This is done by accessing the CSV files included in this gem, examples below are from Rails 7 app called [Build With](https://github.com/3barroso/build_with)
+
+### Path to state.csv file [.state_file](/fips_lookup/lib/fips_lookup.rb?#L64)
+
+Display state codes in a select option dropdown by using CSV on the FipsLookup method accessing the state.csv file ( `FipsLookup.state_file #=> "path/to/data/state.csv"` )
+
+```
+# in controller.rb
+@state_options = []
+CSV.foreach(FipsLookup.state_file) do |state_row|
+    @state_options << [state_row[2], state_row[1]]
+end
+```
+
+```
+# in html.erb (within `form_with do |form|` block)
+<%= form.label :state, style: "display: block" %>
+<%= form.select :state, @state_options %>
+```
+
+### Path to state specific county csv files [.county_file(state_code: "state param")](/fips_lookup/lib/fips_lookup.rb?#L59)
+
+Display County name options in a select option dropdown by using CSV on the FipsLookup method accessing the county specific .csv file ( `FipsLookup.county_file(state_code: "MI") #=> "path/to/data/county/MI.csv"` )
+
+* `state_param` – strict parameter, must be string abbreviation of State code (suggested usage is to call `.find_state_code` above first)
+
+```
+# in controller.rb
+state_code = address_params[:state] # or use find_state_code from user input
+@county_options = []
+CSV.foreach(FipsLookup.county_file(state_code:)) do |county_row|
+    @county_options << county_row[3]
+end
+```
+
+```
+# in html.erb (within `form_with do |form|` block)
+<%= form.label :county, style: "display: block" %>
+<%= form.select :county, @county_options %>
+```
 
 ## Development
 
