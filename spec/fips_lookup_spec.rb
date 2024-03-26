@@ -1,10 +1,12 @@
 # frozen_string_literal: true
-require 'pathname'
+
+require "pathname"
 
 RSpec.describe FipsLookup do
   it "has a version number" do
     expect(FipsLookup::VERSION).not_to be nil
   end
+  let(:state_file_path) { Pathname.getwd + "lib/data/state.csv" }
 
   describe ".county" do
     context "with valid state and county params" do
@@ -20,7 +22,7 @@ RSpec.describe FipsLookup do
     context "with an invalid county param" do
       context "and return_nil parameter is not used" do
         it "returns an error" do
-          expect{FipsLookup.county(state_param: "Al", county_name: "Autauga")}.to raise_error(StandardError, "No county found matching: Autauga")
+          expect{ FipsLookup.county(state_param: "Al", county_name: "Autauga") }.to raise_error(StandardError, "No county found matching: Autauga")
         end
       end
       context "and return_nil parameter is used" do
@@ -33,7 +35,7 @@ RSpec.describe FipsLookup do
     context "with an invalid state param" do
       context "and return_nil parameter is not used" do
         it "returns an error" do
-          expect{FipsLookup.county(state_param: "ZZ", county_name: "County")}.to raise_error(StandardError, "No state found matching: ZZ")
+          expect { FipsLookup.county(state_param: "ZZ", county_name: "County") }.to raise_error(StandardError, "No state found matching: ZZ")
         end
       end
       context "and return_nil parameter is used" do
@@ -56,7 +58,7 @@ RSpec.describe FipsLookup do
   describe ".state" do
     context "with valid state param" do
       it "returns the corresponding state row hash" do
-        expect(FipsLookup.state(state_param: "AL")).to eq({:ansi=>"01779775", :code=>"AL", :fips=>"01", :name=>"Alabama"})
+        expect(FipsLookup.state(state_param: "AL")).to eq({ ansi: "01779775", code: "AL", fips: "01", name: "Alabama" })
         expect(FipsLookup.state(state_param: "AL")[:code]).to eq("AL")
         expect(FipsLookup.state(state_param: "AL")[:ansi]).to eq("01779775")
         expect(FipsLookup.state(state_param: "AL")[:fips]).to eq("01")
@@ -78,7 +80,7 @@ RSpec.describe FipsLookup do
     end
     context "as .state is called the state_fips class attribute grows" do
       it "with state param as key" do
-        expect(FipsLookup.state_fips["AL"]).to eq({:ansi=>"01779775", :code=>"AL", :fips=>"01", :name=>"Alabama"})
+        expect(FipsLookup.state_fips["AL"]).to eq({ ansi: "01779775", code: "AL", fips: "01", name: "Alabama" })
       end
 
       context "when the state cannot be found, but return_nil is used, empty objects are created" do
@@ -92,7 +94,6 @@ RSpec.describe FipsLookup do
 
   describe "STATE_CODES" do
     it "is a hash with the same number of key value pairs as rows in the state.csv file" do
-      state_file_path = Pathname.getwd + "lib/data/state.csv"
       expect(FipsLookup::STATE_CODES.length - 1).to eq(`wc -l #{state_file_path}`.to_i)
     end
   end
@@ -104,19 +105,19 @@ RSpec.describe FipsLookup do
 
     context "when the input is not valid" do
       it "returns an error" do
-        expect{FipsLookup.fips_county(fips: 12345)}.to raise_error(StandardError, "FIPS input must be 5 digit string")
-        expect{FipsLookup.fips_county(fips: "123")}.to raise_error(StandardError, "FIPS input must be 5 digit string")
+        expect { FipsLookup.fips_county(fips: 12_345) }.to raise_error(StandardError, "FIPS input must be 5 digit string")
+        expect { FipsLookup.fips_county(fips: "123") }.to raise_error(StandardError, "FIPS input must be 5 digit string")
       end
 
       it "returns nil if optional parameter is true" do
-        expect(FipsLookup.fips_county(fips: 12345, return_nil: true)).to be nil
+        expect(FipsLookup.fips_county(fips: 12_345, return_nil: true)).to be nil
         expect(FipsLookup.fips_county(fips: "123", return_nil: true)).to be nil
       end
     end
 
     context "when the input is valid but state code cannot be found" do
       it "returns an error" do
-        expect{FipsLookup.fips_county(fips: "03123")}.to raise_error(StandardError, "No state found matching: 03")
+        expect { FipsLookup.fips_county(fips: "03123") }.to raise_error(StandardError, "No state found matching: 03")
       end
 
       it "returns nil if optional parameter is true" do
@@ -126,12 +127,60 @@ RSpec.describe FipsLookup do
 
     context "when the input is valid but county can not be found" do
       it "returns an error" do
-        expect{FipsLookup.fips_county(fips: "01999")}.to raise_error(StandardError, "Could not find county with fips: 999, in: AL")
+        expect { FipsLookup.fips_county(fips: "01999") }.to raise_error(StandardError, "Could not find county with fips: 999, in: AL")
       end
 
       it "returns nil if optional parameter is true" do
         expect(FipsLookup.fips_county(fips: "01999", return_nil: true)).to be nil
       end
+    end
+  end
+
+  describe ".find_state_code" do
+    context "when valid input is entered" do
+      it "checks for state as numeric input, 2 char abbriviation, name or geoid and returns the state code" do
+        expect(FipsLookup.find_state_code(state_param: "MI")).to eq("MI")
+        expect(FipsLookup.find_state_code(state_param: "26")).to eq("MI")
+        expect(FipsLookup.find_state_code(state_param: "MicHiGan")).to eq("MI")
+        expect(FipsLookup.find_state_code(state_param: "01779789")).to eq("MI")
+      end
+    end
+
+    context "when invalid input is entered and return_nil is not specified" do
+      it "returns nil after checking for state as numeric input, 2 char abbriviation, name or geoid" do
+        expect { FipsLookup.find_state_code(state_param: "MM") }.to raise_error(StandardError, "No state found matching: MM")
+        expect { FipsLookup.find_state_code(state_param: "43") }.to raise_error(StandardError, "No state found matching: 43")
+        expect { FipsLookup.find_state_code(state_param: "MMicHiGan") }.to raise_error(StandardError, "No state found matching: MMicHiGan")
+        expect { FipsLookup.find_state_code(state_param: "10779789") }.to raise_error(StandardError, "No state found matching: 10779789")
+      end
+    end
+
+    context "when invalid input is entered and return_nil is specified as true" do
+      it "returns nil after checking for state as numeric input, 2 char abbriviation, name or geoid" do
+        expect(FipsLookup.find_state_code(state_param: "MM", return_nil: true)).to eq nil
+        expect(FipsLookup.find_state_code(state_param: "43", return_nil: true)).to eq nil
+        expect(FipsLookup.find_state_code(state_param: "MMicHiGan", return_nil: true)).to eq nil
+        expect(FipsLookup.find_state_code(state_param: "10779789", return_nil: true)).to eq nil
+      end
+    end
+  end
+
+  describe ".county_file" do
+    context "when valid state code is used" do
+      it "returns the path to the county file" do
+        expect(FipsLookup.county_file(state_code: "MI")).to include("data/county/MI.csv")
+      end
+    end
+    context "when invalid state code is used" do
+      it "returns the path to the county file" do
+        expect(FipsLookup.county_file(state_code: "ZZ")).to be nil
+      end
+    end
+  end
+
+  describe ".state_file" do
+    it "returns the path to state.csv file as a string" do
+      expect(FipsLookup.state_file).to include(state_file_path.to_s)
     end
   end
 end

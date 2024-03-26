@@ -21,7 +21,7 @@ module FipsLookup
     attr_accessor :county_fips, :state_fips
 
     def county(state_param:, county_name:, return_nil: false)
-      state_code = find_state_code(state_param, return_nil)
+      state_code = find_state_code(state_param: state_param, return_nil: return_nil)
       return {} if state_code.nil?
 
       lookup = [state_code, county_name.upcase]
@@ -39,7 +39,7 @@ module FipsLookup
         return_nil ? (return nil) : (raise StandardError, "FIPS input must be 5 digit string")
       end
 
-      state_code = find_state_code(fips[0..1], return_nil)
+      state_code = find_state_code(state_param: fips[0..1], return_nil: return_nil)
       return nil if state_code.nil?
 
       CSV.foreach(county_file(state_code: state_code)) do |county_row|
@@ -49,8 +49,16 @@ module FipsLookup
       raise StandardError, "Could not find county with fips: #{fips[2..4]}, in: #{state_code}" unless return_nil
     end
 
+    def find_state_code(state_param:, return_nil: false)
+      return state_param.upcase if STATE_CODES.key?(state_param.upcase)
+      return STATE_CODES.key(state_param) if STATE_CODES.value?(state_param)
+
+      state(state_param: state_param, return_nil: return_nil)[:code]
+    end
+
     def county_file(state_code:)
-      "#{File.expand_path(__dir__)}/data/county/#{state_code}.csv"
+      file_path = "#{File.expand_path(__dir__)}/data/county/#{state_code}.csv"
+      file_path if File.exist?(file_path)
     end
 
     def state_file
@@ -67,13 +75,6 @@ module FipsLookup
         end
       end
       return_nil ? (return {}) : (raise StandardError, "No county found matching: #{county_name_param}" unless return_nil)
-    end
-
-    def find_state_code(state_param, return_nil)
-      return state_param.upcase if STATE_CODES.key?(state_param.upcase)
-      return STATE_CODES.key(state_param) if STATE_CODES.value?(state_param)
-
-      state(state_param: state_param, return_nil: return_nil)[:code]
     end
 
     def state_lookup(state_param, return_nil = false)
