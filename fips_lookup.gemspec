@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   # spec.description = "TODO: Write a longer description or delete this line."
   spec.homepage = "https://github.com/3barroso/fips_lookup"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 3.0"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
@@ -34,13 +34,8 @@ Gem::Specification.new do |spec|
   spec.files += Dir["lib/data/county/*.csv"]
   spec.files += Dir["lib/data/*.csv"]
 
-  # Uncomment to register a new dependency of your gem
-  spec.add_dependency "csv", "~> 3.2"
+  spec.add_runtime_dependency "csv", "~> 3.0"
 
-  spec.add_development_dependency "rake", "~> 13.0"
-  spec.add_development_dependency "rspec", "~> 3.2"
-  spec.add_development_dependency "rubocop", "~>1.21"
-  # spec.add_development_dependency "simple_xlsx_reader"
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 end
