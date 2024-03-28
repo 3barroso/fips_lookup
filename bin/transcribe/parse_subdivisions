@@ -6,43 +6,44 @@ require "fileutils"
 require "csv"
 require "fips_lookup"
 
-puts "HELLO FROM GEM Executible"
-
-# /Users/erik/workspace/national_cousub2020.txt => current file path
-# /Users/erik/workspace/temp.txt
-# source location: https://www2.census.gov/geo/docs/reference/codes2020/national_cousub2020.txt
-
+# CMD $:  bin/transcribe/parse_subdivisions /Users/erik/workspace/national_cousub2020.txt
+# current source location: https://www2.census.gov/geo/docs/reference/codes2020/national_cousub2020.txt
 # Headers: STATE|STATEFP|COUNTYFP|COUNTYNAME|COUSUBFP|COUSUBNS|COUSUBNAME|CLASSFP|FUNCSTAT
 
 file_path = ARGV[0]
-
 subdivision_path = Pathname.getwd.join("lib/data/subdivision")
-puts "county path? ", subdivision_path
 
-puts "fips states? ", FipsLookup::STATE_CODES.keys
+puts "~~~ Now creating subidivison data files if they are not present ~~~"
 
 FipsLookup::STATE_CODES.each_key do |state_code|
-  # make csv file if it does not exist
   subdivision_state_file_path = subdivision_path.join("#{state_code}.csv")
-  FileUtils.touch(subdivision_state_file_path)
+  FileUtils.touch(subdivision_state_file_path) unless File.exist?(subdivision_state_file_path)
 end
 
-return unless File.exist?(file_path)
+return unless File.exist?(file_path) && File.exist?(subdivision_path)
+
+puts "# Required files found #"
 
 previous_state_code = "AL"
+current_state_data = []
+
+puts "... Parsing input file and creating CSVs..."
 File.open(file_path).each do |line|
   row = line.split("|")
 
   if previous_state_code == row[0]
-    # working in the same CSV file (continue to stream row to CSV)
+    current_state_data << row
   else
-    # close old csv file, open new csv, set new state_code
+    current_csv_path = subdivision_path.join("#{previous_state_code}.csv")
+    File.write(current_csv_path, current_state_data.map { |e| e.join(",") }.join)
+
+    previous_state_code = row[0]
+    current_state_data = [row]
   end
 end
 
-puts "HELLOW~!!!! past check"
+last_state_path = subdivision_path.join("#{previous_state_code}.csv")
+File.write(last_state_path, current_state_data.map { |e| e.join(",") }.join)
 
-# open file and read line by line
-
-# print out contents of line (to see variables and output)
-# figure out how / what to add into CSV options for each new subdivision file
+puts "~~~ Finished creating subdivision CSV files ~~~"
+puts "# Check files diff in lib/data/subdivison/ #"
