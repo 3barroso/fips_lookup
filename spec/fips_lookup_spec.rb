@@ -6,16 +6,18 @@ RSpec.describe FipsLookup do
   it "has a version number" do
     expect(FipsLookup::VERSION).not_to be nil
   end
-  let(:state_file_path) { Pathname.getwd + "lib/data/state.csv" }
+  let(:state_file_path) { Pathname.getwd.join("lib/data/state.csv") }
 
   describe ".county" do
     context "with valid state and county params" do
       it "returns the corresponding county row hash object" do
-        expect(FipsLookup.county(state_param: "Al", county_name: "Autauga County")).to eq({:state_code=>"AL", :fips=>"01001", :name=>"Autauga County", :class_code=>"H1"})
+        expect(FipsLookup.county(state_param: "Al", county_name: "Autauga County")).to eq({ state_code: "AL", fips: "01001", name: "Autauga County", class_code: "H1", gnis: "00161526", status: "A" })
         expect(FipsLookup.county(state_param: "Al", county_name: "Autauga County")[:fips]).to eq("01001")
         expect(FipsLookup.county(state_param: "Al", county_name: "Autauga County")[:state_code]).to eq("AL")
         expect(FipsLookup.county(state_param: "Al", county_name: "Autauga County")[:name]).to eq("Autauga County")
         expect(FipsLookup.county(state_param: "Al", county_name: "Autauga County")[:class_code]).to eq("H1")
+        expect(FipsLookup.county(state_param: "Al", county_name: "Autauga County")[:status]).to eq("A")
+        expect(FipsLookup.county(state_param: "Al", county_name: "Autauga County")[:gnis]).to eq("00161526")
       end
     end
 
