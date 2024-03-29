@@ -94,7 +94,7 @@ RSpec.describe FipsLookup do
 
   describe "STATE_CODES" do
     it "is a hash with the same number of key value pairs as rows in the state.csv file" do
-      expect(FipsLookup::STATE_CODES.length - 1).to eq(`wc -l #{state_file_path}`.to_i)
+      expect(FipsLookup::STATE_CODES.length).to eq(`wc -l #{state_file_path}`.to_i)
     end
   end
 
