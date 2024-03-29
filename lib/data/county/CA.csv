@@ -1,58 +1,58 @@
-CA,06,001,Alameda County,H1
-CA,06,003,Alpine County,H1
-CA,06,005,Amador County,H1
-CA,06,007,Butte County,H1
-CA,06,009,Calaveras County,H1
-CA,06,011,Colusa County,H1
-CA,06,013,Contra Costa County,H1
-CA,06,015,Del Norte County,H1
-CA,06,017,El Dorado County,H1
-CA,06,019,Fresno County,H1
-CA,06,021,Glenn County,H1
-CA,06,023,Humboldt County,H1
-CA,06,025,Imperial County,H1
-CA,06,027,Inyo County,H1
-CA,06,029,Kern County,H1
-CA,06,031,Kings County,H1
-CA,06,033,Lake County,H1
-CA,06,035,Lassen County,H1
-CA,06,037,Los Angeles County,H1
-CA,06,039,Madera County,H1
-CA,06,041,Marin County,H1
-CA,06,043,Mariposa County,H1
-CA,06,045,Mendocino County,H1
-CA,06,047,Merced County,H1
-CA,06,049,Modoc County,H1
-CA,06,051,Mono County,H1
-CA,06,053,Monterey County,H1
-CA,06,055,Napa County,H1
-CA,06,057,Nevada County,H1
-CA,06,059,Orange County,H1
-CA,06,061,Placer County,H1
-CA,06,063,Plumas County,H1
-CA,06,065,Riverside County,H1
-CA,06,067,Sacramento County,H1
-CA,06,069,San Benito County,H1
-CA,06,071,San Bernardino County,H1
-CA,06,073,San Diego County,H1
-CA,06,075,San Francisco County,H6
-CA,06,077,San Joaquin County,H1
-CA,06,079,San Luis Obispo County,H1
-CA,06,081,San Mateo County,H1
-CA,06,083,Santa Barbara County,H1
-CA,06,085,Santa Clara County,H1
-CA,06,087,Santa Cruz County,H1
-CA,06,089,Shasta County,H1
-CA,06,091,Sierra County,H1
-CA,06,093,Siskiyou County,H1
-CA,06,095,Solano County,H1
-CA,06,097,Sonoma County,H1
-CA,06,099,Stanislaus County,H1
-CA,06,101,Sutter County,H1
-CA,06,103,Tehama County,H1
-CA,06,105,Trinity County,H1
-CA,06,107,Tulare County,H1
-CA,06,109,Tuolumne County,H1
-CA,06,111,Ventura County,H1
-CA,06,113,Yolo County,H1
-CA,06,115,Yuba County,H1
+CA,06,001,01675839,Alameda County,H1,A
+CA,06,003,01675840,Alpine County,H1,A
+CA,06,005,01675841,Amador County,H1,A
+CA,06,007,01675842,Butte County,H1,A
+CA,06,009,01675885,Calaveras County,H1,A
+CA,06,011,01675902,Colusa County,H1,A
+CA,06,013,01675903,Contra Costa County,H1,A
+CA,06,015,01682074,Del Norte County,H1,A
+CA,06,017,00277273,El Dorado County,H1,A
+CA,06,019,00277274,Fresno County,H1,A
+CA,06,021,00277275,Glenn County,H1,A
+CA,06,023,01681908,Humboldt County,H1,A
+CA,06,025,00277277,Imperial County,H1,A
+CA,06,027,01804637,Inyo County,H1,A
+CA,06,029,02054176,Kern County,H1,A
+CA,06,031,00277280,Kings County,H1,A
+CA,06,033,00277281,Lake County,H1,A
+CA,06,035,01693324,Lassen County,H1,A
+CA,06,037,00277283,Los Angeles County,H1,A
+CA,06,039,00277284,Madera County,H1,A
+CA,06,041,00277285,Marin County,H1,A
+CA,06,043,00277286,Mariposa County,H1,A
+CA,06,045,00277287,Mendocino County,H1,A
+CA,06,047,00277288,Merced County,H1,A
+CA,06,049,00277289,Modoc County,H1,A
+CA,06,051,00277290,Mono County,H1,A
+CA,06,053,00277291,Monterey County,H1,A
+CA,06,055,00277292,Napa County,H1,A
+CA,06,057,01682927,Nevada County,H1,A
+CA,06,059,00277294,Orange County,H1,A
+CA,06,061,00277295,Placer County,H1,A
+CA,06,063,00277296,Plumas County,H1,A
+CA,06,065,00277297,Riverside County,H1,A
+CA,06,067,00277298,Sacramento County,H1,A
+CA,06,069,00277299,San Benito County,H1,A
+CA,06,071,00277300,San Bernardino County,H1,A
+CA,06,073,00277301,San Diego County,H1,A
+CA,06,075,00277302,San Francisco County,H6,C
+CA,06,077,00277303,San Joaquin County,H1,A
+CA,06,079,00277304,San Luis Obispo County,H1,A
+CA,06,081,00277305,San Mateo County,H1,A
+CA,06,083,00277306,Santa Barbara County,H1,A
+CA,06,085,00277307,Santa Clara County,H1,A
+CA,06,087,00277308,Santa Cruz County,H1,A
+CA,06,089,01682610,Shasta County,H1,A
+CA,06,091,00277310,Sierra County,H1,A
+CA,06,093,00277311,Siskiyou County,H1,A
+CA,06,095,00277312,Solano County,H1,A
+CA,06,097,01657246,Sonoma County,H1,A
+CA,06,099,00277314,Stanislaus County,H1,A
+CA,06,101,00277315,Sutter County,H1,A
+CA,06,103,01692767,Tehama County,H1,A
+CA,06,105,00277317,Trinity County,H1,A
+CA,06,107,00277318,Tulare County,H1,A
+CA,06,109,00277319,Tuolumne County,H1,A
+CA,06,111,00277320,Ventura County,H1,A
+CA,06,113,00277321,Yolo County,H1,A
+CA,06,115,00277322,Yuba County,H1,A

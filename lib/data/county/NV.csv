@@ -1,17 +1,17 @@
-NV,32,001,Churchill County,H1
-NV,32,003,Clark County,H1
-NV,32,005,Douglas County,H1
-NV,32,007,Elko County,H1
-NV,32,009,Esmeralda County,H1
-NV,32,011,Eureka County,H1
-NV,32,013,Humboldt County,H1
-NV,32,015,Lander County,H1
-NV,32,017,Lincoln County,H1
-NV,32,019,Lyon County,H1
-NV,32,021,Mineral County,H1
-NV,32,023,Nye County,H1
-NV,32,027,Pershing County,H1
-NV,32,029,Storey County,H1
-NV,32,031,Washoe County,H1
-NV,32,033,White Pine County,H1
-NV,32,510,Carson City,C7
+NV,32,001,00858638,Churchill County,H1,A
+NV,32,003,00863600,Clark County,H1,A
+NV,32,005,00858643,Douglas County,H1,A
+NV,32,007,00857664,Elko County,H1,A
+NV,32,009,00858641,Esmeralda County,H1,A
+NV,32,011,00858640,Eureka County,H1,A
+NV,32,013,00863310,Humboldt County,H1,A
+NV,32,015,00863368,Lander County,H1,A
+NV,32,017,00863992,Lincoln County,H1,A
+NV,32,019,00858645,Lyon County,H1,A
+NV,32,021,00858644,Mineral County,H1,A
+NV,32,023,00863599,Nye County,H1,A
+NV,32,027,00858646,Pershing County,H1,A
+NV,32,029,00858642,Storey County,H1,A
+NV,32,031,00858608,Washoe County,H1,A
+NV,32,033,00858615,White Pine County,H1,A
+NV,32,510,00863219,Carson City,C7,F

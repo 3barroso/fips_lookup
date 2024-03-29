@@ -1,33 +1,33 @@
-NM,35,001,Bernalillo County,H1
-NM,35,003,Catron County,H1
-NM,35,005,Chaves County,H1
-NM,35,006,Cibola County,H1
-NM,35,007,Colfax County,H1
-NM,35,009,Curry County,H1
-NM,35,011,De Baca County,H1
-NM,35,013,Dona Ana County,H1
-NM,35,015,Eddy County,H1
-NM,35,017,Grant County,H1
-NM,35,019,Guadalupe County,H1
-NM,35,021,Harding County,H1
-NM,35,023,Hidalgo County,H1
-NM,35,025,Lea County,H1
-NM,35,027,Lincoln County,H1
-NM,35,028,Los Alamos County,H1
-NM,35,029,Luna County,H1
-NM,35,031,McKinley County,H1
-NM,35,033,Mora County,H1
-NM,35,035,Otero County,H1
-NM,35,037,Quay County,H1
-NM,35,039,Rio Arriba County,H1
-NM,35,041,Roosevelt County,H1
-NM,35,043,Sandoval County,H1
-NM,35,045,San Juan County,H1
-NM,35,047,San Miguel County,H1
-NM,35,049,Santa Fe County,H1
-NM,35,051,Sierra County,H1
-NM,35,053,Socorro County,H1
-NM,35,055,Taos County,H1
-NM,35,057,Torrance County,H1
-NM,35,059,Union County,H1
-NM,35,061,Valencia County,H1
+NM,35,001,01702363,Bernalillo County,H1,A
+NM,35,003,00929108,Catron County,H1,A
+NM,35,005,01702364,Chaves County,H1,A
+NM,35,006,00933051,Cibola County,H1,A
+NM,35,007,00929117,Colfax County,H1,A
+NM,35,009,00933053,Curry County,H1,A
+NM,35,011,00933054,De Baca County,H1,A
+NM,35,013,00929109,DoÃ±a Ana County,H1,A
+NM,35,015,00936829,Eddy County,H1,A
+NM,35,017,00915980,Grant County,H1,A
+NM,35,019,00929111,Guadalupe County,H1,A
+NM,35,021,00933055,Harding County,H1,A
+NM,35,023,00929106,Hidalgo County,H1,A
+NM,35,025,01702365,Lea County,H1,A
+NM,35,027,00929116,Lincoln County,H1,A
+NM,35,028,01702366,Los Alamos County,H1,A
+NM,35,029,00933057,Luna County,H1,A
+NM,35,031,00929107,McKinley County,H1,A
+NM,35,033,01702367,Mora County,H1,A
+NM,35,035,00929104,Otero County,H1,A
+NM,35,037,00929110,Quay County,H1,A
+NM,35,039,01702368,Rio Arriba County,H1,A
+NM,35,041,01702369,Roosevelt County,H1,A
+NM,35,043,00929113,Sandoval County,H1,A
+NM,35,045,00936844,San Juan County,H1,A
+NM,35,047,00929114,San Miguel County,H1,A
+NM,35,049,00933322,Santa Fe County,H1,A
+NM,35,051,01702370,Sierra County,H1,A
+NM,35,053,01702371,Socorro County,H1,A
+NM,35,055,00933056,Taos County,H1,A
+NM,35,057,00929112,Torrance County,H1,A
+NM,35,059,00929115,Union County,H1,A
+NM,35,061,00933052,Valencia County,H1,A

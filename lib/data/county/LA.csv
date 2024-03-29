@@ -1,64 +1,64 @@
-LA,22,001,Acadia Parish,H1
-LA,22,003,Allen Parish,H1
-LA,22,005,Ascension Parish,H1
-LA,22,007,Assumption Parish,H1
-LA,22,009,Avoyelles Parish,H1
-LA,22,011,Beauregard Parish,H1
-LA,22,013,Bienville Parish,H1
-LA,22,015,Bossier Parish,H1
-LA,22,017,Caddo Parish,H1
-LA,22,019,Calcasieu Parish,H1
-LA,22,021,Caldwell Parish,H1
-LA,22,023,Cameron Parish,H1
-LA,22,025,Catahoula Parish,H1
-LA,22,027,Claiborne Parish,H1
-LA,22,029,Concordia Parish,H1
-LA,22,031,De Soto Parish,H1
-LA,22,033,East Baton Rouge Parish,H1
-LA,22,035,East Carroll Parish,H1
-LA,22,037,East Feliciana Parish,H1
-LA,22,039,Evangeline Parish,H1
-LA,22,041,Franklin Parish,H1
-LA,22,043,Grant Parish,H1
-LA,22,045,Iberia Parish,H1
-LA,22,047,Iberville Parish,H1
-LA,22,049,Jackson Parish,H1
-LA,22,051,Jefferson Parish,H1
-LA,22,053,Jefferson Davis Parish,H1
-LA,22,055,Lafayette Parish,H1
-LA,22,057,Lafourche Parish,H1
-LA,22,059,La Salle Parish,H1
-LA,22,061,Lincoln Parish,H1
-LA,22,063,Livingston Parish,H1
-LA,22,065,Madison Parish,H1
-LA,22,067,Morehouse Parish,H1
-LA,22,069,Natchitoches Parish,H1
-LA,22,071,Orleans Parish,H6
-LA,22,073,Ouachita Parish,H1
-LA,22,075,Plaquemines Parish,H1
-LA,22,077,Pointe Coupee Parish,H1
-LA,22,079,Rapides Parish,H1
-LA,22,081,Red River Parish,H1
-LA,22,083,Richland Parish,H1
-LA,22,085,Sabine Parish,H1
-LA,22,087,St. Bernard Parish,H1
-LA,22,089,St. Charles Parish,H1
-LA,22,091,St. Helena Parish,H1
-LA,22,093,St. James Parish,H1
-LA,22,095,St. John the Baptist Parish,H1
-LA,22,097,St. Landry Parish,H1
-LA,22,099,St. Martin Parish,H1
-LA,22,101,St. Mary Parish,H1
-LA,22,103,St. Tammany Parish,H1
-LA,22,105,Tangipahoa Parish,H1
-LA,22,107,Tensas Parish,H1
-LA,22,109,Terrebonne Parish,H1
-LA,22,111,Union Parish,H1
-LA,22,113,Vermilion Parish,H1
-LA,22,115,Vernon Parish,H1
-LA,22,117,Washington Parish,H1
-LA,22,119,Webster Parish,H1
-LA,22,121,West Baton Rouge Parish,H1
-LA,22,123,West Carroll Parish,H1
-LA,22,125,West Feliciana Parish,H1
-LA,22,127,Winn Parish,H1
+LA,22,001,00558389,Acadia Parish,H1,A
+LA,22,003,00558397,Allen Parish,H1,A
+LA,22,005,00558403,Ascension Parish,H1,A
+LA,22,007,00558414,Assumption Parish,H1,A
+LA,22,009,00558424,Avoyelles Parish,H1,A
+LA,22,011,00558436,Beauregard Parish,H1,A
+LA,22,013,00558445,Bienville Parish,H1,A
+LA,22,015,00558453,Bossier Parish,H1,A
+LA,22,017,00558458,Caddo Parish,H1,A
+LA,22,019,00558468,Calcasieu Parish,H1,A
+LA,22,021,00558477,Caldwell Parish,H1,A
+LA,22,023,00558488,Cameron Parish,H1,A
+LA,22,025,00558495,Catahoula Parish,H1,A
+LA,22,027,00558505,Claiborne Parish,H1,A
+LA,22,029,00558515,Concordia Parish,H1,A
+LA,22,031,00558521,De Soto Parish,H1,A
+LA,22,033,00558530,East Baton Rouge Parish,H6,B
+LA,22,035,00558534,East Carroll Parish,H1,A
+LA,22,037,00558542,East Feliciana Parish,H1,A
+LA,22,039,00558551,Evangeline Parish,H1,A
+LA,22,041,00558557,Franklin Parish,H1,A
+LA,22,043,00558567,Grant Parish,H1,A
+LA,22,045,00558576,Iberia Parish,H1,A
+LA,22,047,00558582,Iberville Parish,H1,A
+LA,22,049,00558592,Jackson Parish,H1,A
+LA,22,051,00558027,Jefferson Parish,H1,A
+LA,22,053,00558039,Jefferson Davis Parish,H1,A
+LA,22,055,00558059,Lafayette Parish,H6,B
+LA,22,057,00558065,Lafourche Parish,H1,A
+LA,22,059,00558049,LaSalle Parish,H1,A
+LA,22,061,00558077,Lincoln Parish,H1,A
+LA,22,063,00558083,Livingston Parish,H1,A
+LA,22,065,00558088,Madison Parish,H1,A
+LA,22,067,00558097,Morehouse Parish,H1,A
+LA,22,069,00558108,Natchitoches Parish,H1,A
+LA,22,071,00558113,Orleans Parish,H6,C
+LA,22,073,00558114,Ouachita Parish,H1,A
+LA,22,075,00558125,Plaquemines Parish,H1,A
+LA,22,077,00559449,Pointe Coupee Parish,H1,A
+LA,22,079,00559460,Rapides Parish,H1,A
+LA,22,081,00559472,Red River Parish,H1,A
+LA,22,083,00559481,Richland Parish,H1,A
+LA,22,085,00559489,Sabine Parish,H1,A
+LA,22,087,01629542,St. Bernard Parish,H1,A
+LA,22,089,01629449,St. Charles Parish,H1,A
+LA,22,091,01629457,St. Helena Parish,H1,A
+LA,22,093,01629464,St. James Parish,H1,A
+LA,22,095,01629472,St. John the Baptist Parish,H1,A
+LA,22,097,01629479,St. Landry Parish,H1,A
+LA,22,099,01629486,St. Martin Parish,H1,A
+LA,22,101,01629492,St. Mary Parish,H1,A
+LA,22,103,01629503,St. Tammany Parish,H1,A
+LA,22,105,00559500,Tangipahoa Parish,H1,A
+LA,22,107,00559509,Tensas Parish,H1,A
+LA,22,109,00559517,Terrebonne Parish,H6,A
+LA,22,111,00559528,Union Parish,H1,A
+LA,22,113,00559538,Vermilion Parish,H1,A
+LA,22,115,00559548,Vernon Parish,H1,A
+LA,22,117,00559557,Washington Parish,H1,A
+LA,22,119,00559567,Webster Parish,H1,A
+LA,22,121,00559570,West Baton Rouge Parish,H1,A
+LA,22,123,00559578,West Carroll Parish,H1,A
+LA,22,125,00559584,West Feliciana Parish,H1,A
+LA,22,127,00559594,Winn Parish,H1,A
