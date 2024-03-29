@@ -1,0 +1,552 @@
+VA,51,001,Accomack County,91196,01927175,District 1,Z1,N
+VA,51,001,Accomack County,91346,01927196,District 2,Z1,N
+VA,51,001,Accomack County,91496,01927217,District 3,Z1,N
+VA,51,001,Accomack County,91646,01927237,District 4,Z1,N
+VA,51,001,Accomack County,91796,01927258,District 5,Z1,N
+VA,51,001,Accomack County,91946,01927278,District 6,Z1,N
+VA,51,001,Accomack County,92096,01927285,District 7,Z1,N
+VA,51,001,Accomack County,92246,01927289,District 8,Z1,N
+VA,51,001,Accomack County,92396,01927293,District 9,Z1,N
+VA,51,003,Albemarle County,93983,01927350,Jack Jouett district,Z1,N
+VA,51,003,Albemarle County,95311,01927462,Rio district,Z1,N
+VA,51,003,Albemarle County,95319,01927464,Rivanna district,Z1,N
+VA,51,003,Albemarle County,95567,01927487,Samuel Miller district,Z1,N
+VA,51,003,Albemarle County,95607,01927491,Scottsville district,Z1,N
+VA,51,003,Albemarle County,96359,01927567,White Hall district,Z1,N
+VA,51,005,Alleghany County,90424,01927108,Boiling Springs district,Z1,N
+VA,51,005,Alleghany County,90877,01946099,Clifton Forge East district,Z1,N
+VA,51,005,Alleghany County,90878,01946100,Clifton Forge West district,Z1,N
+VA,51,005,Alleghany County,91016,01927581,Covington district,Z1,N
+VA,51,005,Alleghany County,93527,01927315,Falling Spring district,Z1,N
+VA,51,005,Alleghany County,94015,01927353,Jackson River district,Z1,N
+VA,51,005,Alleghany County,95635,01946101,Sharon district,Z1,N
+VA,51,007,Amelia County,91199,01927176,District 1,Z1,N
+VA,51,007,Amelia County,91349,01927197,District 2,Z1,N
+VA,51,007,Amelia County,91499,01927218,District 3,Z1,N
+VA,51,007,Amelia County,91649,01927238,District 4,Z1,N
+VA,51,007,Amelia County,91799,01927259,District 5,Z1,N
+VA,51,009,Amherst County,91200,01927177,District 1,Z1,N
+VA,51,009,Amherst County,91350,01927198,District 2,Z1,N
+VA,51,009,Amherst County,91500,01927219,District 3,Z1,N
+VA,51,009,Amherst County,91650,01927239,District 4,Z1,N
+VA,51,009,Amherst County,91800,01927260,District 5,Z1,N
+VA,51,011,Appomattox County,90054,02390557,Appomattox River district,Z1,N
+VA,51,011,Appomattox County,90985,02390678,Courthouse district,Z1,N
+VA,51,011,Appomattox County,93524,02390690,Falling River district,Z1,N
+VA,51,011,Appomattox County,95083,02390693,Piney Mountain district,Z1,N
+VA,51,011,Appomattox County,96459,02391231,Wreck Island district,Z1,N
+VA,51,013,Arlington County,90072,01480097,Arlington,Z7,F
+VA,51,015,Augusta County,90272,01927096,Beverley Manor district,Z1,N
+VA,51,015,Augusta County,94671,01927403,Middle River district,Z1,N
+VA,51,015,Augusta County,94911,01927427,North River district,Z1,N
+VA,51,015,Augusta County,94999,01927437,Pastures district,Z1,N
+VA,51,015,Augusta County,95335,01927465,Riverheads district,Z1,N
+VA,51,015,Augusta County,95791,01927508,South River district,Z1,N
+VA,51,015,Augusta County,96271,01927557,Wayne district,Z1,N
+VA,51,017,Bath County,90672,01927133,Cedar Creek district,Z1,N
+VA,51,017,Bath County,94695,01927406,Millboro district,Z1,N
+VA,51,017,Bath County,96167,01927546,Valley Springs district,Z1,N
+VA,51,017,Bath County,96239,01927554,Warm Springs district,Z1,N
+VA,51,017,Bath County,96399,01927571,Williamsville district,Z1,N
+VA,51,019,Bedford County,91209,02750017,District 1,Z1,N
+VA,51,019,Bedford County,91359,02750018,District 2,Z1,N
+VA,51,019,Bedford County,91509,02750019,District 3,Z1,N
+VA,51,019,Bedford County,91659,02750034,District 4,Z1,N
+VA,51,019,Bedford County,91805,02750054,District 5,Z1,N
+VA,51,019,Bedford County,91950,02750055,District 6,Z1,N
+VA,51,019,Bedford County,92102,02750056,District 7,Z1,N
+VA,51,021,Bland County,91210,01952416,District 1,Z1,N
+VA,51,021,Bland County,91360,01952417,District 2,Z1,N
+VA,51,021,Bland County,91510,01952418,District 3,Z1,N
+VA,51,021,Bland County,91660,01952419,District 4,Z1,N
+VA,51,023,Botetourt County,90048,01927077,Amsterdam district,Z1,N
+VA,51,023,Botetourt County,90384,01927104,Blue Ridge district,Z1,N
+VA,51,023,Botetourt County,90528,01927119,Buchanan district,Z1,N
+VA,51,023,Botetourt County,93575,01927318,Fincastle district,Z1,N
+VA,51,023,Botetourt County,96159,01927545,Valley district,Z1,N
+VA,51,025,Brunswick County,94639,01927400,Meherrin district,Z1,N
+VA,51,025,Brunswick County,95151,01927451,Powellton district,Z1,N
+VA,51,025,Brunswick County,95255,01927457,Red Oak district,Z1,N
+VA,51,025,Brunswick County,95983,01927528,Sturgeon district,Z1,N
+VA,51,025,Brunswick County,96103,01927538,Totaro district,Z1,N
+VA,51,027,Buchanan County,93679,01927326,Garden district,Z1,N
+VA,51,027,Buchanan County,93951,01927346,Hurricane district,Z1,N
+VA,51,027,Buchanan County,94151,01927367,Knox district,Z1,N
+VA,51,027,Buchanan County,94903,01927426,North Grundy district,Z1,N
+VA,51,027,Buchanan County,95167,01927453,Prater district,Z1,N
+VA,51,027,Buchanan County,95415,01927472,Rock Lick district,Z1,N
+VA,51,027,Buchanan County,95775,01927507,South Grundy district,Z1,N
+VA,51,029,Buckingham County,91212,02390679,District 1,Z1,N
+VA,51,029,Buckingham County,91362,02390681,District 2,Z1,N
+VA,51,029,Buckingham County,91512,02390683,District 3,Z1,N
+VA,51,029,Buckingham County,91665,02390685,District 4,Z1,N
+VA,51,029,Buckingham County,91810,02390687,District 5,Z1,N
+VA,51,029,Buckingham County,91956,02390688,District 6,Z1,N
+VA,51,029,Buckingham County,92106,02390689,District 7,Z1,N
+VA,51,031,Campbell County,90032,01927076,Altavista district,Z1,N
+VA,51,031,Campbell County,90504,01927117,Brookneal district,Z1,N
+VA,51,031,Campbell County,90968,01927159,Concord district,Z1,N
+VA,51,031,Campbell County,95503,01927481,Rustburg district,Z1,N
+VA,51,031,Campbell County,95623,01927493,Seneca district,Z1,N
+VA,51,031,Campbell County,96015,01927532,Sunburst district,Z1,N
+VA,51,031,Campbell County,96087,01927537,Timberlake district,Z1,N
+VA,51,033,Caroline County,90440,01927110,Bowling Green district,Z1,N
+VA,51,033,Caroline County,94423,01927383,Madison district,Z1,N
+VA,51,033,Caroline County,94583,01927395,Mattaponi district,Z1,N
+VA,51,033,Caroline County,95119,01927449,Port Royal district,Z1,N
+VA,51,033,Caroline County,95271,01927459,Reedy Church district,Z1,N
+VA,51,035,Carroll County,93551,01927317,Fancy Gap district,Z1,N
+VA,51,035,Carroll County,94175,01927369,Laurel Fork district,Z1,N
+VA,51,035,Carroll County,95071,01927444,Pine Creek district,Z1,N
+VA,51,035,Carroll County,95087,01927446,Piper Gap district,Z1,N
+VA,51,035,Carroll County,96007,01927531,Sulphur Springs district,Z1,N
+VA,51,036,Charles City County,91215,01986427,District 1,Z1,N
+VA,51,036,Charles City County,91365,01986428,District 2,Z1,N
+VA,51,036,Charles City County,91515,01986429,District 3,Z1,N
+VA,51,037,Charlotte County,90128,01927083,Bacon district,Z1,N
+VA,51,037,Charlotte County,90712,01927138,Central district,Z1,N
+VA,51,037,Charlotte County,94431,01927384,Madison district,Z1,N
+VA,51,037,Charlotte County,94687,01927405,Midway district,Z1,N
+VA,51,037,Charlotte County,95351,01927467,Roanoke district,Z1,N
+VA,51,037,Charlotte County,96223,01927552,Walton district,Z1,N
+VA,51,041,Chesterfield County,90248,01927094,Bermuda district,Z1,N
+VA,51,041,Chesterfield County,90896,01927153,Clover Hill district,Z1,N
+VA,51,041,Chesterfield County,91088,01927171,Dale district,Z1,N
+VA,51,041,Chesterfield County,94575,01927394,Matoaca district,Z1,N
+VA,51,041,Chesterfield County,94679,01927404,Midlothian district,Z1,N
+VA,51,043,Clarke County,90256,01927095,Berryville district,Z1,N
+VA,51,043,Clarke County,90544,01927120,Buckmarsh district,Z1,N
+VA,51,043,Clarke County,94703,01927407,Millwood district,Z1,N
+VA,51,043,Clarke County,95495,01927480,Russell district,Z1,N
+VA,51,043,Clarke County,96367,01927568,White Post district,Z1,N
+VA,51,045,Craig County,91024,01927165,Craig City district,Z1,N
+VA,51,045,Craig County,91032,01927166,Craig Creek district,Z1,N
+VA,51,045,Craig County,94823,01927417,New Castle district,Z1,N
+VA,51,045,Craig County,95135,01927450,Potts Mountain district,Z1,N
+VA,51,045,Craig County,95703,01927500,Simmonsville district,Z1,N
+VA,51,047,Culpeper County,90640,01927129,Catalpa district,Z1,N
+VA,51,047,Culpeper County,90680,01927134,Cedar Mountain district,Z1,N
+VA,51,047,Culpeper County,93447,01927307,East Fairfax district,Z1,N
+VA,51,047,Culpeper County,94079,01927360,Jefferson district,Z1,N
+VA,51,047,Culpeper County,95535,01927483,Salem district,Z1,N
+VA,51,047,Culpeper County,95895,01927519,Stevensburg district,Z1,N
+VA,51,047,Culpeper County,96303,01927558,West Fairfax district,Z1,N
+VA,51,049,Cumberland County,91220,01927178,District 1,Z1,N
+VA,51,049,Cumberland County,91370,01927199,District 2,Z1,N
+VA,51,049,Cumberland County,91520,01927220,District 3,Z1,N
+VA,51,049,Cumberland County,91670,01927240,District 4,Z1,N
+VA,51,049,Cumberland County,91820,01927261,District 5,Z1,N
+VA,51,051,Dickenson County,90880,01927151,Clintwood district,Z1,N
+VA,51,051,Dickenson County,93495,01927313,Ervinton district,Z1,N
+VA,51,051,Dickenson County,94135,01927365,Kenady district,Z1,N
+VA,51,051,Dickenson County,95575,01927488,Sand Lick district,Z1,N
+VA,51,051,Dickenson County,96407,01927572,Willis district,Z1,N
+VA,51,053,Dinwiddie County,91222,01927179,District 1,Z1,N
+VA,51,053,Dinwiddie County,91372,01927200,District 2,Z1,N
+VA,51,053,Dinwiddie County,91522,01927221,District 3,Z1,N
+VA,51,053,Dinwiddie County,91672,01927241,District 4,Z1,N
+VA,51,053,Dinwiddie County,91822,01927262,District 5,Z1,N
+VA,51,057,Essex County,90720,01927139,Central district,Z1,N
+VA,51,057,Essex County,94879,01927424,North district,Z1,N
+VA,51,057,Essex County,95751,01927505,South district,Z1,N
+VA,51,057,Essex County,96027,01952863,Tappahannock district,Z1,N
+VA,51,059,Fairfax County,90464,01927112,Braddock district,Z1,N
+VA,51,059,Fairfax County,93391,01927302,Dranesville district,Z1,N
+VA,51,059,Fairfax County,93943,01927345,Hunter Mill district,Z1,N
+VA,51,059,Fairfax County,94207,01927372,Lee district,Z1,N
+VA,51,059,Fairfax County,94543,01927391,Mason district,Z1,N
+VA,51,059,Fairfax County,94783,01927413,Mount Vernon district,Z1,N
+VA,51,059,Fairfax County,95191,01927454,Providence district,Z1,N
+VA,51,059,Fairfax County,95847,01927514,Springfield district,Z1,N
+VA,51,059,Fairfax County,95999,01927530,Sully district,Z1,N
+VA,51,061,Fauquier County,90688,01927135,Cedar Run district,Z1,N
+VA,51,061,Fauquier County,90704,01927137,Center district,Z1,N
+VA,51,061,Fauquier County,94215,01927373,Lee district,Z1,N
+VA,51,061,Fauquier County,94511,01927389,Marshall district,Z1,N
+VA,51,061,Fauquier County,95599,01927490,Scott district,Z1,N
+VA,51,063,Floyd County,90576,01927123,Burks Fork district,Z1,N
+VA,51,063,Floyd County,90992,01927161,Court House district,Z1,N
+VA,51,063,Floyd County,93959,01927347,Indian Valley district,Z1,N
+VA,51,063,Floyd County,94303,01927377,Little River district,Z1,N
+VA,51,063,Floyd County,94343,01927379,Locust Grove district,Z1,N
+VA,51,065,Fluvanna County,90952,01927158,Columbia district,Z1,N
+VA,51,065,Fluvanna County,91056,01927168,Cunningham district,Z1,N
+VA,51,065,Fluvanna County,93607,01927320,Fork Union district,Z1,N
+VA,51,065,Fluvanna County,94983,01927435,Palmyra district,Z1,N
+VA,51,065,Fluvanna County,95327,01927463,Rivanna district,Z1,N
+VA,51,067,Franklin County,90320,01927099,Blackwater district,Z1,N
+VA,51,067,Franklin County,90392,01927105,Blue Ridge district,Z1,N
+VA,51,067,Franklin County,90432,01927109,Boone district,Z1,N
+VA,51,067,Franklin County,93703,01927328,Gills Creek district,Z1,N
+VA,51,067,Franklin County,95431,01927475,Rocky Mount district,Z1,N
+VA,51,067,Franklin County,95743,01927504,Snow Creek district,Z1,N
+VA,51,067,Franklin County,96151,01927544,Union Hall district,Z1,N
+VA,51,069,Frederick County,90120,01927082,Back Creek district,Z1,N
+VA,51,069,Frederick County,93663,01927324,Gainesboro district,Z1,N
+VA,51,069,Frederick County,94967,01927434,Opequon district,Z1,N
+VA,51,069,Frederick County,95250,01930433,Red Bud district,Z1,N
+VA,51,069,Frederick County,95647,01927496,Shawnee district,Z1,N
+VA,51,069,Frederick County,95927,01927523,Stonewall district,Z1,N
+VA,51,071,Giles County,90728,01927140,Central district,Z1,N
+VA,51,071,Giles County,93431,01927310,Eastern district,Z1,N
+VA,51,071,Giles County,96287,01927562,Western district,Z1,N
+VA,51,073,Gloucester County,90008,01927074,Abingdon district,Z1,N
+VA,51,073,Gloucester County,93735,01927329,Gloucester Point district,Z1,N
+VA,51,073,Gloucester County,95047,01927441,Petsworth district,Z1,N
+VA,51,073,Gloucester County,96231,01927553,Ware district,Z1,N
+VA,51,073,Gloucester County,96471,01927579,York district,Z1,N
+VA,51,075,Goochland County,91232,01927180,District 1,Z1,N
+VA,51,075,Goochland County,91382,01927201,District 2,Z1,N
+VA,51,075,Goochland County,91532,01927222,District 3,Z1,N
+VA,51,075,Goochland County,91682,01927242,District 4,Z1,N
+VA,51,075,Goochland County,91832,01927263,District 5,Z1,N
+VA,51,077,Grayson County,93479,01927312,Elk Creek district,Z1,N
+VA,51,077,Grayson County,94959,01927433,Old Town district,Z1,N
+VA,51,077,Grayson County,95199,01927455,Providence district,Z1,N
+VA,51,077,Grayson County,96423,01927573,Wilson Creek district,Z1,N
+VA,51,079,Greene County,94690,02791460,Midway district,Z1,N
+VA,51,079,Greene County,94719,01927409,Monroe district,Z1,N
+VA,51,079,Greene County,95487,01927479,Ruckersville district,Z1,N
+VA,51,079,Greene County,95863,01927516,Stanardsville district,Z1,N
+VA,51,081,Greensville County,91234,02390680,District 1,Z1,N
+VA,51,081,Greensville County,91384,02390682,District 2,Z1,N
+VA,51,081,Greensville County,91534,02390684,District 3,Z1,N
+VA,51,081,Greensville County,91684,02390686,District 4,Z1,N
+VA,51,083,Halifax County,91236,01927181,District 1,Z1,N
+VA,51,083,Halifax County,91386,01927202,District 2,Z1,N
+VA,51,083,Halifax County,91536,01927223,District 3,Z1,N
+VA,51,083,Halifax County,91686,01927243,District 4,Z1,N
+VA,51,083,Halifax County,91836,01927264,District 5,Z1,N
+VA,51,083,Halifax County,91986,01927279,District 6,Z1,N
+VA,51,083,Halifax County,92136,01927286,District 7,Z1,N
+VA,51,083,Halifax County,92286,01927290,District 8,Z1,N
+VA,51,085,Hanover County,90096,01927080,Ashland district,Z1,N
+VA,51,085,Hanover County,90200,01927089,Beaverdam district,Z1,N
+VA,51,085,Hanover County,90824,01927146,Chickahominy district,Z1,N
+VA,51,085,Hanover County,90920,01927155,Cold Harbor district,Z1,N
+VA,51,085,Hanover County,93887,01927339,Henry district,Z1,N
+VA,51,085,Hanover County,94631,01927399,Mechanicsville district,Z1,N
+VA,51,085,Hanover County,95759,01927506,South Anna district,Z1,N
+VA,51,087,Henrico County,90496,01927116,Brookland district,Z1,N
+VA,51,087,Henrico County,93511,01927314,Fairfield district,Z1,N
+VA,51,087,Henrico County,96079,01927536,Three Chopt district,Z1,N
+VA,51,087,Henrico County,96119,01927540,Tuckahoe district,Z1,N
+VA,51,087,Henrico County,96175,01927547,Varina district,Z1,N
+VA,51,089,Henry County,90288,01927098,Blackberry district,Z1,N
+VA,51,089,Henry County,90944,01927157,Collinsville district,Z1,N
+VA,51,089,Henry County,93919,01927343,Horsepasture district,Z1,N
+VA,51,089,Henry County,93975,01927349,Iriswood district,Z1,N
+VA,51,089,Henry County,95263,01927458,Reed Creek district,Z1,N
+VA,51,089,Henry County,95295,01927461,Ridgeway district,Z1,N
+VA,51,091,Highland County,90368,01927102,Blue Grass district,Z1,N
+VA,51,091,Highland County,94743,01927411,Monterey district,Z1,N
+VA,51,091,Highland County,95935,01927524,Stonewall district,Z1,N
+VA,51,093,Isle of Wight County,90616,01927126,Carrsville district,Z1,N
+VA,51,093,Isle of Wight County,93839,01927335,Hardy district,Z1,N
+VA,51,093,Isle of Wight County,94839,01927420,Newport district,Z1,N
+VA,51,093,Isle of Wight County,95727,01927503,Smithfield district,Z1,N
+VA,51,093,Isle of Wight County,96431,01927575,Windsor district,Z1,N
+VA,51,095,James City County,90224,01927091,Berkeley district,Z1,N
+VA,51,095,James City County,94063,01927358,Jamestown district,Z1,N
+VA,51,095,James City County,95159,01927452,Powhatan district,Z1,N
+VA,51,095,James City County,95375,01927468,Roberts district,Z1,N
+VA,51,095,James City County,95911,01927521,Stonehouse district,Z1,N
+VA,51,097,King and Queen County,90552,01927121,Buena Vista district,Z1,N
+VA,51,097,King and Queen County,94863,01927422,Newtown district,Z1,N
+VA,51,097,King and Queen County,95527,01927515,St. Stephens Church district,Z1,N
+VA,51,097,King and Queen County,95631,01927494,Shanghai district,Z1,N
+VA,51,097,King and Queen County,95903,01927520,Stevensville district,Z1,N
+VA,51,099,King George County,91080,01927170,Dahlgren district,Z1,N
+VA,51,099,King George County,94031,01927355,James Madison district,Z1,N
+VA,51,099,King George County,94039,01927356,James Monroe district,Z1,N
+VA,51,099,King George County,95687,01927499,Shiloh district,Z1,N
+VA,51,101,King William County,90016,01927075,Acquinton district,Z1,N
+VA,51,101,King William County,94479,01927386,Mangohick district,Z1,N
+VA,51,101,King William County,96327,01927560,West Point district,Z1,N
+VA,51,103,Lancaster County,91241,01952577,District 1,Z1,N
+VA,51,103,Lancaster County,91391,01952578,District 2,Z1,N
+VA,51,103,Lancaster County,91541,01952579,District 3,Z1,N
+VA,51,103,Lancaster County,91691,01952580,District 4,Z1,N
+VA,51,103,Lancaster County,91841,01952581,District 5,Z1,N
+VA,51,105,Lee County,91247,01927182,District 1,Z1,N
+VA,51,105,Lee County,91397,01927203,District 2,Z1,N
+VA,51,105,Lee County,91547,01927224,District 3,Z1,N
+VA,51,105,Lee County,91697,01927244,District 4,Z1,N
+VA,51,105,Lee County,91847,01927265,District 5,Z1,N
+VA,51,107,Loudoun County,90022,02746028,Algonkian district,Z1,N
+VA,51,107,Loudoun County,90076,02746030,Ashburn district,Z1,N
+VA,51,107,Loudoun County,90400,01927106,Blue Ridge district,Z1,N
+VA,51,107,Loudoun County,90488,01927115,Broad Run district,Z1,N
+VA,51,107,Loudoun County,90656,01927131,Catoctin district,Z1,N
+VA,51,107,Loudoun County,93415,01927305,Dulles district,Z1,N
+VA,51,107,Loudoun County,94247,01927375,Leesburg district,Z1,N
+VA,51,107,Loudoun County,95887,01927518,Sterling district,Z1,N
+VA,51,109,Louisa County,91040,01927167,Cuckoo district,Z1,N
+VA,51,109,Louisa County,93767,01927331,Green Spring district,Z1,N
+VA,51,109,Louisa County,93999,01927351,Jackson district,Z1,N
+VA,51,109,Louisa County,94375,01927381,Louisa district,Z1,N
+VA,51,109,Louisa County,94711,01927408,Mineral district,Z1,N
+VA,51,109,Louisa County,94759,01927414,Mountain Road district,Z1,N
+VA,51,109,Louisa County,95015,01927438,Patrick Henry district,Z1,N
+VA,51,111,Lunenburg County,90192,01927088,Beaver Creek district,Z1,N
+VA,51,111,Lunenburg County,90512,01927118,Browns Store district,Z1,N
+VA,51,111,Lunenburg County,93927,01927344,Hounds Creek district,Z1,N
+VA,51,111,Lunenburg County,94383,01927382,Loves Mill district,Z1,N
+VA,51,111,Lunenburg County,94647,01927401,Meherrin River district,Z1,N
+VA,51,111,Lunenburg County,95111,01927448,Plymouth district,Z1,N
+VA,51,111,Lunenburg County,95279,01927460,Rehoboth district,Z1,N
+VA,51,113,Madison County,94335,01927380,Locust Dale district,Z1,N
+VA,51,113,Madison County,95223,01927456,Rapidan district,Z1,N
+VA,51,113,Madison County,95383,01927469,Robertson district,Z1,N
+VA,51,115,Mathews County,90808,01927144,Chesapeake district,Z1,N
+VA,51,115,Mathews County,95055,01927442,Piankatank district,Z1,N
+VA,51,115,Mathews County,96335,01927565,Westville district,Z1,N
+VA,51,117,Mecklenburg County,91253,01927183,District 1,Z1,N
+VA,51,117,Mecklenburg County,91403,01927204,District 2,Z1,N
+VA,51,117,Mecklenburg County,91553,01927225,District 3,Z1,N
+VA,51,117,Mecklenburg County,91703,01927245,District 4,Z1,N
+VA,51,117,Mecklenburg County,91853,01927266,District 5,Z1,N
+VA,51,117,Mecklenburg County,92003,01927280,District 6,Z1,N
+VA,51,117,Mecklenburg County,92153,01927287,District 7,Z1,N
+VA,51,117,Mecklenburg County,92303,01927291,District 8,Z1,N
+VA,51,117,Mecklenburg County,92453,01927294,District 9,Z1,N
+VA,51,119,Middlesex County,94023,01927354,Jamaica district,Z1,N
+VA,51,119,Middlesex County,95079,01927445,Pine Top district,Z1,N
+VA,51,119,Middlesex County,95559,01927486,Saluda district,Z1,N
+VA,51,121,Montgomery County,92713,01986190,District A-01,Z1,N
+VA,51,121,Montgomery County,92813,01986191,District B-01,Z1,N
+VA,51,121,Montgomery County,92913,01986192,District C-01,Z1,N
+VA,51,121,Montgomery County,93013,01986193,District D-01,Z1,N
+VA,51,121,Montgomery County,93113,01986194,District E-01,Z1,N
+VA,51,121,Montgomery County,93213,01986195,District F-01,Z1,N
+VA,51,121,Montgomery County,93313,01986196,District G-01,Z1,N
+VA,51,125,Nelson County,90732,02631323,Central district,Z1,N
+VA,51,125,Nelson County,93427,02631324,East district,Z1,N
+VA,51,125,Nelson County,94883,02631325,North district,Z1,N
+VA,51,125,Nelson County,95755,02631326,South district,Z1,N
+VA,51,125,Nelson County,96283,02631327,West district,Z1,N
+VA,51,127,New Kent County,91257,01927184,District 1,Z1,N
+VA,51,127,New Kent County,91407,01927205,District 2,Z1,N
+VA,51,127,New Kent County,91557,01927226,District 3,Z1,N
+VA,51,127,New Kent County,91707,01927246,District 4,Z1,N
+VA,51,127,New Kent County,91857,01927267,District 5,Z1,N
+VA,51,131,Northampton County,91258,01927185,District 1,Z1,N
+VA,51,131,Northampton County,91408,01927206,District 2,Z1,N
+VA,51,131,Northampton County,91558,01927227,District 3,Z1,N
+VA,51,131,Northampton County,91708,01927247,District 4,Z1,N
+VA,51,131,Northampton County,91858,01927268,District 5,Z1,N
+VA,51,131,Northampton County,92008,01927281,District 6,Z1,N
+VA,51,133,Northumberland County,91259,01927186,District 1,Z1,N
+VA,51,133,Northumberland County,91409,01927207,District 2,Z1,N
+VA,51,133,Northumberland County,91559,01927228,District 3,Z1,N
+VA,51,133,Northumberland County,91709,01927248,District 4,Z1,N
+VA,51,133,Northumberland County,91859,01927269,District 5,Z1,N
+VA,51,135,Nottoway County,91260,01927187,District 1,Z1,N
+VA,51,135,Nottoway County,91410,01927208,District 2,Z1,N
+VA,51,135,Nottoway County,91560,01927229,District 3,Z1,N
+VA,51,135,Nottoway County,91710,01927249,District 4,Z1,N
+VA,51,135,Nottoway County,91860,01927270,District 5,Z1,N
+VA,51,137,Orange County,91261,01927188,District 1,Z1,N
+VA,51,137,Orange County,91411,01927209,District 2,Z1,N
+VA,51,137,Orange County,91561,01927230,District 3,Z1,N
+VA,51,137,Orange County,91711,01927250,District 4,Z1,N
+VA,51,137,Orange County,91861,01927271,District 5,Z1,N
+VA,51,139,Page County,91262,01927559,District 1, West Luray,Z1,N
+VA,51,139,Page County,91412,01927308,District 2, East Luray,Z1,N
+VA,51,139,Page County,91562,01927388,District 3, Marksville,Z1,N
+VA,51,139,Page County,91712,01927419,District 4, Newport,Z1,N
+VA,51,139,Page County,91862,01927497,District 5, Shenandoah,Z1,N
+VA,51,141,Patrick County,90408,01927107,Blue Ridge district,Z1,N
+VA,51,141,Patrick County,91096,01927172,Dan River district,Z1,N
+VA,51,141,Patrick County,94591,01927396,Mayo River district,Z1,N
+VA,51,141,Patrick County,95039,01927440,Peters Creek district,Z1,N
+VA,51,141,Patrick County,95735,01927502,Smith River district,Z1,N
+VA,51,143,Pittsylvania County,90152,01927085,Banister district,Z1,N
+VA,51,143,Pittsylvania County,90592,01927124,Callands-Gretna district,Z1,N
+VA,51,143,Pittsylvania County,90800,01927143,Chatham-Blairs district,Z1,N
+VA,51,143,Pittsylvania County,91104,01927173,Dan River district,Z1,N
+VA,51,143,Pittsylvania County,95879,01927517,Staunton River district,Z1,N
+VA,51,143,Pittsylvania County,96127,01927541,Tunstall district,Z1,N
+VA,51,143,Pittsylvania County,96319,01927564,Westover district,Z1,N
+VA,51,145,Powhatan County,91265,01927189,District 1,Z1,N
+VA,51,145,Powhatan County,91415,01927210,District 2,Z1,N
+VA,51,145,Powhatan County,91565,01927231,District 3,Z1,N
+VA,51,145,Powhatan County,91715,01927251,District 4,Z1,N
+VA,51,145,Powhatan County,91865,01927272,District 5,Z1,N
+VA,51,147,Prince Edward County,92553,01927195,District 101,Z1,N
+VA,51,147,Prince Edward County,92563,01927216,District 201,Z1,N
+VA,51,147,Prince Edward County,92573,01927236,District 301,Z1,N
+VA,51,147,Prince Edward County,92583,01927257,District 401,Z1,N
+VA,51,147,Prince Edward County,92593,01927277,District 501,Z1,N
+VA,51,147,Prince Edward County,92603,01927284,District 601,Z1,N
+VA,51,147,Prince Edward County,92613,01927288,District 701,Z1,N
+VA,51,147,Prince Edward County,92623,01927292,District 801,Z1,N
+VA,51,149,Prince George County,90328,01927100,Blackwater district,Z1,N
+VA,51,149,Prince George County,90352,01927101,Bland district,Z1,N
+VA,51,149,Prince George County,90472,01927113,Brandon district,Z1,N
+VA,51,149,Prince George County,95343,01927466,Rives district,Z1,N
+VA,51,149,Prince George County,96063,01927535,Templeton district,Z1,N
+VA,51,153,Prince William County,90480,01927114,Brentsville district,Z1,N
+VA,51,153,Prince William County,90928,01927156,Coles district,Z1,N
+VA,51,153,Prince William County,93671,01927325,Gainesville district,Z1,N
+VA,51,153,Prince William County,94807,01927416,Neabsco district,Z1,N
+VA,51,153,Prince William County,94943,01927432,Occoquan district,Z1,N
+VA,51,153,Prince William County,95133,01927306,Potomac district,Z1,N
+VA,51,153,Prince William County,96455,01927577,Woodbridge district,Z1,N
+VA,51,155,Pulaski County,90904,01927154,Cloyd district,Z1,N
+VA,51,155,Pulaski County,93399,01927303,Draper district,Z1,N
+VA,51,155,Pulaski County,93967,01927348,Ingles district,Z1,N
+VA,51,155,Pulaski County,94551,01927392,Massie district,Z1,N
+VA,51,155,Pulaski County,95391,01927470,Robinson district,Z1,N
+VA,51,157,Rappahannock County,93823,01927333,Hampton district,Z1,N
+VA,51,157,Rappahannock County,94007,01927352,Jackson district,Z1,N
+VA,51,157,Rappahannock County,95063,01927443,Piedmont district,Z1,N
+VA,51,157,Rappahannock County,95967,01927526,Stonewall-Hawthorne district,Z1,N
+VA,51,157,Rappahannock County,96199,01927549,Wakefield district,Z1,N
+VA,51,159,Richmond County,91271,01927190,District 1,Z1,N
+VA,51,159,Richmond County,91421,01927211,District 2,Z1,N
+VA,51,159,Richmond County,91571,01927232,District 3,Z1,N
+VA,51,159,Richmond County,91721,01927252,District 4,Z1,N
+VA,51,159,Richmond County,91871,01927273,District 5,Z1,N
+VA,51,161,Roanoke County,90648,01927130,Catawba district,Z1,N
+VA,51,161,Roanoke County,90664,01927132,Cave Spring district,Z1,N
+VA,51,161,Roanoke County,93911,01927342,Hollins district,Z1,N
+VA,51,161,Roanoke County,96183,01927548,Vinton district,Z1,N
+VA,51,161,Roanoke County,96439,01927576,Windsor Hills district,Z1,N
+VA,51,163,Rockbridge County,90568,01927122,Buffalo district,Z1,N
+VA,51,163,Rockbridge County,94143,01927366,Kerrs Creek district,Z1,N
+VA,51,163,Rockbridge County,94799,01927415,Natural Bridge district,Z1,N
+VA,51,163,Rockbridge County,95799,01927509,South River district,Z1,N
+VA,51,163,Rockbridge County,96215,01927551,Walkers Creek district,Z1,N
+VA,51,165,Rockingham County,90080,01927079,Ashby district,Z1,N
+VA,51,165,Rockingham County,90736,01927141,Central district,Z1,N
+VA,51,165,Rockingham County,94287,01927376,Linville district,Z1,N
+VA,51,165,Rockingham County,95095,01927447,Plains district,Z1,N
+VA,51,165,Rockingham County,95951,01927525,Stonewall district,Z1,N
+VA,51,167,Russell County,90632,01927128,Castlewood district,Z1,N
+VA,51,167,Russell County,94191,01927371,Lebanon district,Z1,N
+VA,51,167,Russell County,94831,01927418,New Garden district,Z1,N
+VA,51,169,Scott County,91276,01927191,District 1,Z1,N
+VA,51,169,Scott County,91426,01927212,District 2,Z1,N
+VA,51,169,Scott County,91576,01927363,District 3,Z1,N
+VA,51,169,Scott County,91726,01927253,District 4,Z1,N
+VA,51,169,Scott County,91876,01927274,District 5,Z1,N
+VA,51,169,Scott County,92026,01927282,District 6,Z1,N
+VA,51,171,Shenandoah County,91277,01927192,District 1,Z1,N
+VA,51,171,Shenandoah County,91427,01927213,District 2,Z1,N
+VA,51,171,Shenandoah County,91577,01927233,District 3,Z1,N
+VA,51,171,Shenandoah County,91727,01927254,District 4,Z1,N
+VA,51,171,Shenandoah County,91877,01927275,District 5,Z1,N
+VA,51,171,Shenandoah County,92027,01927283,District 6,Z1,N
+VA,51,173,Smyth County,90104,01927081,Atkins district,Z1,N
+VA,51,173,Smyth County,90832,01927147,Chilhowie district,Z1,N
+VA,51,173,Smyth County,94895,01927425,North Fork district,Z1,N
+VA,51,173,Smyth County,94991,01927436,Park district,Z1,N
+VA,51,173,Smyth County,95479,01927478,Royal Oak district,Z1,N
+VA,51,173,Smyth County,95511,01927482,Rye Valley district,Z1,N
+VA,51,173,Smyth County,95551,01927485,Saltville district,Z1,N
+VA,51,175,Southampton County,90240,01927093,Berlin and Ivor district,Z1,N
+VA,51,175,Southampton County,90458,01927111,Boykins and Branchville district,Z1,N
+VA,51,175,Southampton County,90608,01927125,Capron district,Z1,N
+VA,51,175,Southampton County,93407,01927304,Drewryville district,Z1,N
+VA,51,175,Southampton County,93639,01927323,Franklin district,Z1,N
+VA,51,175,Southampton County,94103,01927362,Jerusalem district,Z1,N
+VA,51,175,Southampton County,94855,01927421,Newsoms district,Z1,N
+VA,51,177,Spotsylvania County,90168,01927086,Battlefield district,Z1,N
+VA,51,177,Spotsylvania County,90232,01927092,Berkeley district,Z1,N
+VA,51,177,Spotsylvania County,90760,01927142,Chancellor district,Z1,N
+VA,51,177,Spotsylvania County,91008,01927163,Courtland district,Z1,N
+VA,51,177,Spotsylvania County,94231,01927374,Lee Hill district,Z1,N
+VA,51,177,Spotsylvania County,94311,01927378,Livingston district,Z1,N
+VA,51,177,Spotsylvania County,95543,01927484,Salem district,Z1,N
+VA,51,179,Stafford County,90064,01927078,Aquia district,Z1,N
+VA,51,179,Stafford County,93535,01927316,Falmouth district,Z1,N
+VA,51,179,Stafford County,93683,01989122,Garrisonville district,Z1,N
+VA,51,179,Stafford County,93687,01927327,George Washington district,Z1,N
+VA,51,179,Stafford County,93783,01927332,Griffis-Widewater district,Z1,N
+VA,51,179,Stafford County,93863,01927338,Hartwood district,Z1,N
+VA,51,179,Stafford County,95407,01927471,Rock Hill district,Z1,N
+VA,51,181,Surry County,90136,01927084,Bacons Castle district,Z1,N
+VA,51,181,Surry County,90624,01927127,Carsley district,Z1,N
+VA,51,181,Surry County,90848,01927149,Claremont district,Z1,N
+VA,51,181,Surry County,91136,01927174,Dendron district,Z1,N
+VA,51,181,Surry County,96023,01927533,Surry district,Z1,N
+VA,51,183,Sussex County,91000,01927162,Courthouse district,Z1,N
+VA,51,183,Sussex County,93895,01927340,Henry district,Z1,N
+VA,51,183,Sussex County,94871,01927423,Newville district,Z1,N
+VA,51,183,Sussex County,95975,01927527,Stony Creek district,Z1,N
+VA,51,183,Sussex County,96207,01927550,Wakefield district,Z1,N
+VA,51,183,Sussex County,96263,01927556,Waverly district,Z1,N
+VA,51,185,Tazewell County,93439,01927311,Eastern district,Z1,N
+VA,51,185,Tazewell County,94887,01927429,Northern district,Z1,N
+VA,51,185,Tazewell County,94927,01927430,Northwestern district,Z1,N
+VA,51,185,Tazewell County,95767,01927511,Southern district,Z1,N
+VA,51,185,Tazewell County,96295,01927563,Western district,Z1,N
+VA,51,187,Warren County,93599,01927319,Fork district,Z1,N
+VA,51,187,Warren County,93831,01927334,Happy Creek district,Z1,N
+VA,51,187,Warren County,94919,01927428,North River district,Z1,N
+VA,51,187,Warren County,95663,01927498,Shenandoah district,Z1,N
+VA,51,187,Warren County,95807,01927510,South River district,Z1,N
+VA,51,191,Washington County,93855,01927337,Harrison district,Z1,N
+VA,51,191,Washington County,94087,01927361,Jefferson district,Z1,N
+VA,51,191,Washington County,94463,01927385,Madison district,Z1,N
+VA,51,191,Washington County,94727,01927410,Monroe district,Z1,N
+VA,51,191,Washington County,96047,01927534,Taylor district,Z1,N
+VA,51,191,Washington County,96143,01927543,Tyler district,Z1,N
+VA,51,191,Washington County,96415,01927574,Wilson district,Z1,N
+VA,51,193,Westmoreland County,90976,01927160,Cople district,Z1,N
+VA,51,193,Westmoreland County,94751,01927412,Montross district,Z1,N
+VA,51,193,Westmoreland County,96255,01927555,Washington district,Z1,N
+VA,51,195,Wise County,91288,01927193,District 1,Z1,N
+VA,51,195,Wise County,91438,01927214,District 2,Z1,N
+VA,51,195,Wise County,91588,01927234,District 3,Z1,N
+VA,51,195,Wise County,91738,01927255,District 4,Z1,N
+VA,51,197,Wythe County,90304,01927097,Black Lick district,Z1,N
+VA,51,197,Wythe County,93471,01927309,East Wytheville district,Z1,N
+VA,51,197,Wythe County,93615,01927321,Fort Chiswell district,Z1,N
+VA,51,197,Wythe County,94183,01927370,Lead Mines district,Z1,N
+VA,51,197,Wythe County,95823,01927513,Speedwell district,Z1,N
+VA,51,197,Wythe County,96343,01927561,West Wytheville district,Z1,N
+VA,51,199,York County,91290,01927194,District 1,Z1,N
+VA,51,199,York County,91440,01927215,District 2,Z1,N
+VA,51,199,York County,91590,01927235,District 3,Z1,N
+VA,51,199,York County,91740,01927256,District 4,Z1,N
+VA,51,199,York County,91890,01927276,District 5,Z1,N
+VA,51,510,Alexandria city,90020,01498415,Alexandria city,Z7,F
+VA,51,520,Bristol city,90484,01498416,Bristol city,Z7,F
+VA,51,530,Buena Vista city,90556,01498417,Buena Vista city,Z7,F
+VA,51,540,Charlottesville city,90780,01789068,Charlottesville city,Z7,F
+VA,51,550,Chesapeake city,90812,01498558,Chesapeake city,Z7,F
+VA,51,570,Colonial Heights city,90948,01498420,Colonial Heights city,Z7,F
+VA,51,580,Covington city,91020,01789069,Covington city,Z7,F
+VA,51,590,Danville city,91108,01498421,Danville city,Z7,F
+VA,51,595,Emporia city,93491,01498422,Emporia city,Z7,F
+VA,51,600,Fairfax city,93507,01789070,Fairfax city,Z7,F
+VA,51,610,Falls Church city,93531,01498423,Falls Church city,Z7,F
+VA,51,620,Franklin city,93643,01498424,Franklin city,Z7,F
+VA,51,630,Fredericksburg city,93651,01498425,Fredericksburg city,Z7,F
+VA,51,640,Galax city,93675,01498426,Galax city,Z7,F
+VA,51,650,Hampton city,93827,01498554,Hampton city,Z7,F
+VA,51,660,Harrisonburg city,93859,01498563,Harrisonburg city,Z7,F
+VA,51,670,Hopewell city,93915,01498428,Hopewell city,Z7,F
+VA,51,678,Lexington city,94275,01789071,Lexington city,Z7,F
+VA,51,680,Lynchburg city,94403,01498429,Lynchburg city,Z7,F
+VA,51,683,Manassas city,94474,01498430,Manassas city,Z7,F
+VA,51,685,Manassas Park city,94476,01498431,Manassas Park city,Z7,F
+VA,51,690,Martinsville city,94537,01789072,Martinsville city,Z7,F
+VA,51,700,Newport News city,94851,01498555,Newport News city,Z7,F
+VA,51,710,Norfolk city,94875,01498557,Norfolk city,Z7,F
+VA,51,720,Norton city,94931,01498434,Norton city,Z7,F
+VA,51,730,Petersburg city,95035,01498435,Petersburg city,Z7,F
+VA,51,735,Poquoson city,95115,01498436,Poquoson city,Z7,F
+VA,51,740,Portsmouth city,95123,01498556,Portsmouth city,Z7,F
+VA,51,750,Radford city,95211,01498438,Radford city,Z7,F
+VA,51,760,Richmond city,95291,01789073,Richmond city,Z7,F
+VA,51,770,Roanoke city,95363,01498439,Roanoke city,Z7,F
+VA,51,775,Salem city,95547,01789074,Salem city,Z7,F
+VA,51,790,Staunton city,95875,01789075,Staunton city,Z7,F
+VA,51,800,Suffolk city,95987,01498560,Suffolk city,Z7,F
+VA,51,810,Virginia Beach city,96187,01498559,Virginia Beach city,Z7,F
+VA,51,820,Waynesboro city,96275,01498443,Waynesboro city,Z7,F
+VA,51,830,Williamsburg city,96395,01789076,Williamsburg city,Z7,F
+VA,51,840,Winchester city,96427,01789077,Winchester city,Z7,F

@@ -1,0 +1,576 @@
+LA,22,001,Acadia Parish,94000,01929718,District 1,Z1,N
+LA,22,001,Acadia Parish,94201,01929874,District 2,Z1,N
+LA,22,001,Acadia Parish,94381,01929933,District 3,Z1,N
+LA,22,001,Acadia Parish,94567,01929995,District 4,Z1,N
+LA,22,001,Acadia Parish,94759,01930058,District 5,Z1,N
+LA,22,001,Acadia Parish,94933,01930117,District 6,Z1,N
+LA,22,001,Acadia Parish,95092,01930172,District 7,Z1,N
+LA,22,001,Acadia Parish,95242,01930223,District 8,Z1,N
+LA,22,003,Allen Parish,94003,01929719,District 1,Z1,N
+LA,22,003,Allen Parish,94204,01929875,District 2,Z1,N
+LA,22,003,Allen Parish,94384,01929934,District 3,Z1,N
+LA,22,003,Allen Parish,94570,01929996,District 4,Z1,N
+LA,22,003,Allen Parish,94762,01930059,District 5,Z1,N
+LA,22,003,Allen Parish,94936,01930118,District 6,Z1,N
+LA,22,003,Allen Parish,95095,01930173,District 7,Z1,N
+LA,22,005,Ascension Parish,94006,01929720,District 1,Z1,N
+LA,22,005,Ascension Parish,94206,01929929,District 2,Z1,N
+LA,22,005,Ascension Parish,94387,01929935,District 3,Z1,N
+LA,22,005,Ascension Parish,94572,01930048,District 4,Z1,N
+LA,22,005,Ascension Parish,94765,01930060,District 5,Z1,N
+LA,22,005,Ascension Parish,94938,01930168,District 6,Z1,N
+LA,22,005,Ascension Parish,95097,01930220,District 7,Z1,N
+LA,22,005,Ascension Parish,95244,01930258,District 8,Z1,N
+LA,22,005,Ascension Parish,95361,01930292,District 9,Z1,N
+LA,22,005,Ascension Parish,95466,01929796,District 10,Z1,N
+LA,22,005,Ascension Parish,95544,01929817,District 11,Z1,N
+LA,22,007,Assumption Parish,94009,01929721,District 1,Z1,N
+LA,22,007,Assumption Parish,94207,01929876,District 2,Z1,N
+LA,22,007,Assumption Parish,94390,01929936,District 3,Z1,N
+LA,22,007,Assumption Parish,94573,01929997,District 4,Z1,N
+LA,22,007,Assumption Parish,94768,01930061,District 5,Z1,N
+LA,22,007,Assumption Parish,94939,01930119,District 6,Z1,N
+LA,22,007,Assumption Parish,95098,01930174,District 7,Z1,N
+LA,22,007,Assumption Parish,95245,01930224,District 8,Z1,N
+LA,22,007,Assumption Parish,95362,01930261,District 9,Z1,N
+LA,22,009,Avoyelles Parish,94012,01929722,District 1,Z1,N
+LA,22,009,Avoyelles Parish,94210,01929877,District 2,Z1,N
+LA,22,009,Avoyelles Parish,94393,01929937,District 3,Z1,N
+LA,22,009,Avoyelles Parish,94576,01929998,District 4,Z1,N
+LA,22,009,Avoyelles Parish,94771,01930062,District 5,Z1,N
+LA,22,009,Avoyelles Parish,94942,01930120,District 6,Z1,N
+LA,22,009,Avoyelles Parish,95101,01930175,District 7,Z1,N
+LA,22,009,Avoyelles Parish,95248,01930225,District 8,Z1,N
+LA,22,009,Avoyelles Parish,95365,01930262,District 9,Z1,N
+LA,22,011,Beauregard Parish,94015,01929723,District 1,Z1,N
+LA,22,011,Beauregard Parish,94213,01929878,District 2,Z1,N
+LA,22,011,Beauregard Parish,94552,01929990,District 3A,Z1,N
+LA,22,011,Beauregard Parish,94555,01929991,District 3B,Z1,N
+LA,22,011,Beauregard Parish,94558,01929992,District 3C,Z1,N
+LA,22,011,Beauregard Parish,94561,01929993,District 3D,Z1,N
+LA,22,011,Beauregard Parish,94564,01929994,District 3E,Z1,N
+LA,22,011,Beauregard Parish,94732,01930050,District 4A,Z1,N
+LA,22,011,Beauregard Parish,94744,01930053,District 4B,Z1,N
+LA,22,011,Beauregard Parish,94774,01930063,District 5,Z1,N
+LA,22,013,Bienville Parish,94018,01929724,District 1,Z1,N
+LA,22,013,Bienville Parish,94216,01929879,District 2,Z1,N
+LA,22,013,Bienville Parish,94396,01929938,District 3,Z1,N
+LA,22,013,Bienville Parish,94579,01929999,District 4,Z1,N
+LA,22,013,Bienville Parish,94777,01930064,District 5,Z1,N
+LA,22,013,Bienville Parish,94945,01930121,District 6,Z1,N
+LA,22,013,Bienville Parish,95104,01930176,District 7,Z1,N
+LA,22,015,Bossier Parish,94021,01929725,District 1,Z1,N
+LA,22,015,Bossier Parish,94219,01929880,District 2,Z1,N
+LA,22,015,Bossier Parish,94399,01929939,District 3,Z1,N
+LA,22,015,Bossier Parish,94582,01930000,District 4,Z1,N
+LA,22,015,Bossier Parish,94780,01930065,District 5,Z1,N
+LA,22,015,Bossier Parish,94948,01930122,District 6,Z1,N
+LA,22,015,Bossier Parish,95107,01930177,District 7,Z1,N
+LA,22,015,Bossier Parish,95251,01930226,District 8,Z1,N
+LA,22,015,Bossier Parish,95368,01930263,District 9,Z1,N
+LA,22,015,Bossier Parish,95470,01929775,District 10,Z1,N
+LA,22,015,Bossier Parish,95548,01929799,District 11,Z1,N
+LA,22,015,Bossier Parish,95614,01929820,District 12,Z1,N
+LA,22,017,Caddo Parish,94024,01929726,District 1,Z1,N
+LA,22,017,Caddo Parish,94222,01929881,District 2,Z1,N
+LA,22,017,Caddo Parish,94402,01929940,District 3,Z1,N
+LA,22,017,Caddo Parish,94585,01930001,District 4,Z1,N
+LA,22,017,Caddo Parish,94783,01930066,District 5,Z1,N
+LA,22,017,Caddo Parish,94951,01930123,District 6,Z1,N
+LA,22,017,Caddo Parish,95110,01930178,District 7,Z1,N
+LA,22,017,Caddo Parish,95254,01930227,District 8,Z1,N
+LA,22,017,Caddo Parish,95371,01930264,District 9,Z1,N
+LA,22,017,Caddo Parish,95473,01929776,District 10,Z1,N
+LA,22,017,Caddo Parish,95551,01929800,District 11,Z1,N
+LA,22,017,Caddo Parish,95617,01929821,District 12,Z1,N
+LA,22,019,Calcasieu Parish,94027,01929727,District 1,Z1,N
+LA,22,019,Calcasieu Parish,94225,01929882,District 2,Z1,N
+LA,22,019,Calcasieu Parish,94405,01929941,District 3,Z1,N
+LA,22,019,Calcasieu Parish,94588,01930002,District 4,Z1,N
+LA,22,019,Calcasieu Parish,94786,01930067,District 5,Z1,N
+LA,22,019,Calcasieu Parish,94954,01930124,District 6,Z1,N
+LA,22,019,Calcasieu Parish,95113,01930179,District 7,Z1,N
+LA,22,019,Calcasieu Parish,95257,01930228,District 8,Z1,N
+LA,22,019,Calcasieu Parish,95374,01930265,District 9,Z1,N
+LA,22,019,Calcasieu Parish,95476,01929777,District 10,Z1,N
+LA,22,019,Calcasieu Parish,95554,01929801,District 11,Z1,N
+LA,22,019,Calcasieu Parish,95620,01929822,District 12,Z1,N
+LA,22,019,Calcasieu Parish,95671,01929839,District 13,Z1,N
+LA,22,019,Calcasieu Parish,95704,01929851,District 14,Z1,N
+LA,22,019,Calcasieu Parish,95728,01929859,District 15,Z1,N
+LA,22,021,Caldwell Parish,94030,01929728,District 1,Z1,N
+LA,22,021,Caldwell Parish,94228,01929883,District 2,Z1,N
+LA,22,021,Caldwell Parish,94408,01929942,District 3,Z1,N
+LA,22,021,Caldwell Parish,94591,01930003,District 4,Z1,N
+LA,22,021,Caldwell Parish,94789,01930068,District 5,Z1,N
+LA,22,021,Caldwell Parish,94957,01930125,District 6,Z1,N
+LA,22,021,Caldwell Parish,95116,01930180,District 7,Z1,N
+LA,22,023,Cameron Parish,94033,01929729,District 1,Z1,N
+LA,22,023,Cameron Parish,94231,01929884,District 2,Z1,N
+LA,22,023,Cameron Parish,94411,01929943,District 3,Z1,N
+LA,22,023,Cameron Parish,94594,01930004,District 4,Z1,N
+LA,22,023,Cameron Parish,94792,01930069,District 5,Z1,N
+LA,22,023,Cameron Parish,94960,01930126,District 6,Z1,N
+LA,22,023,Cameron Parish,95117,02083668,District 7,Z1,N
+LA,22,025,Catahoula Parish,94036,01929730,District 1,Z1,N
+LA,22,025,Catahoula Parish,94234,01929885,District 2,Z1,N
+LA,22,025,Catahoula Parish,94414,01929944,District 3,Z1,N
+LA,22,025,Catahoula Parish,94597,01930005,District 4,Z1,N
+LA,22,025,Catahoula Parish,94795,01930070,District 5,Z1,N
+LA,22,025,Catahoula Parish,94963,01930127,District 6,Z1,N
+LA,22,025,Catahoula Parish,95119,01930181,District 7,Z1,N
+LA,22,025,Catahoula Parish,95260,01930229,District 8,Z1,N
+LA,22,025,Catahoula Parish,95377,01930266,District 9,Z1,N
+LA,22,027,Claiborne Parish,94039,01929731,District 1,Z1,N
+LA,22,027,Claiborne Parish,94237,01929886,District 2,Z1,N
+LA,22,027,Claiborne Parish,94417,01929945,District 3,Z1,N
+LA,22,027,Claiborne Parish,94600,01930006,District 4,Z1,N
+LA,22,027,Claiborne Parish,94798,01930071,District 5,Z1,N
+LA,22,027,Claiborne Parish,94966,01930128,District 6,Z1,N
+LA,22,027,Claiborne Parish,95122,01930182,District 7,Z1,N
+LA,22,027,Claiborne Parish,95263,01930230,District 8,Z1,N
+LA,22,027,Claiborne Parish,95380,01930267,District 9,Z1,N
+LA,22,027,Claiborne Parish,95479,01929778,District 10,Z1,N
+LA,22,029,Concordia Parish,94042,01929732,District 1,Z1,N
+LA,22,029,Concordia Parish,94240,01929887,District 2,Z1,N
+LA,22,029,Concordia Parish,94420,01929946,District 3,Z1,N
+LA,22,029,Concordia Parish,94603,01930007,District 4,Z1,N
+LA,22,029,Concordia Parish,94927,01930115,District 5A,Z1,N
+LA,22,029,Concordia Parish,94930,01930116,District 5B,Z1,N
+LA,22,031,De Soto Parish,94165,01929862,District 1A,Z1,N
+LA,22,031,De Soto Parish,94174,01929865,District 1B,Z1,N
+LA,22,031,De Soto Parish,94183,01929868,District 1C,Z1,N
+LA,22,031,De Soto Parish,94243,01929888,District 2,Z1,N
+LA,22,031,De Soto Parish,94423,01929947,District 3,Z1,N
+LA,22,031,De Soto Parish,94735,01930051,District 4A,Z1,N
+LA,22,031,De Soto Parish,94747,01930054,District 4B,Z1,N
+LA,22,031,De Soto Parish,94753,01930056,District 4C,Z1,N
+LA,22,031,De Soto Parish,94756,01930057,District 4D,Z1,N
+LA,22,031,De Soto Parish,94801,01930072,District 5,Z1,N
+LA,22,031,De Soto Parish,94969,01930129,District 6,Z1,N
+LA,22,033,East Baton Rouge Parish,94045,01929733,District 1,Z1,N
+LA,22,033,East Baton Rouge Parish,94246,01929889,District 2,Z1,N
+LA,22,033,East Baton Rouge Parish,94426,01929948,District 3,Z1,N
+LA,22,033,East Baton Rouge Parish,94606,01930008,District 4,Z1,N
+LA,22,033,East Baton Rouge Parish,94804,01930073,District 5,Z1,N
+LA,22,033,East Baton Rouge Parish,94972,01930130,District 6,Z1,N
+LA,22,033,East Baton Rouge Parish,95125,01930183,District 7,Z1,N
+LA,22,033,East Baton Rouge Parish,95266,01930231,District 8,Z1,N
+LA,22,033,East Baton Rouge Parish,95383,01930268,District 9,Z1,N
+LA,22,033,East Baton Rouge Parish,95482,01929779,District 10,Z1,N
+LA,22,033,East Baton Rouge Parish,95557,01929802,District 11,Z1,N
+LA,22,033,East Baton Rouge Parish,95623,01929823,District 12,Z1,N
+LA,22,035,East Carroll Parish,94048,01929734,District 1,Z1,N
+LA,22,035,East Carroll Parish,94249,01929890,District 2,Z1,N
+LA,22,035,East Carroll Parish,94429,01929949,District 3,Z1,N
+LA,22,035,East Carroll Parish,94609,01930009,District 4,Z1,N
+LA,22,035,East Carroll Parish,94807,01930074,District 5,Z1,N
+LA,22,035,East Carroll Parish,94975,01930131,District 6,Z1,N
+LA,22,035,East Carroll Parish,95128,01930184,District 7,Z1,N
+LA,22,035,East Carroll Parish,95269,01930232,District 8,Z1,N
+LA,22,035,East Carroll Parish,95386,01930269,District 9,Z1,N
+LA,22,037,East Feliciana Parish,94168,01929863,District 1A,Z1,N
+LA,22,037,East Feliciana Parish,94177,01929866,District 1B,Z1,N
+LA,22,037,East Feliciana Parish,94252,01929891,District 2,Z1,N
+LA,22,037,East Feliciana Parish,94432,01929950,District 3,Z1,N
+LA,22,037,East Feliciana Parish,94738,01930052,District 4A,Z1,N
+LA,22,037,East Feliciana Parish,94750,01930055,District 4B,Z1,N
+LA,22,037,East Feliciana Parish,94810,01930075,District 5,Z1,N
+LA,22,037,East Feliciana Parish,94978,01930132,District 6,Z1,N
+LA,22,037,East Feliciana Parish,95131,01930185,District 7,Z1,N
+LA,22,039,Evangeline Parish,94051,01929735,District 1,Z1,N
+LA,22,039,Evangeline Parish,94255,01929892,District 2,Z1,N
+LA,22,039,Evangeline Parish,94435,01929951,District 3,Z1,N
+LA,22,039,Evangeline Parish,94612,01930010,District 4,Z1,N
+LA,22,039,Evangeline Parish,94813,01930076,District 5,Z1,N
+LA,22,039,Evangeline Parish,94981,01930133,District 6,Z1,N
+LA,22,039,Evangeline Parish,95134,01930186,District 7,Z1,N
+LA,22,039,Evangeline Parish,95272,01930233,District 8,Z1,N
+LA,22,039,Evangeline Parish,95389,01930270,District 9,Z1,N
+LA,22,039,Evangeline Parish,95485,01929780,District 10,Z1,N
+LA,22,039,Evangeline Parish,95560,01929803,District 11,Z1,N
+LA,22,039,Evangeline Parish,95626,01929824,District 12,Z1,N
+LA,22,039,Evangeline Parish,95674,01929840,District 13,Z1,N
+LA,22,041,Franklin Parish,94054,01929736,District 1,Z1,N
+LA,22,041,Franklin Parish,94258,01929893,District 2,Z1,N
+LA,22,041,Franklin Parish,94438,01929952,District 3,Z1,N
+LA,22,041,Franklin Parish,94615,01930011,District 4,Z1,N
+LA,22,041,Franklin Parish,94816,01930077,District 5,Z1,N
+LA,22,041,Franklin Parish,94984,01930134,District 6,Z1,N
+LA,22,041,Franklin Parish,95137,01930187,District 7,Z1,N
+LA,22,043,Grant Parish,94057,01929737,District 1,Z1,N
+LA,22,043,Grant Parish,94261,01929894,District 2,Z1,N
+LA,22,043,Grant Parish,94441,01929953,District 3,Z1,N
+LA,22,043,Grant Parish,94618,01930012,District 4,Z1,N
+LA,22,043,Grant Parish,94819,01930078,District 5,Z1,N
+LA,22,043,Grant Parish,94987,01930135,District 6,Z1,N
+LA,22,043,Grant Parish,95140,01930188,District 7,Z1,N
+LA,22,043,Grant Parish,95278,01930234,District 8,Z1,N
+LA,22,045,Iberia Parish,94060,01929738,District 1,Z1,N
+LA,22,045,Iberia Parish,94264,01929895,District 2,Z1,N
+LA,22,045,Iberia Parish,94444,01929954,District 3,Z1,N
+LA,22,045,Iberia Parish,94621,01930013,District 4,Z1,N
+LA,22,045,Iberia Parish,94822,01930079,District 5,Z1,N
+LA,22,045,Iberia Parish,94990,01930136,District 6,Z1,N
+LA,22,045,Iberia Parish,95143,01930189,District 7,Z1,N
+LA,22,045,Iberia Parish,95281,01930235,District 8,Z1,N
+LA,22,045,Iberia Parish,95395,01930271,District 9,Z1,N
+LA,22,045,Iberia Parish,95491,01929781,District 10,Z1,N
+LA,22,045,Iberia Parish,95566,01929804,District 11,Z1,N
+LA,22,045,Iberia Parish,95629,01929825,District 12,Z1,N
+LA,22,045,Iberia Parish,95677,01929841,District 13,Z1,N
+LA,22,045,Iberia Parish,95707,01929852,District 14,Z1,N
+LA,22,047,Iberville Parish,94063,01929739,District 1,Z1,N
+LA,22,047,Iberville Parish,94267,01929896,District 2,Z1,N
+LA,22,047,Iberville Parish,94447,01929955,District 3,Z1,N
+LA,22,047,Iberville Parish,94624,01930014,District 4,Z1,N
+LA,22,047,Iberville Parish,94825,01930080,District 5,Z1,N
+LA,22,047,Iberville Parish,94993,01930137,District 6,Z1,N
+LA,22,047,Iberville Parish,95146,01930190,District 7,Z1,N
+LA,22,047,Iberville Parish,95284,01930236,District 8,Z1,N
+LA,22,047,Iberville Parish,95398,01930272,District 9,Z1,N
+LA,22,047,Iberville Parish,95494,01929782,District 10,Z1,N
+LA,22,047,Iberville Parish,95569,01929805,District 11,Z1,N
+LA,22,047,Iberville Parish,95632,01929826,District 12,Z1,N
+LA,22,047,Iberville Parish,95678,01929848,District 13,Z1,N
+LA,22,049,Jackson Parish,94066,01929740,District 1,Z1,N
+LA,22,049,Jackson Parish,94270,01929897,District 2,Z1,N
+LA,22,049,Jackson Parish,94450,01929956,District 3,Z1,N
+LA,22,049,Jackson Parish,94627,01930015,District 4,Z1,N
+LA,22,049,Jackson Parish,94828,01930081,District 5,Z1,N
+LA,22,049,Jackson Parish,94996,01930138,District 6,Z1,N
+LA,22,049,Jackson Parish,95149,01930191,District 7,Z1,N
+LA,22,051,Jefferson Parish,94069,01929741,District 1,Z1,N
+LA,22,051,Jefferson Parish,94273,01929898,District 2,Z1,N
+LA,22,051,Jefferson Parish,94453,01929957,District 3,Z1,N
+LA,22,051,Jefferson Parish,94630,01930016,District 4,Z1,N
+LA,22,051,Jefferson Parish,94829,01930113,District 5,Z1,N
+LA,22,053,Jefferson Davis Parish,94072,01929742,District 1,Z1,N
+LA,22,053,Jefferson Davis Parish,94276,01929899,District 2,Z1,N
+LA,22,053,Jefferson Davis Parish,94456,01929958,District 3,Z1,N
+LA,22,053,Jefferson Davis Parish,94633,01930017,District 4,Z1,N
+LA,22,053,Jefferson Davis Parish,94831,01930082,District 5,Z1,N
+LA,22,053,Jefferson Davis Parish,94999,01930139,District 6,Z1,N
+LA,22,053,Jefferson Davis Parish,95152,01930192,District 7,Z1,N
+LA,22,053,Jefferson Davis Parish,95290,01930237,District 8,Z1,N
+LA,22,053,Jefferson Davis Parish,95404,01930273,District 9,Z1,N
+LA,22,053,Jefferson Davis Parish,95500,01929783,District 10,Z1,N
+LA,22,053,Jefferson Davis Parish,95572,01929806,District 11,Z1,N
+LA,22,053,Jefferson Davis Parish,95635,01929827,District 12,Z1,N
+LA,22,053,Jefferson Davis Parish,95680,01929842,District 13,Z1,N
+LA,22,055,Lafayette Parish,95737,01930294,District A,Z1,N
+LA,22,055,Lafayette Parish,95752,01930300,District B,Z1,N
+LA,22,055,Lafayette Parish,95767,01930306,District C,Z1,N
+LA,22,055,Lafayette Parish,95782,01930312,District D,Z1,N
+LA,22,055,Lafayette Parish,95797,01930318,District E,Z1,N
+LA,22,055,Lafayette Parish,95812,01930324,District F,Z1,N
+LA,22,055,Lafayette Parish,95827,01930328,District G,Z1,N
+LA,22,057,Lafourche Parish,94075,01929743,District 1,Z1,N
+LA,22,057,Lafourche Parish,94279,01929900,District 2,Z1,N
+LA,22,057,Lafourche Parish,94459,01929959,District 3,Z1,N
+LA,22,057,Lafourche Parish,94636,01930018,District 4,Z1,N
+LA,22,057,Lafourche Parish,94834,01930083,District 5,Z1,N
+LA,22,057,Lafourche Parish,95002,01930140,District 6,Z1,N
+LA,22,057,Lafourche Parish,95155,01930193,District 7,Z1,N
+LA,22,057,Lafourche Parish,95293,01930238,District 8,Z1,N
+LA,22,057,Lafourche Parish,95407,01930274,District 9,Z1,N
+LA,22,059,LaSalle Parish,94078,01929744,District 1,Z1,N
+LA,22,059,LaSalle Parish,94282,01929901,District 2,Z1,N
+LA,22,059,LaSalle Parish,94462,01929960,District 3,Z1,N
+LA,22,059,LaSalle Parish,94639,01930019,District 4,Z1,N
+LA,22,059,LaSalle Parish,94837,01930084,District 5,Z1,N
+LA,22,059,LaSalle Parish,95005,01930141,District 6,Z1,N
+LA,22,059,LaSalle Parish,95158,01930194,District 7,Z1,N
+LA,22,059,LaSalle Parish,95296,01930239,District 8,Z1,N
+LA,22,059,LaSalle Parish,95410,01930275,District 9,Z1,N
+LA,22,059,LaSalle Parish,95506,01929785,District 10,Z1,N
+LA,22,061,Lincoln Parish,94080,02405101,District 1,Z1,N
+LA,22,061,Lincoln Parish,94284,02405105,District 2,Z1,N
+LA,22,061,Lincoln Parish,94465,01929961,District 3,Z1,N
+LA,22,061,Lincoln Parish,94642,01930020,District 4,Z1,N
+LA,22,061,Lincoln Parish,94840,01930085,District 5,Z1,N
+LA,22,061,Lincoln Parish,95007,02405106,District 6,Z1,N
+LA,22,061,Lincoln Parish,95160,02405107,District 7,Z1,N
+LA,22,061,Lincoln Parish,95298,02405108,District 8,Z1,N
+LA,22,061,Lincoln Parish,95412,02405109,District 9,Z1,N
+LA,22,061,Lincoln Parish,95508,02405102,District 10,Z1,N
+LA,22,061,Lincoln Parish,95577,02405103,District 11,Z1,N
+LA,22,061,Lincoln Parish,95640,02405104,District 12,Z1,N
+LA,22,063,Livingston Parish,94081,01929745,District 1,Z1,N
+LA,22,063,Livingston Parish,94285,01929902,District 2,Z1,N
+LA,22,063,Livingston Parish,94468,01929962,District 3,Z1,N
+LA,22,063,Livingston Parish,94645,01930021,District 4,Z1,N
+LA,22,063,Livingston Parish,94843,01930086,District 5,Z1,N
+LA,22,063,Livingston Parish,95008,01930142,District 6,Z1,N
+LA,22,063,Livingston Parish,95161,01930195,District 7,Z1,N
+LA,22,063,Livingston Parish,95299,01930240,District 8,Z1,N
+LA,22,063,Livingston Parish,95413,01930276,District 9,Z1,N
+LA,22,065,Madison Parish,94084,01929746,District 1,Z1,N
+LA,22,065,Madison Parish,94288,01929903,District 2,Z1,N
+LA,22,065,Madison Parish,94471,01929963,District 3,Z1,N
+LA,22,065,Madison Parish,94648,01930022,District 4,Z1,N
+LA,22,065,Madison Parish,94846,01930087,District 5,Z1,N
+LA,22,065,Madison Parish,95011,01930143,District 6,Z1,N
+LA,22,065,Madison Parish,95164,01930196,District 7,Z1,N
+LA,22,065,Madison Parish,95302,01930241,District 8,Z1,N
+LA,22,067,Morehouse Parish,94087,01929747,District 1,Z1,N
+LA,22,067,Morehouse Parish,94291,01929904,District 2,Z1,N
+LA,22,067,Morehouse Parish,94474,01929964,District 3,Z1,N
+LA,22,067,Morehouse Parish,94651,01930023,District 4,Z1,N
+LA,22,067,Morehouse Parish,94849,01930088,District 5,Z1,N
+LA,22,067,Morehouse Parish,95014,01930144,District 6,Z1,N
+LA,22,067,Morehouse Parish,95167,01930197,District 7,Z1,N
+LA,22,069,Natchitoches Parish,94090,01929748,District 1,Z1,N
+LA,22,069,Natchitoches Parish,94294,01929905,District 2,Z1,N
+LA,22,069,Natchitoches Parish,94477,01929965,District 3,Z1,N
+LA,22,069,Natchitoches Parish,94654,01930024,District 4,Z1,N
+LA,22,069,Natchitoches Parish,94852,01930089,District 5,Z1,N
+LA,22,069,Natchitoches Parish,95017,01930145,District 6,Z1,N
+LA,22,069,Natchitoches Parish,95170,01930198,District 7,Z1,N
+LA,22,069,Natchitoches Parish,95308,01930242,District 8,Z1,N
+LA,22,069,Natchitoches Parish,95419,01930277,District 9,Z1,N
+LA,22,069,Natchitoches Parish,95512,01929786,District 10,Z1,N
+LA,22,069,Natchitoches Parish,95581,01929808,District 11,Z1,N
+LA,22,071,Orleans Parish,98000,00545142,New Orleans city,Z7,F
+LA,22,073,Ouachita Parish,95740,01930295,District A,Z1,N
+LA,22,073,Ouachita Parish,95755,01930301,District B,Z1,N
+LA,22,073,Ouachita Parish,95770,01930307,District C,Z1,N
+LA,22,073,Ouachita Parish,95785,01930313,District D,Z1,N
+LA,22,073,Ouachita Parish,95800,01930319,District E,Z1,N
+LA,22,073,Ouachita Parish,95815,01930325,District F,Z1,N
+LA,22,075,Plaquemines Parish,94093,01929749,District 1,Z1,N
+LA,22,075,Plaquemines Parish,94297,01929906,District 2,Z1,N
+LA,22,075,Plaquemines Parish,94480,01929966,District 3,Z1,N
+LA,22,075,Plaquemines Parish,94657,01930025,District 4,Z1,N
+LA,22,075,Plaquemines Parish,94855,01930090,District 5,Z1,N
+LA,22,075,Plaquemines Parish,95020,01930146,District 6,Z1,N
+LA,22,075,Plaquemines Parish,95173,01930199,District 7,Z1,N
+LA,22,075,Plaquemines Parish,95311,01930243,District 8,Z1,N
+LA,22,075,Plaquemines Parish,95422,01930278,District 9,Z1,N
+LA,22,077,Pointe Coupee Parish,94096,01929750,District 1,Z1,N
+LA,22,077,Pointe Coupee Parish,94300,01929907,District 2,Z1,N
+LA,22,077,Pointe Coupee Parish,94483,01929967,District 3,Z1,N
+LA,22,077,Pointe Coupee Parish,94660,01930026,District 4,Z1,N
+LA,22,077,Pointe Coupee Parish,94858,01930091,District 5,Z1,N
+LA,22,077,Pointe Coupee Parish,95023,01930147,District 6,Z1,N
+LA,22,077,Pointe Coupee Parish,95176,01930200,District 7,Z1,N
+LA,22,077,Pointe Coupee Parish,95314,01930244,District 8,Z1,N
+LA,22,077,Pointe Coupee Parish,95425,01930279,District 9,Z1,N
+LA,22,077,Pointe Coupee Parish,95515,01929787,District 10,Z1,N
+LA,22,077,Pointe Coupee Parish,95584,01929809,District 11,Z1,N
+LA,22,077,Pointe Coupee Parish,95641,01929829,District 12,Z1,N
+LA,22,079,Rapides Parish,95743,01930296,District A,Z1,N
+LA,22,079,Rapides Parish,95758,01930302,District B,Z1,N
+LA,22,079,Rapides Parish,95773,01930308,District C,Z1,N
+LA,22,079,Rapides Parish,95788,01930314,District D,Z1,N
+LA,22,079,Rapides Parish,95803,01930320,District E,Z1,N
+LA,22,079,Rapides Parish,95818,01930326,District F,Z1,N
+LA,22,079,Rapides Parish,95830,01930329,District G,Z1,N
+LA,22,079,Rapides Parish,95839,01930331,District H,Z1,N
+LA,22,079,Rapides Parish,95848,01930333,District I,Z1,N
+LA,22,081,Red River Parish,94099,01929751,District 1,Z1,N
+LA,22,081,Red River Parish,94303,01929908,District 2,Z1,N
+LA,22,081,Red River Parish,94486,01929968,District 3,Z1,N
+LA,22,081,Red River Parish,94663,01930027,District 4,Z1,N
+LA,22,081,Red River Parish,94861,01930092,District 5,Z1,N
+LA,22,081,Red River Parish,95026,01930148,District 6,Z1,N
+LA,22,081,Red River Parish,95179,01930201,District 7,Z1,N
+LA,22,083,Richland Parish,94102,01929752,District 1,Z1,N
+LA,22,083,Richland Parish,94306,01929909,District 2,Z1,N
+LA,22,083,Richland Parish,94489,01929969,District 3,Z1,N
+LA,22,083,Richland Parish,94666,01930028,District 4,Z1,N
+LA,22,083,Richland Parish,94864,01930093,District 5,Z1,N
+LA,22,083,Richland Parish,95029,01930149,District 6,Z1,N
+LA,22,083,Richland Parish,95182,01930202,District 7,Z1,N
+LA,22,083,Richland Parish,95320,01930245,District 8,Z1,N
+LA,22,083,Richland Parish,95428,01930280,District 9,Z1,N
+LA,22,085,Sabine Parish,94105,01929753,District 1,Z1,N
+LA,22,085,Sabine Parish,94309,01929910,District 2,Z1,N
+LA,22,085,Sabine Parish,94492,01929970,District 3,Z1,N
+LA,22,085,Sabine Parish,94669,01930029,District 4,Z1,N
+LA,22,085,Sabine Parish,94867,01930094,District 5,Z1,N
+LA,22,085,Sabine Parish,95032,01930150,District 6,Z1,N
+LA,22,085,Sabine Parish,95185,01930203,District 7,Z1,N
+LA,22,085,Sabine Parish,95323,01930246,District 8,Z1,N
+LA,22,085,Sabine Parish,95431,01930281,District 9,Z1,N
+LA,22,087,St. Bernard Parish,95746,01930297,District A,Z1,N
+LA,22,087,St. Bernard Parish,95761,01930303,District B,Z1,N
+LA,22,087,St. Bernard Parish,95776,01930309,District C,Z1,N
+LA,22,087,St. Bernard Parish,95791,01930315,District D,Z1,N
+LA,22,087,St. Bernard Parish,95806,01930321,District E,Z1,N
+LA,22,089,St. Charles Parish,94108,01929754,District 1,Z1,N
+LA,22,089,St. Charles Parish,94312,01929911,District 2,Z1,N
+LA,22,089,St. Charles Parish,94495,01929971,District 3,Z1,N
+LA,22,089,St. Charles Parish,94672,01930030,District 4,Z1,N
+LA,22,089,St. Charles Parish,94870,01930095,District 5,Z1,N
+LA,22,089,St. Charles Parish,95035,01930151,District 6,Z1,N
+LA,22,089,St. Charles Parish,95188,01930204,District 7,Z1,N
+LA,22,091,St. Helena Parish,94111,01929755,District 1,Z1,N
+LA,22,091,St. Helena Parish,94315,01929912,District 2,Z1,N
+LA,22,091,St. Helena Parish,94498,01929972,District 3,Z1,N
+LA,22,091,St. Helena Parish,94675,01930031,District 4,Z1,N
+LA,22,091,St. Helena Parish,94873,01930096,District 5,Z1,N
+LA,22,091,St. Helena Parish,95038,01930152,District 6,Z1,N
+LA,22,093,St. James Parish,94114,01929756,District 1,Z1,N
+LA,22,093,St. James Parish,94318,01929913,District 2,Z1,N
+LA,22,093,St. James Parish,94501,01929973,District 3,Z1,N
+LA,22,093,St. James Parish,94678,01930032,District 4,Z1,N
+LA,22,093,St. James Parish,94876,01930097,District 5,Z1,N
+LA,22,093,St. James Parish,95041,01930153,District 6,Z1,N
+LA,22,093,St. James Parish,95191,01930205,District 7,Z1,N
+LA,22,095,St. John the Baptist Parish,94117,01929757,District 1,Z1,N
+LA,22,095,St. John the Baptist Parish,94321,01929914,District 2,Z1,N
+LA,22,095,St. John the Baptist Parish,94504,01929974,District 3,Z1,N
+LA,22,095,St. John the Baptist Parish,94681,01930033,District 4,Z1,N
+LA,22,095,St. John the Baptist Parish,94879,01930098,District 5,Z1,N
+LA,22,095,St. John the Baptist Parish,95044,01930154,District 6,Z1,N
+LA,22,095,St. John the Baptist Parish,95194,01930206,District 7,Z1,N
+LA,22,097,St. Landry Parish,94120,01929758,District 1,Z1,N
+LA,22,097,St. Landry Parish,94324,01929915,District 2,Z1,N
+LA,22,097,St. Landry Parish,94507,01929975,District 3,Z1,N
+LA,22,097,St. Landry Parish,94684,01930034,District 4,Z1,N
+LA,22,097,St. Landry Parish,94882,01930099,District 5,Z1,N
+LA,22,097,St. Landry Parish,95047,01930155,District 6,Z1,N
+LA,22,097,St. Landry Parish,95197,01930207,District 7,Z1,N
+LA,22,097,St. Landry Parish,95326,01930247,District 8,Z1,N
+LA,22,097,St. Landry Parish,95434,01930282,District 9,Z1,N
+LA,22,097,St. Landry Parish,95518,01929788,District 10,Z1,N
+LA,22,097,St. Landry Parish,95587,01929810,District 11,Z1,N
+LA,22,097,St. Landry Parish,95644,01929830,District 12,Z1,N
+LA,22,097,St. Landry Parish,95686,01929844,District 13,Z1,N
+LA,22,099,St. Martin Parish,94123,01929759,District 1,Z1,N
+LA,22,099,St. Martin Parish,94327,01929916,District 2,Z1,N
+LA,22,099,St. Martin Parish,94510,01929976,District 3,Z1,N
+LA,22,099,St. Martin Parish,94687,01930035,District 4,Z1,N
+LA,22,099,St. Martin Parish,94885,01930100,District 5,Z1,N
+LA,22,099,St. Martin Parish,95050,01930156,District 6,Z1,N
+LA,22,099,St. Martin Parish,95200,01930208,District 7,Z1,N
+LA,22,099,St. Martin Parish,95329,01930248,District 8,Z1,N
+LA,22,099,St. Martin Parish,95437,01930283,District 9,Z1,N
+LA,22,101,St. Mary Parish,94126,01929760,District 1,Z1,N
+LA,22,101,St. Mary Parish,94330,01929917,District 2,Z1,N
+LA,22,101,St. Mary Parish,94513,01929977,District 3,Z1,N
+LA,22,101,St. Mary Parish,94690,01930036,District 4,Z1,N
+LA,22,101,St. Mary Parish,94888,01930101,District 5,Z1,N
+LA,22,101,St. Mary Parish,95053,01930157,District 6,Z1,N
+LA,22,101,St. Mary Parish,95203,01930209,District 7,Z1,N
+LA,22,101,St. Mary Parish,95332,01930249,District 8,Z1,N
+LA,22,103,St. Tammany Parish,94129,01929761,District 1,Z1,N
+LA,22,103,St. Tammany Parish,94333,01929918,District 2,Z1,N
+LA,22,103,St. Tammany Parish,94516,01929978,District 3,Z1,N
+LA,22,103,St. Tammany Parish,94693,01930037,District 4,Z1,N
+LA,22,103,St. Tammany Parish,94891,01930102,District 5,Z1,N
+LA,22,103,St. Tammany Parish,95056,01930158,District 6,Z1,N
+LA,22,103,St. Tammany Parish,95206,01930210,District 7,Z1,N
+LA,22,103,St. Tammany Parish,95335,01930250,District 8,Z1,N
+LA,22,103,St. Tammany Parish,95440,01930284,District 9,Z1,N
+LA,22,103,St. Tammany Parish,95521,01929789,District 10,Z1,N
+LA,22,103,St. Tammany Parish,95590,01929811,District 11,Z1,N
+LA,22,103,St. Tammany Parish,95647,01929831,District 12,Z1,N
+LA,22,103,St. Tammany Parish,95689,01929845,District 13,Z1,N
+LA,22,103,St. Tammany Parish,95713,01929854,District 14,Z1,N
+LA,22,105,Tangipahoa Parish,94132,01929762,District 1,Z1,N
+LA,22,105,Tangipahoa Parish,94336,01929919,District 2,Z1,N
+LA,22,105,Tangipahoa Parish,94519,01929979,District 3,Z1,N
+LA,22,105,Tangipahoa Parish,94696,01930038,District 4,Z1,N
+LA,22,105,Tangipahoa Parish,94894,01930103,District 5,Z1,N
+LA,22,105,Tangipahoa Parish,95059,01930159,District 6,Z1,N
+LA,22,105,Tangipahoa Parish,95209,01930211,District 7,Z1,N
+LA,22,105,Tangipahoa Parish,95338,01930251,District 8,Z1,N
+LA,22,105,Tangipahoa Parish,95443,01930285,District 9,Z1,N
+LA,22,105,Tangipahoa Parish,95524,01929790,District 10,Z1,N
+LA,22,107,Tensas Parish,94135,01929763,District 1,Z1,N
+LA,22,107,Tensas Parish,94339,01929920,District 2,Z1,N
+LA,22,107,Tensas Parish,94522,01929980,District 3,Z1,N
+LA,22,107,Tensas Parish,94699,01930039,District 4,Z1,N
+LA,22,107,Tensas Parish,94897,01930104,District 5,Z1,N
+LA,22,107,Tensas Parish,95062,01930160,District 6,Z1,N
+LA,22,107,Tensas Parish,95212,01930212,District 7,Z1,N
+LA,22,109,Terrebonne Parish,94136,01929772,District 1,Z1,N
+LA,22,109,Terrebonne Parish,94340,01929930,District 2,Z1,N
+LA,22,109,Terrebonne Parish,94523,01929989,District 3,Z1,N
+LA,22,109,Terrebonne Parish,94700,01930049,District 4,Z1,N
+LA,22,109,Terrebonne Parish,94898,01930114,District 5,Z1,N
+LA,22,109,Terrebonne Parish,95063,01930170,District 6,Z1,N
+LA,22,109,Terrebonne Parish,95213,01930221,District 7,Z1,N
+LA,22,109,Terrebonne Parish,95340,01930259,District 8,Z1,N
+LA,22,109,Terrebonne Parish,95445,01930293,District 9,Z1,N
+LA,22,111,Union Parish,94138,01929764,District 1,Z1,N
+LA,22,111,Union Parish,94342,01929921,District 2,Z1,N
+LA,22,111,Union Parish,94525,01929981,District 3,Z1,N
+LA,22,111,Union Parish,94702,01930040,District 4,Z1,N
+LA,22,111,Union Parish,94900,01930105,District 5,Z1,N
+LA,22,111,Union Parish,95065,01930161,District 6,Z1,N
+LA,22,111,Union Parish,95215,01930213,District 7,Z1,N
+LA,22,111,Union Parish,95341,01930252,District 8,Z1,N
+LA,22,111,Union Parish,95446,01930286,District 9,Z1,N
+LA,22,113,Vermilion Parish,94141,01929765,District 1,Z1,N
+LA,22,113,Vermilion Parish,94345,01929922,District 2,Z1,N
+LA,22,113,Vermilion Parish,94528,01929982,District 3,Z1,N
+LA,22,113,Vermilion Parish,94705,01930041,District 4,Z1,N
+LA,22,113,Vermilion Parish,94903,01930106,District 5,Z1,N
+LA,22,113,Vermilion Parish,95068,01930162,District 6,Z1,N
+LA,22,113,Vermilion Parish,95218,01930214,District 7,Z1,N
+LA,22,113,Vermilion Parish,95344,01930253,District 8,Z1,N
+LA,22,113,Vermilion Parish,95449,01930287,District 9,Z1,N
+LA,22,113,Vermilion Parish,95527,01929791,District 10,Z1,N
+LA,22,113,Vermilion Parish,95593,01929812,District 11,Z1,N
+LA,22,113,Vermilion Parish,95650,01929832,District 12,Z1,N
+LA,22,113,Vermilion Parish,95692,01929846,District 13,Z1,N
+LA,22,113,Vermilion Parish,95716,01929855,District 14,Z1,N
+LA,22,115,Vernon Parish,94144,01929766,District 1,Z1,N
+LA,22,115,Vernon Parish,94348,01929923,District 2,Z1,N
+LA,22,115,Vernon Parish,94531,01929983,District 3,Z1,N
+LA,22,115,Vernon Parish,94708,01930042,District 4,Z1,N
+LA,22,115,Vernon Parish,94906,01930107,District 5,Z1,N
+LA,22,115,Vernon Parish,95071,01930163,District 6,Z1,N
+LA,22,115,Vernon Parish,95221,01930215,District 7,Z1,N
+LA,22,115,Vernon Parish,95347,01930254,District 8,Z1,N
+LA,22,115,Vernon Parish,95452,01930288,District 9,Z1,N
+LA,22,115,Vernon Parish,95530,01929792,District 10,Z1,N
+LA,22,115,Vernon Parish,95596,01929813,District 11,Z1,N
+LA,22,115,Vernon Parish,95653,01929833,District 12,Z1,N
+LA,22,117,Washington Parish,94147,01929767,District 1,Z1,N
+LA,22,117,Washington Parish,94351,01929924,District 2,Z1,N
+LA,22,117,Washington Parish,94534,01929984,District 3,Z1,N
+LA,22,117,Washington Parish,94711,01930043,District 4,Z1,N
+LA,22,117,Washington Parish,94909,01930108,District 5,Z1,N
+LA,22,117,Washington Parish,95074,01930164,District 6,Z1,N
+LA,22,117,Washington Parish,95224,01930216,District 7,Z1,N
+LA,22,119,Webster Parish,94150,01929768,District 1,Z1,N
+LA,22,119,Webster Parish,94354,01929925,District 2,Z1,N
+LA,22,119,Webster Parish,94537,01929985,District 3,Z1,N
+LA,22,119,Webster Parish,94714,01930044,District 4,Z1,N
+LA,22,119,Webster Parish,94912,01930109,District 5,Z1,N
+LA,22,119,Webster Parish,95077,01930165,District 6,Z1,N
+LA,22,119,Webster Parish,95227,01930217,District 7,Z1,N
+LA,22,119,Webster Parish,95353,01930256,District 8,Z1,N
+LA,22,119,Webster Parish,95458,01930290,District 9,Z1,N
+LA,22,119,Webster Parish,95536,01929794,District 10,Z1,N
+LA,22,119,Webster Parish,95602,01929815,District 11,Z1,N
+LA,22,119,Webster Parish,95659,01929835,District 12,Z1,N
+LA,22,121,West Baton Rouge Parish,94153,01929769,District 1,Z1,N
+LA,22,121,West Baton Rouge Parish,94357,01929926,District 2,Z1,N
+LA,22,121,West Baton Rouge Parish,94540,01929986,District 3,Z1,N
+LA,22,121,West Baton Rouge Parish,94717,01930045,District 4,Z1,N
+LA,22,121,West Baton Rouge Parish,94915,01930110,District 5,Z1,N
+LA,22,121,West Baton Rouge Parish,95080,01930166,District 6,Z1,N
+LA,22,121,West Baton Rouge Parish,95230,01930218,District 7,Z1,N
+LA,22,121,West Baton Rouge Parish,95354,01934779,District 8,Z1,N
+LA,22,121,West Baton Rouge Parish,95459,01934780,District 9,Z1,N
+LA,22,123,West Carroll Parish,95750,01930299,District A,Z1,N
+LA,22,123,West Carroll Parish,95765,01930305,District B,Z1,N
+LA,22,123,West Carroll Parish,95780,01930311,District C,Z1,N
+LA,22,123,West Carroll Parish,95794,01930317,District D,Z1,N
+LA,22,123,West Carroll Parish,95809,01930323,District E,Z1,N
+LA,22,125,West Feliciana Parish,95751,02786556,District A,Z1,N
+LA,22,125,West Feliciana Parish,95766,02786557,District B,Z1,N
+LA,22,125,West Feliciana Parish,95781,02786558,District C,Z1,N
+LA,22,125,West Feliciana Parish,95795,02786559,District D,Z1,N
+LA,22,127,Winn Parish,94162,01929771,District 1,Z1,N
+LA,22,127,Winn Parish,94366,01929928,District 2,Z1,N
+LA,22,127,Winn Parish,94549,01929988,District 3,Z1,N
+LA,22,127,Winn Parish,94726,01930047,District 4,Z1,N
+LA,22,127,Winn Parish,94924,01930112,District 5,Z1,N
+LA,22,127,Winn Parish,95083,01930167,District 6,Z1,N
+LA,22,127,Winn Parish,95233,01930219,District 7,Z1,N

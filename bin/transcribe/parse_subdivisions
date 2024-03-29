@@ -1,0 +1,49 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "pathname"
+require "fileutils"
+require "csv"
+require "fips_lookup"
+
+# CMD $:  bin/transcribe/parse_subdivisions /Users/erik/workspace/national_cousub2020.txt
+# current source location: https://www2.census.gov/geo/docs/reference/codes2020/national_cousub2020.txt
+# Headers: STATE|STATEFP|COUNTYFP|COUNTYNAME|COUSUBFP|COUSUBNS|COUSUBNAME|CLASSFP|FUNCSTAT
+
+file_path = ARGV[0]
+subdivision_path = Pathname.getwd.join("lib/data/subdivision")
+
+puts "~~~ Now creating subidivison data files if they are not present ~~~"
+
+FipsLookup::STATE_CODES.each_key do |state_code|
+  subdivision_state_file_path = subdivision_path.join("#{state_code}.csv")
+  FileUtils.touch(subdivision_state_file_path) unless File.exist?(subdivision_state_file_path)
+end
+
+return unless File.exist?(file_path) && File.exist?(subdivision_path)
+
+puts "# Required files found #"
+
+previous_state_code = "AL"
+current_state_data = []
+
+puts "... Parsing input file and creating CSVs..."
+File.open(file_path).each do |line|
+  row = line.split("|")
+
+  if previous_state_code == row[0]
+    current_state_data << row
+  else
+    current_csv_path = subdivision_path.join("#{previous_state_code}.csv")
+    File.write(current_csv_path, current_state_data.map { |e| e.join(",") }.join)
+
+    previous_state_code = row[0]
+    current_state_data = [row]
+  end
+end
+
+last_state_path = subdivision_path.join("#{previous_state_code}.csv")
+File.write(last_state_path, current_state_data.map { |e| e.join(",") }.join)
+
+puts "~~~ Finished creating subdivision CSV files ~~~"
+puts "# Check files diff in lib/data/subdivison/ #"

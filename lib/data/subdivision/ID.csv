@@ -1,0 +1,170 @@
+ID,16,001,Ada County,90345,01936680,Boise City CCD,Z5,S
+ID,16,001,Ada County,90368,01936681,Boise Hills CCD,Z5,S
+ID,16,001,Ada County,90805,01936700,Eagle CCD,Z5,S
+ID,16,001,Ada County,91863,01936747,Kuna CCD,Z5,S
+ID,16,001,Ada County,92668,01936782,Orchard CCD,Z5,S
+ID,16,003,Adams County,90667,01936694,Council CCD,Z5,S
+ID,16,003,Adams County,92484,01936774,New Meadows CCD,Z5,S
+ID,16,005,Bannock County,91058,01936711,Fort Hall CCD,Z5,S
+ID,16,005,Bannock County,91702,01936740,Inkom CCD,Z5,S
+ID,16,005,Bannock County,92852,01936790,Pocatello CCD,Z5,S
+ID,16,005,Bannock County,93289,01936809,South Bannock CCD,Z5,S
+ID,16,007,Bear Lake County,91219,01936718,Georgetown CCD,Z5,S
+ID,16,007,Bear Lake County,92208,01936762,Montpelier CCD,Z5,S
+ID,16,007,Bear Lake County,92691,01936783,Paris CCD,Z5,S
+ID,16,009,Benewah County,92829,01936789,Plummer CCD,Z5,S
+ID,16,009,Benewah County,93151,01936803,St. Maries CCD,Z5,S
+ID,16,009,Benewah County,93450,01936816,Tensed CCD,Z5,S
+ID,16,011,Bingham County,90023,01936666,Aberdeen CCD,Z5,S
+ID,16,011,Bingham County,90069,01936668,Alridge CCD,Z5,S
+ID,16,011,Bingham County,90207,01936674,Atomic City CCD,Z5,S
+ID,16,011,Bingham County,90276,01936677,Blackfoot CCD,Z5,S
+ID,16,011,Bingham County,91012,01936709,Firth CCD,Z5,S
+ID,16,011,Bingham County,91081,01936712,Fort Hall CCD,Z5,S
+ID,16,011,Bingham County,92254,01936764,Moreland CCD,Z5,S
+ID,16,011,Bingham County,93220,01936806,Shelley CCD,Z5,S
+ID,16,013,Blaine County,90529,01936688,Carey CCD,Z5,S
+ID,16,013,Blaine County,91380,01936726,Hailey-Bellevue CCD,Z5,S
+ID,16,013,Blaine County,91817,01936745,Ketchum CCD,Z5,S
+ID,16,015,Boise County,91173,01936716,Garden Valley CCD,Z5,S
+ID,16,015,Boise County,91541,01936733,Horseshoe Bend CCD,Z5,S
+ID,16,015,Boise County,91633,01936737,Idaho City CCD,Z5,S
+ID,16,017,Bonner County,90299,01936678,Blanchard-Glengary CCD,Z5,S
+ID,16,017,Bonner County,90598,01936691,Clark Fork CCD,Z5,S
+ID,16,017,Bonner County,92944,01936794,Priest River CCD,Z5,S
+ID,16,017,Bonner County,93197,01936805,Sandpoint CCD,Z5,S
+ID,16,019,Bonneville County,91656,01936738,Idaho Falls CCD,Z5,S
+ID,16,019,Bonneville County,91679,01936739,Idaho Falls West CCD,Z5,S
+ID,16,019,Bonneville County,93404,01936814,Swan Valley CCD,Z5,S
+ID,16,019,Bonneville County,93588,01936822,Ucon CCD,Z5,S
+ID,16,021,Boundary County,90391,01936682,Bonners Ferry CCD,Z5,S
+ID,16,021,Boundary County,92323,01936767,Moyie Springs CCD,Z5,S
+ID,16,021,Boundary County,93285,01936773,South and West Boundary CCD,Z5,S
+ID,16,023,Butte County,90138,01936671,Arco CCD,Z5,S
+ID,16,023,Butte County,91564,01936734,Howe CCD,Z5,S
+ID,16,025,Camas County,90828,01936701,East Camas CCD,Z5,S
+ID,16,025,Camas County,93749,01936829,West Camas CCD,Z5,S
+ID,16,027,Canyon County,90483,01936686,Caldwell CCD,Z5,S
+ID,16,027,Canyon County,91610,01936736,Huston CCD,Z5,S
+ID,16,027,Canyon County,92093,01936757,Melba CCD,Z5,S
+ID,16,027,Canyon County,92116,01936758,Middleton CCD,Z5,S
+ID,16,027,Canyon County,92438,01936772,Nampa CCD,Z5,S
+ID,16,027,Canyon County,92622,01936780,Notus CCD,Z5,S
+ID,16,027,Canyon County,92714,01936784,Parma CCD,Z5,S
+ID,16,027,Canyon County,93841,01936833,Wilder CCD,Z5,S
+ID,16,029,Caribou County,90253,01936676,Bancroft CCD,Z5,S
+ID,16,029,Caribou County,91104,01936713,Fort Hall CCD,Z5,S
+ID,16,029,Caribou County,91288,01936721,Grace CCD,Z5,S
+ID,16,029,Caribou County,93266,01936808,Soda Springs CCD,Z5,S
+ID,16,029,Caribou County,93657,01936825,Wayan CCD,Z5,S
+ID,16,031,Cassia County,90046,01936667,Albion CCD,Z5,S
+ID,16,031,Cassia County,90460,01936685,Burley CCD,Z5,S
+ID,16,031,Cassia County,90759,01936698,Declo CCD,Z5,S
+ID,16,031,Cassia County,92645,01936781,Oakley CCD,Z5,S
+ID,16,033,Clark County,90851,01936702,East Clark CCD,Z5,S
+ID,16,033,Clark County,93772,01936830,West Clark CCD,Z5,S
+ID,16,035,Clearwater County,90920,01936705,Elk River CCD,Z5,S
+ID,16,035,Clearwater County,92530,01936776,Nez Perce CCD,Z5,S
+ID,16,035,Clearwater County,92806,01936788,Pierce-Headquarters CCD,Z5,S
+ID,16,035,Clearwater County,93680,01936826,Weippe CCD,Z5,S
+ID,16,037,Custer County,90575,01936690,Challis CCD,Z5,S
+ID,16,037,Custer County,92024,01936754,Mackay CCD,Z5,S
+ID,16,037,Custer County,93335,01936811,Stanley CCD,Z5,S
+ID,16,039,Elmore County,90184,01936673,Atlanta CCD,Z5,S
+ID,16,039,Elmore County,91242,01936719,Glenns Ferry CCD,Z5,S
+ID,16,039,Elmore County,92300,01936766,Mountain Home CCD,Z5,S
+ID,16,041,Franklin County,90713,01936696,Dayton CCD,Z5,S
+ID,16,041,Franklin County,92185,01936761,Mink Creek CCD,Z5,S
+ID,16,041,Franklin County,92921,01936793,Preston CCD,Z5,S
+ID,16,043,Fremont County,90161,01936672,Ashton CCD,Z5,S
+ID,16,043,Fremont County,91725,01936741,Island Park CCD,Z5,S
+ID,16,043,Fremont County,93128,01936802,St. Anthony CCD,Z5,S
+ID,16,043,Fremont County,93496,01936818,Teton-Newdale CCD,Z5,S
+ID,16,043,Fremont County,93910,01936836,Yellowstone National Park CCD,Z5,S
+ID,16,045,Gem County,90943,01936706,Emmett Bench CCD,Z5,S
+ID,16,045,Gem County,90966,01936707,Emmett Valley CCD,Z5,S
+ID,16,045,Gem County,93427,01936815,Sweet CCD,Z5,S
+ID,16,047,Gooding County,90322,01936679,Bliss CCD,Z5,S
+ID,16,047,Gooding County,91265,01936720,Gooding CCD,Z5,S
+ID,16,047,Gooding County,91357,01936725,Hagerman CCD,Z5,S
+ID,16,047,Gooding County,93726,01936828,Wendell CCD,Z5,S
+ID,16,049,Idaho County,90644,01936693,Cottonwood CCD,Z5,S
+ID,16,049,Idaho County,90897,01936704,Elk City CCD,Z5,S
+ID,16,049,Idaho County,91334,01936724,Grangeville CCD,Z5,S
+ID,16,049,Idaho County,92553,01936777,Nez Perce CCD,Z5,S
+ID,16,049,Idaho County,93013,01936797,Riggins CCD,Z5,S
+ID,16,051,Jefferson County,91978,01936752,Lewisville-Menan CCD,Z5,S
+ID,16,051,Jefferson County,92335,01936727,Mud Lake-Hamer CCD,Z5,S
+ID,16,051,Jefferson County,92990,01936796,Rigby CCD,Z5,S
+ID,16,051,Jefferson County,93036,01936798,Ririe CCD,Z5,S
+ID,16,051,Jefferson County,93059,01936799,Roberts CCD,Z5,S
+ID,16,053,Jerome County,90874,01936703,Eden-Hazelton CCD,Z5,S
+ID,16,053,Jerome County,91587,01936735,Hunt CCD,Z5,S
+ID,16,053,Jerome County,91748,01936742,Jerome CCD,Z5,S
+ID,16,055,Kootenai County,90621,01936692,Coeur d'Alene CCD,Z5,S
+ID,16,055,Kootenai County,91426,01936728,Harrison CCD,Z5,S
+ID,16,055,Kootenai County,92875,01936791,Post Falls-Rathdrum CCD,Z5,S
+ID,16,055,Kootenai County,93312,01936810,Spirit Lake-Athol CCD,Z5,S
+ID,16,055,Kootenai County,93887,01936835,Worley CCD,Z5,S
+ID,16,057,Latah County,90736,01936697,Deary-Bovill CCD,Z5,S
+ID,16,057,Latah County,91196,01936717,Genesee CCD,Z5,S
+ID,16,057,Latah County,92277,01936765,Moscow CCD,Z5,S
+ID,16,057,Latah County,92898,01936792,Potlatch CCD,Z5,S
+ID,16,057,Latah County,93542,01936820,Troy-Juliaetta-Kendrick CCD,Z5,S
+ID,16,059,Lemhi County,91035,01936710,Forney CCD,Z5,S
+ID,16,059,Lemhi County,91886,01936748,Leadore CCD,Z5,S
+ID,16,059,Lemhi County,92737,01936785,Patterson CCD,Z5,S
+ID,16,059,Lemhi County,93174,01936804,Salmon CCD,Z5,S
+ID,16,061,Lewis County,90690,01936695,Craigmont CCD,Z5,S
+ID,16,061,Lewis County,91771,01936743,Kamiah CCD,Z5,S
+ID,16,061,Lewis County,92576,01936778,Nezperce CCD,Z5,S
+ID,16,061,Lewis County,93300,01936750,South Lewis CCD,Z5,S
+ID,16,061,Lewis County,93864,01936834,Winchester CCD,Z5,S
+ID,16,063,Lincoln County,92967,01936795,Richfield CCD,Z5,S
+ID,16,063,Lincoln County,93243,01936807,Shoshone CCD,Z5,S
+ID,16,065,Madison County,90863,01936763,East Madison CCD,Z5,S
+ID,16,065,Madison County,92956,01936819,Rexburg CCD,Z5,S
+ID,16,065,Madison County,93381,01936813,Sugar City CCD,Z5,S
+ID,16,067,Minidoka County,91449,01936729,Heyburn CCD,Z5,S
+ID,16,067,Minidoka County,92162,01936760,Minidoka CCD,Z5,S
+ID,16,067,Minidoka County,92760,01936786,Paul CCD,Z5,S
+ID,16,067,Minidoka County,93105,01936801,Rupert CCD,Z5,S
+ID,16,069,Nez Perce County,91909,01936749,Leland CCD,Z5,S
+ID,16,069,Nez Perce County,91955,01936751,Lewiston CCD,Z5,S
+ID,16,069,Nez Perce County,92599,01936779,Nez Perce CCD,Z5,S
+ID,16,071,Oneida County,91472,01936730,Holbrook CCD,Z5,S
+ID,16,071,Oneida County,92047,01936755,Malad City CCD,Z5,S
+ID,16,073,Owyhee County,90414,01936683,Bruneau CCD,Z5,S
+ID,16,073,Owyhee County,90793,01936831,Duck Valley CCD,Z5,S
+ID,16,073,Owyhee County,91311,01936722,Grand View CCD,Z5,S
+ID,16,073,Owyhee County,91518,01936732,Homedale CCD,Z5,S
+ID,16,073,Owyhee County,92070,01936756,Marsing CCD,Z5,S
+ID,16,073,Owyhee County,92369,01936769,Murphy CCD,Z5,S
+ID,16,075,Payette County,91150,01936715,Fruitland CCD,Z5,S
+ID,16,075,Payette County,92507,01936775,New Plymouth CCD,Z5,S
+ID,16,075,Payette County,92783,01936787,Payette CCD,Z5,S
+ID,16,077,Power County,90092,01936669,American Falls CCD,Z5,S
+ID,16,077,Power County,90115,01936670,Arbon CCD,Z5,S
+ID,16,077,Power County,91127,01936714,Fort Hall CCD,Z5,S
+ID,16,077,Power County,93082,01936800,Rockland CCD,Z5,S
+ID,16,079,Shoshone County,90230,01936675,Avery-Clarkia CCD,Z5,S
+ID,16,079,Shoshone County,91794,01936744,Kellogg CCD,Z5,S
+ID,16,079,Shoshone County,92346,01936768,Mullan CCD,Z5,S
+ID,16,079,Shoshone County,92392,01936770,Murray CCD,Z5,S
+ID,16,079,Shoshone County,92679,01936824,Osburn-Wallace CCD,Z5,S
+ID,16,081,Teton County,90782,01936699,Driggs CCD,Z5,S
+ID,16,081,Teton County,93473,01936817,Tetonia CCD,Z5,S
+ID,16,081,Teton County,93611,01936823,Victor CCD,Z5,S
+ID,16,083,Twin Falls County,90437,01936684,Buhl CCD,Z5,S
+ID,16,083,Twin Falls County,90989,01936708,Filer CCD,Z5,S
+ID,16,083,Twin Falls County,91495,01936731,Hollister CCD,Z5,S
+ID,16,083,Twin Falls County,91840,01936746,Kimberly CCD,Z5,S
+ID,16,083,Twin Falls County,92415,01936771,Murtaugh CCD,Z5,S
+ID,16,083,Twin Falls County,93565,01936821,Twin Falls CCD,Z5,S
+ID,16,083,Twin Falls County,93818,01936832,West Salmon Falls CCD,Z5,S
+ID,16,085,Valley County,90552,01936689,Cascade CCD,Z5,S
+ID,16,085,Valley County,92001,01936753,McCall CCD,Z5,S
+ID,16,085,Valley County,93358,01936812,Stibnite CCD,Z5,S
+ID,16,087,Washington County,90506,01936687,Cambridge CCD,Z5,S
+ID,16,087,Washington County,92139,01936759,Midvale CCD,Z5,S
+ID,16,087,Washington County,93703,01936827,Weiser CCD,Z5,S

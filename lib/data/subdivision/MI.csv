@@ -1,0 +1,1579 @@
+MI,26,001,Alcona County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,001,Alcona County,01040,01625815,Alcona township,T1,A
+MI,26,001,Alcona County,12460,01626019,Caledonia township,T1,A
+MI,26,001,Alcona County,19320,01626150,Curtis township,T1,A
+MI,26,001,Alcona County,34820,01626394,Greenbush township,T1,A
+MI,26,001,Alcona County,35740,01626416,Gustin township,T1,A
+MI,26,001,Alcona County,36860,01626440,Harrisville city,C5,F
+MI,26,001,Alcona County,36880,01626441,Harrisville township,T1,A
+MI,26,001,Alcona County,37220,01626451,Hawes township,T1,A
+MI,26,001,Alcona County,37380,01626456,Haynes township,T1,A
+MI,26,001,Alcona County,53880,01626738,Mikado township,T1,A
+MI,26,001,Alcona County,54060,01626743,Millen township,T1,A
+MI,26,001,Alcona County,54740,01626750,Mitchell township,T1,A
+MI,26,003,Alger County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,003,Alger County,04460,01625869,Au Train township,T1,A
+MI,26,003,Alger County,11960,01626008,Burt township,T1,A
+MI,26,003,Alger County,33380,01626371,Grand Island township,T1,A
+MI,26,003,Alger County,47540,01626617,Limestone township,T1,A
+MI,26,003,Alger County,52360,01626710,Mathias township,T1,A
+MI,26,003,Alger County,56200,01626780,Munising city,C5,F
+MI,26,003,Alger County,56220,01626781,Munising township,T1,A
+MI,26,003,Alger County,60820,01626850,Onota township,T1,A
+MI,26,003,Alger County,69160,01626993,Rock River township,T1,A
+MI,26,005,Allegan County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,005,Allegan County,01260,01625819,Allegan city,C5,F
+MI,26,005,Allegan County,01280,01625820,Allegan township,T1,A
+MI,26,005,Allegan County,13700,01626038,Casco township,T1,A
+MI,26,005,Allegan County,15200,01626070,Cheshire township,T1,A
+MI,26,005,Allegan County,16720,01626103,Clyde township,T1,A
+MI,26,005,Allegan County,22680,01626186,Dorr township,T1,A
+MI,26,005,Allegan County,22740,02394552,Douglas city,C5,F
+MI,26,005,Allegan County,27740,01626274,Fennville city,C5,F
+MI,26,005,Allegan County,28120,01626283,Fillmore township,T1,A
+MI,26,005,Allegan County,31360,01626332,Ganges township,T1,A
+MI,26,005,Allegan County,35720,01626415,Gun Plain township,T1,A
+MI,26,005,Allegan County,37460,01626459,Heath township,T1,A
+MI,26,005,Allegan County,38640,01626478,Holland city,C5,F
+MI,26,005,Allegan County,39200,01626490,Hopkins township,T1,A
+MI,26,005,Allegan County,45180,01626585,Laketown township,T1,A
+MI,26,005,Allegan County,46600,01626598,Lee township,T1,A
+MI,26,005,Allegan County,46760,01626602,Leighton township,T1,A
+MI,26,005,Allegan County,50840,01626670,Manlius township,T1,A
+MI,26,005,Allegan County,52000,01626701,Martin township,T1,A
+MI,26,005,Allegan County,55200,01626760,Monterey township,T1,A
+MI,26,005,Allegan County,61620,01626868,Otsego city,C5,F
+MI,26,005,Allegan County,61640,01626869,Otsego township,T1,A
+MI,26,005,Allegan County,61820,01626872,Overisel township,T1,A
+MI,26,005,Allegan County,64740,01626913,Plainwell city,C5,F
+MI,26,005,Allegan County,71100,01627034,Salem township,T1,A
+MI,26,005,Allegan County,71700,01627045,Saugatuck city,C5,F
+MI,26,005,Allegan County,71720,01627046,Saugatuck township,T1,A
+MI,26,005,Allegan County,74980,01627098,South Haven city,C5,F
+MI,26,005,Allegan County,80620,01627174,Trowbridge township,T1,A
+MI,26,005,Allegan County,81580,01627188,Valley township,T1,A
+MI,26,005,Allegan County,84580,01627226,Watson township,T1,A
+MI,26,005,Allegan County,84880,01627231,Wayland city,C5,F
+MI,26,005,Allegan County,84900,01627232,Wayland township,T1,A
+MI,26,007,Alpena County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,007,Alpena County,01740,01625832,Alpena city,C5,F
+MI,26,007,Alpena County,01760,01625833,Alpena township,T1,A
+MI,26,007,Alpena County,34740,01626392,Green township,T1,A
+MI,26,007,Alpena County,49360,01626641,Long Rapids township,T1,A
+MI,26,007,Alpena County,51220,01626677,Maple Ridge township,T1,A
+MI,26,007,Alpena County,61520,01626866,Ossineke township,T1,A
+MI,26,007,Alpena County,71240,01627038,Sanborn township,T1,A
+MI,26,007,Alpena County,85180,01627240,Wellington township,T1,A
+MI,26,007,Alpena County,87680,01627277,Wilson township,T1,A
+MI,26,009,Antrim County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,009,Antrim County,05240,01625881,Banks township,T1,A
+MI,26,009,Antrim County,14420,01626054,Central Lake township,T1,A
+MI,26,009,Antrim County,15380,01626075,Chestonia township,T1,A
+MI,26,009,Antrim County,19400,01626151,Custer township,T1,A
+MI,26,009,Antrim County,24640,01626213,Echo township,T1,A
+MI,26,009,Antrim County,25340,01626227,Elk Rapids township,T1,A
+MI,26,009,Antrim County,29600,01626297,Forest Home township,T1,A
+MI,26,009,Antrim County,37500,01626461,Helena township,T1,A
+MI,26,009,Antrim County,41960,01626544,Jordan township,T1,A
+MI,26,009,Antrim County,42400,01626553,Kearney township,T1,A
+MI,26,009,Antrim County,50640,01626664,Mancelona township,T1,A
+MI,26,009,Antrim County,54440,01626747,Milton township,T1,A
+MI,26,009,Antrim County,76260,01627123,Star township,T1,A
+MI,26,009,Antrim County,80100,01627169,Torch Lake township,T1,A
+MI,26,009,Antrim County,83300,01627212,Warner township,T1,A
+MI,26,011,Arenac County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,011,Arenac County,00280,01625799,Adams township,T1,A
+MI,26,011,Arenac County,03360,01625846,Arenac township,T1,A
+MI,26,011,Arenac County,04120,01625861,Au Gres city,C5,F
+MI,26,011,Arenac County,04140,01625862,Au Gres township,T1,A
+MI,26,011,Arenac County,16240,01626092,Clayton township,T1,A
+MI,26,011,Arenac County,21120,01626167,Deep River township,T1,A
+MI,26,011,Arenac County,47580,01626618,Lincoln township,T1,A
+MI,26,011,Arenac County,52120,01626704,Mason township,T1,A
+MI,26,011,Arenac County,54800,01626751,Moffatt township,T1,A
+MI,26,011,Arenac County,60660,01626845,Omer city,C5,F
+MI,26,011,Arenac County,74020,01627084,Sims township,T1,A
+MI,26,011,Arenac County,76120,01627118,Standish city,C5,F
+MI,26,011,Arenac County,76140,01627119,Standish township,T1,A
+MI,26,011,Arenac County,80840,01627178,Turner township,T1,A
+MI,26,011,Arenac County,87080,01627269,Whitney township,T1,A
+MI,26,013,Baraga County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,013,Baraga County,03660,01625852,Arvon township,T1,A
+MI,26,013,Baraga County,05340,01625882,Baraga township,T1,A
+MI,26,013,Baraga County,18600,01626139,Covington township,T1,A
+MI,26,013,Baraga County,45560,01626587,L'Anse township,T1,A
+MI,26,013,Baraga County,76000,01627115,Spurr township,T1,A
+MI,26,015,Barry County,03860,01625855,Assyria township,T1,A
+MI,26,015,Barry County,05020,01625877,Baltimore township,T1,A
+MI,26,015,Barry County,05560,01625885,Barry township,T1,A
+MI,26,015,Barry County,13340,01626031,Carlton township,T1,A
+MI,26,015,Barry County,13960,01626044,Castleton township,T1,A
+MI,26,015,Barry County,37120,01626448,Hastings city,C5,F
+MI,26,015,Barry County,37140,01626449,Hastings charter township,T1,A
+MI,26,015,Barry County,39120,01626488,Hope township,T1,A
+MI,26,015,Barry County,41120,01626530,Irving township,T1,A
+MI,26,015,Barry County,41860,01626542,Johnstown township,T1,A
+MI,26,015,Barry County,50960,01626674,Maple Grove township,T1,A
+MI,26,015,Barry County,60980,01626855,Orangeville township,T1,A
+MI,26,015,Barry County,66260,01626942,Prairieville township,T1,A
+MI,26,015,Barry County,70420,01627018,Rutland charter township,T1,A
+MI,26,015,Barry County,79620,01627162,Thornapple township,T1,A
+MI,26,015,Barry County,88440,01627289,Woodland township,T1,A
+MI,26,015,Barry County,89020,01627297,Yankee Springs township,T1,A
+MI,26,017,Bay County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,017,Bay County,04080,01625859,Auburn city,C5,F
+MI,26,017,Bay County,05120,01625878,Bangor charter township,T1,A
+MI,26,017,Bay County,06020,01625892,Bay City city,C5,F
+MI,26,017,Bay County,06540,01625900,Beaver township,T1,A
+MI,26,017,Bay County,26420,01626250,Essexville city,C5,F
+MI,26,017,Bay County,30180,01626302,Frankenlust township,T1,A
+MI,26,017,Bay County,30400,01626309,Fraser township,T1,A
+MI,26,017,Bay County,31540,01626335,Garfield township,T1,A
+MI,26,017,Bay County,32040,01626350,Gibson township,T1,A
+MI,26,017,Bay County,36260,01626426,Hampton charter township,T1,A
+MI,26,017,Bay County,42360,01626552,Kawkawlin township,T1,A
+MI,26,017,Bay County,53220,01626729,Merritt township,T1,A
+MI,26,017,Bay County,53780,01626736,Midland city,C5,F
+MI,26,017,Bay County,54980,01626753,Monitor charter township,T1,A
+MI,26,017,Bay County,55920,01626772,Mount Forest township,T1,A
+MI,26,017,Bay County,64160,01626901,Pinconning city,C5,F
+MI,26,017,Bay County,64180,01626902,Pinconning township,T1,A
+MI,26,017,Bay County,65980,01626937,Portsmouth charter township,T1,A
+MI,26,017,Bay County,87380,01627273,Williams charter township,T1,A
+MI,26,019,Benzie County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,019,Benzie County,01640,01625829,Almira township,T1,A
+MI,26,019,Benzie County,07600,01625920,Benzonia township,T1,A
+MI,26,019,Benzie County,08840,01625944,Blaine township,T1,A
+MI,26,019,Benzie County,17120,01626111,Colfax township,T1,A
+MI,26,019,Benzie County,19180,01626148,Crystal Lake township,T1,A
+MI,26,019,Benzie County,30260,01626305,Frankfort city,C5,F
+MI,26,019,Benzie County,32180,01626353,Gilmore township,T1,A
+MI,26,019,Benzie County,39000,01626487,Homestead township,T1,A
+MI,26,019,Benzie County,40700,01626517,Inland township,T1,A
+MI,26,019,Benzie County,42000,01626545,Joyfield township,T1,A
+MI,26,019,Benzie County,44240,01626572,Lake township,T1,A
+MI,26,019,Benzie County,64760,01626914,Platte township,T1,A
+MI,26,019,Benzie County,85160,01627239,Weldon township,T1,A
+MI,26,021,Berrien County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,021,Berrien County,04840,01625874,Bainbridge township,T1,A
+MI,26,021,Berrien County,05520,01625884,Baroda township,T1,A
+MI,26,021,Berrien County,07400,01625918,Benton charter township,T1,A
+MI,26,021,Berrien County,07520,01625919,Benton Harbor city,C5,F
+MI,26,021,Berrien County,07820,01625926,Berrien township,T1,A
+MI,26,021,Berrien County,07920,01625927,Bertrand township,T1,A
+MI,26,021,Berrien County,10580,01625980,Bridgman city,C5,F
+MI,26,021,Berrien County,11400,01625996,Buchanan city,C5,F
+MI,26,021,Berrien County,11420,01625997,Buchanan township,T1,A
+MI,26,021,Berrien County,15480,01626076,Chikaming township,T1,A
+MI,26,021,Berrien County,17320,01626116,Coloma city,C5,F
+MI,26,021,Berrien County,17340,01626117,Coloma charter township,T1,A
+MI,26,021,Berrien County,31320,01626331,Galien township,T1,A
+MI,26,021,Berrien County,35860,01626418,Hagar township,T1,A
+MI,26,021,Berrien County,44260,01626580,Lake charter township,T1,A
+MI,26,021,Berrien County,47600,01626619,Lincoln charter township,T1,A
+MI,26,021,Berrien County,57220,01626798,New Buffalo city,C5,F
+MI,26,021,Berrien County,57230,01626799,New Buffalo township,T1,A
+MI,26,021,Berrien County,57760,01626806,Niles city,C5,F
+MI,26,021,Berrien County,57780,01626807,Niles township,T1,A
+MI,26,021,Berrien County,61180,01626861,Oronoko charter township,T1,A
+MI,26,021,Berrien County,64480,01626908,Pipestone township,T1,A
+MI,26,021,Berrien County,70100,01627013,Royalton township,T1,A
+MI,26,021,Berrien County,70960,01627031,St. Joseph city,C5,F
+MI,26,021,Berrien County,70980,01627032,St. Joseph charter township,T1,A
+MI,26,021,Berrien County,74440,01627087,Sodus township,T1,A
+MI,26,021,Berrien County,79740,01627163,Three Oaks township,T1,A
+MI,26,021,Berrien County,84500,01627224,Watervliet city,C5,F
+MI,26,021,Berrien County,84520,01627225,Watervliet township,T1,A
+MI,26,021,Berrien County,85120,01627238,Weesaw township,T1,A
+MI,26,023,Branch County,01120,01625816,Algansee township,T1,A
+MI,26,023,Branch County,05800,01625887,Batavia township,T1,A
+MI,26,023,Branch County,08060,01625931,Bethel township,T1,A
+MI,26,023,Branch County,10860,01625985,Bronson city,C5,F
+MI,26,023,Branch County,10880,01625986,Bronson township,T1,A
+MI,26,023,Branch County,12140,01626013,Butler township,T1,A
+MI,26,023,Branch County,12560,01626022,California township,T1,A
+MI,26,023,Branch County,17020,01626107,Coldwater city,C5,F
+MI,26,023,Branch County,17040,01626108,Coldwater township,T1,A
+MI,26,023,Branch County,32120,01626351,Gilead township,T1,A
+MI,26,023,Branch County,32280,01626355,Girard township,T1,A
+MI,26,023,Branch County,43260,01626560,Kinderhook township,T1,A
+MI,26,023,Branch County,52400,01626711,Matteson township,T1,A
+MI,26,023,Branch County,57860,01626808,Noble township,T1,A
+MI,26,023,Branch County,61840,01626873,Ovid township,T1,A
+MI,26,023,Branch County,66660,01626947,Quincy township,T1,A
+MI,26,023,Branch County,73440,01627079,Sherwood township,T1,A
+MI,26,023,Branch County,81280,01627184,Union township,T1,A
+MI,26,025,Calhoun County,00980,01625813,Albion city,C5,F
+MI,26,025,Calhoun County,01000,01625814,Albion township,T1,A
+MI,26,025,Calhoun County,03900,01625856,Athens township,T1,A
+MI,26,025,Calhoun County,05920,01625890,Battle Creek city,C5,F
+MI,26,025,Calhoun County,06720,01625905,Bedford charter township,T1,A
+MI,26,025,Calhoun County,11820,01626004,Burlington township,T1,A
+MI,26,025,Calhoun County,15960,01626086,Clarence township,T1,A
+MI,26,025,Calhoun County,16020,01626087,Clarendon township,T1,A
+MI,26,025,Calhoun County,17880,01626129,Convis township,T1,A
+MI,26,025,Calhoun County,24700,01626214,Eckford township,T1,A
+MI,26,025,Calhoun County,25935,01626239,Emmett charter township,T1,A
+MI,26,025,Calhoun County,30500,01626312,Fredonia township,T1,A
+MI,26,025,Calhoun County,38940,01626485,Homer township,T1,A
+MI,26,025,Calhoun County,46620,01626599,Lee township,T1,A
+MI,26,025,Calhoun County,47060,01626607,Leroy township,T1,A
+MI,26,025,Calhoun County,51520,01626684,Marengo township,T1,A
+MI,26,025,Calhoun County,51940,01626699,Marshall city,C5,F
+MI,26,025,Calhoun County,51960,01626700,Marshall township,T1,A
+MI,26,025,Calhoun County,57620,01626804,Newton township,T1,A
+MI,26,025,Calhoun County,63440,01626891,Pennfield charter township,T1,A
+MI,26,025,Calhoun County,72980,01627064,Sheridan township,T1,A
+MI,26,025,Calhoun County,75700,01627108,Springfield city,C5,F
+MI,26,025,Calhoun County,79180,01627157,Tekonsha township,T1,A
+MI,26,027,Cass County,12620,01626024,Calvin township,T1,A
+MI,26,027,Cass County,22880,01626191,Dowagiac city,C5,F
+MI,26,027,Cass County,39480,01626494,Howard township,T1,A
+MI,26,027,Cass County,41600,01626539,Jefferson township,T1,A
+MI,26,027,Cass County,44140,01626569,LaGrange township,T1,A
+MI,26,027,Cass County,51480,01626683,Marcellus township,T1,A
+MI,26,027,Cass County,52140,01626705,Mason township,T1,A
+MI,26,027,Cass County,54460,01626748,Milton township,T1,A
+MI,26,027,Cass County,57120,01626797,Newberg township,T1,A
+MI,26,027,Cass County,57760,01626806,Niles city,C5,F
+MI,26,027,Cass County,60900,01626852,Ontwa township,T1,A
+MI,26,027,Cass County,63380,01626890,Penn township,T1,A
+MI,26,027,Cass County,65300,01626922,Pokagon township,T1,A
+MI,26,027,Cass County,65720,01626929,Porter township,T1,A
+MI,26,027,Cass County,73940,01627083,Silver Creek township,T1,A
+MI,26,027,Cass County,82580,01627203,Volinia township,T1,A
+MI,26,027,Cass County,84920,01627233,Wayne township,T1,A
+MI,26,029,Charlevoix County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,029,Charlevoix County,06000,01625891,Bay township,T1,A
+MI,26,029,Charlevoix County,09820,01625965,Boyne City city,C5,F
+MI,26,029,Charlevoix County,09860,01625966,Boyne Valley township,T1,A
+MI,26,029,Charlevoix County,14560,01626056,Chandler township,T1,A
+MI,26,029,Charlevoix County,14780,01626060,Charlevoix city,C5,F
+MI,26,029,Charlevoix County,14800,01626061,Charlevoix township,T1,A
+MI,26,029,Charlevoix County,24020,01626206,East Jordan city,C5,F
+MI,26,029,Charlevoix County,26580,01626252,Evangeline township,T1,A
+MI,26,029,Charlevoix County,26680,01626255,Eveline township,T1,A
+MI,26,029,Charlevoix County,37320,01626453,Hayes township,T1,A
+MI,26,029,Charlevoix County,39700,01626497,Hudson township,T1,A
+MI,26,029,Charlevoix County,51620,01626688,Marion township,T1,A
+MI,26,029,Charlevoix County,52880,01626719,Melrose township,T1,A
+MI,26,029,Charlevoix County,59340,01626825,Norwood township,T1,A
+MI,26,029,Charlevoix County,63140,01626888,Peaine township,T1,A
+MI,26,029,Charlevoix County,70920,01627029,St. James township,T1,A
+MI,26,029,Charlevoix County,74680,01627092,South Arm township,T1,A
+MI,26,029,Charlevoix County,87700,01627278,Wilson township,T1,A
+MI,26,031,Cheboygan County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,031,Cheboygan County,01720,01625831,Aloha township,T1,A
+MI,26,031,Cheboygan County,06500,01625899,Beaugrand township,T1,A
+MI,26,031,Cheboygan County,07420,01625916,Benton township,T1,A
+MI,26,031,Cheboygan County,11980,01626009,Burt township,T1,A
+MI,26,031,Cheboygan County,15000,01626066,Cheboygan city,C5,F
+MI,26,031,Cheboygan County,25400,01626229,Ellis township,T1,A
+MI,26,031,Cheboygan County,29400,01626293,Forest township,T1,A
+MI,26,031,Cheboygan County,34200,01626376,Grant township,T1,A
+MI,26,031,Cheboygan County,37480,01626460,Hebron township,T1,A
+MI,26,031,Cheboygan County,40820,01626519,Inverness township,T1,A
+MI,26,031,Cheboygan County,43820,01626566,Koehler township,T1,A
+MI,26,031,Cheboygan County,50300,01626655,Mackinaw township,T1,A
+MI,26,031,Cheboygan County,53100,01626725,Mentor township,T1,A
+MI,26,031,Cheboygan County,56100,01626778,Mullett township,T1,A
+MI,26,031,Cheboygan County,56280,01626782,Munro township,T1,A
+MI,26,031,Cheboygan County,59500,01626831,Nunda township,T1,A
+MI,26,031,Cheboygan County,80880,01627179,Tuscarora township,T1,A
+MI,26,031,Cheboygan County,82940,01627208,Walker township,T1,A
+MI,26,031,Cheboygan County,84760,01627228,Waverly township,T1,A
+MI,26,031,Cheboygan County,87640,01627276,Wilmot township,T1,A
+MI,26,033,Chippewa County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,033,Chippewa County,06070,01625894,Bay Mills township,T1,A
+MI,26,033,Chippewa County,11280,01625994,Bruce township,T1,A
+MI,26,033,Chippewa County,15560,01626078,Chippewa township,T1,A
+MI,26,033,Chippewa County,19540,01626154,Dafter township,T1,A
+MI,26,033,Chippewa County,21770,01626180,Detour township,T1,A
+MI,26,033,Chippewa County,23080,01626193,Drummond township,T1,A
+MI,26,033,Chippewa County,39860,01626502,Hulbert township,T1,A
+MI,26,033,Chippewa County,43480,01626563,Kinross charter township,T1,A
+MI,26,033,Chippewa County,63980,01626899,Pickford township,T1,A
+MI,26,033,Chippewa County,66760,01626949,Raber township,T1,A
+MI,26,033,Chippewa County,70220,01627015,Rudyard township,T1,A
+MI,26,033,Chippewa County,71740,01627047,Sault Ste. Marie city,C5,F
+MI,26,033,Chippewa County,74620,01627091,Soo township,T1,A
+MI,26,033,Chippewa County,77020,01627131,Sugar Island township,T1,A
+MI,26,033,Chippewa County,77540,01627140,Superior township,T1,A
+MI,26,033,Chippewa County,80600,01627173,Trout Lake township,T1,A
+MI,26,033,Chippewa County,86700,01627260,Whitefish township,T1,A
+MI,26,035,Clare County,03620,01625851,Arthur township,T1,A
+MI,26,035,Clare County,15920,01626085,Clare city,C5,F
+MI,26,035,Clare County,30280,01626306,Franklin township,T1,A
+MI,26,035,Clare County,30560,01626314,Freeman township,T1,A
+MI,26,035,Clare County,30900,01626323,Frost township,T1,A
+MI,26,035,Clare County,31560,01626336,Garfield township,T1,A
+MI,26,035,Clare County,34220,01626377,Grant township,T1,A
+MI,26,035,Clare County,35120,01626402,Greenwood township,T1,A
+MI,26,035,Clare County,36140,01626421,Hamilton township,T1,A
+MI,26,035,Clare County,36800,01626438,Harrison city,C5,F
+MI,26,035,Clare County,37160,01626450,Hatton township,T1,A
+MI,26,035,Clare County,37340,01626454,Hayes township,T1,A
+MI,26,035,Clare County,47620,01626620,Lincoln township,T1,A
+MI,26,035,Clare County,67600,01626959,Redding township,T1,A
+MI,26,035,Clare County,73000,01627065,Sheridan township,T1,A
+MI,26,035,Clare County,77120,01627133,Summerfield township,T1,A
+MI,26,035,Clare County,77580,01627142,Surrey township,T1,A
+MI,26,035,Clare County,87980,01627282,Winterfield township,T1,A
+MI,26,037,Clinton County,05900,01625889,Bath charter township,T1,A
+MI,26,037,Clinton County,07240,01625912,Bengal township,T1,A
+MI,26,037,Clinton County,08400,01625937,Bingham township,T1,A
+MI,26,037,Clinton County,19620,01626156,Dallas township,T1,A
+MI,26,037,Clinton County,22120,01626182,DeWitt city,C5,F
+MI,26,037,Clinton County,22140,01626183,DeWitt charter township,T1,A
+MI,26,037,Clinton County,23460,01626197,Duplain township,T1,A
+MI,26,037,Clinton County,23580,01626200,Eagle township,T1,A
+MI,26,037,Clinton County,24120,01626207,East Lansing city,C5,F
+MI,26,037,Clinton County,26400,01626249,Essex township,T1,A
+MI,26,037,Clinton County,33420,01626372,Grand Ledge city,C5,F
+MI,26,037,Clinton County,34840,01626395,Greenbush township,T1,A
+MI,26,037,Clinton County,46000,01626588,Lansing city,C5,F
+MI,26,037,Clinton County,46580,01626597,Lebanon township,T1,A
+MI,26,037,Clinton County,60440,01626840,Olive township,T1,A
+MI,26,037,Clinton County,61860,02399601,Ovid city,C5,F
+MI,26,037,Clinton County,61880,01626874,Ovid township,T1,A
+MI,26,037,Clinton County,68600,01626981,Riley township,T1,A
+MI,26,037,Clinton County,70940,01627030,St. Johns city,C5,F
+MI,26,037,Clinton County,82320,01627199,Victor township,T1,A
+MI,26,037,Clinton County,84400,01627221,Watertown charter township,T1,A
+MI,26,037,Clinton County,86140,01627251,Westphalia township,T1,A
+MI,26,039,Crawford County,06600,01625902,Beaver Creek township,T1,A
+MI,26,039,Crawford County,30480,01626311,Frederic township,T1,A
+MI,26,039,Crawford County,34640,01626390,Grayling city,C5,F
+MI,26,039,Crawford County,34660,01626391,Grayling charter township,T1,A
+MI,26,039,Crawford County,49520,01626643,Lovells township,T1,A
+MI,26,039,Crawford County,50940,01626673,Maple Forest township,T1,A
+MI,26,039,Crawford County,74760,01627093,South Branch township,T1,A
+MI,26,041,Delta County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,041,Delta County,04900,01625875,Baldwin township,T1,A
+MI,26,041,Delta County,05420,01625883,Bark River township,T1,A
+MI,26,041,Delta County,06040,01625893,Bay de Noc township,T1,A
+MI,26,041,Delta County,09980,01625969,Brampton township,T1,A
+MI,26,041,Delta County,18280,01626133,Cornell township,T1,A
+MI,26,041,Delta County,26140,01626242,Ensign township,T1,A
+MI,26,041,Delta County,26360,01626247,Escanaba city,C5,F
+MI,26,041,Delta County,26380,01626248,Escanaba township,T1,A
+MI,26,041,Delta County,26960,01625139,Fairbanks township,T1,A
+MI,26,041,Delta County,29380,01626292,Ford River township,T1,A
+MI,26,041,Delta County,31400,01626333,Garden township,T1,A
+MI,26,041,Delta County,32300,01626356,Gladstone city,C5,F
+MI,26,041,Delta County,51260,01626678,Maple Ridge township,T1,A
+MI,26,041,Delta County,52220,01626707,Masonville township,T1,A
+MI,26,041,Delta County,56500,01626788,Nahma township,T1,A
+MI,26,041,Delta County,85240,01627241,Wells township,T1,A
+MI,26,043,Dickinson County,10200,01625973,Breen township,T1,A
+MI,26,043,Dickinson County,10220,01625974,Breitung charter township,T1,A
+MI,26,043,Dickinson County,27660,01626273,Felch township,T1,A
+MI,26,043,Dickinson County,40960,01626525,Iron Mountain city,C5,F
+MI,26,043,Dickinson County,43300,01626561,Kingsford city,C5,F
+MI,26,043,Dickinson County,59220,01626821,Norway city,C5,F
+MI,26,043,Dickinson County,59240,01626822,Norway township,T1,A
+MI,26,043,Dickinson County,70600,01627022,Sagola township,T1,A
+MI,26,043,Dickinson County,84700,01627227,Waucedah township,T1,A
+MI,26,043,Dickinson County,85520,01627245,West Branch township,T1,A
+MI,26,045,Eaton County,07080,01625910,Bellevue township,T1,A
+MI,26,045,Eaton County,07440,01625917,Benton township,T1,A
+MI,26,045,Eaton County,10920,01625987,Brookfield township,T1,A
+MI,26,045,Eaton County,13380,01626032,Carmel township,T1,A
+MI,26,045,Eaton County,14820,01626062,Charlotte city,C5,F
+MI,26,045,Eaton County,15260,01626071,Chester township,T1,A
+MI,26,045,Eaton County,21520,01626175,Delta charter township,T1,A
+MI,26,045,Eaton County,24520,01626210,Eaton township,T1,A
+MI,26,045,Eaton County,24540,01626211,Eaton Rapids city,C5,F
+MI,26,045,Eaton County,24560,01626212,Eaton Rapids township,T1,A
+MI,26,045,Eaton County,33420,01626372,Grand Ledge city,C5,F
+MI,26,045,Eaton County,36200,01626424,Hamlin township,T1,A
+MI,26,045,Eaton County,42220,01626549,Kalamo township,T1,A
+MI,26,045,Eaton County,46000,01626588,Lansing city,C5,F
+MI,26,045,Eaton County,60580,01626844,Olivet city,C5,F
+MI,26,045,Eaton County,60700,01626847,Oneida charter township,T1,A
+MI,26,045,Eaton County,66100,01626939,Potterville city,C5,F
+MI,26,045,Eaton County,70020,01627010,Roxand township,T1,A
+MI,26,045,Eaton County,77440,01627139,Sunfield township,T1,A
+MI,26,045,Eaton County,81980,01627194,Vermontville township,T1,A
+MI,26,045,Eaton County,83180,01627211,Walton township,T1,A
+MI,26,045,Eaton County,87840,01627279,Windsor charter township,T1,A
+MI,26,047,Emmet County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,047,Emmet County,06380,01625895,Bear Creek township,T1,A
+MI,26,047,Emmet County,08980,01625947,Bliss township,T1,A
+MI,26,047,Emmet County,13500,01626033,Carp Lake township,T1,A
+MI,26,047,Emmet County,14300,01626051,Center township,T1,A
+MI,26,047,Emmet County,18900,01626141,Cross Village township,T1,A
+MI,26,047,Emmet County,30860,01626322,Friendship township,T1,A
+MI,26,047,Emmet County,36560,01626434,Harbor Springs city,C5,F
+MI,26,047,Emmet County,48020,01626630,Littlefield township,T1,A
+MI,26,047,Emmet County,48080,01626631,Little Traverse township,T1,A
+MI,26,047,Emmet County,50340,01626656,McKinley township,T1,A
+MI,26,047,Emmet County,51280,01626679,Maple River township,T1,A
+MI,26,047,Emmet County,63820,01626898,Petoskey city,C5,F
+MI,26,047,Emmet County,64960,01626918,Pleasantview township,T1,A
+MI,26,047,Emmet County,67540,01626958,Readmond township,T1,A
+MI,26,047,Emmet County,68060,01626965,Resort township,T1,A
+MI,26,047,Emmet County,75900,01627113,Springvale township,T1,A
+MI,26,047,Emmet County,84840,01627230,Wawatam township,T1,A
+MI,26,047,Emmet County,86300,01627252,West Traverse township,T1,A
+MI,26,049,Genesee County,03420,01625847,Argentine township,T1,A
+MI,26,049,Genesee County,04000,01625857,Atlas township,T1,A
+MI,26,049,Genesee County,12060,01626011,Burton city,C5,F
+MI,26,049,Genesee County,16260,01626093,Clayton charter township,T1,A
+MI,26,049,Genesee County,16620,01626102,Clio city,C5,F
+MI,26,049,Genesee County,19880,01626159,Davison city,C5,F
+MI,26,049,Genesee County,19900,01626160,Davison township,T1,A
+MI,26,049,Genesee County,27760,01626275,Fenton city,C5,F
+MI,26,049,Genesee County,27780,01626276,Fenton charter township,T1,A
+MI,26,049,Genesee County,29000,01626285,Flint city,C5,F
+MI,26,049,Genesee County,29020,01626286,Flint charter township,T1,A
+MI,26,049,Genesee County,29200,01626289,Flushing city,C5,F
+MI,26,049,Genesee County,29220,01626290,Flushing charter township,T1,A
+MI,26,049,Genesee County,29420,01626294,Forest township,T1,A
+MI,26,049,Genesee County,31220,01626328,Gaines township,T1,A
+MI,26,049,Genesee County,31800,01626342,Genesee charter township,T1,A
+MI,26,049,Genesee County,33280,01626367,Grand Blanc city,C5,F
+MI,26,049,Genesee County,33300,01626368,Grand Blanc charter township,T1,A
+MI,26,049,Genesee County,47820,01626627,Linden city,C5,F
+MI,26,049,Genesee County,55280,01626762,Montrose city,C5,F
+MI,26,049,Genesee County,55300,01626763,Montrose charter township,T1,A
+MI,26,049,Genesee County,55960,01626774,Mount Morris city,C5,F
+MI,26,049,Genesee County,55980,01626775,Mount Morris township,T1,A
+MI,26,049,Genesee County,56160,01626779,Mundy township,T1,A
+MI,26,049,Genesee County,68180,01626968,Richfield township,T1,A
+MI,26,049,Genesee County,77700,01627145,Swartz Creek city,C5,F
+MI,26,049,Genesee County,79460,01627159,Thetford township,T1,A
+MI,26,049,Genesee County,82380,01627201,Vienna charter township,T1,A
+MI,26,051,Gladwin County,06660,01625903,Beaverton city,C5,F
+MI,26,051,Gladwin County,06680,01625904,Beaverton township,T1,A
+MI,26,051,Gladwin County,07360,01625915,Bentley township,T1,A
+MI,26,051,Gladwin County,08360,01625936,Billings township,T1,A
+MI,26,051,Gladwin County,09720,01625963,Bourret township,T1,A
+MI,26,051,Gladwin County,11440,01625998,Buckeye township,T1,A
+MI,26,051,Gladwin County,12180,01626014,Butman township,T1,A
+MI,26,051,Gladwin County,16360,01626095,Clement township,T1,A
+MI,26,051,Gladwin County,32320,01626357,Gladwin city,C5,F
+MI,26,051,Gladwin County,32340,01626358,Gladwin township,T1,A
+MI,26,051,Gladwin County,35340,01625138,Grim township,T1,A
+MI,26,051,Gladwin County,35620,01626413,Grout township,T1,A
+MI,26,051,Gladwin County,37300,01626452,Hay township,T1,A
+MI,26,051,Gladwin County,70500,01627019,Sage township,T1,A
+MI,26,051,Gladwin County,72240,01627056,Secord township,T1,A
+MI,26,051,Gladwin County,73140,01627070,Sherman township,T1,A
+MI,26,051,Gladwin County,79860,01627167,Tobacco township,T1,A
+MI,26,053,Gogebic County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,053,Gogebic County,07960,01625928,Bessemer city,C5,F
+MI,26,053,Gogebic County,07980,01625929,Bessemer township,T1,A
+MI,26,053,Gogebic County,26340,01626246,Erwin township,T1,A
+MI,26,053,Gogebic County,41060,01626528,Ironwood city,C5,F
+MI,26,053,Gogebic County,41080,01626529,Ironwood charter township,T1,A
+MI,26,053,Gogebic County,51560,01626685,Marenisco township,T1,A
+MI,26,053,Gogebic County,82780,01627204,Wakefield city,C5,F
+MI,26,053,Gogebic County,82800,01627205,Wakefield township,T1,A
+MI,26,053,Gogebic County,84380,01627220,Watersmeet township,T1,A
+MI,26,055,Grand Traverse County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,055,Grand Traverse County,00200,01625797,Acme township,T1,A
+MI,26,055,Grand Traverse County,08880,01625945,Blair township,T1,A
+MI,26,055,Grand Traverse County,23800,01626202,East Bay township,T1,A
+MI,26,055,Grand Traverse County,28020,01626281,Fife Lake township,T1,A
+MI,26,055,Grand Traverse County,31580,01626337,Garfield charter township,T1,A
+MI,26,055,Grand Traverse County,34240,01626378,Grant township,T1,A
+MI,26,055,Grand Traverse County,34960,01626397,Green Lake township,T1,A
+MI,26,055,Grand Traverse County,49240,01626640,Long Lake township,T1,A
+MI,26,055,Grand Traverse County,52480,01626712,Mayfield township,T1,A
+MI,26,055,Grand Traverse County,62320,01626879,Paradise township,T1,A
+MI,26,055,Grand Traverse County,63340,01626889,Peninsula township,T1,A
+MI,26,055,Grand Traverse County,80340,01627171,Traverse City city,C5,F
+MI,26,055,Grand Traverse County,81320,01627185,Union township,T1,A
+MI,26,055,Grand Traverse County,87040,01627268,Whitewater township,T1,A
+MI,26,057,Gratiot County,01540,01625826,Alma city,C5,F
+MI,26,057,Gratiot County,03260,01625843,Arcada township,T1,A
+MI,26,057,Gratiot County,08020,01625930,Bethany township,T1,A
+MI,26,057,Gratiot County,25120,01626221,Elba township,T1,A
+MI,26,057,Gratiot County,25880,01626238,Emerson township,T1,A
+MI,26,057,Gratiot County,31080,01626326,Fulton township,T1,A
+MI,26,057,Gratiot County,36160,01626422,Hamilton township,T1,A
+MI,26,057,Gratiot County,41340,01626534,Ithaca city,C5,F
+MI,26,057,Gratiot County,44080,01626568,Lafayette township,T1,A
+MI,26,057,Gratiot County,57040,01626794,Newark township,T1,A
+MI,26,057,Gratiot County,57360,01626801,New Haven township,T1,A
+MI,26,057,Gratiot County,58800,01626815,North Shade township,T1,A
+MI,26,057,Gratiot County,58880,01626816,North Star township,T1,A
+MI,26,057,Gratiot County,64360,01626905,Pine River township,T1,A
+MI,26,057,Gratiot County,71000,01627033,St. Louis city,C5,F
+MI,26,057,Gratiot County,72580,01627060,Seville township,T1,A
+MI,26,057,Gratiot County,77300,01627137,Sumner township,T1,A
+MI,26,057,Gratiot County,84080,01627215,Washington township,T1,A
+MI,26,057,Gratiot County,86620,01627258,Wheeler township,T1,A
+MI,26,059,Hillsdale County,00300,01625800,Adams township,T1,A
+MI,26,059,Hillsdale County,01320,01625821,Allen township,T1,A
+MI,26,059,Hillsdale County,02020,01625836,Amboy township,T1,A
+MI,26,059,Hillsdale County,12700,01626025,Cambria township,T1,A
+MI,26,059,Hillsdale County,12780,01626027,Camden township,T1,A
+MI,26,059,Hillsdale County,27580,01626272,Fayette township,T1,A
+MI,26,059,Hillsdale County,38460,01626474,Hillsdale city,C5,F
+MI,26,059,Hillsdale County,38480,01626475,Hillsdale township,T1,A
+MI,26,059,Hillsdale County,41620,01626540,Jefferson township,T1,A
+MI,26,059,Hillsdale County,41920,02398309,Jonesville city,C5,F
+MI,26,059,Hillsdale County,47980,01626628,Litchfield city,C5,F
+MI,26,059,Hillsdale County,48000,01626629,Litchfield township,T1,A
+MI,26,059,Hillsdale County,55640,01626769,Moscow township,T1,A
+MI,26,059,Hillsdale County,64620,01626910,Pittsford township,T1,A
+MI,26,059,Hillsdale County,67120,01626952,Ransom township,T1,A
+MI,26,059,Hillsdale County,67500,01626956,Reading city,C5,F
+MI,26,059,Hillsdale County,67520,01626957,Reading township,T1,A
+MI,26,059,Hillsdale County,71980,01627052,Scipio township,T1,A
+MI,26,059,Hillsdale County,74560,01627090,Somerset township,T1,A
+MI,26,059,Hillsdale County,86540,01627255,Wheatland township,T1,A
+MI,26,059,Hillsdale County,88300,01627286,Woodbridge township,T1,A
+MI,26,059,Hillsdale County,88780,01627292,Wright township,T1,A
+MI,26,061,Houghton County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,061,Houghton County,00320,01625801,Adams township,T1,A
+MI,26,061,Houghton County,12600,01626023,Calumet charter township,T1,A
+MI,26,061,Houghton County,14920,01626065,Chassell township,T1,A
+MI,26,061,Houghton County,23340,01626195,Duncan township,T1,A
+MI,26,061,Houghton County,25660,01626234,Elm River township,T1,A
+MI,26,061,Houghton County,30300,01626307,Franklin township,T1,A
+MI,26,061,Houghton County,36300,01626428,Hancock city,C5,F
+MI,26,061,Houghton County,36320,01626429,Hancock township,T1,A
+MI,26,061,Houghton County,39360,01626492,Houghton city,C5,F
+MI,26,061,Houghton County,44220,01626571,Laird township,T1,A
+MI,26,061,Houghton County,61260,01626862,Osceola township,T1,A
+MI,26,061,Houghton County,65540,01626925,Portage charter township,T1,A
+MI,26,061,Houghton County,66680,01626948,Quincy township,T1,A
+MI,26,061,Houghton County,71840,01627048,Schoolcraft township,T1,A
+MI,26,061,Houghton County,76200,01627121,Stanton township,T1,A
+MI,26,061,Houghton County,80120,01627170,Torch Lake township,T1,A
+MI,26,063,Huron County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,063,Huron County,04740,01625872,Bad Axe city,C5,F
+MI,26,063,Huron County,08420,01625938,Bingham township,T1,A
+MI,26,063,Huron County,09060,01625950,Bloomfield township,T1,A
+MI,26,063,Huron County,10940,01625988,Brookfield township,T1,A
+MI,26,063,Huron County,13760,02397567,Caseville city,C5,F
+MI,26,063,Huron County,13780,01626041,Caseville township,T1,A
+MI,26,063,Huron County,14600,01626057,Chandler township,T1,A
+MI,26,063,Huron County,17140,01626112,Colfax township,T1,A
+MI,26,063,Huron County,23540,01626199,Dwight township,T1,A
+MI,26,063,Huron County,27120,01626266,Fairhaven township,T1,A
+MI,26,063,Huron County,33080,01626365,Gore township,T1,A
+MI,26,063,Huron County,34260,01626379,Grant township,T1,A
+MI,26,063,Huron County,36460,01626433,Harbor Beach city,C5,F
+MI,26,063,Huron County,39960,01626504,Hume township,T1,A
+MI,26,063,Huron County,40020,01626506,Huron township,T1,A
+MI,26,063,Huron County,44300,01626573,Lake township,T1,A
+MI,26,063,Huron County,47640,01626621,Lincoln township,T1,A
+MI,26,063,Huron County,50360,01626657,McKinley township,T1,A
+MI,26,063,Huron County,52600,01626714,Meade township,T1,A
+MI,26,063,Huron County,60520,01626842,Oliver township,T1,A
+MI,26,063,Huron County,62360,01626881,Paris township,T1,A
+MI,26,063,Huron County,65180,01626921,Pointe Aux Barques township,T1,A
+MI,26,063,Huron County,65700,01626928,Port Austin township,T1,A
+MI,26,063,Huron County,70140,01627014,Rubicon township,T1,A
+MI,26,063,Huron County,71260,01627039,Sand Beach township,T1,A
+MI,26,063,Huron County,72200,01627055,Sebewaing township,T1,A
+MI,26,063,Huron County,73040,01627066,Sheridan township,T1,A
+MI,26,063,Huron County,73160,01627071,Sherman township,T1,A
+MI,26,063,Huron County,73880,01627082,Sigel township,T1,A
+MI,26,063,Huron County,82140,01627197,Verona township,T1,A
+MI,26,063,Huron County,87960,01627281,Winsor township,T1,A
+MI,26,065,Ingham County,00800,01625809,Alaiedon township,T1,A
+MI,26,065,Ingham County,04240,01625864,Aurelius township,T1,A
+MI,26,065,Ingham County,11640,01626001,Bunker Hill township,T1,A
+MI,26,065,Ingham County,21420,01626174,Delhi charter township,T1,A
+MI,26,065,Ingham County,24120,01626207,East Lansing city,C5,F
+MI,26,065,Ingham County,40640,01626515,Ingham township,T1,A
+MI,26,065,Ingham County,46000,01626588,Lansing city,C5,F
+MI,26,065,Ingham County,46020,01626589,Lansing charter township,T1,A
+MI,26,065,Ingham County,47080,01626608,Leroy township,T1,A
+MI,26,065,Ingham County,47180,01626610,Leslie city,C5,F
+MI,26,065,Ingham County,47200,01626611,Leslie township,T1,A
+MI,26,065,Ingham County,49040,01626634,Locke township,T1,A
+MI,26,065,Ingham County,52180,01626706,Mason city,C5,F
+MI,26,065,Ingham County,53140,01626727,Meridian charter township,T1,A
+MI,26,065,Ingham County,60800,01626849,Onondaga township,T1,A
+MI,26,065,Ingham County,76580,01627127,Stockbridge township,T1,A
+MI,26,065,Ingham County,82220,01627198,Vevay township,T1,A
+MI,26,065,Ingham County,86520,01627254,Wheatfield township,T1,A
+MI,26,065,Ingham County,86900,01627265,White Oak township,T1,A
+MI,26,065,Ingham County,87420,01627274,Williamston city,C5,F
+MI,26,065,Ingham County,87440,01627275,Williamstown township,T1,A
+MI,26,067,Ionia County,06900,01625907,Belding city,C5,F
+MI,26,067,Ionia County,07700,01625923,Berlin township,T1,A
+MI,26,067,Ionia County,09680,01625962,Boston township,T1,A
+MI,26,067,Ionia County,12840,01626028,Campbell township,T1,A
+MI,26,067,Ionia County,19720,01626158,Danby township,T1,A
+MI,26,067,Ionia County,24220,01626208,Easton township,T1,A
+MI,26,067,Ionia County,40860,01626521,Ionia city,C5,F
+MI,26,067,Ionia County,40880,01626522,Ionia township,T1,A
+MI,26,067,Ionia County,42520,01626556,Keene township,T1,A
+MI,26,067,Ionia County,49920,01626652,Lyons township,T1,A
+MI,26,067,Ionia County,58720,01626814,North Plains township,T1,A
+MI,26,067,Ionia County,60200,01626837,Odessa township,T1,A
+MI,26,067,Ionia County,60920,01626853,Orange township,T1,A
+MI,26,067,Ionia County,61160,01626860,Orleans township,T1,A
+MI,26,067,Ionia County,61580,01626867,Otisco township,T1,A
+MI,26,067,Ionia County,65860,01626934,Portland city,C5,F
+MI,26,067,Ionia County,65880,01626935,Portland township,T1,A
+MI,26,067,Ionia County,69440,01627001,Ronald township,T1,A
+MI,26,067,Ionia County,72120,01627054,Sebewa township,T1,A
+MI,26,069,Iosco County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,069,Iosco County,00760,01625808,Alabaster township,T1,A
+MI,26,069,Iosco County,04300,01625865,Au Sable charter township,T1,A
+MI,26,069,Iosco County,04920,01625876,Baldwin township,T1,A
+MI,26,069,Iosco County,11740,01626003,Burleigh township,T1,A
+MI,26,069,Iosco County,24420,01626209,East Tawas city,C5,F
+MI,26,069,Iosco County,34280,01626380,Grant township,T1,A
+MI,26,069,Iosco County,61340,01626864,Oscoda charter township,T1,A
+MI,26,069,Iosco County,64640,01626911,Plainfield township,T1,A
+MI,26,069,Iosco County,67960,01626963,Reno township,T1,A
+MI,26,069,Iosco County,73180,01627072,Sherman township,T1,A
+MI,26,069,Iosco County,78100,01627151,Tawas township,T1,A
+MI,26,069,Iosco County,78140,01627152,Tawas City city,C5,F
+MI,26,069,Iosco County,87140,01627270,Whittemore city,C5,F
+MI,26,069,Iosco County,87180,01627271,Wilber township,T1,A
+MI,26,071,Iron County,05860,01625888,Bates township,T1,A
+MI,26,071,Iron County,13860,01626043,Caspian city,C5,F
+MI,26,071,Iron County,19140,01626146,Crystal Falls city,C5,F
+MI,26,071,Iron County,19150,01626147,Crystal Falls township,T1,A
+MI,26,071,Iron County,31160,01626327,Gaastra city,C5,F
+MI,26,071,Iron County,37580,01626462,Hematite township,T1,A
+MI,26,071,Iron County,40980,01626526,Iron River city,C5,F
+MI,26,071,Iron County,41000,01626527,Iron River township,T1,A
+MI,26,071,Iron County,50860,01626671,Mansfield township,T1,A
+MI,26,071,Iron County,52300,01626708,Mastodon township,T1,A
+MI,26,071,Iron County,76080,01627117,Stambaugh township,T1,A
+MI,26,073,Isabella County,11140,01625990,Broomfield township,T1,A
+MI,26,073,Isabella County,15580,01626079,Chippewa township,T1,A
+MI,26,073,Isabella County,15920,01626085,Clare city,C5,F
+MI,26,073,Isabella County,16880,01626105,Coe township,T1,A
+MI,26,073,Isabella County,17060,01626109,Coldwater township,T1,A
+MI,26,073,Isabella County,21140,01626168,Deerfield township,T1,A
+MI,26,073,Isabella County,21680,01626178,Denver township,T1,A
+MI,26,073,Isabella County,30680,01626316,Fremont township,T1,A
+MI,26,073,Isabella County,32200,01626354,Gilmore township,T1,A
+MI,26,073,Isabella County,41160,01626531,Isabella township,T1,A
+MI,26,073,Isabella County,47660,01626622,Lincoln township,T1,A
+MI,26,073,Isabella County,56020,01626776,Mount Pleasant city,C5,F
+MI,26,073,Isabella County,59360,01626826,Nottawa township,T1,A
+MI,26,073,Isabella County,69300,01626997,Rolland township,T1,A
+MI,26,073,Isabella County,73200,01627073,Sherman township,T1,A
+MI,26,073,Isabella County,81340,01627186,Union charter township,T1,A
+MI,26,073,Isabella County,82000,01627195,Vernon township,T1,A
+MI,26,073,Isabella County,88040,01627283,Wise township,T1,A
+MI,26,075,Jackson County,08760,01625943,Blackman charter township,T1,A
+MI,26,075,Jackson County,17400,01626119,Columbia township,T1,A
+MI,26,075,Jackson County,17760,01626127,Concord township,T1,A
+MI,26,075,Jackson County,34500,01626388,Grass Lake charter township,T1,A
+MI,26,075,Jackson County,36400,01626431,Hanover township,T1,A
+MI,26,075,Jackson County,37700,01626465,Henrietta township,T1,A
+MI,26,075,Jackson County,41420,01626535,Jackson city,C5,F
+MI,26,075,Jackson County,46980,01626605,Leoni township,T1,A
+MI,26,075,Jackson County,47360,01626613,Liberty township,T1,A
+MI,26,075,Jackson County,56640,01626789,Napoleon township,T1,A
+MI,26,075,Jackson County,59180,01626820,Norvell township,T1,A
+MI,26,075,Jackson County,62760,01626884,Parma township,T1,A
+MI,26,075,Jackson County,66440,01626944,Pulaski township,T1,A
+MI,26,075,Jackson County,68920,01626987,Rives township,T1,A
+MI,26,075,Jackson County,71500,01627041,Sandstone township,T1,A
+MI,26,075,Jackson County,75640,01627106,Spring Arbor township,T1,A
+MI,26,075,Jackson County,75880,01627112,Springport township,T1,A
+MI,26,075,Jackson County,77200,01627135,Summit township,T1,A
+MI,26,075,Jackson County,79980,01627168,Tompkins township,T1,A
+MI,26,075,Jackson County,84300,01627219,Waterloo township,T1,A
+MI,26,077,Kalamazoo County,00840,01625810,Alamo township,T1,A
+MI,26,077,Kalamazoo County,09920,01625967,Brady township,T1,A
+MI,26,077,Kalamazoo County,14720,01626059,Charleston township,T1,A
+MI,26,077,Kalamazoo County,16460,01626098,Climax township,T1,A
+MI,26,077,Kalamazoo County,17680,01626126,Comstock charter township,T1,A
+MI,26,077,Kalamazoo County,17980,01626131,Cooper charter township,T1,A
+MI,26,077,Kalamazoo County,31260,01626330,Galesburg city,C5,F
+MI,26,077,Kalamazoo County,42160,01626547,Kalamazoo city,C5,F
+MI,26,077,Kalamazoo County,42180,01626548,Kalamazoo charter township,T1,A
+MI,26,077,Kalamazoo County,61400,01626865,Oshtemo charter township,T1,A
+MI,26,077,Kalamazoo County,62340,01626880,Parchment city,C5,F
+MI,26,077,Kalamazoo County,62960,01626885,Pavilion township,T1,A
+MI,26,077,Kalamazoo County,65560,01626926,Portage city,C5,F
+MI,26,077,Kalamazoo County,66200,01626941,Prairie Ronde township,T1,A
+MI,26,077,Kalamazoo County,68260,01626970,Richland township,T1,A
+MI,26,077,Kalamazoo County,69820,01627009,Ross township,T1,A
+MI,26,077,Kalamazoo County,71880,01627049,Schoolcraft township,T1,A
+MI,26,077,Kalamazoo County,79300,01627158,Texas charter township,T1,A
+MI,26,077,Kalamazoo County,82840,01627206,Wakeshma township,T1,A
+MI,26,079,Kalkaska County,06440,01625897,Bear Lake township,T1,A
+MI,26,079,Kalkaska County,09320,01625955,Blue Lake township,T1,A
+MI,26,079,Kalkaska County,09440,01625958,Boardman township,T1,A
+MI,26,079,Kalkaska County,16340,01626094,Clearwater township,T1,A
+MI,26,079,Kalkaska County,17000,01626106,Coldsprings township,T1,A
+MI,26,079,Kalkaska County,26860,01626260,Excelsior township,T1,A
+MI,26,079,Kalkaska County,31600,01626338,Garfield township,T1,A
+MI,26,079,Kalkaska County,42280,01626550,Kalkaska township,T1,A
+MI,26,079,Kalkaska County,60540,01626843,Oliver township,T1,A
+MI,26,079,Kalkaska County,60940,01626854,Orange township,T1,A
+MI,26,079,Kalkaska County,67180,01626953,Rapid River township,T1,A
+MI,26,079,Kalkaska County,75720,01627109,Springfield township,T1,A
+MI,26,081,Kent County,00240,01625798,Ada township,T1,A
+MI,26,081,Kent County,01160,01625817,Algoma township,T1,A
+MI,26,081,Kent County,01840,01625834,Alpine township,T1,A
+MI,26,081,Kent County,09780,01625964,Bowne township,T1,A
+MI,26,081,Kent County,12240,01626016,Byron township,T1,A
+MI,26,081,Kent County,12500,01626020,Caledonia township,T1,A
+MI,26,081,Kent County,13080,01626029,Cannon township,T1,A
+MI,26,081,Kent County,13660,01626037,Cascade charter township,T1,A
+MI,26,081,Kent County,14200,01626049,Cedar Springs city,C5,F
+MI,26,081,Kent County,18500,01626137,Courtland township,T1,A
+MI,26,081,Kent County,23980,01626205,East Grand Rapids city,C5,F
+MI,26,081,Kent County,31240,01626329,Gaines charter township,T1,A
+MI,26,081,Kent County,34000,01626373,Grand Rapids city,C5,F
+MI,26,081,Kent County,34020,01626374,Grand Rapids charter township,T1,A
+MI,26,081,Kent County,34160,01626375,Grandville city,C5,F
+MI,26,081,Kent County,34560,01626389,Grattan township,T1,A
+MI,26,081,Kent County,42820,01626558,Kentwood city,C5,F
+MI,26,081,Kent County,49540,01626644,Lowell city,C5,F
+MI,26,081,Kent County,49560,01626645,Lowell charter township,T1,A
+MI,26,081,Kent County,56920,01626792,Nelson township,T1,A
+MI,26,081,Kent County,59580,01626832,Oakfield township,T1,A
+MI,26,081,Kent County,64660,01626912,Plainfield charter township,T1,A
+MI,26,081,Kent County,69080,01626991,Rockford city,C5,F
+MI,26,081,Kent County,74460,01627088,Solon township,T1,A
+MI,26,081,Kent County,75440,01627102,Sparta township,T1,A
+MI,26,081,Kent County,75560,01627105,Spencer township,T1,A
+MI,26,081,Kent County,81140,01627181,Tyrone township,T1,A
+MI,26,081,Kent County,81920,01627193,Vergennes township,T1,A
+MI,26,081,Kent County,82960,01627209,Walker city,C5,F
+MI,26,081,Kent County,88940,01627295,Wyoming city,C5,F
+MI,26,083,Keweenaw County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,083,Keweenaw County,01520,01625825,Allouez township,T1,A
+MI,26,083,Keweenaw County,23620,01626201,Eagle Harbor township,T1,A
+MI,26,083,Keweenaw County,34300,01626381,Grant township,T1,A
+MI,26,083,Keweenaw County,39380,01626493,Houghton township,T1,A
+MI,26,083,Keweenaw County,73220,01627074,Sherman township,T1,A
+MI,26,085,Lake County,14880,01626064,Chase township,T1,A
+MI,26,085,Lake County,15100,01626068,Cherry Valley township,T1,A
+MI,26,085,Lake County,22800,01626188,Dover township,T1,A
+MI,26,085,Lake County,24800,01626216,Eden township,T1,A
+MI,26,085,Lake County,25260,01626224,Elk township,T1,A
+MI,26,085,Lake County,25440,01626230,Ellsworth township,T1,A
+MI,26,085,Lake County,44320,01626574,Lake township,T1,A
+MI,26,085,Lake County,57480,01626803,Newkirk township,T1,A
+MI,26,085,Lake County,63120,01626887,Peacock township,T1,A
+MI,26,085,Lake County,64440,01626906,Pinora township,T1,A
+MI,26,085,Lake County,64880,01626916,Pleasant Plains township,T1,A
+MI,26,085,Lake County,71680,01627044,Sauble township,T1,A
+MI,26,085,Lake County,77740,01627146,Sweetwater township,T1,A
+MI,26,085,Lake County,85060,01627236,Webber township,T1,A
+MI,26,085,Lake County,89040,01627298,Yates township,T1,A
+MI,26,087,Lapeer County,01680,01625830,Almont township,T1,A
+MI,26,087,Lapeer County,03280,01625844,Arcadia township,T1,A
+MI,26,087,Lapeer County,04040,01625858,Attica township,T1,A
+MI,26,087,Lapeer County,11180,01625992,Brown City city,C5,F
+MI,26,087,Lapeer County,11840,01626005,Burlington township,T1,A
+MI,26,087,Lapeer County,11900,01626006,Burnside township,T1,A
+MI,26,087,Lapeer County,21160,01626169,Deerfield township,T1,A
+MI,26,087,Lapeer County,23160,01626194,Dryden township,T1,A
+MI,26,087,Lapeer County,25160,01626222,Elba township,T1,A
+MI,26,087,Lapeer County,32960,01626363,Goodland township,T1,A
+MI,26,087,Lapeer County,35840,01626417,Hadley township,T1,A
+MI,26,087,Lapeer County,40300,01626509,Imlay township,T1,A
+MI,26,087,Lapeer County,40320,01626510,Imlay City city,C5,F
+MI,26,087,Lapeer County,46040,01626590,Lapeer city,C5,F
+MI,26,087,Lapeer County,46060,01626591,Lapeer township,T1,A
+MI,26,087,Lapeer County,51420,01626682,Marathon township,T1,A
+MI,26,087,Lapeer County,52500,01626713,Mayfield township,T1,A
+MI,26,087,Lapeer County,53360,01626730,Metamora township,T1,A
+MI,26,087,Lapeer County,58090,01626811,North Branch township,T1,A
+MI,26,087,Lapeer County,61060,01626857,Oregon township,T1,A
+MI,26,087,Lapeer County,68160,01626967,Rich township,T1,A
+MI,26,089,Leelanau County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,089,Leelanau County,08440,01625939,Bingham township,T1,A
+MI,26,089,Leelanau County,14340,01626053,Centerville township,T1,A
+MI,26,089,Leelanau County,16400,01626097,Cleveland township,T1,A
+MI,26,089,Leelanau County,25700,01626235,Elmwood charter township,T1,A
+MI,26,089,Leelanau County,26000,01626241,Empire township,T1,A
+MI,26,089,Leelanau County,32380,01626359,Glen Arbor township,T1,A
+MI,26,089,Leelanau County,42320,01626551,Kasson township,T1,A
+MI,26,089,Leelanau County,46700,01626601,Leelanau township,T1,A
+MI,26,089,Leelanau County,46820,01626603,Leland township,T1,A
+MI,26,089,Leelanau County,74500,01627089,Solon township,T1,A
+MI,26,089,Leelanau County,77620,01627143,Suttons Bay township,T1,A
+MI,26,089,Leelanau County,80340,01627171,Traverse City city,C5,F
+MI,26,091,Lenawee County,00440,01625803,Adrian city,C5,F
+MI,26,091,Lenawee County,00460,01625804,Adrian township,T1,A
+MI,26,091,Lenawee County,09020,01625948,Blissfield township,T1,A
+MI,26,091,Lenawee County,12720,01626026,Cambridge township,T1,A
+MI,26,091,Lenawee County,16500,01626099,Clinton township,T1,A
+MI,26,091,Lenawee County,21200,01626170,Deerfield township,T1,A
+MI,26,091,Lenawee County,22820,01626189,Dover township,T1,A
+MI,26,091,Lenawee County,27020,01626263,Fairfield township,T1,A
+MI,26,091,Lenawee County,30320,01626308,Franklin township,T1,A
+MI,26,091,Lenawee County,39720,01626498,Hudson city,C5,F
+MI,26,091,Lenawee County,39740,01626499,Hudson township,T1,A
+MI,26,091,Lenawee County,50520,01626661,Macon township,T1,A
+MI,26,091,Lenawee County,50540,01626662,Madison charter township,T1,A
+MI,26,091,Lenawee County,52820,01626717,Medina township,T1,A
+MI,26,091,Lenawee County,55500,01626767,Morenci city,C5,F
+MI,26,091,Lenawee County,60260,01626838,Ogden township,T1,A
+MI,26,091,Lenawee County,62240,01626878,Palmyra township,T1,A
+MI,26,091,Lenawee County,66840,01626950,Raisin township,T1,A
+MI,26,091,Lenawee County,68540,01626979,Ridgeway township,T1,A
+MI,26,091,Lenawee County,68580,01626980,Riga township,T1,A
+MI,26,091,Lenawee County,69340,01626998,Rollin township,T1,A
+MI,26,091,Lenawee County,69360,01626999,Rome township,T1,A
+MI,26,091,Lenawee County,72440,01627058,Seneca township,T1,A
+MI,26,091,Lenawee County,79120,01627155,Tecumseh city,C5,F
+MI,26,091,Lenawee County,79140,01627156,Tecumseh township,T1,A
+MI,26,091,Lenawee County,88640,01627290,Woodstock township,T1,A
+MI,26,093,Livingston County,10620,01625981,Brighton city,C5,F
+MI,26,093,Livingston County,10640,01625982,Brighton township,T1,A
+MI,26,093,Livingston County,16920,01623162,Cohoctah township,T1,A
+MI,26,093,Livingston County,17920,01626130,Conway township,T1,A
+MI,26,093,Livingston County,21220,01626171,Deerfield township,T1,A
+MI,26,093,Livingston County,27760,01626275,Fenton city,C5,F
+MI,26,093,Livingston County,31860,01626345,Genoa township,T1,A
+MI,26,093,Livingston County,35060,01626400,Green Oak township,T1,A
+MI,26,093,Livingston County,36100,01626420,Hamburg township,T1,A
+MI,26,093,Livingston County,36340,01626430,Handy township,T1,A
+MI,26,093,Livingston County,37040,01626446,Hartland township,T1,A
+MI,26,093,Livingston County,39540,01626495,Howell city,C5,F
+MI,26,093,Livingston County,39560,01626496,Howell township,T1,A
+MI,26,093,Livingston County,40900,01626523,Iosco township,T1,A
+MI,26,093,Livingston County,51640,01626689,Marion township,T1,A
+MI,26,093,Livingston County,60120,01626835,Oceola township,T1,A
+MI,26,093,Livingston County,66540,01626946,Putnam township,T1,A
+MI,26,093,Livingston County,81160,01627182,Tyrone township,T1,A
+MI,26,093,Livingston County,81240,01627183,Unadilla township,T1,A
+MI,26,095,Luce County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,095,Luce County,17480,01626122,Columbus township,T1,A
+MI,26,095,Luce County,44540,01626582,Lakefield township,T1,A
+MI,26,095,Luce County,50440,01626658,McMillan township,T1,A
+MI,26,095,Luce County,63500,01626892,Pentland township,T1,A
+MI,26,097,Mackinac County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,097,Mackinac County,09500,01625960,Bois Blanc township,T1,A
+MI,26,097,Mackinac County,10360,01625975,Brevort township,T1,A
+MI,26,097,Mackinac County,16060,01626088,Clark township,T1,A
+MI,26,097,Mackinac County,31620,01626339,Garfield township,T1,A
+MI,26,097,Mackinac County,37660,01626464,Hendricks township,T1,A
+MI,26,097,Mackinac County,39760,01626500,Hudson township,T1,A
+MI,26,097,Mackinac County,50280,01626654,Mackinac Island city,C5,F
+MI,26,097,Mackinac County,51880,01626696,Marquette township,T1,A
+MI,26,097,Mackinac County,55480,01626766,Moran township,T1,A
+MI,26,097,Mackinac County,57640,01626805,Newton township,T1,A
+MI,26,097,Mackinac County,65600,01626927,Portage township,T1,A
+MI,26,097,Mackinac County,70840,01627027,St. Ignace city,C5,F
+MI,26,097,Mackinac County,70860,01627028,St. Ignace township,T1,A
+MI,26,099,Macomb County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,099,Macomb County,03540,01625850,Armada township,T1,A
+MI,26,099,Macomb County,11300,01625995,Bruce township,T1,A
+MI,26,099,Macomb County,14320,01626052,Center Line city,C5,F
+MI,26,099,Macomb County,15340,01626074,Chesterfield township,T1,A
+MI,26,099,Macomb County,16520,01626100,Clinton charter township,T1,A
+MI,26,099,Macomb County,24290,01626204,Eastpointe city,C5,F
+MI,26,099,Macomb County,30420,01626310,Fraser city,C5,F
+MI,26,099,Macomb County,36820,01626439,Harrison charter township,T1,A
+MI,26,099,Macomb County,46900,01626604,Lenox township,T1,A
+MI,26,099,Macomb County,50480,01626660,Macomb township,T1,A
+MI,26,099,Macomb County,52960,01626721,Memphis city,C5,F
+MI,26,099,Macomb County,55820,01626771,Mount Clemens city,C5,F
+MI,26,099,Macomb County,57100,01626796,New Baltimore city,C5,F
+MI,26,099,Macomb County,67420,01626955,Ray township,T1,A
+MI,26,099,Macomb County,68380,01626975,Richmond city,C5,F
+MI,26,099,Macomb County,68400,01626976,Richmond township,T1,A
+MI,26,099,Macomb County,69800,01627008,Roseville city,C5,F
+MI,26,099,Macomb County,70760,01627026,St. Clair Shores city,C5,F
+MI,26,099,Macomb County,72820,01627062,Shelby charter township,T1,A
+MI,26,099,Macomb County,76460,01627126,Sterling Heights city,C5,F
+MI,26,099,Macomb County,81540,01627187,Utica city,C5,F
+MI,26,099,Macomb County,82453,02398212,Village of Grosse Pointe Shores city,C5,F
+MI,26,099,Macomb County,84000,01627213,Warren city,C5,F
+MI,26,099,Macomb County,84120,01627216,Washington charter township,T1,A
+MI,26,101,Manistee County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,101,Manistee County,03320,01625845,Arcadia township,T1,A
+MI,26,101,Manistee County,06480,01625898,Bear Lake township,T1,A
+MI,26,101,Manistee County,11160,01625991,Brown township,T1,A
+MI,26,101,Manistee County,16380,01626096,Cleon township,T1,A
+MI,26,101,Manistee County,22320,01626185,Dickson township,T1,A
+MI,26,101,Manistee County,28040,01626282,Filer charter township,T1,A
+MI,26,101,Manistee County,50720,01626666,Manistee city,C5,F
+MI,26,101,Manistee County,50740,01626667,Manistee township,T1,A
+MI,26,101,Manistee County,51000,01626675,Maple Grove township,T1,A
+MI,26,101,Manistee County,51580,01626686,Marilla township,T1,A
+MI,26,101,Manistee County,57900,01626809,Norman township,T1,A
+MI,26,101,Manistee County,60760,01626848,Onekama township,T1,A
+MI,26,101,Manistee County,64860,01626915,Pleasanton township,T1,A
+MI,26,101,Manistee County,75680,01627107,Springdale township,T1,A
+MI,26,101,Manistee County,76840,01627128,Stronach township,T1,A
+MI,26,103,Marquette County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,103,Marquette County,14540,01626055,Champion township,T1,A
+MI,26,103,Marquette County,15660,01626081,Chocolay charter township,T1,A
+MI,26,103,Marquette County,25820,01626237,Ely township,T1,A
+MI,26,103,Marquette County,26840,01626259,Ewing township,T1,A
+MI,26,103,Marquette County,29720,01626299,Forsyth township,T1,A
+MI,26,103,Marquette County,39940,01626503,Humboldt township,T1,A
+MI,26,103,Marquette County,41220,01626532,Ishpeming city,C5,F
+MI,26,103,Marquette County,41240,01626533,Ishpeming township,T1,A
+MI,26,103,Marquette County,51900,01626697,Marquette city,C5,F
+MI,26,103,Marquette County,51920,01626698,Marquette charter township,T1,A
+MI,26,103,Marquette County,53540,01626733,Michigamme township,T1,A
+MI,26,103,Marquette County,56860,01626790,Negaunee city,C5,F
+MI,26,103,Marquette County,56880,01626791,Negaunee township,T1,A
+MI,26,103,Marquette County,66120,01626940,Powell township,T1,A
+MI,26,103,Marquette County,68000,01626964,Republic township,T1,A
+MI,26,103,Marquette County,68420,01626977,Richmond township,T1,A
+MI,26,103,Marquette County,71460,01627040,Sands township,T1,A
+MI,26,103,Marquette County,74110,01627085,Skandia township,T1,A
+MI,26,103,Marquette County,79780,01627165,Tilden township,T1,A
+MI,26,103,Marquette County,80780,01627177,Turin township,T1,A
+MI,26,103,Marquette County,85260,01627242,Wells township,T1,A
+MI,26,103,Marquette County,85540,01627246,West Branch township,T1,A
+MI,26,105,Mason County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,105,Mason County,01980,01625835,Amber township,T1,A
+MI,26,105,Mason County,10020,01625970,Branch township,T1,A
+MI,26,105,Mason County,19440,01626152,Custer township,T1,A
+MI,26,105,Mason County,24820,01626217,Eden township,T1,A
+MI,26,105,Mason County,30620,01626315,Free Soil township,T1,A
+MI,26,105,Mason County,34320,01626382,Grant township,T1,A
+MI,26,105,Mason County,36220,01626425,Hamlin township,T1,A
+MI,26,105,Mason County,49140,01626637,Logan township,T1,A
+MI,26,105,Mason County,49640,01626646,Ludington city,C5,F
+MI,26,105,Mason County,52640,01626715,Meade township,T1,A
+MI,26,105,Mason County,63600,01626894,Pere Marquette charter township,T1,A
+MI,26,105,Mason County,68860,01626985,Riverton township,T1,A
+MI,26,105,Mason County,72080,01627053,Scottville city,C5,F
+MI,26,105,Mason County,73060,01627067,Sheridan township,T1,A
+MI,26,105,Mason County,73240,01627075,Sherman township,T1,A
+MI,26,105,Mason County,77220,01627136,Summit township,T1,A
+MI,26,105,Mason County,82360,01627200,Victory township,T1,A
+MI,26,107,Mecosta County,00500,01625805,Aetna township,T1,A
+MI,26,107,Mecosta County,04380,01625867,Austin township,T1,A
+MI,26,107,Mecosta County,08300,01625934,Big Rapids city,C5,F
+MI,26,107,Mecosta County,08320,01625935,Big Rapids charter township,T1,A
+MI,26,107,Mecosta County,15600,01626080,Chippewa township,T1,A
+MI,26,107,Mecosta County,17160,01626113,Colfax township,T1,A
+MI,26,107,Mecosta County,21240,01626172,Deerfield township,T1,A
+MI,26,107,Mecosta County,29680,01626298,Fork township,T1,A
+MI,26,107,Mecosta County,34340,01626383,Grant township,T1,A
+MI,26,107,Mecosta County,34760,01626393,Green charter township,T1,A
+MI,26,107,Mecosta County,38540,01626476,Hinton township,T1,A
+MI,26,107,Mecosta County,52060,01626702,Martiny township,T1,A
+MI,26,107,Mecosta County,52780,01626716,Mecosta township,T1,A
+MI,26,107,Mecosta County,54020,01626742,Millbrook township,T1,A
+MI,26,107,Mecosta County,55600,01626768,Morton township,T1,A
+MI,26,107,Mecosta County,73080,01627068,Sheridan township,T1,A
+MI,26,107,Mecosta County,86560,01627256,Wheatland township,T1,A
+MI,26,109,Menominee County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,109,Menominee County,14240,01626050,Cedarville township,T1,A
+MI,26,109,Menominee County,19580,01626155,Daggett township,T1,A
+MI,26,109,Menominee County,27300,01626268,Faithorn township,T1,A
+MI,26,109,Menominee County,33160,01626366,Gourley township,T1,A
+MI,26,109,Menominee County,36760,01626437,Harris township,T1,A
+MI,26,109,Menominee County,38760,01626481,Holmes township,T1,A
+MI,26,109,Menominee County,40600,01626513,Ingallston township,T1,A
+MI,26,109,Menominee County,44360,01626576,Lake township,T1,A
+MI,26,109,Menominee County,52860,01626718,Mellen township,T1,A
+MI,26,109,Menominee County,53020,01626723,Menominee city,C5,F
+MI,26,109,Menominee County,53040,01626724,Menominee township,T1,A
+MI,26,109,Menominee County,53460,01626732,Meyer township,T1,A
+MI,26,109,Menominee County,56440,01626787,Nadeau township,T1,A
+MI,26,109,Menominee County,75350,01627101,Spalding township,T1,A
+MI,26,109,Menominee County,76380,01627124,Stephenson city,C5,F
+MI,26,109,Menominee County,76400,01627125,Stephenson township,T1,A
+MI,26,111,Midland County,17100,01626110,Coleman city,C5,F
+MI,26,111,Midland County,24830,01626218,Edenville township,T1,A
+MI,26,111,Midland County,31820,01626343,Geneva township,T1,A
+MI,26,111,Midland County,34860,01626396,Greendale township,T1,A
+MI,26,111,Midland County,38980,01626486,Homer township,T1,A
+MI,26,111,Midland County,39160,01626489,Hope township,T1,A
+MI,26,111,Midland County,40620,01626514,Ingersoll township,T1,A
+MI,26,111,Midland County,41560,01626538,Jasper township,T1,A
+MI,26,111,Midland County,41760,01626541,Jerome township,T1,A
+MI,26,111,Midland County,46160,01626592,Larkin charter township,T1,A
+MI,26,111,Midland County,46640,01626600,Lee township,T1,A
+MI,26,111,Midland County,47680,01626623,Lincoln township,T1,A
+MI,26,111,Midland County,53780,01626736,Midland city,C5,F
+MI,26,111,Midland County,53800,01626737,Midland charter township,T1,A
+MI,26,111,Midland County,54320,01626745,Mills township,T1,A
+MI,26,111,Midland County,55940,01626773,Mount Haley township,T1,A
+MI,26,111,Midland County,65740,01626930,Porter township,T1,A
+MI,26,111,Midland County,84020,01627214,Warren township,T1,A
+MI,26,113,Missaukee County,00520,01625806,Aetna township,T1,A
+MI,26,113,Missaukee County,09080,01625951,Bloomfield township,T1,A
+MI,26,113,Missaukee County,12200,01626015,Butterfield township,T1,A
+MI,26,113,Missaukee County,12440,01626018,Caldwell township,T1,A
+MI,26,113,Missaukee County,15900,01626084,Clam Union township,T1,A
+MI,26,113,Missaukee County,26200,01626244,Enterprise township,T1,A
+MI,26,113,Missaukee County,29440,01626295,Forest township,T1,A
+MI,26,113,Missaukee County,38620,01626477,Holland township,T1,A
+MI,26,113,Missaukee County,44380,01626577,Lake township,T1,A
+MI,26,113,Missaukee County,44480,01626581,Lake City city,C5,F
+MI,26,113,Missaukee County,49980,01626653,McBain city,C5,F
+MI,26,113,Missaukee County,59280,01626823,Norwich township,T1,A
+MI,26,113,Missaukee County,64460,01626907,Pioneer township,T1,A
+MI,26,113,Missaukee County,67840,01626962,Reeder township,T1,A
+MI,26,113,Missaukee County,68280,01626971,Richland township,T1,A
+MI,26,113,Missaukee County,68820,01626984,Riverside township,T1,A
+MI,26,113,Missaukee County,85560,01627247,West Branch township,T1,A
+MI,26,115,Monroe County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,115,Monroe County,03680,01625853,Ash township,T1,A
+MI,26,115,Monroe County,06740,01625906,Bedford township,T1,A
+MI,26,115,Monroe County,07720,01625924,Berlin charter township,T1,A
+MI,26,115,Monroe County,23400,01626196,Dundee township,T1,A
+MI,26,115,Monroe County,26320,01626245,Erie township,T1,A
+MI,26,115,Monroe County,26880,01626261,Exeter township,T1,A
+MI,26,115,Monroe County,28360,01626284,Flat Rock city,C5,F
+MI,26,115,Monroe County,30820,01626321,Frenchtown township,T1,A
+MI,26,115,Monroe County,40260,01626508,Ida township,T1,A
+MI,26,115,Monroe County,46260,01626593,La Salle township,T1,A
+MI,26,115,Monroe County,49180,01626639,London township,T1,A
+MI,26,115,Monroe County,49700,01626647,Luna Pier city,C5,F
+MI,26,115,Monroe County,53900,01626739,Milan township,T1,A
+MI,26,115,Monroe County,53920,01626740,Milan city,C5,F
+MI,26,115,Monroe County,55020,01626754,Monroe city,C5,F
+MI,26,115,Monroe County,55040,01626755,Monroe charter township,T1,A
+MI,26,115,Monroe County,63800,01626897,Petersburg city,C5,F
+MI,26,115,Monroe County,66900,01626951,Raisinville township,T1,A
+MI,26,115,Monroe County,77140,01627134,Summerfield township,T1,A
+MI,26,115,Monroe County,86740,01627261,Whiteford township,T1,A
+MI,26,117,Montcalm County,07200,01625911,Belvidere township,T1,A
+MI,26,117,Montcalm County,09040,01625949,Bloomer township,T1,A
+MI,26,117,Montcalm County,12120,01626012,Bushnell township,T1,A
+MI,26,117,Montcalm County,13600,01626036,Carson City city,C5,F
+MI,26,117,Montcalm County,14000,01626045,Cato township,T1,A
+MI,26,117,Montcalm County,19080,01626144,Crystal township,T1,A
+MI,26,117,Montcalm County,19920,01626161,Day township,T1,A
+MI,26,117,Montcalm County,22760,01626187,Douglass township,T1,A
+MI,26,117,Montcalm County,26520,01626251,Eureka township,T1,A
+MI,26,117,Montcalm County,26720,01626257,Evergreen township,T1,A
+MI,26,117,Montcalm County,27180,01626267,Fairplain township,T1,A
+MI,26,117,Montcalm County,27900,01626278,Ferris township,T1,A
+MI,26,117,Montcalm County,35100,01626401,Greenville city,C5,F
+MI,26,117,Montcalm County,38840,01626483,Home township,T1,A
+MI,26,117,Montcalm County,51340,01626680,Maple Valley township,T1,A
+MI,26,117,Montcalm County,55140,01626759,Montcalm township,T1,A
+MI,26,117,Montcalm County,64040,01626900,Pierson township,T1,A
+MI,26,117,Montcalm County,64200,01626903,Pine township,T1,A
+MI,26,117,Montcalm County,68120,01626966,Reynolds township,T1,A
+MI,26,117,Montcalm County,68300,01626972,Richland township,T1,A
+MI,26,117,Montcalm County,73840,01627081,Sidney township,T1,A
+MI,26,117,Montcalm County,76220,01627122,Stanton city,C5,F
+MI,26,117,Montcalm County,87880,01627280,Winfield township,T1,A
+MI,26,119,Montmorency County,00940,01625812,Albert township,T1,A
+MI,26,119,Montmorency County,04580,01625870,Avery township,T1,A
+MI,26,119,Montmorency County,10660,01625983,Briley township,T1,A
+MI,26,119,Montmorency County,38400,01626473,Hillman township,T1,A
+MI,26,119,Montmorency County,49480,01626642,Loud township,T1,A
+MI,26,119,Montmorency County,55240,01626761,Montmorency township,T1,A
+MI,26,119,Montmorency County,70380,01627017,Rust township,T1,A
+MI,26,119,Montmorency County,82420,01627202,Vienna township,T1,A
+MI,26,121,Muskegon County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,121,Muskegon County,09340,01625956,Blue Lake township,T1,A
+MI,26,121,Muskegon County,13840,01626042,Casnovia township,T1,A
+MI,26,121,Muskegon County,14100,01626047,Cedar Creek township,T1,A
+MI,26,121,Muskegon County,19660,01626157,Dalton township,T1,A
+MI,26,121,Muskegon County,25080,01626220,Egelston township,T1,A
+MI,26,121,Muskegon County,30980,01626324,Fruitland township,T1,A
+MI,26,121,Muskegon County,31020,01626325,Fruitport charter township,T1,A
+MI,26,121,Muskegon County,38820,01626482,Holton township,T1,A
+MI,26,121,Muskegon County,45160,01626584,Laketon township,T1,A
+MI,26,121,Muskegon County,55100,01626757,Montague city,C5,F
+MI,26,121,Muskegon County,55120,01626758,Montague township,T1,A
+MI,26,121,Muskegon County,55440,01626765,Moorland township,T1,A
+MI,26,121,Muskegon County,56320,01626783,Muskegon city,C5,F
+MI,26,121,Muskegon County,56340,01626784,Muskegon charter township,T1,A
+MI,26,121,Muskegon County,56360,01626785,Muskegon Heights city,C5,F
+MI,26,121,Muskegon County,58640,01626813,North Muskegon city,C5,F
+MI,26,121,Muskegon County,59140,01626819,Norton Shores city,C5,F
+MI,26,121,Muskegon County,67300,01626954,Ravenna township,T1,A
+MI,26,121,Muskegon County,69520,01627002,Roosevelt Park city,C5,F
+MI,26,121,Muskegon County,77100,01627132,Sullivan township,T1,A
+MI,26,121,Muskegon County,86780,01627262,Whitehall city,C5,F
+MI,26,121,Muskegon County,86800,01627263,Whitehall township,T1,A
+MI,26,121,Muskegon County,86980,01627267,White River township,T1,A
+MI,26,123,Newaygo County,03700,01625854,Ashland township,T1,A
+MI,26,123,Newaygo County,05620,01625886,Barton township,T1,A
+MI,26,123,Newaygo County,06580,01625901,Beaver township,T1,A
+MI,26,123,Newaygo County,08280,01625933,Big Prairie township,T1,A
+MI,26,123,Newaygo County,10500,01625978,Bridgeton township,T1,A
+MI,26,123,Newaygo County,11060,01625989,Brooks township,T1,A
+MI,26,123,Newaygo County,18980,01626143,Croton township,T1,A
+MI,26,123,Newaygo County,19960,01626162,Dayton township,T1,A
+MI,26,123,Newaygo County,21700,01626179,Denver township,T1,A
+MI,26,123,Newaygo County,26160,01626243,Ensley township,T1,A
+MI,26,123,Newaygo County,26700,01626256,Everett township,T1,A
+MI,26,123,Newaygo County,30700,01626317,Fremont city,C5,F
+MI,26,123,Newaygo County,31640,01626340,Garfield township,T1,A
+MI,26,123,Newaygo County,33000,01626364,Goodwell township,T1,A
+MI,26,123,Newaygo County,34360,01626384,Grant city,C5,F
+MI,26,123,Newaygo County,34380,01626385,Grant township,T1,A
+MI,26,123,Newaygo County,38860,01626484,Home township,T1,A
+MI,26,123,Newaygo County,47440,01626615,Lilley township,T1,A
+MI,26,123,Newaygo County,47700,01626624,Lincoln township,T1,A
+MI,26,123,Newaygo County,53160,01626728,Merrill township,T1,A
+MI,26,123,Newaygo County,55060,01626756,Monroe township,T1,A
+MI,26,123,Newaygo County,57080,01626795,Newaygo city,C5,F
+MI,26,123,Newaygo County,59300,01626824,Norwich township,T1,A
+MI,26,123,Newaygo County,73120,01627069,Sheridan charter township,T1,A
+MI,26,123,Newaygo County,73260,01627076,Sherman township,T1,A
+MI,26,123,Newaygo County,80680,01627175,Troy township,T1,A
+MI,26,123,Newaygo County,86680,01627259,White Cloud city,C5,F
+MI,26,123,Newaygo County,87200,01627272,Wilcox township,T1,A
+MI,26,125,Oakland County,00400,01625802,Addison township,T1,A
+MI,26,125,Oakland County,04105,01625860,Auburn Hills city,C5,F
+MI,26,125,Oakland County,07660,01625922,Berkley city,C5,F
+MI,26,125,Oakland County,08640,01625941,Birmingham city,C5,F
+MI,26,125,Oakland County,09110,01625952,Bloomfield charter township,T1,A
+MI,26,125,Oakland County,09180,01625953,Bloomfield Hills city,C5,F
+MI,26,125,Oakland County,10040,01625971,Brandon charter township,T1,A
+MI,26,125,Oakland County,16160,01626089,Clawson city,C5,F
+MI,26,125,Oakland County,17640,01626125,Commerce charter township,T1,A
+MI,26,125,Oakland County,27380,01626269,Farmington city,C5,F
+MI,26,125,Oakland County,27440,01626270,Farmington Hills city,C5,F
+MI,26,125,Oakland County,27760,01626275,Fenton city,C5,F
+MI,26,125,Oakland County,27880,01626277,Ferndale city,C5,F
+MI,26,125,Oakland County,35640,01626414,Groveland township,T1,A
+MI,26,125,Oakland County,37420,01626457,Hazel Park city,C5,F
+MI,26,125,Oakland County,38080,01626469,Highland charter township,T1,A
+MI,26,125,Oakland County,38720,01626480,Holly township,T1,A
+MI,26,125,Oakland County,40000,01626505,Huntington Woods city,C5,F
+MI,26,125,Oakland County,40400,01626511,Independence charter township,T1,A
+MI,26,125,Oakland County,42460,01626554,Keego Harbor city,C5,F
+MI,26,125,Oakland County,44440,01626579,Lake Angelus city,C5,F
+MI,26,125,Oakland County,46320,01626594,Lathrup Village city,C5,F
+MI,26,125,Oakland County,49820,01626650,Lyon charter township,T1,A
+MI,26,125,Oakland County,50560,01626663,Madison Heights city,C5,F
+MI,26,125,Oakland County,53980,01626741,Milford charter township,T1,A
+MI,26,125,Oakland County,58980,01626817,Northville city,C5,F
+MI,26,125,Oakland County,59440,01626829,Novi city,C5,F
+MI,26,125,Oakland County,59460,01626830,Novi township,T1,A
+MI,26,125,Oakland County,59820,01626833,Oakland charter township,T1,A
+MI,26,125,Oakland County,59920,01626834,Oak Park city,C5,F
+MI,26,125,Oakland County,61020,01626856,Orchard Lake Village city,C5,F
+MI,26,125,Oakland County,61100,01626859,Orion charter township,T1,A
+MI,26,125,Oakland County,62040,01626877,Oxford charter township,T1,A
+MI,26,125,Oakland County,64900,01626917,Pleasant Ridge city,C5,F
+MI,26,125,Oakland County,65440,01626924,Pontiac city,C5,F
+MI,26,125,Oakland County,69020,01626989,Rochester city,C5,F
+MI,26,125,Oakland County,69035,01626990,Rochester Hills city,C5,F
+MI,26,125,Oakland County,69580,01627004,Rose township,T1,A
+MI,26,125,Oakland County,70040,01627011,Royal Oak city,C5,F
+MI,26,125,Oakland County,70060,01627012,Royal Oak charter township,T1,A
+MI,26,125,Oakland County,74900,01627095,Southfield city,C5,F
+MI,26,125,Oakland County,74920,01627096,Southfield township,T1,A
+MI,26,125,Oakland County,75100,01627100,South Lyon city,C5,F
+MI,26,125,Oakland County,75760,01627110,Springfield charter township,T1,A
+MI,26,125,Oakland County,77860,01627149,Sylvan Lake city,C5,F
+MI,26,125,Oakland County,80700,01627176,Troy city,C5,F
+MI,26,125,Oakland County,82450,02396048,Village of Clarkston city,C5,F
+MI,26,125,Oakland County,83060,01627210,Walled Lake city,C5,F
+MI,26,125,Oakland County,84240,01627218,Waterford charter township,T1,A
+MI,26,125,Oakland County,85480,01627244,West Bloomfield charter township,T1,A
+MI,26,125,Oakland County,86860,01627264,White Lake charter township,T1,A
+MI,26,125,Oakland County,88140,01627285,Wixom city,C5,F
+MI,26,127,Oceana County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,127,Oceana County,07300,01625914,Benona township,T1,A
+MI,26,127,Oceana County,16200,01626091,Claybanks township,T1,A
+MI,26,127,Oceana County,17180,01626114,Colfax township,T1,A
+MI,26,127,Oceana County,19100,01626145,Crystal township,T1,A
+MI,26,127,Oceana County,25200,01626223,Elbridge township,T1,A
+MI,26,127,Oceana County,27940,01626279,Ferry township,T1,A
+MI,26,127,Oceana County,32780,01626361,Golden township,T1,A
+MI,26,127,Oceana County,34400,01626386,Grant township,T1,A
+MI,26,127,Oceana County,35160,01626403,Greenwood township,T1,A
+MI,26,127,Oceana County,36920,01626442,Hart city,C5,F
+MI,26,127,Oceana County,36940,01626443,Hart township,T1,A
+MI,26,127,Oceana County,46560,01626596,Leavitt township,T1,A
+MI,26,127,Oceana County,57300,01626800,Newfield township,T1,A
+MI,26,127,Oceana County,61780,01626871,Otto township,T1,A
+MI,26,127,Oceana County,63560,01626893,Pentwater township,T1,A
+MI,26,127,Oceana County,72860,01627063,Shelby township,T1,A
+MI,26,127,Oceana County,85040,01627235,Weare township,T1,A
+MI,26,129,Ogemaw County,15740,01626082,Churchill township,T1,A
+MI,26,129,Ogemaw County,19260,01626149,Cumming township,T1,A
+MI,26,129,Ogemaw County,25020,01626219,Edwards township,T1,A
+MI,26,129,Ogemaw County,29860,01626301,Foster township,T1,A
+MI,26,129,Ogemaw County,32860,01626362,Goodar township,T1,A
+MI,26,129,Ogemaw County,38300,01626472,Hill township,T1,A
+MI,26,129,Ogemaw County,39320,01626491,Horton township,T1,A
+MI,26,129,Ogemaw County,43640,01626564,Klacking township,T1,A
+MI,26,129,Ogemaw County,49160,01626638,Logan township,T1,A
+MI,26,129,Ogemaw County,54340,01626746,Mills township,T1,A
+MI,26,129,Ogemaw County,60300,01626839,Ogemaw township,T1,A
+MI,26,129,Ogemaw County,68320,01626973,Richland township,T1,A
+MI,26,129,Ogemaw County,69600,01627005,Rose township,T1,A
+MI,26,129,Ogemaw County,69680,01627006,Rose City city,C5,F
+MI,26,129,Ogemaw County,85580,01627248,West Branch city,C5,F
+MI,26,129,Ogemaw County,85600,01627249,West Branch township,T1,A
+MI,26,131,Ontonagon County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,131,Ontonagon County,07640,01625921,Bergland township,T1,A
+MI,26,131,Ontonagon County,09460,01625959,Bohemia township,T1,A
+MI,26,131,Ontonagon County,13520,01626034,Carp Lake township,T1,A
+MI,26,131,Ontonagon County,35000,01626398,Greenland township,T1,A
+MI,26,131,Ontonagon County,35960,01626419,Haight township,T1,A
+MI,26,131,Ontonagon County,40760,01626518,Interior township,T1,A
+MI,26,131,Ontonagon County,50460,01626659,McMillan township,T1,A
+MI,26,131,Ontonagon County,52320,01626709,Matchwood township,T1,A
+MI,26,131,Ontonagon County,60880,01626851,Ontonagon township,T1,A
+MI,26,131,Ontonagon County,69140,01626992,Rockland township,T1,A
+MI,26,131,Ontonagon County,76180,01627120,Stannard township,T1,A
+MI,26,133,Osceola County,11680,01626002,Burdell township,T1,A
+MI,26,133,Osceola County,14040,01626046,Cedar township,T1,A
+MI,26,133,Osceola County,26640,01626253,Evart city,C5,F
+MI,26,133,Osceola County,26660,01626254,Evart township,T1,A
+MI,26,133,Osceola County,37060,01626447,Hartwick township,T1,A
+MI,26,133,Osceola County,37840,01626466,Hersey township,T1,A
+MI,26,133,Osceola County,38100,01626470,Highland township,T1,A
+MI,26,133,Osceola County,47120,01626609,Le Roy township,T1,A
+MI,26,133,Osceola County,47720,01626625,Lincoln township,T1,A
+MI,26,133,Osceola County,51680,01626690,Marion township,T1,A
+MI,26,133,Osceola County,53660,01626734,Middle Branch township,T1,A
+MI,26,133,Osceola County,61080,01626858,Orient township,T1,A
+MI,26,133,Osceola County,61280,01626863,Osceola township,T1,A
+MI,26,133,Osceola County,67820,01626961,Reed City city,C5,F
+MI,26,133,Osceola County,68440,01626978,Richmond township,T1,A
+MI,26,133,Osceola County,69760,01627007,Rose Lake township,T1,A
+MI,26,133,Osceola County,73280,01627077,Sherman township,T1,A
+MI,26,133,Osceola County,77760,01627147,Sylvan township,T1,A
+MI,26,135,Oscoda County,08220,01625932,Big Creek township,T1,A
+MI,26,135,Oscoda County,16540,01626101,Clinton township,T1,A
+MI,26,135,Oscoda County,17600,01626124,Comins township,T1,A
+MI,26,135,Oscoda County,25500,01626231,Elmer township,T1,A
+MI,26,135,Oscoda County,35200,01626404,Greenwood township,T1,A
+MI,26,135,Oscoda County,53120,01626726,Mentor township,T1,A
+MI,26,137,Otsego County,04780,01625873,Bagley township,T1,A
+MI,26,137,Otsego County,14840,01626063,Charlton township,T1,A
+MI,26,137,Otsego County,15280,01626072,Chester township,T1,A
+MI,26,137,Otsego County,18320,01626135,Corwith township,T1,A
+MI,26,137,Otsego County,22840,01626190,Dover township,T1,A
+MI,26,137,Otsego County,25620,01626233,Elmira township,T1,A
+MI,26,137,Otsego County,31720,01626341,Gaylord city,C5,F
+MI,26,137,Otsego County,37360,01626455,Hayes township,T1,A
+MI,26,137,Otsego County,48140,01626632,Livingston township,T1,A
+MI,26,137,Otsego County,61680,01626870,Otsego Lake township,T1,A
+MI,26,139,Ottawa County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,139,Ottawa County,01360,01625822,Allendale charter township,T1,A
+MI,26,139,Ottawa County,08940,01625946,Blendon township,T1,A
+MI,26,139,Ottawa County,15300,01626073,Chester township,T1,A
+MI,26,139,Ottawa County,18020,01626132,Coopersville city,C5,F
+MI,26,139,Ottawa County,18800,01626140,Crockery township,T1,A
+MI,26,139,Ottawa County,27960,01626280,Ferrysburg city,C5,F
+MI,26,139,Ottawa County,31880,01626346,Georgetown charter township,T1,A
+MI,26,139,Ottawa County,33340,01626369,Grand Haven city,C5,F
+MI,26,139,Ottawa County,33360,01626370,Grand Haven charter township,T1,A
+MI,26,139,Ottawa County,38640,01626478,Holland city,C5,F
+MI,26,139,Ottawa County,38660,01626479,Holland charter township,T1,A
+MI,26,139,Ottawa County,39800,01626501,Hudsonville city,C5,F
+MI,26,139,Ottawa County,41520,01626537,Jamestown charter township,T1,A
+MI,26,139,Ottawa County,60460,01626841,Olive township,T1,A
+MI,26,139,Ottawa County,62460,01626882,Park township,T1,A
+MI,26,139,Ottawa County,65320,01626923,Polkton charter township,T1,A
+MI,26,139,Ottawa County,65940,01626936,Port Sheldon township,T1,A
+MI,26,139,Ottawa County,69000,01626988,Robinson township,T1,A
+MI,26,139,Ottawa County,75840,01627111,Spring Lake township,T1,A
+MI,26,139,Ottawa County,77980,01627150,Tallmadge charter township,T1,A
+MI,26,139,Ottawa County,88820,01627293,Wright township,T1,A
+MI,26,139,Ottawa County,89260,01627302,Zeeland city,C5,F
+MI,26,139,Ottawa County,89280,01627303,Zeeland charter township,T1,A
+MI,26,141,Presque Isle County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,141,Presque Isle County,01480,01625824,Allis township,T1,A
+MI,26,141,Presque Isle County,06400,01625896,Bearinger township,T1,A
+MI,26,141,Presque Isle County,06920,01625908,Belknap township,T1,A
+MI,26,141,Presque Isle County,08700,01625942,Bismarck township,T1,A
+MI,26,141,Presque Isle County,13740,01626040,Case township,T1,A
+MI,26,141,Presque Isle County,43900,01625140,Krakow township,T1,A
+MI,26,141,Presque Isle County,53440,01626731,Metz township,T1,A
+MI,26,141,Presque Isle County,54860,01626752,Moltke township,T1,A
+MI,26,141,Presque Isle County,57940,01626810,North Allis township,T1,A
+MI,26,141,Presque Isle County,60160,01626836,Ocqueoc township,T1,A
+MI,26,141,Presque Isle County,60680,01626846,Onaway city,C5,F
+MI,26,141,Presque Isle County,66020,01626938,Posen township,T1,A
+MI,26,141,Presque Isle County,66340,01626943,Presque Isle township,T1,A
+MI,26,141,Presque Isle County,66460,01626945,Pulawski township,T1,A
+MI,26,141,Presque Isle County,69240,01626995,Rogers township,T1,A
+MI,26,141,Presque Isle County,69260,01626996,Rogers City city,C5,F
+MI,26,143,Roscommon County,04320,01625866,Au Sable township,T1,A
+MI,26,143,Roscommon County,04720,01625871,Backus township,T1,A
+MI,26,143,Roscommon County,21640,01626177,Denton township,T1,A
+MI,26,143,Roscommon County,31960,01626348,Gerrish township,T1,A
+MI,26,143,Roscommon County,38020,01626468,Higgins township,T1,A
+MI,26,143,Roscommon County,44400,01626578,Lake township,T1,A
+MI,26,143,Roscommon County,49840,01626651,Lyon township,T1,A
+MI,26,143,Roscommon County,51780,01626693,Markey township,T1,A
+MI,26,143,Roscommon County,56980,01626793,Nester township,T1,A
+MI,26,143,Roscommon County,68200,01626969,Richfield township,T1,A
+MI,26,143,Roscommon County,69560,01627003,Roscommon township,T1,A
+MI,26,145,Saginaw County,00920,01625811,Albee township,T1,A
+MI,26,145,Saginaw County,08560,01625940,Birch Run township,T1,A
+MI,26,145,Saginaw County,09400,01625957,Blumfield township,T1,A
+MI,26,145,Saginaw County,09940,01625968,Brady township,T1,A
+MI,26,145,Saginaw County,10100,01625972,Brant township,T1,A
+MI,26,145,Saginaw County,10460,01625977,Bridgeport charter township,T1,A
+MI,26,145,Saginaw County,11560,01626000,Buena Vista charter township,T1,A
+MI,26,145,Saginaw County,13540,01626035,Carrollton township,T1,A
+MI,26,145,Saginaw County,14660,01626058,Chapin township,T1,A
+MI,26,145,Saginaw County,15160,01626069,Chesaning township,T1,A
+MI,26,145,Saginaw County,30200,01626303,Frankenmuth city,C5,F
+MI,26,145,Saginaw County,30220,01626304,Frankenmuth township,T1,A
+MI,26,145,Saginaw County,30720,01626318,Fremont township,T1,A
+MI,26,145,Saginaw County,41480,01626536,James township,T1,A
+MI,26,145,Saginaw County,41900,01626543,Jonesfield township,T1,A
+MI,26,145,Saginaw County,43800,01626565,Kochville township,T1,A
+MI,26,145,Saginaw County,44560,01626583,Lakefield township,T1,A
+MI,26,145,Saginaw County,51060,01626676,Maple Grove township,T1,A
+MI,26,145,Saginaw County,51700,01626691,Marion township,T1,A
+MI,26,145,Saginaw County,68340,01626974,Richland township,T1,A
+MI,26,145,Saginaw County,70520,01627020,Saginaw city,C5,F
+MI,26,145,Saginaw County,70540,01627021,Saginaw charter township,T1,A
+MI,26,145,Saginaw County,70660,01627023,St. Charles township,T1,A
+MI,26,145,Saginaw County,75480,01627103,Spaulding township,T1,A
+MI,26,145,Saginaw County,77660,01627144,Swan Creek township,T1,A
+MI,26,145,Saginaw County,79100,01627154,Taymouth township,T1,A
+MI,26,145,Saginaw County,79520,01627160,Thomas township,T1,A
+MI,26,145,Saginaw County,79840,01627166,Tittabawassee township,T1,A
+MI,26,145,Saginaw County,89320,01627304,Zilwaukee city,C5,F
+MI,26,145,Saginaw County,89340,01627305,Zilwaukee township,T1,A
+MI,26,147,St. Clair County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,147,St. Clair County,01180,01625818,Algonac city,C5,F
+MI,26,147,St. Clair County,07760,01625925,Berlin township,T1,A
+MI,26,147,St. Clair County,10820,01625984,Brockway township,T1,A
+MI,26,147,St. Clair County,12020,01626010,Burtchville township,T1,A
+MI,26,147,St. Clair County,13720,01626039,Casco township,T1,A
+MI,26,147,St. Clair County,15540,01626077,China township,T1,A
+MI,26,147,St. Clair County,16180,01626090,Clay township,T1,A
+MI,26,147,St. Clair County,16760,01626104,Clyde township,T1,A
+MI,26,147,St. Clair County,17520,01626123,Columbus township,T1,A
+MI,26,147,St. Clair County,18400,01626136,Cottrellville township,T1,A
+MI,26,147,St. Clair County,23820,01626203,East China township,T1,A
+MI,26,147,St. Clair County,25960,01626240,Emmett township,T1,A
+MI,26,147,St. Clair County,29760,01626300,Fort Gratiot charter township,T1,A
+MI,26,147,St. Clair County,34420,01626387,Grant township,T1,A
+MI,26,147,St. Clair County,35220,01626405,Greenwood township,T1,A
+MI,26,147,St. Clair County,40920,01626524,Ira township,T1,A
+MI,26,147,St. Clair County,42740,01626557,Kenockee township,T1,A
+MI,26,147,St. Clair County,43160,01626559,Kimball township,T1,A
+MI,26,147,St. Clair County,49800,01626649,Lynn township,T1,A
+MI,26,147,St. Clair County,51600,01626687,Marine City city,C5,F
+MI,26,147,St. Clair County,52080,01626703,Marysville city,C5,F
+MI,26,147,St. Clair County,52960,01626721,Memphis city,C5,F
+MI,26,147,St. Clair County,56380,01626786,Mussey township,T1,A
+MI,26,147,St. Clair County,65820,01626932,Port Huron city,C5,F
+MI,26,147,St. Clair County,65840,01626933,Port Huron charter township,T1,A
+MI,26,147,St. Clair County,68380,01626975,Richmond city,C5,F
+MI,26,147,St. Clair County,68620,01626982,Riley township,T1,A
+MI,26,147,St. Clair County,70680,01627024,St. Clair city,C5,F
+MI,26,147,St. Clair County,70700,01627025,St. Clair township,T1,A
+MI,26,147,St. Clair County,82900,01627207,Wales township,T1,A
+MI,26,147,St. Clair County,89000,01627296,Yale city,C5,F
+MI,26,149,St. Joseph County,11940,01626007,Burr Oak township,T1,A
+MI,26,149,St. Joseph County,17370,01626118,Colon township,T1,A
+MI,26,149,St. Joseph County,17860,01626128,Constantine township,T1,A
+MI,26,149,St. Joseph County,26920,01626262,Fabius township,T1,A
+MI,26,149,St. Joseph County,27540,01626271,Fawn River township,T1,A
+MI,26,149,St. Joseph County,29060,01626287,Florence township,T1,A
+MI,26,149,St. Joseph County,29140,01626288,Flowerfield township,T1,A
+MI,26,149,St. Joseph County,47020,01626606,Leonidas township,T1,A
+MI,26,149,St. Joseph County,49060,01626635,Lockport township,T1,A
+MI,26,149,St. Joseph County,53000,01626722,Mendon township,T1,A
+MI,26,149,St. Joseph County,55780,01626770,Mottville township,T1,A
+MI,26,149,St. Joseph County,59400,01626827,Nottawa township,T1,A
+MI,26,149,St. Joseph County,62480,01626883,Park township,T1,A
+MI,26,149,St. Joseph County,73300,01627078,Sherman township,T1,A
+MI,26,149,St. Joseph County,76960,01627129,Sturgis city,C5,F
+MI,26,149,St. Joseph County,76980,01627130,Sturgis township,T1,A
+MI,26,149,St. Joseph County,79760,01627164,Three Rivers city,C5,F
+MI,26,149,St. Joseph County,86940,01627266,White Pigeon township,T1,A
+MI,26,151,Sanilac County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,151,Sanilac County,03460,01625848,Argyle township,T1,A
+MI,26,151,Sanilac County,04400,01625868,Austin township,T1,A
+MI,26,151,Sanilac County,10420,01625976,Bridgehampton township,T1,A
+MI,26,151,Sanilac County,11180,01625992,Brown City city,C5,F
+MI,26,151,Sanilac County,11540,01625999,Buel township,T1,A
+MI,26,151,Sanilac County,18920,01626142,Croswell city,C5,F
+MI,26,151,Sanilac County,19460,01626153,Custer township,T1,A
+MI,26,151,Sanilac County,21380,01626173,Delaware township,T1,A
+MI,26,151,Sanilac County,25280,01626225,Elk township,T1,A
+MI,26,151,Sanilac County,25540,01626232,Elmer township,T1,A
+MI,26,151,Sanilac County,26740,01626258,Evergreen township,T1,A
+MI,26,151,Sanilac County,29240,01626291,Flynn township,T1,A
+MI,26,151,Sanilac County,29500,01626296,Forester township,T1,A
+MI,26,151,Sanilac County,30740,01626319,Fremont township,T1,A
+MI,26,151,Sanilac County,35020,01626399,Greenleaf township,T1,A
+MI,26,151,Sanilac County,45460,01626586,Lamotte township,T1,A
+MI,26,151,Sanilac County,47300,01626612,Lexington township,T1,A
+MI,26,151,Sanilac County,51380,01626681,Maple Valley township,T1,A
+MI,26,151,Sanilac County,51720,01626692,Marion township,T1,A
+MI,26,151,Sanilac County,51820,01626694,Marlette city,C5,F
+MI,26,151,Sanilac County,51840,01626695,Marlette township,T1,A
+MI,26,151,Sanilac County,54540,01626749,Minden township,T1,A
+MI,26,151,Sanilac County,55320,01626764,Moore township,T1,A
+MI,26,151,Sanilac County,71540,01627042,Sandusky city,C5,F
+MI,26,151,Sanilac County,71580,01627043,Sanilac township,T1,A
+MI,26,151,Sanilac County,75500,01627104,Speaker township,T1,A
+MI,26,151,Sanilac County,84140,01627217,Washington township,T1,A
+MI,26,151,Sanilac County,84440,01627222,Watertown township,T1,A
+MI,26,151,Sanilac County,86580,01627257,Wheatland township,T1,A
+MI,26,151,Sanilac County,88760,01627291,Worth township,T1,A
+MI,26,153,Schoolcraft County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,153,Schoolcraft County,22960,01626192,Doyle township,T1,A
+MI,26,153,Schoolcraft County,31940,01626347,Germfask township,T1,A
+MI,26,153,Schoolcraft County,37940,01626467,Hiawatha township,T1,A
+MI,26,153,Schoolcraft County,40840,01626520,Inwood township,T1,A
+MI,26,153,Schoolcraft County,50760,01626668,Manistique city,C5,F
+MI,26,153,Schoolcraft County,50780,01626669,Manistique township,T1,A
+MI,26,153,Schoolcraft County,56060,01626777,Mueller township,T1,A
+MI,26,153,Schoolcraft County,72500,01627059,Seney township,T1,A
+MI,26,153,Schoolcraft County,79580,01627161,Thompson township,T1,A
+MI,26,155,Shiawassee County,03120,01625840,Antrim township,T1,A
+MI,26,155,Shiawassee County,07280,01625913,Bennington township,T1,A
+MI,26,155,Shiawassee County,11880,01625137,Burns township,T1,A
+MI,26,155,Shiawassee County,12520,01626021,Caledonia charter township,T1,A
+MI,26,155,Shiawassee County,18300,01626134,Corunna city,C5,F
+MI,26,155,Shiawassee County,23500,01626198,Durand city,C5,F
+MI,26,155,Shiawassee County,27040,01626264,Fairfield township,T1,A
+MI,26,155,Shiawassee County,37440,01626458,Hazelton township,T1,A
+MI,26,155,Shiawassee County,44200,01626570,Laingsburg city,C5,F
+MI,26,155,Shiawassee County,53680,01626735,Middlebury township,T1,A
+MI,26,155,Shiawassee County,57400,01626802,New Haven township,T1,A
+MI,26,155,Shiawassee County,61940,01626875,Owosso city,C5,F
+MI,26,155,Shiawassee County,61960,01626876,Owosso charter township,T1,A
+MI,26,155,Shiawassee County,63700,01626895,Perry city,C5,F
+MI,26,155,Shiawassee County,63720,01626896,Perry township,T1,A
+MI,26,155,Shiawassee County,70260,01627016,Rush township,T1,A
+MI,26,155,Shiawassee County,71960,01627051,Sciota township,T1,A
+MI,26,155,Shiawassee County,73520,01627080,Shiawassee township,T1,A
+MI,26,155,Shiawassee County,81880,01627192,Venice township,T1,A
+MI,26,155,Shiawassee County,82040,01627196,Vernon township,T1,A
+MI,26,155,Shiawassee County,88400,01627288,Woodhull township,T1,A
+MI,26,157,Tuscola County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,157,Tuscola County,00720,01625807,Akron township,T1,A
+MI,26,157,Tuscola County,01620,01625828,Almer township,T1,A
+MI,26,157,Tuscola County,03220,01625842,Arbela township,T1,A
+MI,26,157,Tuscola County,13420,02397558,Caro city,C5,F
+MI,26,157,Tuscola County,17420,01626120,Columbia township,T1,A
+MI,26,157,Tuscola County,19980,01626163,Dayton township,T1,A
+MI,26,157,Tuscola County,21600,01626176,Denmark township,T1,A
+MI,26,157,Tuscola County,25300,01626226,Elkland township,T1,A
+MI,26,157,Tuscola County,25380,01626228,Ellington township,T1,A
+MI,26,157,Tuscola County,25720,01626236,Elmwood township,T1,A
+MI,26,157,Tuscola County,27100,01626265,Fairgrove township,T1,A
+MI,26,157,Tuscola County,30760,01626320,Fremont township,T1,A
+MI,26,157,Tuscola County,32160,01626352,Gilford township,T1,A
+MI,26,157,Tuscola County,40440,01626512,Indianfields township,T1,A
+MI,26,157,Tuscola County,42140,01626546,Juniata township,T1,A
+MI,26,157,Tuscola County,43400,01626562,Kingston township,T1,A
+MI,26,157,Tuscola County,43880,01626567,Koylton township,T1,A
+MI,26,157,Tuscola County,54240,01626744,Millington township,T1,A
+MI,26,157,Tuscola County,59420,01626828,Novesta township,T1,A
+MI,26,157,Tuscola County,80940,01627180,Tuscola township,T1,A
+MI,26,157,Tuscola County,81840,01627190,Vassar city,C5,F
+MI,26,157,Tuscola County,81860,01627191,Vassar township,T1,A
+MI,26,157,Tuscola County,84460,01627223,Watertown township,T1,A
+MI,26,157,Tuscola County,85280,01627243,Wells township,T1,A
+MI,26,157,Tuscola County,88080,01627284,Wisner township,T1,A
+MI,26,159,Van Buren County,00000,00000000,County subdivisions not defined,Z9,F
+MI,26,159,Van Buren County,01600,01625827,Almena township,T1,A
+MI,26,159,Van Buren County,03140,01625841,Antwerp township,T1,A
+MI,26,159,Van Buren County,03500,01625849,Arlington township,T1,A
+MI,26,159,Van Buren County,05140,01625879,Bangor city,C5,F
+MI,26,159,Van Buren County,05160,01625880,Bangor township,T1,A
+MI,26,159,Van Buren County,09240,01625954,Bloomingdale township,T1,A
+MI,26,159,Van Buren County,17440,01626121,Columbia township,T1,A
+MI,26,159,Van Buren County,18560,01626138,Covert township,T1,A
+MI,26,159,Van Buren County,21060,01626166,Decatur township,T1,A
+MI,26,159,Van Buren County,31840,01626344,Geneva township,T1,A
+MI,26,159,Van Buren County,32640,01626360,Gobles city,C5,F
+MI,26,159,Van Buren County,36180,01626423,Hamilton township,T1,A
+MI,26,159,Van Buren County,36960,01626444,Hartford city,C5,F
+MI,26,159,Van Buren County,36980,01626445,Hartford township,T1,A
+MI,26,159,Van Buren County,42500,01626555,Keeler township,T1,A
+MI,26,159,Van Buren County,46460,01626595,Lawrence township,T1,A
+MI,26,159,Van Buren County,63000,01626886,Paw Paw township,T1,A
+MI,26,159,Van Buren County,64280,01626904,Pine Grove township,T1,A
+MI,26,159,Van Buren County,65760,01626931,Porter township,T1,A
+MI,26,159,Van Buren County,74980,01627098,South Haven city,C5,F
+MI,26,159,Van Buren County,75000,01627099,South Haven charter township,T1,A
+MI,26,159,Van Buren County,84820,01627229,Waverly township,T1,A
+MI,26,161,Washtenaw County,03000,01625837,Ann Arbor city,C5,F
+MI,26,161,Washtenaw County,03020,01625838,Ann Arbor charter township,T1,A
+MI,26,161,Washtenaw County,04180,01625863,Augusta charter township,T1,A
+MI,26,161,Washtenaw County,10560,01625979,Bridgewater township,T1,A
+MI,26,161,Washtenaw County,15020,02393813,Chelsea city,C5,F
+MI,26,161,Washtenaw County,22160,02398719,Dexter city,C5,F
+MI,26,161,Washtenaw County,22180,01626184,Dexter township,T1,A
+MI,26,161,Washtenaw County,30520,01626313,Freedom township,T1,A
+MI,26,161,Washtenaw County,47460,01626616,Lima township,T1,A
+MI,26,161,Washtenaw County,49120,01626636,Lodi township,T1,A
+MI,26,161,Washtenaw County,49780,01626648,Lyndon township,T1,A
+MI,26,161,Washtenaw County,50680,01626665,Manchester township,T1,A
+MI,26,161,Washtenaw County,53920,01626740,Milan city,C5,F
+MI,26,161,Washtenaw County,58280,01626812,Northfield township,T1,A
+MI,26,161,Washtenaw County,64560,01626909,Pittsfield charter township,T1,A
+MI,26,161,Washtenaw County,71130,01627035,Salem township,T1,A
+MI,26,161,Washtenaw County,71140,01627036,Saline city,C5,F
+MI,26,161,Washtenaw County,71160,01627037,Saline township,T1,A
+MI,26,161,Washtenaw County,71940,01627050,Scio township,T1,A
+MI,26,161,Washtenaw County,72760,01627061,Sharon township,T1,A
+MI,26,161,Washtenaw County,77560,01627141,Superior charter township,T1,A
+MI,26,161,Washtenaw County,77800,01627148,Sylvan township,T1,A
+MI,26,161,Washtenaw County,85100,01627237,Webster township,T1,A
+MI,26,161,Washtenaw County,89100,01627299,York charter township,T1,A
+MI,26,161,Washtenaw County,89140,01627300,Ypsilanti city,C5,F
+MI,26,161,Washtenaw County,89160,01627301,Ypsilanti charter township,T1,A
+MI,26,163,Wayne County,01380,01625823,Allen Park city,C5,F
+MI,26,163,Wayne County,07020,01625909,Belleville city,C5,F
+MI,26,163,Wayne County,11220,01625993,Brownstown charter township,T1,A
+MI,26,163,Wayne County,13120,01626030,Canton charter township,T1,A
+MI,26,163,Wayne County,21000,01626164,Dearborn city,C5,F
+MI,26,163,Wayne County,21020,01626165,Dearborn Heights city,C5,F
+MI,26,163,Wayne County,22000,01626181,Detroit city,C5,F
+MI,26,163,Wayne County,24740,01626215,Ecorse city,C5,F
+MI,26,163,Wayne County,28360,01626284,Flat Rock city,C5,F
+MI,26,163,Wayne County,31420,01626334,Garden City city,C5,F
+MI,26,163,Wayne County,32020,01626349,Gibraltar city,C5,F
+MI,26,163,Wayne County,35420,01626407,Grosse Ile township,T1,A
+MI,26,163,Wayne County,35480,01626408,Grosse Pointe city,C5,F
+MI,26,163,Wayne County,35520,01626410,Grosse Pointe Farms city,C5,F
+MI,26,163,Wayne County,35540,01626411,Grosse Pointe Park city,C5,F
+MI,26,163,Wayne County,35580,01626412,Grosse Pointe Woods city,C5,F
+MI,26,163,Wayne County,36280,01626427,Hamtramck city,C5,F
+MI,26,163,Wayne County,36700,01626436,Harper Woods city,C5,F
+MI,26,163,Wayne County,38180,01626471,Highland Park city,C5,F
+MI,26,163,Wayne County,40040,01626507,Huron charter township,T1,A
+MI,26,163,Wayne County,40680,01626516,Inkster city,C5,F
+MI,26,163,Wayne County,47800,01626626,Lincoln Park city,C5,F
+MI,26,163,Wayne County,49000,01626633,Livonia city,C5,F
+MI,26,163,Wayne County,52940,01626720,Melvindale city,C5,F
+MI,26,163,Wayne County,58980,01626817,Northville city,C5,F
+MI,26,163,Wayne County,59000,01626818,Northville township,T1,A
+MI,26,163,Wayne County,65060,01626919,Plymouth city,C5,F
+MI,26,163,Wayne County,65080,01626920,Plymouth charter township,T1,A
+MI,26,163,Wayne County,67625,01626960,Redford charter township,T1,A
+MI,26,163,Wayne County,68760,01626983,River Rouge city,C5,F
+MI,26,163,Wayne County,68880,01626986,Riverview city,C5,F
+MI,26,163,Wayne County,69180,01626994,Rockwood city,C5,F
+MI,26,163,Wayne County,69420,01627000,Romulus city,C5,F
+MI,26,163,Wayne County,74960,01627097,Southgate city,C5,F
+MI,26,163,Wayne County,77360,01627138,Sumpter township,T1,A
+MI,26,163,Wayne County,79000,01627153,Taylor city,C5,F
+MI,26,163,Wayne County,80420,01627172,Trenton city,C5,F
+MI,26,163,Wayne County,81660,01627189,Van Buren charter township,T1,A
+MI,26,163,Wayne County,82453,02398212,Village of Grosse Pointe Shores city,C5,F
+MI,26,163,Wayne County,84940,01627234,Wayne city,C5,F
+MI,26,163,Wayne County,86000,01627250,Westland city,C5,F
+MI,26,163,Wayne County,88380,01627287,Woodhaven city,C5,F
+MI,26,163,Wayne County,88900,01627294,Wyandotte city,C5,F
+MI,26,165,Wexford County,03060,01625839,Antioch township,T1,A
+MI,26,165,Wexford County,09580,01625961,Boon township,T1,A
+MI,26,165,Wexford County,12320,01626017,Cadillac city,C5,F
+MI,26,165,Wexford County,14120,01626048,Cedar Creek township,T1,A
+MI,26,165,Wexford County,15060,01626067,Cherry Grove township,T1,A
+MI,26,165,Wexford County,15860,01626083,Clam Lake township,T1,A
+MI,26,165,Wexford County,17200,01626115,Colfax township,T1,A
+MI,26,165,Wexford County,35240,01626406,Greenwood township,T1,A
+MI,26,165,Wexford County,36420,01626432,Hanover township,T1,A
+MI,26,165,Wexford County,36600,01626435,Haring charter township,T1,A
+MI,26,165,Wexford County,37640,01626463,Henderson township,T1,A
+MI,26,165,Wexford County,47380,01626614,Liberty township,T1,A
+MI,26,165,Wexford County,50880,01626672,Manton city,C5,F
+MI,26,165,Wexford County,72380,01627057,Selma township,T1,A
+MI,26,165,Wexford County,74220,01627086,Slagle township,T1,A
+MI,26,165,Wexford County,74820,01627094,South Branch township,T1,A
+MI,26,165,Wexford County,75940,01627114,Springville township,T1,A
+MI,26,165,Wexford County,86500,01627253,Wexford township,T1,A
