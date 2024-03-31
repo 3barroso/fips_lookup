@@ -5,7 +5,7 @@ require_relative "fips_lookup/version"
 require_relative "fips_lookup/county"
 require_relative "fips_lookup/state"
 
-# worker for county, state, fips lookups
+# parent section of module defining constants, requiring relative worker methods
 module FipsLookup
   STATE_CODES = { "AL" => "01", "AK" => "02", "AZ" => "04", "AR" => "05", "CA" => "06", "CO" => "08",
                   "CT" => "09", "DE" => "10", "DC" => "11", "FL" => "12", "GA" => "13", "HI" => "15",
