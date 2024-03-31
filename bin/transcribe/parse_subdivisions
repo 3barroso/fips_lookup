@@ -3,17 +3,16 @@
 
 require "pathname"
 require "fileutils"
-require "csv"
 require "fips_lookup"
 
-# CMD $:  bin/transcribe/parse_subdivisions /Users/erik/workspace/national_cousub2020.txt
+# CMD %  bin/transcribe/parse_subdivisions /Users/erik/workspace/national_cousub2020.txt
 # current source location: https://www2.census.gov/geo/docs/reference/codes2020/national_cousub2020.txt
 # Headers: STATE|STATEFP|COUNTYFP|COUNTYNAME|COUSUBFP|COUSUBNS|COUSUBNAME|CLASSFP|FUNCSTAT
 
 file_path = ARGV[0]
 subdivision_path = Pathname.getwd.join("lib/data/subdivision")
 
-puts "~~~ Now creating subidivison data files if they are not present ~~~"
+puts "~~~ Now creating subdivision data files if they are not present ~~~"
 
 FipsLookup::STATE_CODES.each_key do |state_code|
   subdivision_state_file_path = subdivision_path.join("#{state_code}.csv")
@@ -46,4 +45,4 @@ last_state_path = subdivision_path.join("#{previous_state_code}.csv")
 File.write(last_state_path, current_state_data.map { |e| e.join(",") }.join)
 
 puts "~~~ Finished creating subdivision CSV files ~~~"
-puts "# Check files diff in lib/data/subdivison/ #"
+puts "# Check files diff in lib/data/subdivision/ #"
