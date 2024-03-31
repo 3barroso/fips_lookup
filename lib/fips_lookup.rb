@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "fips_lookup/version"
 require "csv"
+require_relative "fips_lookup/version"
+require_relative "fips_lookup/subdivision"
 
 # worker for county, state, fips lookups
 module FipsLookup
@@ -18,7 +19,7 @@ module FipsLookup
                 }.freeze
 
   class << self
-    attr_accessor :county_fips, :state_fips
+    attr_accessor :county_fips, :state_fips, :subdivision_fips
 
     def county(state_param:, county_name:, return_nil: false)
       state_code = find_state_code(state_param: state_param, return_nil: return_nil)
