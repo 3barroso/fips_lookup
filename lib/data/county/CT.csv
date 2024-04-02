@@ -1,8 +1,8 @@
-CT,09,001,00212794,Fairfield County,H4,N
-CT,09,003,00212338,Hartford County,H4,N
-CT,09,005,00212796,Litchfield County,H4,N
-CT,09,007,00212797,Middlesex County,H4,N
-CT,09,009,00212798,New Haven County,H4,N
-CT,09,011,00212799,New London County,H4,N
-CT,09,013,00212668,Tolland County,H4,N
-CT,09,015,00212801,Windham County,H4,N
+CT,09,001,Fairfield County,00212794,H4,N
+CT,09,003,Hartford County,00212338,H4,N
+CT,09,005,Litchfield County,00212796,H4,N
+CT,09,007,Middlesex County,00212797,H4,N
+CT,09,009,New Haven County,00212798,H4,N
+CT,09,011,New London County,00212799,H4,N
+CT,09,013,Tolland County,00212668,H4,N
+CT,09,015,Windham County,00212801,H4,N

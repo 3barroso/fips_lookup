@@ -46,13 +46,13 @@ File.open(file_path).each do |line|
   row = line.split("|")
 
   if previous_state_code == row[0]
-    current_state_data << [row[0], row[1], row[2], row[3], row[4].gsub(conversion_re, string_conversion_dictionary), row[5], row[6]]
+    current_state_data << [row[0], row[1], row[2], row[4].gsub(conversion_re, string_conversion_dictionary), row[3], row[5], row[6]]
   else
     current_csv_path = county_path.join("#{previous_state_code}.csv")
     File.write(current_csv_path, current_state_data.map { |e| e.join(",") }.join)
 
     previous_state_code = row[0]
-    current_state_data = [[row[0], row[1], row[2], row[3], row[4].gsub(conversion_re, string_conversion_dictionary), row[5], row[6]]]
+    current_state_data = [[row[0], row[1], row[2], row[4].gsub(conversion_re, string_conversion_dictionary), row[3], row[5], row[6]]]
   end
 end
 

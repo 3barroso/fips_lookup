@@ -1,133 +1,133 @@
-VA,51,001,01480091,Accomack County,H1,A
-VA,51,003,01675170,Albemarle County,H1,A
-VA,51,005,01673675,Alleghany County,H1,A
-VA,51,007,01497770,Amelia County,H1,A
-VA,51,009,01480095,Amherst County,H1,A
-VA,51,011,01497238,Appomattox County,H1,A
-VA,51,013,01480097,Arlington County,H1,A
-VA,51,015,01480098,Augusta County,H1,A
-VA,51,017,01673638,Bath County,H1,A
-VA,51,019,01674818,Bedford County,H1,A
-VA,51,021,01494613,Bland County,H1,A
-VA,51,023,01674418,Botetourt County,H1,A
-VA,51,025,01493961,Brunswick County,H1,A
-VA,51,027,01497431,Buchanan County,H1,A
-VA,51,029,01501502,Buckingham County,H1,A
-VA,51,031,01674917,Campbell County,H1,A
-VA,51,033,01480107,Caroline County,H1,A
-VA,51,035,01480108,Carroll County,H1,A
-VA,51,036,01480109,Charles City County,H1,A
-VA,51,037,01492442,Charlotte County,H1,A
-VA,51,041,01480111,Chesterfield County,H1,A
-VA,51,043,01690562,Clarke County,H1,A
-VA,51,045,01673664,Craig County,H1,A
-VA,51,047,01497831,Culpeper County,H1,A
-VA,51,049,01494109,Cumberland County,H1,A
-VA,51,051,01497376,Dickenson County,H1,A
-VA,51,053,01690739,Dinwiddie County,H1,A
-VA,51,057,01480118,Essex County,H1,A
-VA,51,059,01480119,Fairfax County,H1,A
-VA,51,061,01480120,Fauquier County,H1,A
-VA,51,063,01494354,Floyd County,H1,A
-VA,51,065,01494061,Fluvanna County,H1,A
-VA,51,067,01494434,Franklin County,H1,A
-VA,51,069,01480124,Frederick County,H1,A
-VA,51,071,01494551,Giles County,H1,A
-VA,51,073,01480126,Gloucester County,H1,A
-VA,51,075,01674271,Goochland County,H1,A
-VA,51,077,01501196,Grayson County,H1,A
-VA,51,079,01480129,Greene County,H1,A
-VA,51,081,01501122,Greensville County,H1,A
-VA,51,083,01496705,Halifax County,H1,A
-VA,51,085,01480132,Hanover County,H1,A
-VA,51,087,01480133,Henrico County,H1,A
-VA,51,089,01502770,Henry County,H1,A
-VA,51,091,01673774,Highland County,H1,A
-VA,51,093,01702378,Isle of Wight County,H1,A
-VA,51,095,01480135,James City County,H1,A
-VA,51,097,01480136,King and Queen County,H1,A
-VA,51,099,01480137,King George County,H1,A
-VA,51,101,01480138,King William County,H1,A
-VA,51,103,01480139,Lancaster County,H1,A
-VA,51,105,01496538,Lee County,H1,A
-VA,51,107,01480141,Loudoun County,H1,A
-VA,51,109,01494707,Louisa County,H1,A
-VA,51,111,01492239,Lunenburg County,H1,A
-VA,51,113,01494590,Madison County,H1,A
-VA,51,115,01480145,Mathews County,H1,A
-VA,51,117,01500747,Mecklenburg County,H1,A
-VA,51,119,01480147,Middlesex County,H1,A
-VA,51,121,01674630,Montgomery County,H1,A
-VA,51,125,01500936,Nelson County,H1,A
-VA,51,127,01480150,New Kent County,H1,A
-VA,51,131,01480151,Northampton County,H1,A
-VA,51,133,01480152,Northumberland County,H1,A
-VA,51,135,01493928,Nottoway County,H1,A
-VA,51,137,01494761,Orange County,H1,A
-VA,51,139,01500440,Page County,H1,A
-VA,51,141,01497999,Patrick County,H1,A
-VA,51,143,01480157,Pittsylvania County,H1,A
-VA,51,145,01674225,Powhatan County,H1,A
-VA,51,147,01492359,Prince Edward County,H1,A
-VA,51,149,01480160,Prince George County,H1,A
-VA,51,153,01480161,Prince William County,H1,A
-VA,51,155,01501465,Pulaski County,H1,A
-VA,51,157,01673976,Rappahannock County,H1,A
-VA,51,159,01480164,Richmond County,H1,A
-VA,51,161,01480165,Roanoke County,H1,A
-VA,51,163,01480166,Rockbridge County,H1,A
-VA,51,165,01488970,Rockingham County,H1,A
-VA,51,167,01497573,Russell County,H1,A
-VA,51,169,01498172,Scott County,H1,A
-VA,51,171,01673918,Shenandoah County,H1,A
-VA,51,173,01500545,Smyth County,H1,A
-VA,51,175,01480171,Southampton County,H1,A
-VA,51,177,01480172,Spotsylvania County,H1,A
-VA,51,179,01480173,Stafford County,H1,A
-VA,51,181,01480174,Surry County,H1,A
-VA,51,183,01690257,Sussex County,H1,A
-VA,51,185,01497748,Tazewell County,H1,A
-VA,51,187,01674058,Warren County,H1,A
-VA,51,191,01498359,Washington County,H1,A
-VA,51,193,01480179,Westmoreland County,H1,A
-VA,51,195,01496656,Wise County,H1,A
-VA,51,197,01501379,Wythe County,H1,A
-VA,51,199,01480182,York County,H1,A
-VA,51,510,01498415,Alexandria city,C7,F
-VA,51,520,01498416,Bristol city,C7,F
-VA,51,530,01498417,Buena Vista city,C7,F
-VA,51,540,01789068,Charlottesville city,C7,F
-VA,51,550,01498558,Chesapeake city,C7,F
-VA,51,570,01498420,Colonial Heights city,C7,F
-VA,51,580,01789069,Covington city,C7,F
-VA,51,590,01498421,Danville city,C7,F
-VA,51,595,01498422,Emporia city,C7,F
-VA,51,600,01789070,Fairfax city,C7,F
-VA,51,610,01498423,Falls Church city,C7,F
-VA,51,620,01498424,Franklin city,C7,F
-VA,51,630,01498425,Fredericksburg city,C7,F
-VA,51,640,01498426,Galax city,C7,F
-VA,51,650,01498554,Hampton city,C7,F
-VA,51,660,01498563,Harrisonburg city,C7,F
-VA,51,670,01498428,Hopewell city,C7,F
-VA,51,678,01789071,Lexington city,C7,F
-VA,51,680,01498429,Lynchburg city,C7,F
-VA,51,683,01498430,Manassas city,C7,F
-VA,51,685,01498431,Manassas Park city,C7,F
-VA,51,690,01789072,Martinsville city,C7,F
-VA,51,700,01498555,Newport News city,C7,F
-VA,51,710,01498557,Norfolk city,C7,F
-VA,51,720,01498434,Norton city,C7,F
-VA,51,730,01498435,Petersburg city,C7,F
-VA,51,735,01498436,Poquoson city,C7,F
-VA,51,740,01498556,Portsmouth city,C7,F
-VA,51,750,01498438,Radford city,C7,F
-VA,51,760,01789073,Richmond city,C7,F
-VA,51,770,01498439,Roanoke city,C7,F
-VA,51,775,01789074,Salem city,C7,F
-VA,51,790,01789075,Staunton city,C7,F
-VA,51,800,01498560,Suffolk city,C7,F
-VA,51,810,01498559,Virginia Beach city,C7,F
-VA,51,820,01498443,Waynesboro city,C7,F
-VA,51,830,01789076,Williamsburg city,C7,F
-VA,51,840,01789077,Winchester city,C7,F
+VA,51,001,Accomack County,01480091,H1,A
+VA,51,003,Albemarle County,01675170,H1,A
+VA,51,005,Alleghany County,01673675,H1,A
+VA,51,007,Amelia County,01497770,H1,A
+VA,51,009,Amherst County,01480095,H1,A
+VA,51,011,Appomattox County,01497238,H1,A
+VA,51,013,Arlington County,01480097,H1,A
+VA,51,015,Augusta County,01480098,H1,A
+VA,51,017,Bath County,01673638,H1,A
+VA,51,019,Bedford County,01674818,H1,A
+VA,51,021,Bland County,01494613,H1,A
+VA,51,023,Botetourt County,01674418,H1,A
+VA,51,025,Brunswick County,01493961,H1,A
+VA,51,027,Buchanan County,01497431,H1,A
+VA,51,029,Buckingham County,01501502,H1,A
+VA,51,031,Campbell County,01674917,H1,A
+VA,51,033,Caroline County,01480107,H1,A
+VA,51,035,Carroll County,01480108,H1,A
+VA,51,036,Charles City County,01480109,H1,A
+VA,51,037,Charlotte County,01492442,H1,A
+VA,51,041,Chesterfield County,01480111,H1,A
+VA,51,043,Clarke County,01690562,H1,A
+VA,51,045,Craig County,01673664,H1,A
+VA,51,047,Culpeper County,01497831,H1,A
+VA,51,049,Cumberland County,01494109,H1,A
+VA,51,051,Dickenson County,01497376,H1,A
+VA,51,053,Dinwiddie County,01690739,H1,A
+VA,51,057,Essex County,01480118,H1,A
+VA,51,059,Fairfax County,01480119,H1,A
+VA,51,061,Fauquier County,01480120,H1,A
+VA,51,063,Floyd County,01494354,H1,A
+VA,51,065,Fluvanna County,01494061,H1,A
+VA,51,067,Franklin County,01494434,H1,A
+VA,51,069,Frederick County,01480124,H1,A
+VA,51,071,Giles County,01494551,H1,A
+VA,51,073,Gloucester County,01480126,H1,A
+VA,51,075,Goochland County,01674271,H1,A
+VA,51,077,Grayson County,01501196,H1,A
+VA,51,079,Greene County,01480129,H1,A
+VA,51,081,Greensville County,01501122,H1,A
+VA,51,083,Halifax County,01496705,H1,A
+VA,51,085,Hanover County,01480132,H1,A
+VA,51,087,Henrico County,01480133,H1,A
+VA,51,089,Henry County,01502770,H1,A
+VA,51,091,Highland County,01673774,H1,A
+VA,51,093,Isle of Wight County,01702378,H1,A
+VA,51,095,James City County,01480135,H1,A
+VA,51,097,King and Queen County,01480136,H1,A
+VA,51,099,King George County,01480137,H1,A
+VA,51,101,King William County,01480138,H1,A
+VA,51,103,Lancaster County,01480139,H1,A
+VA,51,105,Lee County,01496538,H1,A
+VA,51,107,Loudoun County,01480141,H1,A
+VA,51,109,Louisa County,01494707,H1,A
+VA,51,111,Lunenburg County,01492239,H1,A
+VA,51,113,Madison County,01494590,H1,A
+VA,51,115,Mathews County,01480145,H1,A
+VA,51,117,Mecklenburg County,01500747,H1,A
+VA,51,119,Middlesex County,01480147,H1,A
+VA,51,121,Montgomery County,01674630,H1,A
+VA,51,125,Nelson County,01500936,H1,A
+VA,51,127,New Kent County,01480150,H1,A
+VA,51,131,Northampton County,01480151,H1,A
+VA,51,133,Northumberland County,01480152,H1,A
+VA,51,135,Nottoway County,01493928,H1,A
+VA,51,137,Orange County,01494761,H1,A
+VA,51,139,Page County,01500440,H1,A
+VA,51,141,Patrick County,01497999,H1,A
+VA,51,143,Pittsylvania County,01480157,H1,A
+VA,51,145,Powhatan County,01674225,H1,A
+VA,51,147,Prince Edward County,01492359,H1,A
+VA,51,149,Prince George County,01480160,H1,A
+VA,51,153,Prince William County,01480161,H1,A
+VA,51,155,Pulaski County,01501465,H1,A
+VA,51,157,Rappahannock County,01673976,H1,A
+VA,51,159,Richmond County,01480164,H1,A
+VA,51,161,Roanoke County,01480165,H1,A
+VA,51,163,Rockbridge County,01480166,H1,A
+VA,51,165,Rockingham County,01488970,H1,A
+VA,51,167,Russell County,01497573,H1,A
+VA,51,169,Scott County,01498172,H1,A
+VA,51,171,Shenandoah County,01673918,H1,A
+VA,51,173,Smyth County,01500545,H1,A
+VA,51,175,Southampton County,01480171,H1,A
+VA,51,177,Spotsylvania County,01480172,H1,A
+VA,51,179,Stafford County,01480173,H1,A
+VA,51,181,Surry County,01480174,H1,A
+VA,51,183,Sussex County,01690257,H1,A
+VA,51,185,Tazewell County,01497748,H1,A
+VA,51,187,Warren County,01674058,H1,A
+VA,51,191,Washington County,01498359,H1,A
+VA,51,193,Westmoreland County,01480179,H1,A
+VA,51,195,Wise County,01496656,H1,A
+VA,51,197,Wythe County,01501379,H1,A
+VA,51,199,York County,01480182,H1,A
+VA,51,510,Alexandria city,01498415,C7,F
+VA,51,520,Bristol city,01498416,C7,F
+VA,51,530,Buena Vista city,01498417,C7,F
+VA,51,540,Charlottesville city,01789068,C7,F
+VA,51,550,Chesapeake city,01498558,C7,F
+VA,51,570,Colonial Heights city,01498420,C7,F
+VA,51,580,Covington city,01789069,C7,F
+VA,51,590,Danville city,01498421,C7,F
+VA,51,595,Emporia city,01498422,C7,F
+VA,51,600,Fairfax city,01789070,C7,F
+VA,51,610,Falls Church city,01498423,C7,F
+VA,51,620,Franklin city,01498424,C7,F
+VA,51,630,Fredericksburg city,01498425,C7,F
+VA,51,640,Galax city,01498426,C7,F
+VA,51,650,Hampton city,01498554,C7,F
+VA,51,660,Harrisonburg city,01498563,C7,F
+VA,51,670,Hopewell city,01498428,C7,F
+VA,51,678,Lexington city,01789071,C7,F
+VA,51,680,Lynchburg city,01498429,C7,F
+VA,51,683,Manassas city,01498430,C7,F
+VA,51,685,Manassas Park city,01498431,C7,F
+VA,51,690,Martinsville city,01789072,C7,F
+VA,51,700,Newport News city,01498555,C7,F
+VA,51,710,Norfolk city,01498557,C7,F
+VA,51,720,Norton city,01498434,C7,F
+VA,51,730,Petersburg city,01498435,C7,F
+VA,51,735,Poquoson city,01498436,C7,F
+VA,51,740,Portsmouth city,01498556,C7,F
+VA,51,750,Radford city,01498438,C7,F
+VA,51,760,Richmond city,01789073,C7,F
+VA,51,770,Roanoke city,01498439,C7,F
+VA,51,775,Salem city,01789074,C7,F
+VA,51,790,Staunton city,01789075,C7,F
+VA,51,800,Suffolk city,01498560,C7,F
+VA,51,810,Virginia Beach city,01498559,C7,F
+VA,51,820,Waynesboro city,01498443,C7,F
+VA,51,830,Williamsburg city,01789076,C7,F
+VA,51,840,Winchester city,01789077,C7,F

@@ -1,5 +1,5 @@
-AS,60,010,01805240,Eastern District,H1,A
-AS,60,020,01805242,Manu'a District,H1,A
-AS,60,030,01805243,Rose Island,H4,N
-AS,60,040,01805244,Swains Island,H4,N
-AS,60,050,01805241,Western District,H1,A
+AS,60,010,Eastern District,01805240,H1,A
+AS,60,020,Manu'a District,01805242,H1,A
+AS,60,030,Rose Island,01805243,H4,N
+AS,60,040,Swains Island,01805244,H4,N
+AS,60,050,Western District,01805241,H1,A
