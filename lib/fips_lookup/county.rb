@@ -21,8 +21,8 @@ module FipsLookup
       return nil if state_code.nil?
 
       CSV.foreach(county_file(state_code: state_code)) do |county_row|
-        # state_code (AL), state fips (01), county fips (001), county gnis(00161526), name (Augtauga County), class code (H1), status (A)
-        return [county_row[4], state_code] if county_row[2] == fips[2..4]
+        # state_code (AL), state fips (01), county fips (001), name (Augtauga County), county gnis(00161526), class code (H1), status (A)
+        return [county_row[3], state_code] if county_row[2] == fips[2..4]
       end
 
       raise StandardError, "Could not find county with fips: #{fips[2..4]}, in: #{state_code}" unless return_nil
@@ -44,16 +44,16 @@ module FipsLookup
     end
 
     def match_county?(row, param)
-      # row => state (AL), state fips (01), county fips (001), county gnis (00161526), name (Augtauga County), class code (H1), status (A)
-      row[4].upcase == param || row[3] == param || row[2] == param || "#{row[1]}#{row[2]}" == param
+      # row => state (AL), state fips (01), county fips (001), name (Augtauga County), county gnis (00161526),  class code (H1), status (A)
+      row[3].upcase == param || row[4] == param || row[2] == param || "#{row[1]}#{row[2]}" == param
     end
 
     def formatted_county(row)
       {
         state_code: row[0],
         fips: (row[1] + row[2]),
-        gnis: row[3],
-        name: row[4],
+        gnis: row[4],
+        name: row[3],
         class_code: row[5],
         status: row[6]
       }
