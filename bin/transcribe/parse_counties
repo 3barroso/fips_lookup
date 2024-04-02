@@ -21,6 +21,7 @@ string_conversion_dictionary = {
   "Ãº" => "ú",
   "Ã¥" => "å"
 }
+# "Ã­" is technically 2 characters (not "Ã").. '-' is not displayed in the editor? [vscode] Paste into terminal and see "Ã-" # "Ã­" != "Ã-"
 conversion_re = Regexp.union(string_conversion_dictionary.keys)
 
 file_path = ARGV[0]
