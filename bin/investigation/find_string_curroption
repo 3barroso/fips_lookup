@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "pathname"
+
+# CMD %  bin/investigation/find_string_curroption
+
+file_name = "national_cousub2020.txt"
+data_path = Pathname.getwd.join("bin/source_data/#{file_name}")
+return unless File.exist?(data_path)
+
+puts "Found file: #{file_name}"
+found_non_chars = []
+
+File.open(data_path).each do |line|
+  clean_line = line.gsub(/[\s,'-.|]/, "").gsub("/", "")
+  found = clean_line[/\W/]
+  found_non_chars.append(found) unless found.nil?
+end
+
+# puts "List of all found characters: ", found_non_chars.inspect
+puts "Instances of non characters found: ", found_non_chars.length
+
+uniq_words = found_non_chars.uniq
+
+puts "Unique characters found: ", uniq_words.inspect
