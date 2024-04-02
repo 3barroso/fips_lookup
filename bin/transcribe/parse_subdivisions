@@ -5,9 +5,22 @@ require "pathname"
 require "fileutils"
 require "fips_lookup"
 
-# CMD %  bin/transcribe/parse_subdivisions /Users/erik/workspace/national_cousub2020.txt
+# CMD %  bin/transcribe/parse_subdivisions /Users/erik/workspace/data_files/national_cousub2020.txt
 # current source location: https://www2.census.gov/geo/docs/reference/codes2020/national_cousub2020.txt
 # Headers: STATE|STATEFP|COUNTYFP|COUNTYNAME|COUSUBFP|COUSUBNS|COUSUBNAME|CLASSFP|FUNCSTAT
+
+string_conversion_dictionary = {
+  "Ã³" => "ó",
+  "Ã±" => "ñ",
+  "Ã­" => "í",
+  "Ã¡" => "á",
+  "Ã¼" => "ü",
+  "Ã©" => "é",
+  "Ãº" => "ú",
+  "Ã¥" => "å"
+}
+# line 15: "Ã­" is technically 2 characters, not "Ã"; no '-' displayed in editor[vscode?] Paste into terminal and see "Ã-" # "Ã­" != "Ã-"
+conversion_re = Regexp.union(string_conversion_dictionary.keys)
 
 file_path = ARGV[0]
 subdivision_path = Pathname.getwd.join("lib/data/subdivision")
@@ -31,13 +44,13 @@ File.open(file_path).each do |line|
   row = line.split("|")
 
   if previous_state_code == row[0]
-    current_state_data << row
+    current_state_data << [row[0], row[1], row[2], row[3].gsub(conversion_re, string_conversion_dictionary), row[4], row[5], row[6].gsub(conversion_re, string_conversion_dictionary), row[7], row[8]]
   else
     current_csv_path = subdivision_path.join("#{previous_state_code}.csv")
     File.write(current_csv_path, current_state_data.map { |e| e.join(",") }.join)
 
     previous_state_code = row[0]
-    current_state_data = [row]
+    current_state_data = [[row[0], row[1], row[2], row[3].gsub(conversion_re, string_conversion_dictionary), row[4], row[5], row[6].gsub(conversion_re, string_conversion_dictionary), row[7], row[8]]]
   end
 end
 
