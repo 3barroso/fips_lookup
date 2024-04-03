@@ -1,29 +1,30 @@
-AK,02,013,Aleutians East Borough,H1
-AK,02,016,Aleutians West Census Area,H5
-AK,02,020,Anchorage Municipality,H6
-AK,02,050,Bethel Census Area,H5
-AK,02,060,Bristol Bay Borough,H1
-AK,02,068,Denali Borough,H1
-AK,02,070,Dillingham Census Area,H5
-AK,02,090,Fairbanks North Star Borough,H1
-AK,02,100,Haines Borough,H1
-AK,02,105,Hoonah-Angoon Census Area,H5
-AK,02,110,Juneau City and Borough,H6
-AK,02,122,Kenai Peninsula Borough,H1
-AK,02,130,Ketchikan Gateway Borough,H1
-AK,02,150,Kodiak Island Borough,H1
-AK,02,164,Lake and Peninsula Borough,H1
-AK,02,170,Matanuska-Susitna Borough,H1
-AK,02,180,Nome Census Area,H5
-AK,02,185,North Slope Borough,H1
-AK,02,188,Northwest Arctic Borough,H1
-AK,02,195,Petersburg Census Area,H5
-AK,02,198,Prince of Wales-Hyder Census Area,H5
-AK,02,220,Sitka City and Borough,H6
-AK,02,230,Skagway Municipality,H1
-AK,02,240,Southeast Fairbanks Census Area,H5
-AK,02,261,Valdez-Cordova Census Area,H5
-AK,02,270,Wade Hampton Census Area,H5
-AK,02,275,Wrangell City and Borough,H1
-AK,02,282,Yakutat City and Borough,H1
-AK,02,290,Yukon-Koyukuk Census Area,H5
+AK,02,013,Aleutians East Borough,01419964,H1,A
+AK,02,016,Aleutians West Census Area,01419965,H5,S
+AK,02,020,Anchorage Municipality,01416061,H6,C
+AK,02,050,Bethel Census Area,01419966,H5,S
+AK,02,060,Bristol Bay Borough,01419967,H1,A
+AK,02,063,Chugach Census Area,02804400,H5,S
+AK,02,066,Copper River Census Area,02804401,H5,S
+AK,02,068,Denali Borough,01419988,H1,A
+AK,02,070,Dillingham Census Area,01419968,H5,S
+AK,02,090,Fairbanks North Star Borough,01419969,H1,A
+AK,02,100,Haines Borough,01419970,H1,A
+AK,02,105,Hoonah-Angoon Census Area,02371430,H5,S
+AK,02,110,Juneau City and Borough,01419971,H6,C
+AK,02,122,Kenai Peninsula Borough,01419972,H1,A
+AK,02,130,Ketchikan Gateway Borough,01419973,H1,A
+AK,02,150,Kodiak Island Borough,01419974,H1,A
+AK,02,158,Kusilvak Census Area,01419985,H5,S
+AK,02,164,Lake and Peninsula Borough,01419975,H1,A
+AK,02,170,Matanuska-Susitna Borough,01419976,H1,A
+AK,02,180,Nome Census Area,01419977,H5,S
+AK,02,185,North Slope Borough,01419978,H1,A
+AK,02,188,Northwest Arctic Borough,01419979,H1,A
+AK,02,195,Petersburg Borough,02516404,H1,A
+AK,02,198,Prince of Wales-Hyder Census Area,01419980,H5,S
+AK,02,220,Sitka City and Borough,01419981,H6,C
+AK,02,230,Skagway Municipality,02339479,H1,A
+AK,02,240,Southeast Fairbanks Census Area,01419983,H5,S
+AK,02,275,Wrangell City and Borough,02516402,H6,C
+AK,02,282,Yakutat City and Borough,01419986,H1,A
+AK,02,290,Yukon-Koyukuk Census Area,01419987,H5,S

@@ -1,0 +1,63 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# need to add execution permission for this file CMD % `chmod +x  bin/transcribe/parse_counties`
+
+require "pathname"
+require "fileutils"
+require "fips_lookup"
+
+# CMD %   bin/transcribe/parse_counties /Users/erik/workspace/data_files/national_county2020.txt
+# current source location: https://www2.census.gov/geo/docs/reference/codes2020/national_county2020.txt
+# Headers: STATE|STATEFP|COUNTYFP|COUNTYNS|COUNTYNAME|CLASSFP|FUNCSTAT
+
+string_conversion_dictionary = {
+  "Ã³" => "ó",
+  "Ã±" => "ñ",
+  "Ã­" => "í",
+  "Ã¡" => "á",
+  "Ã¼" => "ü",
+  "Ã©" => "é",
+  "Ãº" => "ú",
+  "Ã¥" => "å"
+}
+# "Ã­" is technically 2 characters (not "Ã").. '-' is not displayed in the editor? [vscode] Paste into terminal and see "Ã-" # "Ã­" != "Ã-"
+conversion_re = Regexp.union(string_conversion_dictionary.keys)
+
+file_path = ARGV[0]
+county_path = Pathname.getwd.join("lib/data/county")
+
+puts "~~~ Now creating county data files if they are not present ~~~"
+
+FipsLookup::STATE_CODES.each_key do |state_code|
+  county_state_file_path = county_path.join("#{state_code}.csv")
+  FileUtils.touch(county_state_file_path) unless File.exist?(county_state_file_path)
+end
+
+return unless File.exist?(file_path) && File.exist?(county_path)
+
+puts "# Required files found #"
+
+previous_state_code = "AL"
+current_state_data = []
+
+puts "... Parsing input file and creating CSVs..."
+File.open(file_path).each do |line|
+  row = line.split("|")
+
+  if previous_state_code == row[0]
+    current_state_data << [row[0], row[1], row[2], row[4].gsub(conversion_re, string_conversion_dictionary), row[3], row[5], row[6]]
+  else
+    current_csv_path = county_path.join("#{previous_state_code}.csv")
+    File.write(current_csv_path, current_state_data.map { |e| e.join(",") }.join)
+
+    previous_state_code = row[0]
+    current_state_data = [[row[0], row[1], row[2], row[4].gsub(conversion_re, string_conversion_dictionary), row[3], row[5], row[6]]]
+  end
+end
+
+last_state_path = county_path.join("#{previous_state_code}.csv")
+File.write(last_state_path, current_state_data.map { |e| e.join(",") }.join)
+
+puts "~~~ Finished creating county CSV files ~~~"
+puts "# Check files diff in lib/data/county/ #"

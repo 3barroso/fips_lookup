@@ -1,24 +1,24 @@
-MD,24,001,Allegany County,H1
-MD,24,003,Anne Arundel County,H1
-MD,24,005,Baltimore County,H1
-MD,24,009,Calvert County,H1
-MD,24,011,Caroline County,H1
-MD,24,013,Carroll County,H1
-MD,24,015,Cecil County,H1
-MD,24,017,Charles County,H1
-MD,24,019,Dorchester County,H1
-MD,24,021,Frederick County,H1
-MD,24,023,Garrett County,H1
-MD,24,025,Harford County,H1
-MD,24,027,Howard County,H1
-MD,24,029,Kent County,H1
-MD,24,031,Montgomery County,H1
-MD,24,033,Prince George's County,H1
-MD,24,035,Queen Anne's County,H1
-MD,24,037,St. Mary's County,H1
-MD,24,039,Somerset County,H1
-MD,24,041,Talbot County,H1
-MD,24,043,Washington County,H1
-MD,24,045,Wicomico County,H1
-MD,24,047,Worcester County,H1
-MD,24,510,Baltimore city,C7
+MD,24,001,Allegany County,01713506,H1,A
+MD,24,003,Anne Arundel County,01710958,H1,A
+MD,24,005,Baltimore County,01695314,H1,A
+MD,24,009,Calvert County,01676636,H1,A
+MD,24,011,Caroline County,00595737,H1,A
+MD,24,013,Carroll County,01696228,H1,A
+MD,24,015,Cecil County,00596115,H1,A
+MD,24,017,Charles County,01676992,H1,A
+MD,24,019,Dorchester County,00596495,H1,A
+MD,24,021,Frederick County,01711211,H1,A
+MD,24,023,Garrett County,01711058,H1,A
+MD,24,025,Harford County,01698178,H1,A
+MD,24,027,Howard County,01709077,H1,A
+MD,24,029,Kent County,00593907,H1,A
+MD,24,031,Montgomery County,01712500,H1,A
+MD,24,033,Prince George's County,01714670,H1,A
+MD,24,035,Queen Anne's County,00596089,H1,A
+MD,24,037,St. Mary's County,01697853,H1,A
+MD,24,039,Somerset County,00596907,H1,A
+MD,24,041,Talbot County,00592947,H1,A
+MD,24,043,Washington County,01714220,H1,A
+MD,24,045,Wicomico County,01668606,H1,A
+MD,24,047,Worcester County,01668802,H1,A
+MD,24,510,Baltimore city,01702381,C7,F
