@@ -1,0 +1,43 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "benchmark"
+require "fips_county_codes"
+require "fips_lookup"
+require "Pathname"
+require "csv"
+
+# Add other county / fips gem to dev dependnecies to compare here
+
+# chmod +x bin/investigation/benchmark
+# CMD % bin/investigation/benchmark
+
+testable_params = []
+
+File.readlines(file_path).each_with_index {}
+
+n = 5000000
+Benchmark.bm do |x|
+  x.report { FipsLookup.county(state_param: "Al", county_name: "Autauga County") }
+  x.report { FipsLookup.county(state_param: "Al", county_name: "Autauga County") }
+  x.report { FipsLookup.county(state_param: "VI", county_name: "St. Thomas Island") }
+
+  x.report { FipsCountyCodes::FIPS["VI"]["St. Thomas Island"] }
+  x.report { FipsCountyCodes::FIPS["VI"]["St. Thomas Island"] }
+  x.report { FipsCountyCodes::FIPS["AL"]["Autauga County"] }
+end
+
+# Open sample files ?
+# parse as whole text and randomaly access lines to create array
+# use array in loop for benchmarking ?
+# array built for county variables
+
+# create method for report to call for Fips benchmark
+# loops over built array and builds array with answers?
+
+# method for other gem comparisons using same dictionary for benchmarking
+
+
+# if benchmark shows better results for fips county codes 
+# try to change things around?
+  # instead of only memoizing what is found, memozise each file you go into?

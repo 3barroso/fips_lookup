@@ -6,6 +6,8 @@ source "https://rubygems.org"
 gemspec
 
 group :development do
+  gem "benchmark", "~> 0.1.1"
+  gem "fips-county-codes", "~> 0.5.0"
   gem "rake", "~> 13.0"
   gem "rspec", "~> 3.2"
   gem "rubocop", "~>1.21"
