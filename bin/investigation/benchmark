@@ -3,28 +3,58 @@
 
 require "benchmark"
 require "fips_county_codes"
-require "fips_lookup"
+require_relative "../../lib/fips_lookup"
+# what other lines should be require relative ?
 require "Pathname"
 require "csv"
 
 # Add other county / fips gem to dev dependnecies to compare here
 
 # chmod +x bin/investigation/benchmark
-# CMD % bin/investigation/benchmark
+# CMD % bin/investigation/benchmark /Users/erik/workspace/data_files/national_county2020.txt
 
-testable_params = []
+# testable_params = []
+input_file = File.read(ARGV[0])
+data_array = input_file.split("\n")
 
-File.readlines(file_path).each_with_index {}
+sample_data = []
 
-n = 5000000
+data_array.each_with_index do |row, index|
+  split_row = row.split("|")
+  sample_data << [split_row[0], split_row[4]] if index % 5
+end
+
+puts "sample_data arry length: ", sample_data.length
+puts "check first ten?", sample_data[0..10]
+
+gem_results = []
+def check_lookup_gem(sample_data)
+  sample_data.each do |data|
+    FipsLookup.county(state_param: data[0], county_param: data[1], return_nil: true)
+    # debug if return_nil is needed / can find everything
+  end
+end
+
+old_gem_resutls = []
+def check_old_gem(sample_data)
+  sample_data.each do |data|
+    FipsCountyCodes::FIPS[data[0]][data[1]]
+  end
+end
+
+# check accuraccy of answers (if old fips gem finds the same as new fips gems)
+
+# puts "MY gem initiation?", Benchmark.measure { FipsLookup }
 Benchmark.bm do |x|
-  x.report { FipsLookup.county(state_param: "Al", county_name: "Autauga County") }
-  x.report { FipsLookup.county(state_param: "Al", county_name: "Autauga County") }
-  x.report { FipsLookup.county(state_param: "VI", county_name: "St. Thomas Island") }
+  x.report { check_lookup_gem(sample_data) }
+  x.report { FipsLookup.county(state_param: "Al", county_param: "Winston County") }
+  x.report { FipsLookup.county(state_param: "Al", county_param: "Autauga County") }
+  x.report { FipsLookup.county(state_param: "VI", county_param: "St. Thomas Island") }
 
-  x.report { FipsCountyCodes::FIPS["VI"]["St. Thomas Island"] }
-  x.report { FipsCountyCodes::FIPS["VI"]["St. Thomas Island"] }
+  x.report { check_old_gem(sample_data)}
+  x.report { FipsCountyCodes::FIPS["AL"]["Winston County"] }
   x.report { FipsCountyCodes::FIPS["AL"]["Autauga County"] }
+  x.report { FipsCountyCodes::FIPS["VI"]["St. Thomas Island"] }
 end
 
 # Open sample files ?
@@ -38,6 +68,6 @@ end
 # method for other gem comparisons using same dictionary for benchmarking
 
 
-# if benchmark shows better results for fips county codes 
+# if benchmark shows better results for fips county codes
 # try to change things around?
   # instead of only memoizing what is found, memozise each file you go into?
