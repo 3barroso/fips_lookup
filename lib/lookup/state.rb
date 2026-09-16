@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # State related section of FipsLookup module
-module FipsLookup
+module FIPS
   class << self
     def state(state_param:, return_nil: false)
       @state_fips ||= {}

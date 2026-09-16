@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 require "csv"
-require_relative "fips_lookup/version"
-require_relative "fips_lookup/county"
-require_relative "fips_lookup/state"
+require_relative "lookup/version"
+require_relative "lookup/county"
+require_relative "lookup/state"
 
 # parent section of module defining constants, requiring relative worker methods
-module FipsLookup
+module FIPS
   STATE_CODES = { "AL" => "01", "AK" => "02", "AZ" => "04", "AR" => "05", "CA" => "06", "CO" => "08",
                   "CT" => "09", "DE" => "10", "DC" => "11", "FL" => "12", "GA" => "13", "HI" => "15",
                   "ID" => "16", "IL" => "17", "IN" => "18", "IA" => "19", "KS" => "20", "KY" => "21",

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # County related section of FipsLookup module
-module FipsLookup
+module FIPS
   class << self
     def county(state_param:, county_param:, return_nil: false)
       state_code = find_state_code(state_param: state_param, return_nil: return_nil)
@@ -37,8 +37,11 @@ module FipsLookup
 
     def county_lookup(state_code, county_param, return_nil)
       upcase_param = county_param.upcase
-      CSV.foreach(county_file(state_code: state_code)) do |county_row|
-        return formatted_county(county_row) if match_county?(county_row, upcase_param)
+      CSV.foreach(county_file(state_code: state_code)) do |row|
+        return formatted_county(row) if match_county?(row, upcase_param)
+
+        # keep? Memoize as file is being read but match isn't found ~ loses lookup flexiblity in county param + increases performacne?
+        @county_fips[[row[0], row[3].upcase]] = formatted_county(row) unless @county_fips.key?([row[0], row[3].upcase])
       end
       return_nil ? (return {}) : (raise StandardError, "No county found matching: #{county_param}" unless return_nil)
     end

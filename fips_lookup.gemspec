@@ -1,10 +1,12 @@
 # frozen_string_literal: true
 
-require_relative "lib/fips_lookup/version"
+require_relative "lib/lookup/version"
+# ^ should be in lib/version.rb ?
 
 Gem::Specification.new do |spec|
   spec.name = "fips_lookup"
-  spec.version = FipsLookup::VERSION
+  # ^ Should be "FIPS" ?
+  spec.version = FIPS::VERSION
   spec.authors = ["Erik Barroso"]
   spec.email = ["erikbarroso22@gmail.com"]
 

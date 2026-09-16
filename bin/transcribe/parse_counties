@@ -5,7 +5,7 @@
 
 require "pathname"
 require "fileutils"
-require "fips_lookup"
+require "lookup"
 
 # CMD %   bin/transcribe/parse_counties /Users/erik/workspace/data_files/national_county2020.txt
 # current source location: https://www2.census.gov/geo/docs/reference/codes2020/national_county2020.txt
@@ -29,7 +29,7 @@ county_path = Pathname.getwd.join("lib/data/county")
 
 puts "~~~ Now creating county data files if they are not present ~~~"
 
-FipsLookup::STATE_CODES.each_key do |state_code|
+FIPS::STATE_CODES.each_key do |state_code|
   county_state_file_path = county_path.join("#{state_code}.csv")
   FileUtils.touch(county_state_file_path) unless File.exist?(county_state_file_path)
 end
