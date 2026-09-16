@@ -27,15 +27,10 @@ uniq_words = found_non_chars.uniq
 
 puts "Unique characters found: ", uniq_words.inspect
 
-
 if found_non_chars.empty?
-  return 
+  puts "No Unique characters Found"
+  return
 end
-
-puts "Found unique characters within the text file"
-puts "parsing file now to translate"
-
-temp_file = input_file + ".tmp"
 
 string_conversion_dictionary = {
   "Ã³" => "ó",
@@ -47,7 +42,22 @@ string_conversion_dictionary = {
   "Ãº" => "ú",
   "Ã¥" => "å"
 }
-# line 15: "Ã­" is technically 2 characters, not "Ã"; no '-' displayed in editor[vscode?] Paste into terminal and see "Ã-" # "Ã­" != "Ã-"
+# line 38: "Ã­" is technically 2 characters, not "Ã"; no '-' displayed in editor[vscode?] Paste into terminal and see "Ã-" # "Ã­" != "Ã-"
+
+already_processed = uniq_words.all? do |identified_chars|
+  string_conversion_dictionary.values.any? { |val| identified_chars.include?(val) }
+end
+  
+if already_processed 
+  puts "File was already processed, characters identified are valid"
+  return 
+end
+
+puts "Found unique characters within the text file"
+puts "Parsing file now to translate"
+
+temp_file = Pathname.getwd.join("source_data/#{file_name}.tmp")
+
 conversion_re = Regexp.union(string_conversion_dictionary.keys)
 
 File.open(input_file, "r") do |reader|
@@ -58,5 +68,5 @@ File.open(input_file, "r") do |reader|
   end
 end
 
-FileUtils.mv(output_file, input_file)
+FileUtils.mv(temp_file, input_file)
 puts "File processed successfully!"
