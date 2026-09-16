@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 require "csv"
-require_relative "lookup/version"
-require_relative "lookup/county"
-require_relative "lookup/state"
+require_relative "fips_lookup/version"
+require_relative "fips_lookup/county"
+require_relative "fips_lookup/state"
 
 # parent section of module defining constants, requiring relative worker methods
 module FIPS

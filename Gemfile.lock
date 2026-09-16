@@ -8,20 +8,41 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
-    benchmark (0.1.1)
-    csv (3.3.0)
+    csv (3.3.6)
     diff-lcs (1.5.1)
-    fips-county-codes (0.5.0)
+    erb (6.0.7)
+    io-console (0.9.3)
+    irb (1.18.0)
+      pp (>= 0.6.0)
+      prism (>= 1.3.0)
+      rdoc (>= 4.0.0)
+      reline (>= 0.4.2)
     json (2.7.1)
     language_server-protocol (3.17.0.3)
+    logger (1.7.0)
     parallel (1.24.0)
     parser (3.3.0.5)
       ast (~> 2.4.1)
       racc
+    pp (0.6.4)
+      prettyprint
+    prettyprint (0.2.0)
+    prism (1.9.0)
     racc (1.7.3)
     rainbow (3.1.1)
     rake (13.1.0)
+    rbs (4.2.0)
+      logger
+      prism (>= 1.6.0)
+      tsort
+    rdoc (8.0.0)
+      erb
+      prism (>= 1.6.0)
+      rbs (>= 4.0.0)
+      tsort
     regexp_parser (2.9.0)
+    reline (0.7.0)
+      io-console (~> 0.5)
     rexml (3.2.6)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
@@ -50,16 +71,17 @@ GEM
     rubocop-ast (1.31.2)
       parser (>= 3.3.0.4)
     ruby-progressbar (1.13.0)
+    tsort (0.2.0)
     unicode-display_width (2.5.0)
 
 PLATFORMS
   arm64-darwin-21
   arm64-darwin-22
+  arm64-darwin-25
 
 DEPENDENCIES
-  benchmark (~> 0.1.1)
-  fips-county-codes (~> 0.5.0)
   fips_lookup!
+  irb
   rake (~> 13.0)
   rspec (~> 3.2)
   rubocop (~> 1.21)
