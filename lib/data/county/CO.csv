@@ -1,64 +1,64 @@
-CO,08,001,Adams County,H1
-CO,08,003,Alamosa County,H1
-CO,08,005,Arapahoe County,H1
-CO,08,007,Archuleta County,H1
-CO,08,009,Baca County,H1
-CO,08,011,Bent County,H1
-CO,08,013,Boulder County,H1
-CO,08,014,Broomfield County,H6
-CO,08,015,Chaffee County,H1
-CO,08,017,Cheyenne County,H1
-CO,08,019,Clear Creek County,H1
-CO,08,021,Conejos County,H1
-CO,08,023,Costilla County,H1
-CO,08,025,Crowley County,H1
-CO,08,027,Custer County,H1
-CO,08,029,Delta County,H1
-CO,08,031,Denver County,H6
-CO,08,033,Dolores County,H1
-CO,08,035,Douglas County,H1
-CO,08,037,Eagle County,H1
-CO,08,039,Elbert County,H1
-CO,08,041,El Paso County,H1
-CO,08,043,Fremont County,H1
-CO,08,045,Garfield County,H1
-CO,08,047,Gilpin County,H1
-CO,08,049,Grand County,H1
-CO,08,051,Gunnison County,H1
-CO,08,053,Hinsdale County,H1
-CO,08,055,Huerfano County,H1
-CO,08,057,Jackson County,H1
-CO,08,059,Jefferson County,H1
-CO,08,061,Kiowa County,H1
-CO,08,063,Kit Carson County,H1
-CO,08,065,Lake County,H1
-CO,08,067,La Plata County,H1
-CO,08,069,Larimer County,H1
-CO,08,071,Las Animas County,H1
-CO,08,073,Lincoln County,H1
-CO,08,075,Logan County,H1
-CO,08,077,Mesa County,H1
-CO,08,079,Mineral County,H1
-CO,08,081,Moffat County,H1
-CO,08,083,Montezuma County,H1
-CO,08,085,Montrose County,H1
-CO,08,087,Morgan County,H1
-CO,08,089,Otero County,H1
-CO,08,091,Ouray County,H1
-CO,08,093,Park County,H1
-CO,08,095,Phillips County,H1
-CO,08,097,Pitkin County,H1
-CO,08,099,Prowers County,H1
-CO,08,101,Pueblo County,H1
-CO,08,103,Rio Blanco County,H1
-CO,08,105,Rio Grande County,H1
-CO,08,107,Routt County,H1
-CO,08,109,Saguache County,H1
-CO,08,111,San Juan County,H1
-CO,08,113,San Miguel County,H1
-CO,08,115,Sedgwick County,H1
-CO,08,117,Summit County,H1
-CO,08,119,Teller County,H1
-CO,08,121,Washington County,H1
-CO,08,123,Weld County,H1
-CO,08,125,Yuma County,H1
+CO,08,001,Adams County,00198116,H1,A
+CO,08,003,Alamosa County,00198117,H1,A
+CO,08,005,Arapahoe County,00198118,H1,A
+CO,08,007,Archuleta County,00198119,H1,A
+CO,08,009,Baca County,00198120,H1,A
+CO,08,011,Bent County,00198121,H1,A
+CO,08,013,Boulder County,00198122,H1,A
+CO,08,014,Broomfield County,01945881,H6,C
+CO,08,015,Chaffee County,00198123,H1,A
+CO,08,017,Cheyenne County,00198124,H1,A
+CO,08,019,Clear Creek County,00198125,H1,A
+CO,08,021,Conejos County,00198126,H1,A
+CO,08,023,Costilla County,00198127,H1,A
+CO,08,025,Crowley County,00198128,H1,A
+CO,08,027,Custer County,00198129,H1,A
+CO,08,029,Delta County,00198130,H1,A
+CO,08,031,Denver County,00198131,H6,C
+CO,08,033,Dolores County,00198132,H1,A
+CO,08,035,Douglas County,00198133,H1,A
+CO,08,037,Eagle County,00198134,H1,A
+CO,08,039,Elbert County,00198136,H1,A
+CO,08,041,El Paso County,00198135,H1,A
+CO,08,043,Fremont County,00198137,H1,A
+CO,08,045,Garfield County,00198138,H1,A
+CO,08,047,Gilpin County,00198139,H1,A
+CO,08,049,Grand County,00198140,H1,A
+CO,08,051,Gunnison County,00198141,H1,A
+CO,08,053,Hinsdale County,00198142,H1,A
+CO,08,055,Huerfano County,00198143,H1,A
+CO,08,057,Jackson County,00198144,H1,A
+CO,08,059,Jefferson County,00198145,H1,A
+CO,08,061,Kiowa County,00198146,H1,A
+CO,08,063,Kit Carson County,00198147,H1,A
+CO,08,065,Lake County,00198149,H1,A
+CO,08,067,La Plata County,00198148,H1,A
+CO,08,069,Larimer County,00198150,H1,A
+CO,08,071,Las Animas County,00198151,H1,A
+CO,08,073,Lincoln County,00198152,H1,A
+CO,08,075,Logan County,00198153,H1,A
+CO,08,077,Mesa County,00198154,H1,A
+CO,08,079,Mineral County,00198155,H1,A
+CO,08,081,Moffat County,00198156,H1,A
+CO,08,083,Montezuma County,00198157,H1,A
+CO,08,085,Montrose County,00198158,H1,A
+CO,08,087,Morgan County,00198159,H1,A
+CO,08,089,Otero County,00198160,H1,A
+CO,08,091,Ouray County,00198161,H1,A
+CO,08,093,Park County,00198162,H1,A
+CO,08,095,Phillips County,00198163,H1,A
+CO,08,097,Pitkin County,00198164,H1,A
+CO,08,099,Prowers County,00198165,H1,A
+CO,08,101,Pueblo County,00198166,H1,A
+CO,08,103,Rio Blanco County,00198167,H1,A
+CO,08,105,Rio Grande County,00198168,H1,A
+CO,08,107,Routt County,00198169,H1,A
+CO,08,109,Saguache County,00198170,H1,A
+CO,08,111,San Juan County,00198171,H1,A
+CO,08,113,San Miguel County,00198172,H1,A
+CO,08,115,Sedgwick County,00198173,H1,A
+CO,08,117,Summit County,00198174,H1,A
+CO,08,119,Teller County,00198175,H1,A
+CO,08,121,Washington County,00198176,H1,A
+CO,08,123,Weld County,00198177,H1,A
+CO,08,125,Yuma County,00198178,H1,A
