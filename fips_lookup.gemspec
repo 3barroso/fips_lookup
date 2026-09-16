@@ -35,6 +35,7 @@ Gem::Specification.new do |spec|
 
   spec.files += Dir["lib/data/county/*.csv"]
   spec.files += Dir["lib/data/*.csv"]
+  spec.files.reject! { |f| f.start_with?('source_data/') && f.end_with?('.txt') }
 
   spec.add_runtime_dependency "csv", "~> 3.0"
 
