@@ -94,6 +94,14 @@ RSpec.describe FIPS do
     end
   end
 
+  describe ".subdivision" do
+    context "with valid subdivision param" do
+      it "returns the corresponding subdivision row hash" do
+        expect(FIPS.subdivision(state_param: "CO", subdivision_param: "North Aurora CCD")).to eq({state_code: "CO", fips: "0800192622", county_name: "Adams County", gnis: "01935531", name: "North Aurora CCD", class_code: "Z5", status: "S"})
+      end
+    end
+  end
+
   describe "STATE_CODES" do
     it "is a hash with the same number of key value pairs as rows in the state.csv file" do
       expect(FIPS::STATE_CODES.length).to eq(`wc -l #{state_file_path}`.to_i)

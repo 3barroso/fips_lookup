@@ -2,6 +2,7 @@
 
 require "csv"
 require_relative "fips_lookup/version"
+require_relative "fips_lookup/subdivision"
 require_relative "fips_lookup/county"
 require_relative "fips_lookup/state"
 
@@ -19,6 +20,6 @@ module FIPS
                   "PR" => "72", "UM" => "74", "VI" => "78" }.freeze
 
   class << self
-    attr_accessor :county_fips, :state_fips
+    attr_accessor :county_fips, :state_fips, :subdivision_fips
   end
 end

@@ -1,0 +1,357 @@
+MA,25,001,Barnstable County,00000,00000000,County subdivisions not defined,Z9,F
+MA,25,001,Barnstable County,03690,00618248,Barnstable Town city,C5,F
+MA,25,001,Barnstable County,07175,00619412,Bourne town,T1,A
+MA,25,001,Barnstable County,07980,00618249,Brewster town,T1,A
+MA,25,001,Barnstable County,12995,00618250,Chatham town,T1,A
+MA,25,001,Barnstable County,16775,00618252,Dennis town,T1,A
+MA,25,001,Barnstable County,19295,00619414,Eastham town,T1,A
+MA,25,001,Barnstable County,23105,00618253,Falmouth town,T1,A
+MA,25,001,Barnstable County,29020,00618254,Harwich town,T1,A
+MA,25,001,Barnstable County,39100,00618256,Mashpee town,T1,A
+MA,25,001,Barnstable County,51440,00618257,Orleans town,T1,A
+MA,25,001,Barnstable County,55500,00618258,Provincetown town,T1,A
+MA,25,001,Barnstable County,59735,00618259,Sandwich town,T1,A
+MA,25,001,Barnstable County,70605,00618260,Truro town,T1,A
+MA,25,001,Barnstable County,74385,00618261,Wellfleet town,T1,A
+MA,25,001,Barnstable County,82525,00618262,Yarmouth town,T1,A
+MA,25,003,Berkshire County,00555,00619415,Adams town,T1,A
+MA,25,003,Berkshire County,00975,00618263,Alford town,T1,A
+MA,25,003,Berkshire County,04545,00619416,Becket town,T1,A
+MA,25,003,Berkshire County,13345,00618264,Cheshire town,T1,A
+MA,25,003,Berkshire County,14010,00619417,Clarksburg town,T1,A
+MA,25,003,Berkshire County,16180,00619418,Dalton town,T1,A
+MA,25,003,Berkshire County,21360,00618265,Egremont town,T1,A
+MA,25,003,Berkshire County,24120,00619419,Florida town,T1,A
+MA,25,003,Berkshire County,26815,00619420,Great Barrington town,T1,A
+MA,25,003,Berkshire County,28180,00619421,Hancock town,T1,A
+MA,25,003,Berkshire County,30315,00618266,Hinsdale town,T1,A
+MA,25,003,Berkshire County,34340,00618267,Lanesborough town,T1,A
+MA,25,003,Berkshire County,34655,00618268,Lee town,T1,A
+MA,25,003,Berkshire County,34970,00618269,Lenox town,T1,A
+MA,25,003,Berkshire County,42460,00618270,Monterey town,T1,A
+MA,25,003,Berkshire County,43300,00618271,Mount Washington town,T1,A
+MA,25,003,Berkshire County,44385,00598751,New Ashford town,T1,A
+MA,25,003,Berkshire County,45420,00618272,New Marlborough town,T1,A
+MA,25,003,Berkshire County,46225,00618273,North Adams city,C5,F
+MA,25,003,Berkshire County,51580,00619422,Otis town,T1,A
+MA,25,003,Berkshire County,53050,00619423,Peru town,T1,A
+MA,25,003,Berkshire County,53960,00619424,Pittsfield city,C5,F
+MA,25,003,Berkshire County,56795,00619425,Richmond town,T1,A
+MA,25,003,Berkshire County,59665,00619426,Sandisfield town,T1,A
+MA,25,003,Berkshire County,60225,00619427,Savoy town,T1,A
+MA,25,003,Berkshire County,61065,00619428,Sheffield town,T1,A
+MA,25,003,Berkshire County,67595,00618274,Stockbridge town,T1,A
+MA,25,003,Berkshire County,71095,00619429,Tyringham town,T1,A
+MA,25,003,Berkshire County,73335,00618275,Washington town,T1,A
+MA,25,003,Berkshire County,77990,00618276,West Stockbridge town,T1,A
+MA,25,003,Berkshire County,79985,00619430,Williamstown town,T1,A
+MA,25,003,Berkshire County,80685,00619431,Windsor town,T1,A
+MA,25,005,Bristol County,00000,00000000,County subdivisions not defined,Z9,F
+MA,25,005,Bristol County,00520,01729673,Acushnet town,T1,A
+MA,25,005,Bristol County,02690,00618278,Attleboro city,C5,F
+MA,25,005,Bristol County,05280,00619432,Berkley town,T1,A
+MA,25,005,Bristol County,16425,00618279,Dartmouth town,T1,A
+MA,25,005,Bristol County,16950,00618280,Dighton town,T1,A
+MA,25,005,Bristol County,20100,00619433,Easton town,T1,A
+MA,25,005,Bristol County,22130,00618281,Fairhaven town,T1,A
+MA,25,005,Bristol County,23000,00618282,Fall River city,C5,F
+MA,25,005,Bristol County,25240,00619434,Freetown town,T1,A
+MA,25,005,Bristol County,38225,00618283,Mansfield town,T1,A
+MA,25,005,Bristol County,45000,00619435,New Bedford city,C5,F
+MA,25,005,Bristol County,46598,00618284,North Attleborough Town city,C5,F
+MA,25,005,Bristol County,49970,00619436,Norton town,T1,A
+MA,25,005,Bristol County,56060,00618285,Raynham town,T1,A
+MA,25,005,Bristol County,56375,00619437,Rehoboth town,T1,A
+MA,25,005,Bristol County,60645,00618286,Seekonk town,T1,A
+MA,25,005,Bristol County,62430,00619438,Somerset town,T1,A
+MA,25,005,Bristol County,68750,00619439,Swansea town,T1,A
+MA,25,005,Bristol County,69170,00619440,Taunton city,C5,F
+MA,25,005,Bristol County,77570,00618287,Westport town,T1,A
+MA,25,007,Dukes County,01585,00618289,Aquinnah town,T1,A
+MA,25,007,Dukes County,13800,00618288,Chilmark town,T1,A
+MA,25,007,Dukes County,21150,00619441,Edgartown town,T1,A
+MA,25,007,Dukes County,26325,00618290,Gosnold town,T1,A
+MA,25,007,Dukes County,50390,00619442,Oak Bluffs town,T1,A
+MA,25,007,Dukes County,69940,00619443,Tisbury town,T1,A
+MA,25,007,Dukes County,78235,00618291,West Tisbury town,T1,A
+MA,25,009,Essex County,00000,00000000,County subdivisions not defined,Z9,F
+MA,25,009,Essex County,01260,00618292,Amesbury Town city,C5,F
+MA,25,009,Essex County,01465,00619444,Andover town,T1,A
+MA,25,009,Essex County,05595,00618293,Beverly city,C5,F
+MA,25,009,Essex County,07420,00618294,Boxford town,T1,A
+MA,25,009,Essex County,16250,00618295,Danvers town,T1,A
+MA,25,009,Essex County,21850,00618296,Essex town,T1,A
+MA,25,009,Essex County,25625,00619445,Georgetown town,T1,A
+MA,25,009,Essex County,26150,00618297,Gloucester city,C5,F
+MA,25,009,Essex County,27620,00618298,Groveland town,T1,A
+MA,25,009,Essex County,27900,00619446,Hamilton town,T1,A
+MA,25,009,Essex County,29405,00619447,Haverhill city,C5,F
+MA,25,009,Essex County,32310,00619448,Ipswich town,T1,A
+MA,25,009,Essex County,34550,00619449,Lawrence city,C5,F
+MA,25,009,Essex County,37490,00619450,Lynn city,C5,F
+MA,25,009,Essex County,37560,00618299,Lynnfield town,T1,A
+MA,25,009,Essex County,37995,00619451,Manchester-by-the-Sea town,T1,A
+MA,25,009,Essex County,38400,00618300,Marblehead town,T1,A
+MA,25,009,Essex County,40430,00618301,Merrimac town,T1,A
+MA,25,009,Essex County,40710,00618302,Methuen Town city,C5,F
+MA,25,009,Essex County,41095,00618303,Middleton town,T1,A
+MA,25,009,Essex County,43580,00618304,Nahant town,T1,A
+MA,25,009,Essex County,45175,00619452,Newbury town,T1,A
+MA,25,009,Essex County,45245,00618305,Newburyport city,C5,F
+MA,25,009,Essex County,46365,00618306,North Andover town,T1,A
+MA,25,009,Essex County,52490,00618307,Peabody city,C5,F
+MA,25,009,Essex County,57880,00618308,Rockport town,T1,A
+MA,25,009,Essex County,58405,00618309,Rowley town,T1,A
+MA,25,009,Essex County,59105,00619453,Salem city,C5,F
+MA,25,009,Essex County,59245,00618310,Salisbury town,T1,A
+MA,25,009,Essex County,60015,00619454,Saugus town,T1,A
+MA,25,009,Essex County,68645,00618311,Swampscott town,T1,A
+MA,25,009,Essex County,70150,00618312,Topsfield town,T1,A
+MA,25,009,Essex County,74595,00619455,Wenham town,T1,A
+MA,25,009,Essex County,77150,00618313,West Newbury town,T1,A
+MA,25,011,Franklin County,02095,00619377,Ashfield town,T1,A
+MA,25,011,Franklin County,05560,00619378,Bernardston town,T1,A
+MA,25,011,Franklin County,09595,00618159,Buckland town,T1,A
+MA,25,011,Franklin County,12505,00619379,Charlemont town,T1,A
+MA,25,011,Franklin County,14885,00618160,Colrain town,T1,A
+MA,25,011,Franklin County,15200,00618161,Conway town,T1,A
+MA,25,011,Franklin County,16670,00618162,Deerfield town,T1,A
+MA,25,011,Franklin County,21780,00618163,Erving town,T1,A
+MA,25,011,Franklin County,25730,00618164,Gill town,T1,A
+MA,25,011,Franklin County,27060,00618166,Greenfield city,C5,F
+MA,25,011,Franklin County,29475,00619380,Hawley town,T1,A
+MA,25,011,Franklin County,29650,00618167,Heath town,T1,A
+MA,25,011,Franklin County,35180,00618168,Leverett town,T1,A
+MA,25,011,Franklin County,35285,00618169,Leyden town,T1,A
+MA,25,011,Franklin County,42040,00618170,Monroe town,T1,A
+MA,25,011,Franklin County,42285,00618171,Montague town,T1,A
+MA,25,011,Franklin County,45490,00618172,New Salem town,T1,A
+MA,25,011,Franklin County,47835,00619381,Northfield town,T1,A
+MA,25,011,Franklin County,51265,00618173,Orange town,T1,A
+MA,25,011,Franklin County,58335,00618174,Rowe town,T1,A
+MA,25,011,Franklin County,61135,00618175,Shelburne town,T1,A
+MA,25,011,Franklin County,61905,00619382,Shutesbury town,T1,A
+MA,25,011,Franklin County,68400,00618176,Sunderland town,T1,A
+MA,25,011,Franklin County,73265,00618177,Warwick town,T1,A
+MA,25,011,Franklin County,74525,00618178,Wendell town,T1,A
+MA,25,011,Franklin County,79110,01729674,Whately town,T1,A
+MA,25,013,Hampden County,00840,00618180,Agawam Town city,C5,F
+MA,25,013,Hampden County,06085,00619383,Blandford town,T1,A
+MA,25,013,Hampden County,08470,00619384,Brimfield town,T1,A
+MA,25,013,Hampden County,13485,00619385,Chester town,T1,A
+MA,25,013,Hampden County,13660,00618181,Chicopee city,C5,F
+MA,25,013,Hampden County,19645,00618182,East Longmeadow town,T1,A
+MA,25,013,Hampden County,26675,00618183,Granville town,T1,A
+MA,25,013,Hampden County,28075,00618184,Hampden town,T1,A
+MA,25,013,Hampden County,30665,00618185,Holland town,T1,A
+MA,25,013,Hampden County,30840,00619386,Holyoke city,C5,F
+MA,25,013,Hampden County,36300,00618186,Longmeadow town,T1,A
+MA,25,013,Hampden County,37175,00618187,Ludlow town,T1,A
+MA,25,013,Hampden County,42145,00618188,Monson town,T1,A
+MA,25,013,Hampden County,42530,00618189,Montgomery town,T1,A
+MA,25,013,Hampden County,52144,00619387,Palmer Town city,C5,F
+MA,25,013,Hampden County,58650,00618190,Russell town,T1,A
+MA,25,013,Hampden County,65825,00618191,Southwick town,T1,A
+MA,25,013,Hampden County,67000,00619388,Springfield city,C5,F
+MA,25,013,Hampden County,70045,00618192,Tolland town,T1,A
+MA,25,013,Hampden County,72390,00619389,Wales town,T1,A
+MA,25,013,Hampden County,76030,00618193,Westfield city,C5,F
+MA,25,013,Hampden County,77890,00618194,West Springfield Town city,C5,F
+MA,25,013,Hampden County,79740,00619390,Wilbraham town,T1,A
+MA,25,015,Hampshire County,01370,00618195,Amherst Town city,C5,F
+MA,25,015,Hampshire County,04825,00618196,Belchertown town,T1,A
+MA,25,015,Hampshire County,13590,00618197,Chesterfield town,T1,A
+MA,25,015,Hampshire County,16040,00618198,Cummington town,T1,A
+MA,25,015,Hampshire County,19370,00618199,Easthampton Town city,C5,F
+MA,25,015,Hampshire County,26290,00619391,Goshen town,T1,A
+MA,25,015,Hampshire County,26535,00618200,Granby town,T1,A
+MA,25,015,Hampshire County,27690,00618201,Hadley town,T1,A
+MA,25,015,Hampshire County,29265,00618202,Hatfield town,T1,A
+MA,25,015,Hampshire County,31785,00618203,Huntington town,T1,A
+MA,25,015,Hampshire County,40990,00618204,Middlefield town,T1,A
+MA,25,015,Hampshire County,46330,00619392,Northampton city,C5,F
+MA,25,015,Hampshire County,52560,00618205,Pelham town,T1,A
+MA,25,015,Hampshire County,54030,00618206,Plainfield town,T1,A
+MA,25,015,Hampshire County,62745,00618207,Southampton town,T1,A
+MA,25,015,Hampshire County,64145,00618208,South Hadley town,T1,A
+MA,25,015,Hampshire County,72880,00618209,Ware town,T1,A
+MA,25,015,Hampshire County,76380,00618210,Westhampton town,T1,A
+MA,25,015,Hampshire County,79915,00618211,Williamsburg town,T1,A
+MA,25,015,Hampshire County,82175,00618212,Worthington town,T1,A
+MA,25,017,Middlesex County,00380,00618213,Acton town,T1,A
+MA,25,017,Middlesex County,01605,00619393,Arlington town,T1,A
+MA,25,017,Middlesex County,01955,00618214,Ashby town,T1,A
+MA,25,017,Middlesex County,02130,00619394,Ashland town,T1,A
+MA,25,017,Middlesex County,03005,00618215,Ayer town,T1,A
+MA,25,017,Middlesex County,04615,00619395,Bedford town,T1,A
+MA,25,017,Middlesex County,05070,00618216,Belmont town,T1,A
+MA,25,017,Middlesex County,05805,00618217,Billerica town,T1,A
+MA,25,017,Middlesex County,07350,00618218,Boxborough town,T1,A
+MA,25,017,Middlesex County,09840,00618219,Burlington town,T1,A
+MA,25,017,Middlesex County,11000,00619396,Cambridge city,C5,F
+MA,25,017,Middlesex County,11525,00619397,Carlisle town,T1,A
+MA,25,017,Middlesex County,13135,00618220,Chelmsford town,T1,A
+MA,25,017,Middlesex County,15060,00619398,Concord town,T1,A
+MA,25,017,Middlesex County,17475,00618221,Dracut town,T1,A
+MA,25,017,Middlesex County,17825,00618222,Dunstable town,T1,A
+MA,25,017,Middlesex County,21990,00618223,Everett city,C5,F
+MA,25,017,Middlesex County,24960,02791559,Framingham city,C5,F
+MA,25,017,Middlesex County,27480,00619399,Groton town,T1,A
+MA,25,017,Middlesex County,30700,00618225,Holliston town,T1,A
+MA,25,017,Middlesex County,31085,00619400,Hopkinton town,T1,A
+MA,25,017,Middlesex County,31540,00618226,Hudson town,T1,A
+MA,25,017,Middlesex County,35215,00619401,Lexington town,T1,A
+MA,25,017,Middlesex County,35425,00619402,Lincoln town,T1,A
+MA,25,017,Middlesex County,35950,00619403,Littleton town,T1,A
+MA,25,017,Middlesex County,37000,00618227,Lowell city,C5,F
+MA,25,017,Middlesex County,37875,00619404,Malden city,C5,F
+MA,25,017,Middlesex County,38715,00618228,Marlborough city,C5,F
+MA,25,017,Middlesex County,39625,00618229,Maynard town,T1,A
+MA,25,017,Middlesex County,39835,00619405,Medford city,C5,F
+MA,25,017,Middlesex County,40115,00619406,Melrose city,C5,F
+MA,25,017,Middlesex County,43895,00619407,Natick town,T1,A
+MA,25,017,Middlesex County,45560,00619408,Newton city,C5,F
+MA,25,017,Middlesex County,48955,00618230,North Reading town,T1,A
+MA,25,017,Middlesex County,52805,00618231,Pepperell town,T1,A
+MA,25,017,Middlesex County,56130,00618232,Reading town,T1,A
+MA,25,017,Middlesex County,61380,00618233,Sherborn town,T1,A
+MA,25,017,Middlesex County,61590,00618234,Shirley town,T1,A
+MA,25,017,Middlesex County,62535,00619409,Somerville city,C5,F
+MA,25,017,Middlesex County,67665,00618235,Stoneham town,T1,A
+MA,25,017,Middlesex County,68050,00618236,Stow town,T1,A
+MA,25,017,Middlesex County,68260,00618237,Sudbury town,T1,A
+MA,25,017,Middlesex County,69415,00618238,Tewksbury town,T1,A
+MA,25,017,Middlesex County,70360,00618239,Townsend town,T1,A
+MA,25,017,Middlesex County,71025,00618240,Tyngsborough town,T1,A
+MA,25,017,Middlesex County,72215,00619410,Wakefield town,T1,A
+MA,25,017,Middlesex County,72600,00618241,Waltham city,C5,F
+MA,25,017,Middlesex County,73440,00618242,Watertown Town city,C5,F
+MA,25,017,Middlesex County,73790,00618243,Wayland town,T1,A
+MA,25,017,Middlesex County,76135,00618244,Westford town,T1,A
+MA,25,017,Middlesex County,77255,00618245,Weston town,T1,A
+MA,25,017,Middlesex County,80230,00618246,Wilmington town,T1,A
+MA,25,017,Middlesex County,80510,00618247,Winchester town,T1,A
+MA,25,017,Middlesex County,81035,00619411,Woburn city,C5,F
+MA,25,019,Nantucket County,00000,00000000,County subdivisions not defined,Z9,F
+MA,25,019,Nantucket County,43790,00619376,Nantucket town,T1,A
+MA,25,021,Norfolk County,02935,00618314,Avon town,T1,A
+MA,25,021,Norfolk County,04930,00618315,Bellingham town,T1,A
+MA,25,021,Norfolk County,07740,00618316,Braintree Town city,C5,F
+MA,25,021,Norfolk County,09175,00619456,Brookline town,T1,A
+MA,25,021,Norfolk County,11315,00619457,Canton town,T1,A
+MA,25,021,Norfolk County,14640,00618317,Cohasset town,T1,A
+MA,25,021,Norfolk County,16495,00618318,Dedham town,T1,A
+MA,25,021,Norfolk County,17405,00618319,Dover town,T1,A
+MA,25,021,Norfolk County,24820,00618320,Foxborough town,T1,A
+MA,25,021,Norfolk County,25172,00618321,Franklin Town city,C5,F
+MA,25,021,Norfolk County,30455,00618322,Holbrook town,T1,A
+MA,25,021,Norfolk County,39765,00618323,Medfield town,T1,A
+MA,25,021,Norfolk County,39975,00619458,Medway town,T1,A
+MA,25,021,Norfolk County,41515,00618324,Millis town,T1,A
+MA,25,021,Norfolk County,41690,00619459,Milton town,T1,A
+MA,25,021,Norfolk County,44105,00618325,Needham town,T1,A
+MA,25,021,Norfolk County,46050,00618326,Norfolk town,T1,A
+MA,25,021,Norfolk County,50250,00619460,Norwood town,T1,A
+MA,25,021,Norfolk County,54100,00618327,Plainville town,T1,A
+MA,25,021,Norfolk County,55745,00619461,Quincy city,C5,F
+MA,25,021,Norfolk County,56000,00618328,Randolph Town city,C5,F
+MA,25,021,Norfolk County,60785,00618329,Sharon town,T1,A
+MA,25,021,Norfolk County,67945,00618330,Stoughton town,T1,A
+MA,25,021,Norfolk County,72495,00618331,Walpole town,T1,A
+MA,25,021,Norfolk County,74175,00618332,Wellesley town,T1,A
+MA,25,021,Norfolk County,78690,00618333,Westwood town,T1,A
+MA,25,021,Norfolk County,78972,00619462,Weymouth Town city,C5,F
+MA,25,021,Norfolk County,82315,00618334,Wrentham town,T1,A
+MA,25,023,Plymouth County,00000,00000000,County subdivisions not defined,Z9,F
+MA,25,023,Plymouth County,00170,00618336,Abington town,T1,A
+MA,25,023,Plymouth County,08130,00619466,Bridgewater Town city,C5,F
+MA,25,023,Plymouth County,09000,00619467,Brockton city,C5,F
+MA,25,023,Plymouth County,11665,00618337,Carver town,T1,A
+MA,25,023,Plymouth County,17895,00618338,Duxbury town,T1,A
+MA,25,023,Plymouth County,18455,00618339,East Bridgewater town,T1,A
+MA,25,023,Plymouth County,27795,00618340,Halifax town,T1,A
+MA,25,023,Plymouth County,28285,00618341,Hanover town,T1,A
+MA,25,023,Plymouth County,28495,00619468,Hanson town,T1,A
+MA,25,023,Plymouth County,30210,00618342,Hingham town,T1,A
+MA,25,023,Plymouth County,31645,00618343,Hull town,T1,A
+MA,25,023,Plymouth County,33220,00619469,Kingston town,T1,A
+MA,25,023,Plymouth County,33920,00618344,Lakeville town,T1,A
+MA,25,023,Plymouth County,38540,00618345,Marion town,T1,A
+MA,25,023,Plymouth County,38855,00619470,Marshfield town,T1,A
+MA,25,023,Plymouth County,39450,00619471,Mattapoisett town,T1,A
+MA,25,023,Plymouth County,40850,00618346,Middleborough town,T1,A
+MA,25,023,Plymouth County,50145,00618347,Norwell town,T1,A
+MA,25,023,Plymouth County,52630,00618348,Pembroke town,T1,A
+MA,25,023,Plymouth County,54310,00618349,Plymouth town,T1,A
+MA,25,023,Plymouth County,54415,00619472,Plympton town,T1,A
+MA,25,023,Plymouth County,57600,00618350,Rochester town,T1,A
+MA,25,023,Plymouth County,57775,00618351,Rockland town,T1,A
+MA,25,023,Plymouth County,60330,00618352,Scituate town,T1,A
+MA,25,023,Plymouth County,72985,00618353,Wareham town,T1,A
+MA,25,023,Plymouth County,75260,00618354,West Bridgewater town,T1,A
+MA,25,023,Plymouth County,79530,00618355,Whitman town,T1,A
+MA,25,025,Suffolk County,00000,00000000,County subdivisions not defined,Z9,F
+MA,25,025,Suffolk County,07000,00619463,Boston city,C5,F
+MA,25,025,Suffolk County,13205,00619464,Chelsea city,C5,F
+MA,25,025,Suffolk County,56585,00619465,Revere city,C5,F
+MA,25,025,Suffolk County,81005,00618335,Winthrop Town city,C5,F
+MA,25,027,Worcester County,01885,00618356,Ashburnham town,T1,A
+MA,25,027,Worcester County,02480,00619473,Athol town,T1,A
+MA,25,027,Worcester County,02760,00619474,Auburn town,T1,A
+MA,25,027,Worcester County,03740,00619475,Barre town,T1,A
+MA,25,027,Worcester County,05490,00619476,Berlin town,T1,A
+MA,25,027,Worcester County,06015,00619477,Blackstone town,T1,A
+MA,25,027,Worcester County,06365,00618357,Bolton town,T1,A
+MA,25,027,Worcester County,07525,00619478,Boylston town,T1,A
+MA,25,027,Worcester County,09105,00618358,Brookfield town,T1,A
+MA,25,027,Worcester County,12715,00618359,Charlton town,T1,A
+MA,25,027,Worcester County,14395,00618360,Clinton town,T1,A
+MA,25,027,Worcester County,17300,00619479,Douglas town,T1,A
+MA,25,027,Worcester County,17685,00618361,Dudley town,T1,A
+MA,25,027,Worcester County,18560,00618362,East Brookfield town,T1,A
+MA,25,027,Worcester County,23875,00618363,Fitchburg city,C5,F
+MA,25,027,Worcester County,25485,00618364,Gardner city,C5,F
+MA,25,027,Worcester County,26430,00619480,Grafton town,T1,A
+MA,25,027,Worcester County,28740,00619481,Hardwick town,T1,A
+MA,25,027,Worcester County,28950,00619482,Harvard town,T1,A
+MA,25,027,Worcester County,30560,00618365,Holden town,T1,A
+MA,25,027,Worcester County,30945,00618366,Hopedale town,T1,A
+MA,25,027,Worcester County,31435,00618367,Hubbardston town,T1,A
+MA,25,027,Worcester County,34165,00618368,Lancaster town,T1,A
+MA,25,027,Worcester County,34795,00619483,Leicester town,T1,A
+MA,25,027,Worcester County,35075,00618369,Leominster city,C5,F
+MA,25,027,Worcester County,37420,00618370,Lunenburg town,T1,A
+MA,25,027,Worcester County,40255,00618371,Mendon town,T1,A
+MA,25,027,Worcester County,41165,00618372,Milford town,T1,A
+MA,25,027,Worcester County,41340,00618373,Millbury town,T1,A
+MA,25,027,Worcester County,41585,00618374,Millville town,T1,A
+MA,25,027,Worcester County,45105,00619484,New Braintree town,T1,A
+MA,25,027,Worcester County,46820,00618375,Northborough town,T1,A
+MA,25,027,Worcester County,46925,00618376,Northbridge town,T1,A
+MA,25,027,Worcester County,47135,00618377,North Brookfield town,T1,A
+MA,25,027,Worcester County,50670,00618378,Oakham town,T1,A
+MA,25,027,Worcester County,51825,00618379,Oxford town,T1,A
+MA,25,027,Worcester County,52420,00619485,Paxton town,T1,A
+MA,25,027,Worcester County,53120,00619486,Petersham town,T1,A
+MA,25,027,Worcester County,53225,00619487,Phillipston town,T1,A
+MA,25,027,Worcester County,55395,00618380,Princeton town,T1,A
+MA,25,027,Worcester County,58580,00619488,Royalston town,T1,A
+MA,25,027,Worcester County,58825,00618381,Rutland town,T1,A
+MA,25,027,Worcester County,61800,00619489,Shrewsbury town,T1,A
+MA,25,027,Worcester County,63165,00618382,Southborough town,T1,A
+MA,25,027,Worcester County,63345,00618383,Southbridge Town city,C5,F
+MA,25,027,Worcester County,66105,00618385,Spencer town,T1,A
+MA,25,027,Worcester County,67385,00619490,Sterling town,T1,A
+MA,25,027,Worcester County,68155,00618384,Sturbridge town,T1,A
+MA,25,027,Worcester County,68610,00619491,Sutton town,T1,A
+MA,25,027,Worcester County,69275,00619492,Templeton town,T1,A
+MA,25,027,Worcester County,71480,00618386,Upton town,T1,A
+MA,25,027,Worcester County,71620,00618387,Uxbridge town,T1,A
+MA,25,027,Worcester County,73090,00618388,Warren town,T1,A
+MA,25,027,Worcester County,73895,00618389,Webster town,T1,A
+MA,25,027,Worcester County,75015,00618390,Westborough town,T1,A
+MA,25,027,Worcester County,75155,00618391,West Boylston town,T1,A
+MA,25,027,Worcester County,75400,00618392,West Brookfield town,T1,A
+MA,25,027,Worcester County,77010,00618393,Westminster town,T1,A
+MA,25,027,Worcester County,80405,00618394,Winchendon town,T1,A
+MA,25,027,Worcester County,82000,00619493,Worcester city,C5,F

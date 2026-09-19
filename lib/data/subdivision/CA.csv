@@ -1,0 +1,404 @@
+CA,06,001,Alameda County,90020,01935006,Alameda CCD,Z5,S
+CA,06,001,Alameda County,90200,01935024,Berkeley CCD,Z5,S
+CA,06,001,Alameda County,91070,01935111,Fremont CCD,Z5,S
+CA,06,001,Alameda County,91260,01935131,Hayward CCD,Z5,S
+CA,06,001,Alameda County,91660,01935171,Livermore-Pleasanton CCD,Z5,S
+CA,06,001,Alameda County,92230,01935228,Oakland CCD,Z5,S
+CA,06,003,Alpine County,91890,01935194,Markleeville CCD,Z5,S
+CA,06,005,Amador County,91410,01935146,Ione CCD,Z5,S
+CA,06,005,Amador County,91430,01935148,Jackson CCD,Z5,S
+CA,06,005,Amador County,92470,01935252,Pine Grove-Silver Lake CCD,Z5,S
+CA,06,005,Amador County,93300,01935335,Sutter Creek-Plymouth CCD,Z5,S
+CA,06,007,Butte County,90230,01935027,Biggs CCD,Z5,S
+CA,06,007,Butte County,90470,01935051,Chico CCD,Z5,S
+CA,06,007,Butte County,90750,01935079,Durham CCD,Z5,S
+CA,06,007,Butte County,90970,01935101,Feather Falls CCD,Z5,S
+CA,06,007,Butte County,91180,01935123,Gridley CCD,Z5,S
+CA,06,007,Butte County,92300,01935235,Oroville CCD,Z5,S
+CA,06,007,Butte County,92330,01935238,Palermo CCD,Z5,S
+CA,06,007,Butte County,92380,01935243,Paradise CCD,Z5,S
+CA,06,009,Calaveras County,90060,01935010,Angels City CCD,Z5,S
+CA,06,009,Calaveras County,90105,01935370,Arnold-West Point CCD,Z5,S
+CA,06,009,Calaveras County,92740,01935279,San Andreas CCD,Z5,S
+CA,06,011,Colusa County,90430,01935047,Central Colusa CCD,Z5,S
+CA,06,011,Colusa County,90770,01935081,East Colusa CCD,Z5,S
+CA,06,011,Colusa County,93610,01935367,West Colusa CCD,Z5,S
+CA,06,013,Contra Costa County,90080,01935012,Antioch-Pittsburg CCD,Z5,S
+CA,06,013,Contra Costa County,90270,01935031,Briones CCD,Z5,S
+CA,06,013,Contra Costa County,90440,01935048,Central Contra Costa CCD,Z5,S
+CA,06,013,Contra Costa County,90780,01935082,East Contra Costa CCD,Z5,S
+CA,06,013,Contra Costa County,93310,01935336,Tassajara CCD,Z5,S
+CA,06,013,Contra Costa County,93620,01935368,West Contra Costa CCD,Z5,S
+CA,06,015,Del Norte County,90620,01935066,Crescent City CCD,Z5,S
+CA,06,015,Del Norte County,91490,01935154,Klamath CCD,Z5,S
+CA,06,015,Del Norte County,93040,01935309,Smith River-Gasquet CCD,Z5,S
+CA,06,017,El Dorado County,92190,01935224,North El Dorado CCD,Z5,S
+CA,06,017,El Dorado County,92490,01935254,Placerville CCD,Z5,S
+CA,06,017,El Dorado County,93150,01935320,South El Dorado CCD,Z5,S
+CA,06,017,El Dorado County,93160,01935321,South Lake Tahoe CCD,Z5,S
+CA,06,019,Fresno County,90390,01935043,Caruthers-Raisin City CCD,Z5,S
+CA,06,019,Fresno County,90530,01935057,Coalinga CCD,Z5,S
+CA,06,019,Fresno County,91000,01935104,Firebaugh CCD,Z5,S
+CA,06,019,Fresno County,91060,01935110,Fowler CCD,Z5,S
+CA,06,019,Fresno County,91080,01935112,Fresno CCD,Z5,S
+CA,06,019,Fresno County,91360,01935141,Huron CCD,Z5,S
+CA,06,019,Fresno County,91460,01935151,Kerman CCD,Z5,S
+CA,06,019,Fresno County,91480,01935153,Kingsburg CCD,Z5,S
+CA,06,019,Fresno County,91570,01935162,Laton CCD,Z5,S
+CA,06,019,Fresno County,91950,01935200,Mendota CCD,Z5,S
+CA,06,019,Fresno County,92270,01935232,Orange Cove CCD,Z5,S
+CA,06,019,Fresno County,92390,01935244,Parlier-Del Rey CCD,Z5,S
+CA,06,019,Fresno County,92600,01935265,Reedley CCD,Z5,S
+CA,06,019,Fresno County,92630,01935268,Riverdale CCD,Z5,S
+CA,06,019,Fresno County,92800,01935285,Sanger CCD,Z5,S
+CA,06,019,Fresno County,92820,01935287,San Joaquin-Tranquillity CCD,Z5,S
+CA,06,019,Fresno County,92990,01935304,Selma CCD,Z5,S
+CA,06,019,Fresno County,93010,01935306,Sierra CCD,Z5,S
+CA,06,021,Glenn County,92280,01935233,Orland CCD,Z5,S
+CA,06,021,Glenn County,93750,01935381,Willows CCD,Z5,S
+CA,06,023,Humboldt County,90100,01935014,Arcata CCD,Z5,S
+CA,06,023,Humboldt County,90930,01935097,Eureka CCD,Z5,S
+CA,06,023,Humboldt County,90980,01935102,Ferndale CCD,Z5,S
+CA,06,023,Humboldt County,91050,01935109,Fortuna CCD,Z5,S
+CA,06,023,Humboldt County,91100,01935114,Garberville CCD,Z5,S
+CA,06,023,Humboldt County,92170,01935222,North Coastal CCD,Z5,S
+CA,06,023,Humboldt County,93745,01935346,Willow Creek-Hoopa Valley CCD,Z5,S
+CA,06,025,Imperial County,90260,01935030,Brawley CCD,Z5,S
+CA,06,025,Imperial County,90320,01935036,Calexico CCD,Z5,S
+CA,06,025,Imperial County,90330,01935037,Calipatria-Westmorland CCD,Z5,S
+CA,06,025,Imperial County,90790,01935083,East Imperial CCD,Z5,S
+CA,06,025,Imperial County,90860,01935090,El Centro CCD,Z5,S
+CA,06,025,Imperial County,91310,01935136,Holtville CCD,Z5,S
+CA,06,025,Imperial County,91380,01935143,Imperial CCD,Z5,S
+CA,06,025,Imperial County,93630,01935369,West Imperial CCD,Z5,S
+CA,06,025,Imperial County,93760,01935382,Winterhaven-Bard CCD,Z5,S
+CA,06,027,Inyo County,90250,01935029,Bishop CCD,Z5,S
+CA,06,027,Inyo County,90650,01935069,Death Valley CCD,Z5,S
+CA,06,027,Inyo County,91390,01935144,Independence CCD,Z5,S
+CA,06,027,Inyo County,91720,01935177,Lone Pine CCD,Z5,S
+CA,06,029,Kern County,90130,01935017,Arvin-Lamont CCD,Z5,S
+CA,06,029,Kern County,90180,01935022,Bakersfield CCD,Z5,S
+CA,06,029,Kern County,90300,01935034,Buttonwillow CCD,Z5,S
+CA,06,029,Kern County,90655,01935186,Delano-McFarland CCD,Z5,S
+CA,06,029,Kern County,90800,01935084,East Kern CCD,Z5,S
+CA,06,029,Kern County,91160,01935121,Greenfield-Panama CCD,Z5,S
+CA,06,029,Kern County,91520,01935157,Lake Isabella CCD,Z5,S
+CA,06,029,Kern County,92650,01935270,Rosedale CCD,Z5,S
+CA,06,029,Kern County,93000,01935305,Shafter CCD,Z5,S
+CA,06,029,Kern County,93320,01935337,Tehachapi CCD,Z5,S
+CA,06,029,Kern County,93570,01935362,Wasco CCD,Z5,S
+CA,06,029,Kern County,93635,01935373,West Kern CCD,Z5,S
+CA,06,031,Kings County,90170,01935021,Avenal CCD,Z5,S
+CA,06,031,Kings County,90570,01935061,Corcoran CCD,Z5,S
+CA,06,031,Kings County,91220,01935127,Hanford CCD,Z5,S
+CA,06,031,Kings County,91230,01935128,Hanford Northeast CCD,Z5,S
+CA,06,031,Kings County,91590,01935164,Lemoore CCD,Z5,S
+CA,06,031,Kings County,93250,01935330,Stratford CCD,Z5,S
+CA,06,033,Lake County,90503,02583190,Clearlake CCD,Z5,S
+CA,06,033,Lake County,90505,02583191,Clearlake Riviera CCD,Z5,S
+CA,06,033,Lake County,90545,02583193,Cobb CCD,Z5,S
+CA,06,033,Lake County,91455,02583196,Kelseyville CCD,Z5,S
+CA,06,033,Lake County,91540,01935159,Lakeport CCD,Z5,S
+CA,06,033,Lake County,91775,02583197,Lower Lake CCD,Z5,S
+CA,06,033,Lake County,91795,02583198,Lucerne-Clearlake Oaks CCD,Z5,S
+CA,06,033,Lake County,91975,02583199,Middletown CCD,Z5,S
+CA,06,033,Lake County,93505,02583203,Upper Lake-Nice CCD,Z5,S
+CA,06,035,Lassen County,90240,01935028,Big Valley CCD,Z5,S
+CA,06,035,Lassen County,91320,01935137,Honey Lake CCD,Z5,S
+CA,06,035,Lassen County,91820,01935187,Madeline Plains CCD,Z5,S
+CA,06,035,Lassen County,93280,01935333,Susanville CCD,Z5,S
+CA,06,035,Lassen County,93710,01935377,Westwood CCD,Z5,S
+CA,06,037,Los Angeles County,90015,02378252,Agoura Hills-Malibu CCD,Z5,S
+CA,06,037,Los Angeles County,90560,01935060,Compton CCD,Z5,S
+CA,06,037,Los Angeles County,90730,01935077,Downey-Norwalk CCD,Z5,S
+CA,06,037,Los Angeles County,90810,01935085,East San Gabriel Valley CCD,Z5,S
+CA,06,037,Los Angeles County,91400,01935145,Inglewood CCD,Z5,S
+CA,06,037,Los Angeles County,91730,01935178,Long Beach-Lakewood CCD,Z5,S
+CA,06,037,Los Angeles County,91750,01935180,Los Angeles CCD,Z5,S
+CA,06,037,Los Angeles County,92110,01935216,Newhall CCD,Z5,S
+CA,06,037,Los Angeles County,92140,01935219,North Antelope Valley CCD,Z5,S
+CA,06,037,Los Angeles County,92360,01935241,Palos Verdes CCD,Z5,S
+CA,06,037,Los Angeles County,92400,01935245,Pasadena CCD,Z5,S
+CA,06,037,Los Angeles County,92785,02378253,San Fernando Valley CCD,Z5,S
+CA,06,037,Los Angeles County,92920,01935297,Santa Monica CCD,Z5,S
+CA,06,037,Los Angeles County,93090,01935314,South Antelope Valley CCD,Z5,S
+CA,06,037,Los Angeles County,93100,01935315,South Bay Cities CCD,Z5,S
+CA,06,037,Los Angeles County,93155,01935318,South Gate-East Los Angeles CCD,Z5,S
+CA,06,037,Los Angeles County,93200,01935325,Southwest San Gabriel Valley CCD,Z5,S
+CA,06,037,Los Angeles County,93380,01935343,Torrance CCD,Z5,S
+CA,06,037,Los Angeles County,93510,01935356,Upper San Gabriel Valley CCD,Z5,S
+CA,06,037,Los Angeles County,93730,01935379,Whittier CCD,Z5,S
+CA,06,039,Madera County,90480,01935052,Chowchilla CCD,Z5,S
+CA,06,039,Madera County,91830,01935188,Madera CCD,Z5,S
+CA,06,039,Madera County,91840,01935189,Madera Southeast CCD,Z5,S
+CA,06,039,Madera County,91850,01935190,Madera West CCD,Z5,S
+CA,06,039,Madera County,92220,02583192,Oakhurst-North Fork CCD,Z5,S
+CA,06,039,Madera County,93802,02583205,Yosemite Lakes CCD,Z5,S
+CA,06,041,Marin County,90256,01935324,Bolinas CCD,Z5,S
+CA,06,041,Marin County,92200,01935225,Northwest Marin CCD,Z5,S
+CA,06,041,Marin County,92205,01935223,Novato CCD,Z5,S
+CA,06,041,Marin County,92670,01935272,Ross Valley CCD,Z5,S
+CA,06,041,Marin County,92880,01935293,San Rafael CCD,Z5,S
+CA,06,041,Marin County,93140,01935319,Southeast Marin CCD,Z5,S
+CA,06,043,Mariposa County,90600,01935064,Coulterville CCD,Z5,S
+CA,06,043,Mariposa County,91880,01935193,Mariposa CCD,Z5,S
+CA,06,043,Mariposa County,93804,01935386,Yosemite Valley CCD,Z5,S
+CA,06,045,Mendocino County,90610,01935065,Covelo CCD,Z5,S
+CA,06,045,Mendocino County,91030,01935107,Fort Bragg CCD,Z5,S
+CA,06,045,Mendocino County,91330,01935138,Hopland CCD,Z5,S
+CA,06,045,Mendocino County,91580,01935163,Laytonville-Leggett CCD,Z5,S
+CA,06,045,Mendocino County,91938,01935199,Mendocino CCD,Z5,S
+CA,06,045,Mendocino County,92510,01935256,Point Arena CCD,Z5,S
+CA,06,045,Mendocino County,92592,01935264,Redwood Valley-Potter Valley CCD,Z5,S
+CA,06,045,Mendocino County,93490,01935354,Ukiah CCD,Z5,S
+CA,06,045,Mendocino County,93740,01935380,Willits CCD,Z5,S
+CA,06,047,Merced County,90150,01935019,Atwater CCD,Z5,S
+CA,06,047,Merced County,90720,01935076,Dos Palos CCD,Z5,S
+CA,06,047,Merced County,91210,01935126,Gustine CCD,Z5,S
+CA,06,047,Merced County,91290,01935134,Hilmar-Irwin CCD,Z5,S
+CA,06,047,Merced County,91670,01935172,Livingston-Delhi CCD,Z5,S
+CA,06,047,Merced County,91760,01935181,Los Banos CCD,Z5,S
+CA,06,047,Merced County,91960,01935201,Merced CCD,Z5,S
+CA,06,047,Merced County,92500,01935255,Planada-Le Grand CCD,Z5,S
+CA,06,047,Merced County,93050,01935310,Snelling CCD,Z5,S
+CA,06,049,Modoc County,90010,01935005,Adin-Lookout CCD,Z5,S
+CA,06,049,Modoc County,90040,01935008,Alturas CCD,Z5,S
+CA,06,049,Modoc County,92105,01935349,Newell CCD,Z5,S
+CA,06,049,Modoc County,93270,01935332,Surprise Valley CCD,Z5,S
+CA,06,051,Mono County,91865,01935205,Mammoth Lakes CCD,Z5,S
+CA,06,051,Mono County,92195,01935204,North Mono CCD,Z5,S
+CA,06,053,Monterey County,90235,01935058,Big Sur CCD,Z5,S
+CA,06,053,Monterey County,90362,01935040,Carmel-by-the-Sea CCD,Z5,S
+CA,06,053,Monterey County,90370,01935041,Carmel Valley CCD,Z5,S
+CA,06,053,Monterey County,90400,01935044,Castroville CCD,Z5,S
+CA,06,053,Monterey County,91130,01935117,Gonzales CCD,Z5,S
+CA,06,053,Monterey County,91150,01935120,Greenfield CCD,Z5,S
+CA,06,053,Monterey County,91470,01935152,King City CCD,Z5,S
+CA,06,053,Monterey County,92320,01935237,Pajaro CCD,Z5,S
+CA,06,053,Monterey County,92730,01935278,Salinas CCD,Z5,S
+CA,06,053,Monterey County,92750,01935280,San Ardo CCD,Z5,S
+CA,06,053,Monterey County,92970,01935302,Seaside-Monterey CCD,Z5,S
+CA,06,053,Monterey County,93060,01935311,Soledad CCD,Z5,S
+CA,06,053,Monterey County,93372,01935342,Toro Park CCD,Z5,S
+CA,06,055,Napa County,90070,01935011,Angwin CCD,Z5,S
+CA,06,055,Napa County,90340,01935038,Calistoga CCD,Z5,S
+CA,06,055,Napa County,91515,01935025,Lake Berryessa CCD,Z5,S
+CA,06,055,Napa County,92070,01935212,Napa CCD,Z5,S
+CA,06,055,Napa County,92710,01935276,St. Helena CCD,Z5,S
+CA,06,057,Nevada County,90710,01935075,Donner CCD,Z5,S
+CA,06,057,Nevada County,91140,01935119,Grass Valley CCD,Z5,S
+CA,06,057,Nevada County,92090,01935214,Nevada City CCD,Z5,S
+CA,06,059,Orange County,90050,01935009,Anaheim-Santa Ana-Garden Grove CCD,Z5,S
+CA,06,059,Orange County,90420,01935046,Central Coast CCD,Z5,S
+CA,06,059,Orange County,91413,01935093,Irvine-Lake Forest CCD,Z5,S
+CA,06,059,Orange County,91977,02583200,Mission Viejo CCD,Z5,S
+CA,06,059,Orange County,92150,01935220,North Coast CCD,Z5,S
+CA,06,059,Orange County,93015,02583201,Silverado CCD,Z5,S
+CA,06,059,Orange County,93110,01935316,South Coast CCD,Z5,S
+CA,06,061,Placer County,90160,01935020,Auburn CCD,Z5,S
+CA,06,061,Placer County,90548,01935059,Colfax-Monumental Ridge CCD,Z5,S
+CA,06,061,Placer County,91020,01935106,Foresthill-Back Country CCD,Z5,S
+CA,06,061,Placer County,91550,01935160,Lake Tahoe CCD,Z5,S
+CA,06,061,Placer County,91605,01935376,Lincoln CCD,Z5,S
+CA,06,061,Placer County,92645,01935179,Rocklin CCD,Z5,S
+CA,06,061,Placer County,92660,01935271,Roseville CCD,Z5,S
+CA,06,063,Plumas County,90460,01935050,Chester CCD,Z5,S
+CA,06,063,Plumas County,90975,02583194,Feather River Canyon CCD,Z5,S
+CA,06,063,Plumas County,91135,01935118,Graeagle CCD,Z5,S
+CA,06,063,Plumas County,91170,01935122,Greenville CCD,Z5,S
+CA,06,063,Plumas County,92530,01935258,Portola CCD,Z5,S
+CA,06,063,Plumas County,92540,01935259,Quincy CCD,Z5,S
+CA,06,065,Riverside County,90253,01935242,Blythe CCD,Z5,S
+CA,06,065,Riverside County,90410,01935045,Cathedral City-Palm Desert CCD,Z5,S
+CA,06,065,Riverside County,90492,01935053,Chuckwalla Valley CCD,Z5,S
+CA,06,065,Riverside County,90520,01935056,Coachella Valley CCD,Z5,S
+CA,06,065,Riverside County,90590,01935063,Corona CCD,Z5,S
+CA,06,065,Riverside County,90670,01935071,Desert Hot Springs CCD,Z5,S
+CA,06,065,Riverside County,90880,01935092,Elsinore Valley CCD,Z5,S
+CA,06,065,Riverside County,91280,01935133,Hemet-San Jacinto CCD,Z5,S
+CA,06,065,Riverside County,91370,01935142,Idyllwild CCD,Z5,S
+CA,06,065,Riverside County,91450,01935150,Jurupa CCD,Z5,S
+CA,06,065,Riverside County,91530,01935158,Lake Mathews CCD,Z5,S
+CA,06,065,Riverside County,92060,01935211,Murrieta CCD,Z5,S
+CA,06,065,Riverside County,92130,01935218,Norco CCD,Z5,S
+CA,06,065,Riverside County,92340,01935239,Palm Springs CCD,Z5,S
+CA,06,065,Riverside County,92450,01935250,Perris Valley CCD,Z5,S
+CA,06,065,Riverside County,92640,01935269,Riverside CCD,Z5,S
+CA,06,065,Riverside County,92810,01935286,San Gorgonio Pass CCD,Z5,S
+CA,06,067,Sacramento County,90870,01935091,Elk Grove CCD,Z5,S
+CA,06,067,Sacramento County,91010,01935105,Folsom CCD,Z5,S
+CA,06,067,Sacramento County,91090,01935113,Galt CCD,Z5,S
+CA,06,067,Sacramento County,91416,01935070,Isleton CCD,Z5,S
+CA,06,067,Sacramento County,92555,01935197,Rancho Cordova CCD,Z5,S
+CA,06,067,Sacramento County,92690,01935274,Sacramento CCD,Z5,S
+CA,06,067,Sacramento County,93030,01935308,Sloughhouse CCD,Z5,S
+CA,06,069,San Benito County,91300,01935135,Hollister CCD,Z5,S
+CA,06,069,San Benito County,92760,01935281,San Benito-Bitterwater CCD,Z5,S
+CA,06,069,San Benito County,92840,01935289,San Juan Bautista CCD,Z5,S
+CA,06,071,San Bernardino County,90188,02583189,Barstow CCD,Z5,S
+CA,06,071,San Bernardino County,90220,01935026,Big Bear CCD,Z5,S
+CA,06,071,San Bernardino County,91513,01935015,Lake Arrowhead CCD,Z5,S
+CA,06,071,San Bernardino County,92040,01935209,Mount Baldy-Wrightwood CCD,Z5,S
+CA,06,071,San Bernardino County,92080,01935213,Needles CCD,Z5,S
+CA,06,071,San Bernardino County,92102,01935215,Newberry Springs-Baker CCD,Z5,S
+CA,06,071,San Bernardino County,92260,01935231,Ontario CCD,Z5,S
+CA,06,071,San Bernardino County,92770,01935282,San Bernardino CCD,Z5,S
+CA,06,071,San Bernardino County,92955,01935263,Searles Valley CCD,Z5,S
+CA,06,071,San Bernardino County,93482,01935353,Twentynine Palms-Yucca Valley CCD,Z5,S
+CA,06,071,San Bernardino County,93555,02583204,Victorville-Hesperia CCD,Z5,S
+CA,06,071,San Bernardino County,93850,01935391,Yucaipa CCD,Z5,S
+CA,06,073,San Diego County,90030,01935007,Alpine CCD,Z5,S
+CA,06,073,San Diego County,90258,01935013,Borrego Springs CCD,Z5,S
+CA,06,073,San Diego County,90355,01935249,Camp Pendleton CCD,Z5,S
+CA,06,073,San Diego County,90960,01935100,Fallbrook CCD,Z5,S
+CA,06,073,San Diego County,91440,01935149,Jamul CCD,Z5,S
+CA,06,073,San Diego County,91510,01935156,Laguna-Pine Valley CCD,Z5,S
+CA,06,073,San Diego County,92030,01935208,Mountain Empire CCD,Z5,S
+CA,06,073,San Diego County,92240,01935229,Oceanside-Escondido CCD,Z5,S
+CA,06,073,San Diego County,92350,01935240,Palomar-Julian CCD,Z5,S
+CA,06,073,San Diego County,92430,01935248,Pauma Valley CCD,Z5,S
+CA,06,073,San Diego County,92550,01935260,Ramona CCD,Z5,S
+CA,06,073,San Diego County,92780,01935283,San Diego CCD,Z5,S
+CA,06,073,San Diego County,93540,01935359,Valley Center CCD,Z5,S
+CA,06,075,San Francisco County,90195,02804907,Bayview CCD,Z5,S
+CA,06,075,San Francisco County,90734,02804908,Downtown-Northeast Neighborhoods-Treasure Island CCD,Z5,S
+CA,06,075,San Francisco County,91964,02804909,Merced-McLaren CCD,Z5,S
+CA,06,075,San Francisco County,91976,02804910,Mission-Bernal CCD,Z5,S
+CA,06,075,San Francisco County,92605,02804911,Richmond-Presidio-Marina CCD,Z5,S
+CA,06,075,San Francisco County,93067,02804912,SoMa-Potrero-Mission Bay CCD,Z5,S
+CA,06,075,San Francisco County,93267,02804913,Sunset CCD,Z5,S
+CA,06,075,San Francisco County,93625,02804914,Western Addition-Buena Vista-Eureka Valley CCD,Z5,S
+CA,06,077,San Joaquin County,90900,01935094,Escalon CCD,Z5,S
+CA,06,077,San Joaquin County,91630,01935168,Linden-Farmington CCD,Z5,S
+CA,06,077,San Joaquin County,91690,01935174,Lockeford CCD,Z5,S
+CA,06,077,San Joaquin County,91700,01935175,Lodi CCD,Z5,S
+CA,06,077,San Joaquin County,91870,01935192,Manteca CCD,Z5,S
+CA,06,077,San Joaquin County,92620,01935267,Ripon CCD,Z5,S
+CA,06,077,San Joaquin County,93240,01935329,Stockton CCD,Z5,S
+CA,06,077,San Joaquin County,93340,01935339,Thornton CCD,Z5,S
+CA,06,077,San Joaquin County,93400,01935345,Tracy CCD,Z5,S
+CA,06,079,San Luis Obispo County,90120,01935016,Arroyo Grande CCD,Z5,S
+CA,06,079,San Luis Obispo County,90140,01935018,Atascadero CCD,Z5,S
+CA,06,079,San Luis Obispo County,92160,01935221,North Coast CCD,Z5,S
+CA,06,079,San Luis Obispo County,92410,01935246,Paso Robles CCD,Z5,S
+CA,06,079,San Luis Obispo County,92860,01935291,San Luis Obispo CCD,Z5,S
+CA,06,081,San Mateo County,91215,01935317,Half Moon Bay CCD,Z5,S
+CA,06,081,San Mateo County,92870,01935292,San Mateo CCD,Z5,S
+CA,06,081,San Mateo County,93170,01935322,South San Francisco CCD,Z5,S
+CA,06,083,Santa Barbara County,90378,01935042,Carpinteria CCD,Z5,S
+CA,06,083,Santa Barbara County,90630,01935067,Cuyama CCD,Z5,S
+CA,06,083,Santa Barbara County,91200,01935125,Guadalupe CCD,Z5,S
+CA,06,083,Santa Barbara County,91708,01935176,Lompoc CCD,Z5,S
+CA,06,083,Santa Barbara County,92890,01935294,Santa Barbara CCD,Z5,S
+CA,06,083,Santa Barbara County,92908,01935296,Santa Maria CCD,Z5,S
+CA,06,083,Santa Barbara County,93065,01935300,Solvang-Santa Ynez CCD,Z5,S
+CA,06,085,Santa Clara County,90680,01935072,Diablo Range CCD,Z5,S
+CA,06,085,Santa Clara County,91602,01935165,Lexington Hills CCD,Z5,S
+CA,06,085,Santa Clara County,91680,01935173,Llagas-Uvas CCD,Z5,S
+CA,06,085,Santa Clara County,92830,01935288,San Jose CCD,Z5,S
+CA,06,085,Santa Clara County,93175,02583195,South Santa Clara Valley CCD,Z5,S
+CA,06,085,Santa Clara County,93660,01935372,West Santa Clara CCD,Z5,S
+CA,06,087,Santa Cruz County,92850,01935290,San Lorenzo Valley CCD,Z5,S
+CA,06,087,Santa Cruz County,92900,01935295,Santa Cruz CCD,Z5,S
+CA,06,087,Santa Cruz County,93265,02583202,Summit Road CCD,Z5,S
+CA,06,087,Santa Cruz County,93590,01935364,Watsonville CCD,Z5,S
+CA,06,087,Santa Cruz County,93665,01935301,West Santa Cruz CCD,Z5,S
+CA,06,089,Shasta County,90450,01935049,Central Shasta CCD,Z5,S
+CA,06,089,Shasta County,90820,01935086,East Shasta CCD,Z5,S
+CA,06,089,Shasta County,92568,01935262,Redding CCD,Z5,S
+CA,06,089,Shasta County,92700,01935275,Sacramento Canyon CCD,Z5,S
+CA,06,089,Shasta County,93210,01935326,Southwest Shasta CCD,Z5,S
+CA,06,091,Sierra County,90830,01935087,East Sierra CCD,Z5,S
+CA,06,091,Sierra County,93680,01935374,West Sierra CCD,Z5,S
+CA,06,093,Siskiyou County,90290,01935033,Butte Valley CCD,Z5,S
+CA,06,093,Siskiyou County,90740,01935078,Dunsmuir CCD,Z5,S
+CA,06,093,Siskiyou County,90920,01935096,Etna CCD,Z5,S
+CA,06,093,Siskiyou County,91040,01935108,Fort Jones CCD,Z5,S
+CA,06,093,Siskiyou County,91240,01935129,Happy Camp CCD,Z5,S
+CA,06,093,Siskiyou County,91340,01935139,Hornbrook-Hilt CCD,Z5,S
+CA,06,093,Siskiyou County,91800,01935185,McCloud-Medicine Lake CCD,Z5,S
+CA,06,093,Siskiyou County,92010,01935206,Montague CCD,Z5,S
+CA,06,093,Siskiyou County,92050,01935210,Mount Shasta CCD,Z5,S
+CA,06,093,Siskiyou County,93450,01935350,Tulelake CCD,Z5,S
+CA,06,093,Siskiyou County,93600,01935366,Weed CCD,Z5,S
+CA,06,093,Siskiyou County,93810,01935387,Yreka CCD,Z5,S
+CA,06,095,Solano County,90700,01935074,Dixon CCD,Z5,S
+CA,06,095,Solano County,90950,01935099,Fairfield-Suisun City CCD,Z5,S
+CA,06,095,Solano County,92610,01935266,Rio Vista CCD,Z5,S
+CA,06,095,Solano County,93520,01935357,Vacaville CCD,Z5,S
+CA,06,095,Solano County,93530,01935358,Vallejo CCD,Z5,S
+CA,06,097,Sonoma County,90510,01935055,Cloverdale-Geyserville CCD,Z5,S
+CA,06,097,Sonoma County,91270,01935132,Healdsburg CCD,Z5,S
+CA,06,097,Sonoma County,92460,01935251,Petaluma CCD,Z5,S
+CA,06,097,Sonoma County,92682,01935273,Russian River-Sonoma Coast CCD,Z5,S
+CA,06,097,Sonoma County,92940,01935299,Santa Rosa CCD,Z5,S
+CA,06,097,Sonoma County,92980,01935303,Sebastopol CCD,Z5,S
+CA,06,097,Sonoma County,93070,01935312,Sonoma CCD,Z5,S
+CA,06,099,Stanislaus County,91350,01935140,Hughson CCD,Z5,S
+CA,06,099,Stanislaus County,91980,01935203,Modesto CCD,Z5,S
+CA,06,099,Stanislaus County,92120,01935217,Newman CCD,Z5,S
+CA,06,099,Stanislaus County,92210,01935226,Oakdale CCD,Z5,S
+CA,06,099,Stanislaus County,92420,01935247,Patterson CCD,Z5,S
+CA,06,099,Stanislaus County,92720,01935277,Salida CCD,Z5,S
+CA,06,099,Stanislaus County,93460,01935351,Turlock CCD,Z5,S
+CA,06,099,Stanislaus County,93580,01935363,Waterford CCD,Z5,S
+CA,06,099,Stanislaus County,93650,01935371,Westport CCD,Z5,S
+CA,06,101,Sutter County,91650,01935170,Live Oak CCD,Z5,S
+CA,06,101,Sutter County,91970,01935202,Meridian-Robbins CCD,Z5,S
+CA,06,101,Sutter County,93180,01935323,South Sutter CCD,Z5,S
+CA,06,101,Sutter County,93290,01935334,Sutter CCD,Z5,S
+CA,06,101,Sutter County,93820,01935388,Yuba City CCD,Z5,S
+CA,06,101,Sutter County,93825,01935390,Yuba City Southwest CCD,Z5,S
+CA,06,103,Tehama County,90580,01935062,Corning CCD,Z5,S
+CA,06,103,Tehama County,90840,01935088,East Tehama CCD,Z5,S
+CA,06,103,Tehama County,92560,01935261,Red Bluff CCD,Z5,S
+CA,06,103,Tehama County,93690,01935375,West Tehama CCD,Z5,S
+CA,06,105,Trinity County,91250,01935130,Hayfork CCD,Z5,S
+CA,06,105,Trinity County,91860,01935191,Mad River CCD,Z5,S
+CA,06,105,Trinity County,92202,01935184,Northwest Trinity CCD,Z5,S
+CA,06,105,Trinity County,93595,01935365,Weaverville CCD,Z5,S
+CA,06,107,Tulare County,90690,01935073,Dinuba CCD,Z5,S
+CA,06,107,Tulare County,90760,01935080,Earlimart CCD,Z5,S
+CA,06,107,Tulare County,90940,01935098,Exeter CCD,Z5,S
+CA,06,107,Tulare County,91420,01935147,Ivanhoe CCD,Z5,S
+CA,06,107,Tulare County,91640,01935169,Lindsay CCD,Z5,S
+CA,06,107,Tulare County,92290,01935234,Orosi-Cutler CCD,Z5,S
+CA,06,107,Tulare County,92480,01935253,Pixley CCD,Z5,S
+CA,06,107,Tulare County,92520,01935257,Porterville CCD,Z5,S
+CA,06,107,Tulare County,93220,01935327,Springville-Johnsondale CCD,Z5,S
+CA,06,107,Tulare County,93260,01935331,Strathmore CCD,Z5,S
+CA,06,107,Tulare County,93330,01935338,Terra Bella CCD,Z5,S
+CA,06,107,Tulare County,93360,01935341,Tipton CCD,Z5,S
+CA,06,107,Tulare County,93430,01935348,Tulare CCD,Z5,S
+CA,06,107,Tulare County,93560,01935361,Visalia CCD,Z5,S
+CA,06,107,Tulare County,93780,01935384,Woodlake-Three Rivers CCD,Z5,S
+CA,06,109,Tuolumne County,90835,02378254,East Sonora-Phoenix Lake CCD,Z5,S
+CA,06,109,Tuolumne County,91190,01935124,Groveland CCD,Z5,S
+CA,06,109,Tuolumne County,93080,01935313,Sonora CCD,Z5,S
+CA,06,109,Tuolumne County,93470,01935352,Twain Harte-Tuolumne City CCD,Z5,S
+CA,06,111,Ventura County,90350,01935039,Camarillo CCD,Z5,S
+CA,06,111,Ventura County,90988,01935103,Fillmore CCD,Z5,S
+CA,06,111,Ventura County,91560,01935161,Las Posas CCD,Z5,S
+CA,06,111,Ventura County,91770,01935182,Los Padres CCD,Z5,S
+CA,06,111,Ventura County,92020,01935207,Moorpark CCD,Z5,S
+CA,06,111,Ventura County,92245,01935198,Ojai-Mira Monte CCD,Z5,S
+CA,06,111,Ventura County,92310,01935236,Oxnard CCD,Z5,S
+CA,06,111,Ventura County,92930,01935298,Santa Paula CCD,Z5,S
+CA,06,111,Ventura County,93020,01935307,Simi Valley CCD,Z5,S
+CA,06,111,Ventura County,93350,01935340,Thousand Oaks CCD,Z5,S
+CA,06,111,Ventura County,93422,01935347,Triunfo Pass-Point Mugu CCD,Z5,S
+CA,06,111,Ventura County,93550,01935360,Ventura CCD,Z5,S
+CA,06,113,Yolo County,90500,01935054,Clarksburg CCD,Z5,S
+CA,06,113,Yolo County,90640,01935068,Davis CCD,Z5,S
+CA,06,113,Yolo County,90850,01935089,East Yolo CCD,Z5,S
+CA,06,113,Yolo County,90910,01935095,Esparto CCD,Z5,S
+CA,06,113,Yolo County,91500,01935155,Knights Landing CCD,Z5,S
+CA,06,113,Yolo County,93770,01935383,Winters CCD,Z5,S
+CA,06,113,Yolo County,93790,01935385,Woodland CCD,Z5,S
+CA,06,115,Yuba County,90855,01935167,East Yuba-Beale AFB CCD,Z5,S
+CA,06,115,Yuba County,91610,01935166,Linda CCD,Z5,S
+CA,06,115,Yuba County,91900,01935195,Marysville CCD,Z5,S
+CA,06,115,Yuba County,91908,01935196,Marysville Northeast CCD,Z5,S
+CA,06,115,Yuba County,92250,01935230,Olivehurst CCD,Z5,S
+CA,06,115,Yuba County,93720,01935378,Wheatland CCD,Z5,S
+CA,06,115,Yuba County,93830,01935389,Yuba Foothills CCD,Z5,S

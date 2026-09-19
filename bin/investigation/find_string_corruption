@@ -1,0 +1,72 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "fileutils"
+require "pathname"
+
+# CMD %  bin/investigation/find_string_corruption
+
+# file_name = "national_county2020.txt"
+file_name = "national_cousub2020.txt"
+input_file = Pathname.getwd.join("source_data/#{file_name}")
+return unless File.exist?(input_file)
+
+puts "Found file: #{file_name}"
+found_non_chars = []
+
+File.open(input_file).each do |line|
+  clean_line = line.gsub(/[\s,'-.|]/, "").gsub("/", "")
+  found = clean_line[/\W.?/]
+  found_non_chars.append(found) unless found.nil?
+end
+
+# puts "List of all found characters: ", found_non_chars.inspect
+puts "Instances of non characters found: ", found_non_chars.length
+
+uniq_words = found_non_chars.uniq
+
+puts "Unique characters found: ", uniq_words.inspect
+
+if found_non_chars.empty?
+  puts "No Unique characters Found"
+  return
+end
+
+string_conversion_dictionary = {
+  "Ã³" => "ó",
+  "Ã±" => "ñ",
+  "Ã­" => "í",
+  "Ã¡" => "á",
+  "Ã¼" => "ü",
+  "Ã©" => "é",
+  "Ãº" => "ú",
+  "Ã¥" => "å"
+}
+# line 38: "Ã­" is technically 2 characters, not "Ã"; no '-' displayed in editor[vscode?] Paste into terminal and see "Ã-" # "Ã­" != "Ã-"
+
+already_processed = uniq_words.all? do |identified_chars|
+  string_conversion_dictionary.values.any? { |val| identified_chars.include?(val) }
+end
+  
+if already_processed 
+  puts "File was already processed, characters identified are valid"
+  return 
+end
+
+puts "Found unique characters within the text file"
+puts "Parsing file now to translate"
+
+temp_file = Pathname.getwd.join("source_data/#{file_name}.tmp")
+
+conversion_re = Regexp.union(string_conversion_dictionary.keys)
+
+File.open(input_file, "r") do |reader|
+  File.open(temp_file, "w") do |writer|
+    reader.each_line do |line|
+      writer.write(line.gsub(conversion_re, string_conversion_dictionary))
+    end
+  end
+end
+
+FileUtils.mv(temp_file, input_file)
+puts "File processed successfully!"

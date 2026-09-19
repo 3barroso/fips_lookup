@@ -1,0 +1,299 @@
+SC,45,001,Abbeville County,90013,01938181,Abbeville CCD,Z5,S
+SC,45,001,Abbeville County,90091,01938187,Antreville-Lowndesville CCD,Z5,S
+SC,45,001,Abbeville County,90455,01938215,Calhoun Falls CCD,Z5,S
+SC,45,001,Abbeville County,90897,01938249,Donalds CCD,Z5,S
+SC,45,001,Abbeville County,90910,01938250,Due West CCD,Z5,S
+SC,45,003,Aiken County,90026,01938182,Aiken CCD,Z5,S
+SC,45,003,Aiken County,90028,01938257,Aiken Northeast CCD,Z5,S
+SC,45,003,Aiken County,90208,01938196,Beech Island CCD,Z5,S
+SC,45,003,Aiken County,91651,01938308,Jackson CCD,Z5,S
+SC,45,003,Aiken County,92223,01938352,Monetta CCD,Z5,S
+SC,45,003,Aiken County,92379,01938364,New Ellenton CCD,Z5,S
+SC,45,003,Aiken County,92418,01938367,North Augusta CCD,Z5,S
+SC,45,003,Aiken County,92977,01938410,Salley CCD,Z5,S
+SC,45,003,Aiken County,93562,01938455,Wagener CCD,Z5,S
+SC,45,003,Aiken County,93744,01938469,Windsor CCD,Z5,S
+SC,45,005,Allendale County,90052,01938184,Allendale CCD,Z5,S
+SC,45,005,Allendale County,91092,01938264,Fairfax CCD,Z5,S
+SC,45,005,Allendale County,92197,01938350,Millett CCD,Z5,S
+SC,45,005,Allendale County,93367,01938440,Sycamore CCD,Z5,S
+SC,45,007,Anderson County,90065,01938185,Anderson CCD,Z5,S
+SC,45,007,Anderson County,90221,01938197,Belton CCD,Z5,S
+SC,45,007,Anderson County,91560,01938301,Honea Path CCD,Z5,S
+SC,45,007,Anderson County,91638,01938307,Iva CCD,Z5,S
+SC,45,007,Anderson County,92626,01938383,Pendleton CCD,Z5,S
+SC,45,007,Anderson County,92723,01938213,Powdersville-Piedmont CCD,Z5,S
+SC,45,007,Anderson County,93224,01938429,Starr CCD,Z5,S
+SC,45,007,Anderson County,93412,01938270,Townville CCD,Z5,S
+SC,45,007,Anderson County,93718,01938467,Williamston-Pelzer CCD,Z5,S
+SC,45,009,Bamberg County,90130,01938190,Bamberg CCD,Z5,S
+SC,45,009,Bamberg County,90871,01938247,Denmark CCD,Z5,S
+SC,45,009,Bamberg County,91014,01938258,Ehrhardt CCD,Z5,S
+SC,45,009,Bamberg County,92483,01938372,Olar CCD,Z5,S
+SC,45,011,Barnwell County,90143,01938191,Barnwell CCD,Z5,S
+SC,45,011,Barnwell County,90286,01938202,Blackville CCD,Z5,S
+SC,45,011,Barnwell County,91794,01938319,Kline-Snelling CCD,Z5,S
+SC,45,011,Barnwell County,93731,01938468,Williston CCD,Z5,S
+SC,45,013,Beaufort County,90195,01938195,Beaufort-Port Royal CCD,Z5,S
+SC,45,013,Beaufort County,90312,01938204,Bluffton CCD,Z5,S
+SC,45,013,Beaufort County,91540,01938299,Hilton Head Island CCD,Z5,S
+SC,45,013,Beaufort County,92927,01938406,St. Helena Island CCD,Z5,S
+SC,45,013,Beaufort County,93107,01938420,Sheldon CCD,Z5,S
+SC,45,015,Berkeley County,90351,01938207,Bonneau CCD,Z5,S
+SC,45,015,Berkeley County,90754,01938238,Cordesville CCD,Z5,S
+SC,45,015,Berkeley County,90806,01938242,Cross CCD,Z5,S
+SC,45,015,Berkeley County,91274,01938278,Goose Creek-Hanahan CCD,Z5,S
+SC,45,015,Berkeley County,92210,01938351,Moncks Corner CCD,Z5,S
+SC,45,015,Berkeley County,92951,01938408,St. Stephen CCD,Z5,S
+SC,45,015,Berkeley County,93614,01938459,Wando CCD,Z5,S
+SC,45,017,Calhoun County,90481,01938217,Cameron CCD,Z5,S
+SC,45,017,Calhoun County,91196,01938272,Fort Motte-Lone Star CCD,Z5,S
+SC,45,017,Calhoun County,92938,01938407,St. Matthews CCD,Z5,S
+SC,45,017,Calhoun County,93030,01938414,Sandy Run-Staley Crossroads CCD,Z5,S
+SC,45,019,Charleston County,90570,02584536,Charleston Central CCD,Z5,S
+SC,45,019,Charleston County,90988,01938256,Edisto Island CCD,Z5,S
+SC,45,019,Charleston County,91664,01938309,James Island CCD,Z5,S
+SC,45,019,Charleston County,91703,01938312,Johns Island CCD,Z5,S
+SC,45,019,Charleston County,91761,02584538,Kiawah Island-Seabrook Island CCD,Z5,S
+SC,45,019,Charleston County,92080,01938341,McClellanville CCD,Z5,S
+SC,45,019,Charleston County,92301,01938358,Mount Pleasant CCD,Z5,S
+SC,45,019,Charleston County,92424,02584539,North Charleston CCD,Z5,S
+SC,45,019,Charleston County,92771,01938394,Ravenel-Hollywood CCD,Z5,S
+SC,45,019,Charleston County,93549,01938454,Wadmalaw Island CCD,Z5,S
+SC,45,019,Charleston County,93646,02584540,West Ashley CCD,Z5,S
+SC,45,021,Cherokee County,90273,01938201,Blacksburg CCD,Z5,S
+SC,45,021,Cherokee County,91235,01938275,Gaffney CCD,Z5,S
+SC,45,021,Cherokee County,92132,01938345,Macedonia CCD,Z5,S
+SC,45,021,Cherokee County,93042,01938415,Saratt CCD,Z5,S
+SC,45,023,Chester County,90611,01938227,Chester CCD,Z5,S
+SC,45,023,Chester County,90637,01938229,Chester West CCD,Z5,S
+SC,45,023,Chester County,91179,01938326,Fort Lawn CCD,Z5,S
+SC,45,023,Chester County,91326,01938282,Great Falls CCD,Z5,S
+SC,45,023,Chester County,92821,01938398,Richburg CCD,Z5,S
+SC,45,025,Chesterfield County,90585,01938225,Cheraw CCD,Z5,S
+SC,45,025,Chesterfield County,90624,01938228,Chesterfield CCD,Z5,S
+SC,45,025,Chesterfield County,91677,01938310,Jefferson CCD,Z5,S
+SC,45,025,Chesterfield County,92067,01938340,McBee CCD,Z5,S
+SC,45,025,Chesterfield County,92275,01938356,Mount Croghan CCD,Z5,S
+SC,45,025,Chesterfield County,92535,01938376,Pageland CCD,Z5,S
+SC,45,025,Chesterfield County,92574,01938379,Patrick CCD,Z5,S
+SC,45,027,Clarendon County,90039,01938183,Alcolu CCD,Z5,S
+SC,45,027,Clarendon County,92145,01938346,Manning CCD,Z5,S
+SC,45,027,Clarendon County,92158,01938347,Manning East CCD,Z5,S
+SC,45,027,Clarendon County,92600,01938381,Paxville CCD,Z5,S
+SC,45,027,Clarendon County,93055,01938416,Sardinia CCD,Z5,S
+SC,45,027,Clarendon County,93263,01938432,Summerton CCD,Z5,S
+SC,45,027,Clarendon County,93484,01938449,Turbeville CCD,Z5,S
+SC,45,029,Colleton County,90767,01938239,Cottageville CCD,Z5,S
+SC,45,029,Colleton County,91352,01938284,Green Pond CCD,Z5,S
+SC,45,029,Colleton County,91508,01938296,Hendersonville CCD,Z5,S
+SC,45,029,Colleton County,92002,01938335,Lodge CCD,Z5,S
+SC,45,029,Colleton County,93172,01938425,Smoaks CCD,Z5,S
+SC,45,029,Colleton County,93601,01938458,Walterboro CCD,Z5,S
+SC,45,031,Darlington County,90858,01938246,Darlington CCD,Z5,S
+SC,45,031,Darlington County,91469,01938293,Hartsville CCD,Z5,S
+SC,45,031,Darlington County,91820,01938321,Lake Swamp CCD,Z5,S
+SC,45,031,Darlington County,91846,01938323,Lamar CCD,Z5,S
+SC,45,031,Darlington County,92431,01938368,North Hartsville CCD,Z5,S
+SC,45,031,Darlington County,93185,01938426,Society Hill CCD,Z5,S
+SC,45,033,Dillon County,90884,01938248,Dillon CCD,Z5,S
+SC,45,033,Dillon County,91417,01938289,Hamer CCD,Z5,S
+SC,45,033,Dillon County,91833,01938322,Lake View CCD,Z5,S
+SC,45,033,Dillon County,91911,01938328,Latta CCD,Z5,S
+SC,45,033,Dillon County,91976,01938333,Little Rock CCD,Z5,S
+SC,45,035,Dorchester County,91456,01938292,Harleyville CCD,Z5,S
+SC,45,035,Dorchester County,92782,01938395,Reevesville CCD,Z5,S
+SC,45,035,Dorchester County,92860,01938401,Ridgeville CCD,Z5,S
+SC,45,035,Dorchester County,92912,01938405,St. George CCD,Z5,S
+SC,45,035,Dorchester County,93276,01938433,Summerville CCD,Z5,S
+SC,45,037,Edgefield County,90975,01938255,Edgefield CCD,Z5,S
+SC,45,037,Edgefield County,91729,01938314,Johnston CCD,Z5,S
+SC,45,037,Edgefield County,92691,01938388,Pleasant Lane CCD,Z5,S
+SC,45,037,Edgefield County,93191,01938430,Southeast Edgefield CCD,Z5,S
+SC,45,037,Edgefield County,93445,01938446,Trenton CCD,Z5,S
+SC,45,039,Fairfield County,92237,01938353,Monticello-Salem Crossroads CCD,Z5,S
+SC,45,039,Fairfield County,92873,01938402,Ridgeway CCD,Z5,S
+SC,45,039,Fairfield County,93757,01938470,Winnsboro North CCD,Z5,S
+SC,45,039,Fairfield County,93770,01938471,Winnsboro South CCD,Z5,S
+SC,45,041,Florence County,90780,01938240,Coward CCD,Z5,S
+SC,45,041,Florence County,90845,01938245,Danwood CCD,Z5,S
+SC,45,041,Florence County,91131,01938267,Florence CCD,Z5,S
+SC,45,041,Florence County,91716,01938313,Johnsonville CCD,Z5,S
+SC,45,041,Florence County,91807,01938320,Lake City-Scranton CCD,Z5,S
+SC,45,041,Florence County,92470,01938371,Olanta CCD,Z5,S
+SC,45,041,Florence County,92548,01938377,Pamplico CCD,Z5,S
+SC,45,041,Florence County,93068,01938417,Sardis CCD,Z5,S
+SC,45,041,Florence County,93406,01938443,Timmonsville CCD,Z5,S
+SC,45,043,Georgetown County,90078,01938186,Andrews CCD,Z5,S
+SC,45,043,Georgetown County,91248,01938276,Georgetown CCD,Z5,S
+SC,45,043,Georgetown County,92665,01938386,Plantersville CCD,Z5,S
+SC,45,043,Georgetown County,92678,01938387,Pleasant Hill-Folly Grove CCD,Z5,S
+SC,45,043,Georgetown County,93014,01938413,Sampit-North Santee CCD,Z5,S
+SC,45,043,Georgetown County,93538,01938453,Waccamaw Neck CCD,Z5,S
+SC,45,045,Greenville County,91209,01938273,Fountain Inn CCD,Z5,S
+SC,45,045,Greenville County,91365,01938285,Greenville CCD,Z5,S
+SC,45,045,Greenville County,91391,01938287,Greer CCD,Z5,S
+SC,45,045,Greenville County,91534,01938298,Highland CCD,Z5,S
+SC,45,045,Greenville County,92652,01938385,Piedmont CCD,Z5,S
+SC,45,045,Greenville County,93133,01938422,Simpsonville CCD,Z5,S
+SC,45,045,Greenville County,93160,01938424,Slater-Marietta CCD,Z5,S
+SC,45,045,Greenville County,93380,01938441,Taylors CCD,Z5,S
+SC,45,045,Greenville County,93393,01938442,Tigerville CCD,Z5,S
+SC,45,045,Greenville County,93432,01938445,Travelers Rest CCD,Z5,S
+SC,45,045,Greenville County,93796,01938473,Woodville CCD,Z5,S
+SC,45,047,Greenwood County,91378,01938286,Greenwood CCD,Z5,S
+SC,45,047,Greenwood County,91781,01938318,Kirksey CCD,Z5,S
+SC,45,047,Greenwood County,92392,01938365,Ninety Six CCD,Z5,S
+SC,45,047,Greenwood County,93471,01938448,Troy CCD,Z5,S
+SC,45,047,Greenwood County,93627,01938460,Ware Shoals-Hodges CCD,Z5,S
+SC,45,049,Hampton County,90416,01938212,Brunson CCD,Z5,S
+SC,45,049,Hampton County,91066,01938262,Estill CCD,Z5,S
+SC,45,049,Hampton County,91222,01938274,Furman-Scotia CCD,Z5,S
+SC,45,049,Hampton County,91430,01938290,Hampton-Varnville CCD,Z5,S
+SC,45,049,Hampton County,93809,01938474,Yemassee CCD,Z5,S
+SC,45,051,Horry County,90117,01938189,Aynor CCD,Z5,S
+SC,45,051,Horry County,90715,01938235,Conway CCD,Z5,S
+SC,45,051,Horry County,90728,01938236,Conway East CCD,Z5,S
+SC,45,051,Horry County,91146,01938268,Floyds Crossroads CCD,Z5,S
+SC,45,051,Horry County,91963,01938332,Little River CCD,Z5,S
+SC,45,051,Horry County,92028,01938337,Longs CCD,Z5,S
+SC,45,051,Horry County,92041,01938338,Loris CCD,Z5,S
+SC,45,051,Horry County,92327,01938360,Myrtle Beach CCD,Z5,S
+SC,45,053,Jasper County,91313,01938281,Grays-Tillman CCD,Z5,S
+SC,45,053,Jasper County,91443,01938291,Hardeeville CCD,Z5,S
+SC,45,053,Jasper County,92834,01938399,Ridgeland CCD,Z5,S
+SC,45,055,Kershaw County,90247,01938199,Bethune CCD,Z5,S
+SC,45,055,Kershaw County,90377,01938209,Boykin CCD,Z5,S
+SC,45,055,Kershaw County,90468,01938216,Camden CCD,Z5,S
+SC,45,055,Kershaw County,90472,02378256,Camden Northeast CCD,Z5,S
+SC,45,055,Kershaw County,91027,01938259,Elgin CCD,Z5,S
+SC,45,055,Kershaw County,92288,01938357,Mount Pisgah CCD,Z5,S
+SC,45,055,Kershaw County,93692,01938465,Westville CCD,Z5,S
+SC,45,057,Lancaster County,91482,01938294,Heath Springs CCD,Z5,S
+SC,45,057,Lancaster County,91755,01938316,Kershaw CCD,Z5,S
+SC,45,057,Lancaster County,91859,01938324,Lancaster CCD,Z5,S
+SC,45,057,Lancaster County,93419,01938444,Tradesville CCD,Z5,S
+SC,45,057,Lancaster County,93523,01938452,Van Wyck CCD,Z5,S
+SC,45,059,Laurens County,90663,01938231,Clinton CCD,Z5,S
+SC,45,059,Laurens County,90819,01938243,Cross Hill CCD,Z5,S
+SC,45,059,Laurens County,91300,01938280,Gray Court CCD,Z5,S
+SC,45,059,Laurens County,91690,01938311,Joanna CCD,Z5,S
+SC,45,059,Laurens County,91924,01938329,Laurens CCD,Z5,S
+SC,45,059,Laurens County,92730,01938391,Princeton CCD,Z5,S
+SC,45,061,Lee County,90104,01938188,Ashwood CCD,Z5,S
+SC,45,061,Lee County,90260,01938200,Bishopville CCD,Z5,S
+SC,45,061,Lee County,92054,01938339,Lynchburg CCD,Z5,S
+SC,45,061,Lee County,92899,01938404,St. Charles CCD,Z5,S
+SC,45,061,Lee County,93251,01938431,Stokes Bridge-Cypress Crossroads CCD,Z5,S
+SC,45,063,Lexington County,90169,01938192,Batesburg-Leesville CCD,Z5,S
+SC,45,063,Lexington County,90546,01938222,Chapin CCD,Z5,S
+SC,45,063,Lexington County,91261,01938277,Gilbert CCD,Z5,S
+SC,45,063,Lexington County,91625,01938306,Irmo CCD,Z5,S
+SC,45,063,Lexington County,91937,01938330,Lexington CCD,Z5,S
+SC,45,063,Lexington County,92613,01938382,Pelion CCD,Z5,S
+SC,45,063,Lexington County,93354,01938439,Swansea CCD,Z5,S
+SC,45,063,Lexington County,93653,01938462,West Columbia-Cayce CCD,Z5,S
+SC,45,065,McCormick County,92119,01938344,McCormick CCD,Z5,S
+SC,45,065,McCormick County,92262,01938355,Mount Carmel CCD,Z5,S
+SC,45,065,McCormick County,92561,01938378,Parksville CCD,Z5,S
+SC,45,067,Marion County,90403,01938211,Brittons Neck CCD,Z5,S
+SC,45,067,Marion County,90520,01938220,Centenary CCD,Z5,S
+SC,45,067,Marion County,92171,01938348,Marion CCD,Z5,S
+SC,45,067,Marion County,92314,01938359,Mullins CCD,Z5,S
+SC,45,069,Marlboro County,90234,01938198,Bennettsville CCD,Z5,S
+SC,45,069,Marlboro County,90299,01938203,Blenheim CCD,Z5,S
+SC,45,069,Marlboro County,90676,01938232,Clio CCD,Z5,S
+SC,45,069,Marlboro County,92093,01938342,McColl CCD,Z5,S
+SC,45,069,Marlboro County,93588,01938457,Wallace CCD,Z5,S
+SC,45,071,Newberry County,90559,01938223,Chappells CCD,Z5,S
+SC,45,071,Newberry County,92366,01938363,Newberry CCD,Z5,S
+SC,45,071,Newberry County,92704,01938389,Pomaria CCD,Z5,S
+SC,45,071,Newberry County,92756,01938393,Prosperity CCD,Z5,S
+SC,45,071,Newberry County,93705,01938466,Whitmire CCD,Z5,S
+SC,45,073,Oconee County,92015,01938336,Long Creek CCD,Z5,S
+SC,45,073,Oconee County,92249,01938354,Mountain Rest CCD,Z5,S
+SC,45,073,Oconee County,92457,01938370,Oakway CCD,Z5,S
+SC,45,073,Oconee County,92964,01938409,Salem CCD,Z5,S
+SC,45,073,Oconee County,93081,01938418,Seneca CCD,Z5,S
+SC,45,073,Oconee County,93575,01938456,Walhalla CCD,Z5,S
+SC,45,073,Oconee County,93666,01938463,Westminster CCD,Z5,S
+SC,45,075,Orangeburg County,90364,01938208,Bowman CCD,Z5,S
+SC,45,075,Orangeburg County,90390,01938210,Branchville CCD,Z5,S
+SC,45,075,Orangeburg County,90741,01938237,Cope CCD,Z5,S
+SC,45,075,Orangeburg County,91040,01938260,Elloree CCD,Z5,S
+SC,45,075,Orangeburg County,91079,01938263,Eutawville CCD,Z5,S
+SC,45,075,Orangeburg County,91547,01938300,Holly Hill CCD,Z5,S
+SC,45,075,Orangeburg County,92340,01938361,Neeses CCD,Z5,S
+SC,45,075,Orangeburg County,92405,01938366,North CCD,Z5,S
+SC,45,075,Orangeburg County,92444,01938369,Norway CCD,Z5,S
+SC,45,075,Orangeburg County,92496,01938373,Orangeburg CCD,Z5,S
+SC,45,075,Orangeburg County,92509,01938374,Orangeburg West CCD,Z5,S
+SC,45,075,Orangeburg County,93035,01938451,Santee-Vance CCD,Z5,S
+SC,45,075,Orangeburg County,93211,01938428,Springfield CCD,Z5,S
+SC,45,077,Pickens County,90533,01938221,Central CCD,Z5,S
+SC,45,077,Pickens County,90650,01938230,Clemson CCD,Z5,S
+SC,45,077,Pickens County,90936,01938252,Easley CCD,Z5,S
+SC,45,077,Pickens County,90949,01938253,Easley East CCD,Z5,S
+SC,45,077,Pickens County,91950,01938331,Liberty CCD,Z5,S
+SC,45,077,Pickens County,92435,01938269,North Pickens CCD,Z5,S
+SC,45,077,Pickens County,92639,01938384,Pickens CCD,Z5,S
+SC,45,077,Pickens County,93146,01938423,Six Mile CCD,Z5,S
+SC,45,079,Richland County,90325,01938205,Blythewood CCD,Z5,S
+SC,45,079,Richland County,90494,01938218,Camp Ground CCD,Z5,S
+SC,45,079,Richland County,90702,01938234,Columbia CCD,Z5,S
+SC,45,079,Richland County,90923,01938251,Dutch Fork CCD,Z5,S
+SC,45,079,Richland County,90962,01938254,Eastover CCD,Z5,S
+SC,45,079,Richland County,91175,02584537,Fort Jackson CCD,Z5,S
+SC,45,079,Richland County,91573,01938302,Hopkins CCD,Z5,S
+SC,45,079,Richland County,91586,01938303,Horrell Hill CCD,Z5,S
+SC,45,079,Richland County,92717,01938390,Pontiac CCD,Z5,S
+SC,45,081,Saluda County,90170,01938193,Batesburg-Leesville CCD,Z5,S
+SC,45,081,Saluda County,92440,01938412,North Saluda CCD,Z5,S
+SC,45,081,Saluda County,92847,01938400,Ridge Spring CCD,Z5,S
+SC,45,081,Saluda County,92990,01938411,Saluda CCD,Z5,S
+SC,45,083,Spartanburg County,90338,01938206,Boiling Springs CCD,Z5,S
+SC,45,083,Spartanburg County,90598,01938226,Chesnee CCD,Z5,S
+SC,45,083,Spartanburg County,90793,01938241,Cowpens CCD,Z5,S
+SC,45,083,Spartanburg County,91053,01938261,Enoree CCD,Z5,S
+SC,45,083,Spartanburg County,91105,01938265,Fairmont Mills CCD,Z5,S
+SC,45,083,Spartanburg County,91118,01938266,Fingerville CCD,Z5,S
+SC,45,083,Spartanburg County,91287,01938279,Gramling CCD,Z5,S
+SC,45,083,Spartanburg County,91404,01938288,Greer CCD,Z5,S
+SC,45,083,Spartanburg County,91612,01938305,Inman CCD,Z5,S
+SC,45,083,Spartanburg County,91872,01938325,Landrum CCD,Z5,S
+SC,45,083,Spartanburg County,92184,01938349,Mayo CCD,Z5,S
+SC,45,083,Spartanburg County,92522,01938375,Pacolet CCD,Z5,S
+SC,45,083,Spartanburg County,92587,01938380,Pauline CCD,Z5,S
+SC,45,083,Spartanburg County,92795,01938396,Reidville CCD,Z5,S
+SC,45,083,Spartanburg County,93198,01938427,Spartanburg CCD,Z5,S
+SC,45,083,Spartanburg County,93640,01938461,Wellford CCD,Z5,S
+SC,45,083,Spartanburg County,93783,01938472,Woodruff CCD,Z5,S
+SC,45,085,Sumter County,92743,01938392,Privateer CCD,Z5,S
+SC,45,085,Sumter County,92808,01938397,Rembert CCD,Z5,S
+SC,45,085,Sumter County,93095,01938419,Shaw AFB-Horatio CCD,Z5,S
+SC,45,085,Sumter County,93120,01938421,Shiloh CCD,Z5,S
+SC,45,085,Sumter County,93289,01938434,Sumter CCD,Z5,S
+SC,45,085,Sumter County,93302,01938435,Sumter North CCD,Z5,S
+SC,45,085,Sumter County,93315,01938436,Sumter Northeast CCD,Z5,S
+SC,45,085,Sumter County,93328,01938437,Sumter Southeast CCD,Z5,S
+SC,45,085,Sumter County,93341,01938438,Sumter Southwest CCD,Z5,S
+SC,45,087,Union County,90507,01938219,Carlisle CCD,Z5,S
+SC,45,087,Union County,90832,01938244,Cross Keys CCD,Z5,S
+SC,45,087,Union County,91742,01938315,Jonesville CCD,Z5,S
+SC,45,087,Union County,91989,01938334,Lockhart CCD,Z5,S
+SC,45,087,Union County,93497,01938450,Union CCD,Z5,S
+SC,45,087,Union County,93679,01938464,West Springs CCD,Z5,S
+SC,45,089,Williamsburg County,90442,01938214,Cades CCD,Z5,S
+SC,45,089,Williamsburg County,91339,01938283,Greeleyville CCD,Z5,S
+SC,45,089,Williamsburg County,91495,01938295,Hemingway CCD,Z5,S
+SC,45,089,Williamsburg County,91601,01938304,Indiantown CCD,Z5,S
+SC,45,089,Williamsburg County,91768,01938317,Kingstree CCD,Z5,S
+SC,45,089,Williamsburg County,91898,01938327,Lane CCD,Z5,S
+SC,45,089,Williamsburg County,92353,01938362,Nesmith CCD,Z5,S
+SC,45,089,Williamsburg County,93458,01938447,Trio CCD,Z5,S
+SC,45,091,York County,90689,01938233,Clover CCD,Z5,S
+SC,45,091,York County,91183,01938271,Fort Mill CCD,Z5,S
+SC,45,091,York County,91521,01938297,Hickory Grove CCD,Z5,S
+SC,45,091,York County,92106,01938343,McConnells CCD,Z5,S
+SC,45,091,York County,92886,01938403,Rock Hill CCD,Z5,S
+SC,45,091,York County,93822,01938475,York CCD,Z5,S

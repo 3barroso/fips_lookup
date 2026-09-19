@@ -1,0 +1,1531 @@
+KS,20,001,Allen County,10725,00478122,Carlyle township,T1,A
+KS,20,001,Allen County,15825,00474731,Cottage Grove township,T1,A
+KS,20,001,Allen County,17175,00478126,Deer Creek township,T1,A
+KS,20,001,Allen County,20550,00474514,Elm township,T1,A
+KS,20,001,Allen County,20900,00474741,Elsmore township,T1,A
+KS,20,001,Allen County,26100,00478111,Geneva township,T1,A
+KS,20,001,Allen County,33450,00485596,Humboldt city,C5,F
+KS,20,001,Allen County,33475,00474722,Humboldt township,T1,A
+KS,20,001,Allen County,34300,00485599,Iola city,C5,F
+KS,20,001,Allen County,34325,00474513,Iola township,T1,A
+KS,20,001,Allen County,37725,00485604,La Harpe city,C5,F
+KS,20,001,Allen County,41725,00474708,Logan township,T1,A
+KS,20,001,Allen County,44850,00474522,Marmaton township,T1,A
+KS,20,001,Allen County,53075,00478140,Osage township,T1,A
+KS,20,001,Allen County,62600,00474746,Salem township,T1,A
+KS,20,003,Anderson County,25925,00485581,Garnett city,C5,F
+KS,20,003,Anderson County,34050,00478109,Indian Creek township,T1,A
+KS,20,003,Anderson County,34725,00477667,Jackson township,T1,A
+KS,20,003,Anderson County,40475,00477669,Lincoln township,T1,A
+KS,20,003,Anderson County,42450,00478125,Lone Elm township,T1,A
+KS,20,003,Anderson County,47725,00477653,Monroe township,T1,A
+KS,20,003,Anderson County,53900,00478121,Ozark township,T1,A
+KS,20,003,Anderson County,58000,00477589,Putnam township,T1,A
+KS,20,003,Anderson County,58825,00477581,Reeder township,T1,A
+KS,20,003,Anderson County,59175,00478139,Rich township,T1,A
+KS,20,003,Anderson County,74650,00477612,Walker township,T1,A
+KS,20,003,Anderson County,75500,00477666,Washington township,T1,A
+KS,20,003,Anderson County,76450,00477893,Welda township,T1,A
+KS,20,003,Anderson County,77275,00477652,Westphalia township,T1,A
+KS,20,005,Atchison County,02900,00485542,Atchison city,C5,F
+KS,20,005,Atchison County,06150,00473478,Benton township,T1,A
+KS,20,005,Atchison County,11550,00473488,Center township,T1,A
+KS,20,005,Atchison County,28225,00473240,Grasshopper township,T1,A
+KS,20,005,Atchison County,36100,01729699,Kapioma township,T1,A
+KS,20,005,Atchison County,38350,00473252,Lancaster township,T1,A
+KS,20,005,Atchison County,48925,00473489,Mount Pleasant township,T1,A
+KS,20,005,Atchison County,64275,00473281,Shannon township,T1,A
+KS,20,005,Atchison County,74800,00473513,Walnut township,T1,A
+KS,20,007,Barber County,00400,00485522,Aetna township,T1,A
+KS,20,007,Barber County,17300,00470477,Deerhead township,T1,A
+KS,20,007,Barber County,19150,00470475,Eagle township,T1,A
+KS,20,007,Barber County,20800,00470380,Elm Mills township,T1,A
+KS,20,007,Barber County,20925,00470533,Elwood township,T1,A
+KS,20,007,Barber County,31175,00470548,Hazelton township,T1,A
+KS,20,007,Barber County,37150,00470549,Kiowa township,T1,A
+KS,20,007,Barber County,37900,00470441,Lake City township,T1,A
+KS,20,007,Barber County,43550,00470372,McAdoo township,T1,A
+KS,20,007,Barber County,45525,00470490,Medicine Lodge township,T1,A
+KS,20,007,Barber County,47050,00470439,Mingona township,T1,A
+KS,20,007,Barber County,48075,00470543,Moore township,T1,A
+KS,20,007,Barber County,50775,00470541,Nippawalla township,T1,A
+KS,20,007,Barber County,64350,00470494,Sharon township,T1,A
+KS,20,007,Barber County,69300,01729705,Sun City township,T1,A
+KS,20,007,Barber County,71675,00470370,Turkey Creek township,T1,A
+KS,20,007,Barber County,72750,00470388,Valley township,T1,A
+KS,20,009,Barton County,00850,00475500,Albion township,T1,A
+KS,20,009,Barton County,04975,00475433,Beaver township,T1,A
+KS,20,009,Barton County,09075,00475639,Buffalo township,T1,A
+KS,20,009,Barton County,13025,00475521,Cheyenne township,T1,A
+KS,20,009,Barton County,13475,00475632,Clarence township,T1,A
+KS,20,009,Barton County,14025,00475441,Cleveland township,T1,A
+KS,20,009,Barton County,15125,00475765,Comanche township,T1,A
+KS,20,009,Barton County,20425,00485568,Ellinwood city,C5,F
+KS,20,009,Barton County,21750,00475642,Eureka township,T1,A
+KS,20,009,Barton County,22400,00475401,Fairview township,T1,A
+KS,20,009,Barton County,27475,00475499,Grant township,T1,A
+KS,20,009,Barton County,28300,00485584,Great Bend city,C5,F
+KS,20,009,Barton County,28325,00475651,Great Bend township,T1,A
+KS,20,009,Barton County,32550,00485593,Hoisington city,C5,F
+KS,20,009,Barton County,33975,00475525,Independent township,T1,A
+KS,20,009,Barton County,38125,00475653,Lakin township,T1,A
+KS,20,009,Barton County,39875,00475740,Liberty township,T1,A
+KS,20,009,Barton County,41750,00475526,Logan township,T1,A
+KS,20,009,Barton County,51200,00475509,North Homestead township,T1,A
+KS,20,009,Barton County,54900,00475734,Pawnee Rock township,T1,A
+KS,20,009,Barton County,66525,00475749,South Bend township,T1,A
+KS,20,009,Barton County,66725,00475510,South Homestead township,T1,A
+KS,20,009,Barton County,72025,00475420,Union township,T1,A
+KS,20,009,Barton County,74825,00475633,Walnut township,T1,A
+KS,20,009,Barton County,77600,00475403,Wheatland township,T1,A
+KS,20,011,Bourbon County,18750,00474803,Drywood township,T1,A
+KS,20,011,Bourbon County,24000,00485575,Fort Scott city,C5,F
+KS,20,011,Bourbon County,24300,00474536,Franklin township,T1,A
+KS,20,011,Bourbon County,24600,00474563,Freedom township,T1,A
+KS,20,011,Bourbon County,44650,00474535,Marion township,T1,A
+KS,20,011,Bourbon County,44900,00474758,Marmaton township,T1,A
+KS,20,011,Bourbon County,46675,00474565,Mill Creek township,T1,A
+KS,20,011,Bourbon County,53100,00474559,Osage township,T1,A
+KS,20,011,Bourbon County,54775,00474756,Pawnee township,T1,A
+KS,20,011,Bourbon County,63500,00474564,Scott township,T1,A
+KS,20,011,Bourbon County,70600,00474548,Timberhill township,T1,A
+KS,20,011,Bourbon County,74850,00474748,Walnut township,T1,A
+KS,20,013,Brown County,29725,00472776,Hamlin township,T1,A
+KS,20,013,Brown County,31675,00485591,Hiawatha city,C5,F
+KS,20,013,Brown County,31700,00472777,Hiawatha township,T1,A
+KS,20,013,Brown County,33200,00485595,Horton city,C5,F
+KS,20,013,Brown County,34500,00472788,Irving township,T1,A
+KS,20,013,Brown County,47200,00472980,Mission township,T1,A
+KS,20,013,Brown County,48325,00472752,Morrill township,T1,A
+KS,20,013,Brown County,54025,00472787,Padonia township,T1,A
+KS,20,013,Brown County,57375,00472964,Powhattan township,T1,A
+KS,20,013,Brown County,60350,00472990,Robinson township,T1,A
+KS,20,013,Brown County,62025,00485648,Sabetha city,C5,F
+KS,20,013,Brown County,74875,00472753,Walnut township,T1,A
+KS,20,013,Brown County,75525,00472991,Washington township,T1,A
+KS,20,015,Butler County,03300,00485543,Augusta city,C5,F
+KS,20,015,Butler County,03325,00474835,Augusta township,T1,A
+KS,20,015,Butler County,06200,00473879,Benton township,T1,A
+KS,20,015,Butler County,07500,00474826,Bloomington township,T1,A
+KS,20,015,Butler County,08825,00474232,Bruno township,T1,A
+KS,20,015,Butler County,12750,00474400,Chelsea township,T1,A
+KS,20,015,Butler County,13575,00470031,Clay township,T1,A
+KS,20,015,Butler County,14175,00474376,Clifford township,T1,A
+KS,20,015,Butler County,18425,00470019,Douglass township,T1,A
+KS,20,015,Butler County,20075,00485567,El Dorado city,C5,F
+KS,20,015,Butler County,20100,00474388,El Dorado township,T1,A
+KS,20,015,Butler County,22275,00473726,Fairmount township,T1,A
+KS,20,015,Butler County,22450,00474378,Fairview township,T1,A
+KS,20,015,Butler County,26400,00474845,Glencoe township,T1,A
+KS,20,015,Butler County,31750,00474846,Hickory township,T1,A
+KS,20,015,Butler County,40500,00474387,Lincoln township,T1,A
+KS,20,015,Butler County,41625,00474837,Little Walnut township,T1,A
+KS,20,015,Butler County,41775,00474836,Logan township,T1,A
+KS,20,015,Butler County,46875,00473727,Milton township,T1,A
+KS,20,015,Butler County,49225,00473878,Murdock township,T1,A
+KS,20,015,Butler County,56200,00474233,Pleasant township,T1,A
+KS,20,015,Butler County,56850,00474377,Plum Grove township,T1,A
+KS,20,015,Butler County,57775,00474611,Prospect township,T1,A
+KS,20,015,Butler County,59250,00474367,Richland township,T1,A
+KS,20,015,Butler County,60475,00470022,Rock Creek township,T1,A
+KS,20,015,Butler County,61125,00474612,Rosalia township,T1,A
+KS,20,015,Butler County,67275,00474827,Spring township,T1,A
+KS,20,015,Butler County,69700,00474399,Sycamore township,T1,A
+KS,20,015,Butler County,71150,00474577,Towanda township,T1,A
+KS,20,015,Butler County,72050,00469948,Union township,T1,A
+KS,20,015,Butler County,74900,00474804,Walnut township,T1,A
+KS,20,017,Chase County,04700,00477413,Bazaar township,T1,A
+KS,20,017,Chase County,11225,00477800,Cedar township,T1,A
+KS,20,017,Chase County,15875,00477387,Cottonwood township,T1,A
+KS,20,017,Chase County,17975,00477160,Diamond Creek township,T1,A
+KS,20,017,Chase County,22850,00477270,Falls township,T1,A
+KS,20,017,Chase County,32950,00477799,Homestead township,T1,A
+KS,20,017,Chase County,45125,00477823,Matfield township,T1,A
+KS,20,017,Chase County,68600,00477166,Strong township,T1,A
+KS,20,017,Chase County,70775,00477171,Toledo township,T1,A
+KS,20,019,Chautauqua County,05575,00470239,Belleville township,T1,A
+KS,20,019,Chautauqua County,10425,00485518,Caneyville township,T9,I
+KS,20,019,Chautauqua County,11575,00469516,Center township,T1,A
+KS,20,019,Chautauqua County,30275,00469108,Harrison township,T9,I
+KS,20,019,Chautauqua County,31300,00469131,Hendricks township,T9,I
+KS,20,019,Chautauqua County,35125,00469109,Jefferson township,T9,I
+KS,20,019,Chautauqua County,37650,00469523,Lafayette township,T1,A
+KS,20,019,Chautauqua County,41525,00469137,Little Caney township,T1,A
+KS,20,019,Chautauqua County,62775,00469536,Salt Creek township,T9,I
+KS,20,019,Chautauqua County,63775,00469154,Sedan township,T9,I
+KS,20,019,Chautauqua County,69025,00469130,Summit township,T9,I
+KS,20,019,Chautauqua County,75550,00469132,Washington township,T9,I
+KS,20,021,Cherokee County,04625,00485544,Baxter Springs city,C5,F
+KS,20,021,Cherokee County,12800,00469617,Cherokee township,T1,A
+KS,20,021,Cherokee County,15075,00485558,Columbus city,C5,F
+KS,20,021,Cherokee County,16225,00469371,Crawford township,T1,A
+KS,20,021,Cherokee County,25100,00485578,Galena city,C5,F
+KS,20,021,Cherokee County,25250,00469361,Garden township,T1,A
+KS,20,021,Cherokee County,42350,00469277,Lola township,T1,A
+KS,20,021,Cherokee County,43075,00469357,Lowell township,T1,A
+KS,20,021,Cherokee County,43400,00469272,Lyon township,T1,A
+KS,20,021,Cherokee County,47000,00469331,Mineral township,T1,A
+KS,20,021,Cherokee County,49725,00469567,Neosho township,T1,A
+KS,20,021,Cherokee County,53450,00485637,Oswego city,C5,F
+KS,20,021,Cherokee County,56675,00469334,Pleasant View township,T1,A
+KS,20,021,Cherokee County,61350,00469492,Ross township,T1,A
+KS,20,021,Cherokee County,62575,00469271,Salamanca township,T1,A
+KS,20,021,Cherokee County,63325,00485650,Scammon city,C5,F
+KS,20,021,Cherokee County,64475,00469356,Shawnee township,T1,A
+KS,20,021,Cherokee County,64625,00469476,Sheridan township,T1,A
+KS,20,021,Cherokee County,67725,00469373,Spring Valley township,T1,A
+KS,20,021,Cherokee County,76350,00485657,Weir city,C5,F
+KS,20,023,Cheyenne County,06025,00485202,Benkelman township,T1,A
+KS,20,023,Cheyenne County,06850,00470882,Bird City township,T1,A
+KS,20,023,Cheyenne County,09950,00470879,Calhoun township,T1,A
+KS,20,023,Cheyenne County,14150,00470846,Cleveland Run township,T1,A
+KS,20,023,Cheyenne County,35025,00485200,Jaqua township,T1,A
+KS,20,023,Cheyenne County,53050,00470975,Orlando township,T1,A
+KS,20,023,Cheyenne County,75375,00485198,Wano township,T1,A
+KS,20,025,Clark County,02100,00470721,Appleton township,T1,A
+KS,20,025,Clark County,11600,00470813,Center township,T9,I
+KS,20,025,Clark County,21375,00470804,Englewood township,T1,A
+KS,20,025,Clark County,39775,00470733,Lexington township,T1,A
+KS,20,025,Clark County,39900,00470700,Liberty township,T9,I
+KS,20,025,Clark County,65725,00470816,Sitka township,T9,I
+KS,20,027,Clay County,02950,00476298,Athelstane township,T9,I
+KS,20,027,Clay County,07050,00476018,Blaine township,T9,I
+KS,20,027,Clay County,07325,00476012,Bloom township,T9,I
+KS,20,027,Clay County,12525,00476299,Chapman township,T9,I
+KS,20,027,Clay County,13625,00485555,Clay Center city,C5,F
+KS,20,027,Clay County,13650,00476026,Clay Center township,T9,I
+KS,20,027,Clay County,22100,00476172,Exeter township,T9,I
+KS,20,027,Clay County,23475,00476017,Five Creeks township,T9,I
+KS,20,027,Clay County,25500,00473364,Garfield township,T9,I
+KS,20,027,Clay County,26250,00476318,Gill township,T9,I
+KS,20,027,Clay County,27025,00473369,Goshen township,T9,I
+KS,20,027,Clay County,27500,00476192,Grant township,T9,I
+KS,20,027,Clay County,30875,00476025,Hayes township,T9,I
+KS,20,027,Clay County,31825,01729702,Highland township,T9,I
+KS,20,027,Clay County,49000,00472568,Mulberry township,T9,I
+KS,20,027,Clay County,51725,00476171,Oakland township,T9,I
+KS,20,027,Clay County,59025,00476193,Republican township,T9,I
+KS,20,027,Clay County,64850,00473356,Sherman township,T9,I
+KS,20,027,Clay County,72075,00476186,Union township,T9,I
+KS,20,029,Cloud County,02275,00473304,Arion township,T1,A
+KS,20,029,Cloud County,03450,00475998,Aurora township,T1,A
+KS,20,029,Cloud County,09100,00485434,Buffalo township,T1,A
+KS,20,029,Cloud County,11625,00473326,Center township,T1,A
+KS,20,029,Cloud County,14775,00476008,Colfax township,T1,A
+KS,20,029,Cloud County,15200,00485559,Concordia city,C5,F
+KS,20,029,Cloud County,20150,00473105,Elk township,T1,A
+KS,20,029,Cloud County,27525,00473072,Grant township,T1,A
+KS,20,029,Cloud County,38875,00473089,Lawrence township,T1,A
+KS,20,029,Cloud County,40525,00473332,Lincoln township,T1,A
+KS,20,029,Cloud County,43425,00475982,Lyon township,T1,A
+KS,20,029,Cloud County,45925,00475991,Meredith township,T1,A
+KS,20,029,Cloud County,49600,00473337,Nelson township,T1,A
+KS,20,029,Cloud County,51750,00475997,Oakland township,T1,A
+KS,20,029,Cloud County,65375,00473353,Shirley township,T1,A
+KS,20,029,Cloud County,65425,00485433,Sibley township,T1,A
+KS,20,029,Cloud County,66250,00475979,Solomon township,T1,A
+KS,20,029,Cloud County,68050,00476009,Starr township,T1,A
+KS,20,029,Cloud County,69050,00473295,Summit township,T1,A
+KS,20,031,Coffey County,03550,00477873,Avon township,T1,A
+KS,20,031,Coffey County,09400,00485549,Burlington city,C5,F
+KS,20,031,Coffey County,09425,00477862,Burlington township,T1,A
+KS,20,031,Coffey County,29775,00477463,Hampden township,T1,A
+KS,20,031,Coffey County,36650,00477557,Key West township,T1,A
+KS,20,031,Coffey County,39675,00478092,LeRoy township,T1,A
+KS,20,031,Coffey County,39925,00477852,Liberty township,T1,A
+KS,20,031,Coffey County,40550,00477551,Lincoln township,T1,A
+KS,20,031,Coffey County,49750,00477863,Neosho township,T1,A
+KS,20,031,Coffey County,53700,00477462,Ottumwa township,T9,I
+KS,20,031,Coffey County,56225,00477444,Pleasant township,T1,A
+KS,20,031,Coffey County,57200,00477475,Pottawatomie township,T1,A
+KS,20,031,Coffey County,60500,00477569,Rock Creek township,T1,A
+KS,20,031,Coffey County,67375,00478091,Spring Creek township,T1,A
+KS,20,031,Coffey County,68000,00477476,Star township,T1,A
+KS,20,033,Comanche County,03525,00470827,Avilla township,T1,A
+KS,20,033,Comanche County,14725,00470843,Coldwater township,T1,A
+KS,20,033,Comanche County,57325,00470748,Powell township,T1,A
+KS,20,033,Comanche County,57875,00470825,Protection township,T1,A
+KS,20,035,Cowley County,02300,00485541,Arkansas City city,C5,F
+KS,20,035,Cowley County,05025,00470355,Beaver township,T1,A
+KS,20,035,Cowley County,07875,00470045,Bolton township,T1,A
+KS,20,035,Cowley County,11250,00469066,Cedar township,T1,A
+KS,20,035,Cowley County,16375,00470065,Creswell township,T1,A
+KS,20,035,Cowley County,17950,00469571,Dexter township,T1,A
+KS,20,035,Cowley County,22475,00469927,Fairview township,T1,A
+KS,20,035,Cowley County,27550,00469069,Grant township,T1,A
+KS,20,035,Cowley County,30525,00469947,Harvey township,T1,A
+KS,20,035,Cowley County,39950,00469565,Liberty township,T1,A
+KS,20,035,Cowley County,44450,00470215,Maple township,T1,A
+KS,20,035,Cowley County,50625,00470572,Ninnescah township,T1,A
+KS,20,035,Cowley County,52850,00470035,Omnia township,T1,A
+KS,20,035,Cowley County,53625,00485517,Otter township,T1,A
+KS,20,035,Cowley County,56500,00469060,Pleasant Valley township,T1,A
+KS,20,035,Cowley County,59275,00470024,Richland township,T1,A
+KS,20,035,Cowley County,60525,00470020,Rock Creek township,T1,A
+KS,20,035,Cowley County,62625,00469924,Salem township,T1,A
+KS,20,035,Cowley County,64650,00469580,Sheridan township,T1,A
+KS,20,035,Cowley County,65500,00469912,Silver Creek township,T1,A
+KS,20,035,Cowley County,65575,00469088,Silverdale township,T1,A
+KS,20,035,Cowley County,67400,00469583,Spring Creek township,T1,A
+KS,20,035,Cowley County,70725,00469566,Tisdale township,T1,A
+KS,20,035,Cowley County,73575,00470359,Vernon township,T1,A
+KS,20,035,Cowley County,74925,00469557,Walnut township,T1,A
+KS,20,035,Cowley County,79875,00469901,Windsor township,T1,A
+KS,20,035,Cowley County,79950,00485663,Winfield city,C5,F
+KS,20,037,Crawford County,03750,00469616,Baker township,T1,A
+KS,20,037,Crawford County,16250,00469730,Crawford township,T1,A
+KS,20,037,Crawford County,24850,00485577,Frontenac city,C5,F
+KS,20,037,Crawford County,26300,00485582,Girard city,C5,F
+KS,20,037,Crawford County,27575,00469711,Grant township,T1,A
+KS,20,037,Crawford County,40575,00475027,Lincoln township,T1,A
+KS,20,037,Crawford County,49025,00485626,Mulberry city,C5,F
+KS,20,037,Crawford County,53125,00469639,Osage township,T1,A
+KS,20,037,Crawford County,56025,00485643,Pittsburg city,C5,F
+KS,20,037,Crawford County,64675,00469628,Sheridan township,T1,A
+KS,20,037,Crawford County,64875,00474998,Sherman township,T1,A
+KS,20,037,Crawford County,74975,00474991,Walnut township,T1,A
+KS,20,037,Crawford County,75575,00469733,Washington township,T1,A
+KS,20,039,Decatur County,01300,00471079,Allison township,T1,A
+KS,20,039,Decatur County,01650,00471017,Altory township,T1,A
+KS,20,039,Decatur County,04475,00471061,Bassettville township,T1,A
+KS,20,039,Decatur County,05050,00470918,Beaver township,T1,A
+KS,20,039,Decatur County,11650,00471009,Center township,T1,A
+KS,20,039,Decatur County,15375,00471062,Cook township,T1,A
+KS,20,039,Decatur County,16850,00471070,Custer township,T1,A
+KS,20,039,Decatur County,18625,00471071,Dresden township,T1,A
+KS,20,039,Decatur County,23425,00470917,Finley township,T1,A
+KS,20,039,Decatur County,25525,00471024,Garfield township,T1,A
+KS,20,039,Decatur County,27600,00470936,Grant township,T1,A
+KS,20,039,Decatur County,30050,00470931,Harlan township,T1,A
+KS,20,039,Decatur County,35400,00471075,Jennings township,T1,A
+KS,20,039,Decatur County,39975,00470919,Liberty township,T1,A
+KS,20,039,Decatur County,40600,00470937,Lincoln township,T1,A
+KS,20,039,Decatur County,41825,00470920,Logan township,T1,A
+KS,20,039,Decatur County,43450,00471074,Lyon township,T1,A
+KS,20,039,Decatur County,52000,00485632,Oberlin city,C5,F
+KS,20,039,Decatur County,52025,00471011,Oberlin township,T1,A
+KS,20,039,Decatur County,52675,00470925,Olive township,T1,A
+KS,20,039,Decatur County,56525,00471078,Pleasant Valley township,T1,A
+KS,20,039,Decatur County,57475,00471064,Prairie Dog township,T1,A
+KS,20,039,Decatur County,61025,00470930,Roosevelt township,T1,A
+KS,20,039,Decatur County,63050,00471007,Sappa township,T1,A
+KS,20,039,Decatur County,64900,00470929,Sherman township,T1,A
+KS,20,039,Decatur County,69075,00471063,Summit township,T1,A
+KS,20,041,Dickinson County,00125,00485539,Abilene city,C5,F
+KS,20,041,Dickinson County,03975,00476974,Banner township,T1,A
+KS,20,041,Dickinson County,08925,00476477,Buckeye township,T1,A
+KS,20,041,Dickinson County,11675,00476679,Center township,T1,A
+KS,20,041,Dickinson County,12700,00476308,Cheever township,T1,A
+KS,20,041,Dickinson County,23550,00476309,Flora township,T1,A
+KS,20,041,Dickinson County,24250,00476320,Fragrant Hill township,T1,A
+KS,20,041,Dickinson County,25550,00476840,Garfield township,T1,A
+KS,20,041,Dickinson County,27625,00476667,Grant township,T1,A
+KS,20,041,Dickinson County,30900,00476487,Hayes township,T1,A
+KS,20,041,Dickinson County,31400,00485590,Herington city,C5,F
+KS,20,041,Dickinson County,32625,00476966,Holland township,T1,A
+KS,20,041,Dickinson County,33100,00476980,Hope township,T1,A
+KS,20,041,Dickinson County,35175,00476848,Jefferson township,T1,A
+KS,20,041,Dickinson County,40000,00476861,Liberty township,T1,A
+KS,20,041,Dickinson County,40625,00476656,Lincoln township,T1,A
+KS,20,041,Dickinson County,41850,00476856,Logan township,T1,A
+KS,20,041,Dickinson County,43475,00476984,Lyon township,T1,A
+KS,20,041,Dickinson County,50225,00485530,Newbern township,T1,A
+KS,20,041,Dickinson County,50800,00476494,Noble township,T1,A
+KS,20,041,Dickinson County,59800,00476857,Ridge township,T1,A
+KS,20,041,Dickinson County,59900,00476693,Rinehart township,T1,A
+KS,20,041,Dickinson County,64925,00476319,Sherman township,T1,A
+KS,20,041,Dickinson County,72100,00476862,Union township,T1,A
+KS,20,041,Dickinson County,77625,00476841,Wheatland township,T1,A
+KS,20,041,Dickinson County,79450,00476476,Willowdale township,T1,A
+KS,20,043,Doniphan County,09500,00472815,Burr Oak township,T1,A
+KS,20,043,Doniphan County,11700,00472813,Center township,T1,A
+KS,20,043,Doniphan County,33850,00473013,Independence township,T1,A
+KS,20,043,Doniphan County,34400,00472806,Iowa township,T1,A
+KS,20,043,Doniphan County,44675,00473034,Marion township,T1,A
+KS,20,043,Doniphan County,72125,00473270,Union township,T1,A
+KS,20,043,Doniphan County,75600,00473051,Washington township,T1,A
+KS,20,043,Doniphan County,76100,00473294,Wayne township,T1,A
+KS,20,043,Doniphan County,80275,00473003,Wolf River township,T1,A
+KS,20,045,Douglas County,14325,00479495,Clinton township,T1,A
+KS,20,045,Douglas County,21700,00479530,Eudora township,T1,A
+KS,20,045,Douglas County,27650,00478832,Grant township,T1,A
+KS,20,045,Douglas County,36075,00479103,Kanwaka township,T1,A
+KS,20,045,Douglas County,38900,00485609,Lawrence city,C5,F
+KS,20,045,Douglas County,39175,00478815,Lecompton township,T1,A
+KS,20,045,Douglas County,44700,00479476,Marion township,T1,A
+KS,20,045,Douglas County,54225,00479537,Palmyra township,T1,A
+KS,20,045,Douglas County,74400,00479514,Wakarusa township,T1,A
+KS,20,045,Douglas County,79500,00479497,Willow Springs township,T1,A
+KS,20,047,Edwards County,05850,00473553,Belpre township,T1,A
+KS,20,047,Edwards County,24350,00473554,Franklin township,T1,A
+KS,20,047,Edwards County,34750,00473540,Jackson township,T1,A
+KS,20,047,Edwards County,37075,00485603,Kinsley city,C5,F
+KS,20,047,Edwards County,37100,00473547,Kinsley township,T1,A
+KS,20,047,Edwards County,40650,00473555,Lincoln township,T1,A
+KS,20,047,Edwards County,41875,00475932,Logan township,T1,A
+KS,20,047,Edwards County,51100,00473752,North Brown township,T1,A
+KS,20,047,Edwards County,66550,00473748,South Brown township,T1,A
+KS,20,047,Edwards County,71400,00473541,Trenton township,T1,A
+KS,20,047,Edwards County,76125,00473550,Wayne township,T1,A
+KS,20,049,Elk County,20325,00469873,Elk Falls township,T1,A
+KS,20,049,Elk County,28550,00469892,Greenfield township,T1,A
+KS,20,049,Elk County,33275,00469964,Howard township,T1,A
+KS,20,049,Elk County,40025,00475068,Liberty township,T1,A
+KS,20,049,Elk County,42675,00469869,Longton township,T1,A
+KS,20,049,Elk County,51950,00469865,Oak Valley township,T1,A
+KS,20,049,Elk County,54075,00469987,Painterhood township,T1,A
+KS,20,049,Elk County,54925,00475058,Paw Paw township,T1,A
+KS,20,049,Elk County,72500,01729700,Union Center township,T1,A
+KS,20,049,Elk County,79150,00469886,Wildcat township,T1,A
+KS,20,051,Ellis County,06650,00475180,Big Creek township,T1,A
+KS,20,051,Ellis County,08950,00472439,Buckeye township,T1,A
+KS,20,051,Ellis County,11050,00472447,Catherine township,T1,A
+KS,20,051,Ellis County,20450,00485569,Ellis city,C5,F
+KS,20,051,Ellis County,20475,00485300,Ellis township,T1,A
+KS,20,051,Ellis County,24625,00475299,Freedom township,T1,A
+KS,20,051,Ellis County,31100,00485589,Hays city,C5,F
+KS,20,051,Ellis County,31525,00472452,Herzog township,T1,A
+KS,20,051,Ellis County,42700,00475282,Lookout township,T1,A
+KS,20,051,Ellis County,73800,00475298,Victoria township,T1,A
+KS,20,051,Ellis County,77650,00475294,Wheatland township,T1,A
+KS,20,053,Ellsworth County,02575,00475455,Ash Creek township,T1,A
+KS,20,053,Ellsworth County,07025,00475352,Black Wolf township,T1,A
+KS,20,053,Ellsworth County,10800,00475367,Carneiro township,T1,A
+KS,20,053,Ellsworth County,13725,00475363,Clear Creek township,T1,A
+KS,20,053,Ellsworth County,15025,00475350,Columbia township,T1,A
+KS,20,053,Ellsworth County,20500,00485570,Ellsworth city,C5,F
+KS,20,053,Ellsworth County,20525,00475353,Ellsworth township,T1,A
+KS,20,053,Ellsworth County,21150,00475469,Empire township,T1,A
+KS,20,053,Ellsworth County,25575,00475357,Garfield township,T1,A
+KS,20,053,Ellsworth County,28600,00475547,Green Garden township,T1,A
+KS,20,053,Ellsworth County,38600,00475571,Langley township,T1,A
+KS,20,053,Ellsworth County,40675,00475456,Lincoln township,T1,A
+KS,20,053,Ellsworth County,49050,00475365,Mulberry township,T1,A
+KS,20,053,Ellsworth County,50825,00475339,Noble township,T1,A
+KS,20,053,Ellsworth County,54100,00475446,Palacky township,T1,A
+KS,20,053,Ellsworth County,64950,00475351,Sherman township,T1,A
+KS,20,053,Ellsworth County,70450,00475560,Thomas township,T1,A
+KS,20,053,Ellsworth County,71525,00475563,Trivoli township,T1,A
+KS,20,053,Ellsworth County,72800,00475541,Valley township,T1,A
+KS,20,053,Ellsworth County,79700,00475341,Wilson township,T1,A
+KS,20,055,Finney County,25325,00485579,Garden City city,C5,F
+KS,20,055,Finney County,25350,00471608,Garden City township,T1,A
+KS,20,055,Finney County,25600,00485251,Garfield township,T1,A
+KS,20,055,Finney County,34675,00485284,Ivanhoe township,T1,A
+KS,20,055,Finney County,55800,00485282,Pierceville township,T1,A
+KS,20,055,Finney County,56550,00485250,Pleasant Valley township,T1,A
+KS,20,055,Finney County,64800,00471607,Sherlock township,T1,A
+KS,20,055,Finney County,70225,00471534,Terry township,T1,A
+KS,20,057,Ford County,07375,00470694,Bloom township,T1,A
+KS,20,057,Ford County,09025,00470701,Bucklin township,T1,A
+KS,20,057,Ford County,15150,00471693,Concord township,T1,A
+KS,20,057,Ford County,18225,00471661,Dodge township,T1,A
+KS,20,057,Ford County,18250,00485563,Dodge City city,C5,F
+KS,20,057,Ford County,21450,00473894,Enterprise township,T1,A
+KS,20,057,Ford County,22500,00471659,Fairview township,T1,A
+KS,20,057,Ford County,23750,00473895,Ford township,T1,A
+KS,20,057,Ford County,27350,00471631,Grandview township,T1,A
+KS,20,057,Ford County,59300,00471675,Richland township,T1,A
+KS,20,057,Ford County,61575,00471628,Royal township,T1,A
+KS,20,057,Ford County,66150,00470699,Sodville township,T1,A
+KS,20,057,Ford County,67150,00473735,Spearville township,T1,A
+KS,20,057,Ford County,77675,00473534,Wheatland township,T1,A
+KS,20,057,Ford County,79100,00470691,Wilburn township,T1,A
+KS,20,059,Franklin County,02075,00479327,Appanoose township,T1,A
+KS,20,059,Franklin County,12475,00479339,Centropolis township,T1,A
+KS,20,059,Franklin County,16900,00479687,Cutler township,T1,A
+KS,20,059,Franklin County,24375,00479378,Franklin township,T1,A
+KS,20,059,Franklin County,28750,00479626,Greenwood township,T1,A
+KS,20,059,Franklin County,30300,00479679,Harrison township,T1,A
+KS,20,059,Franklin County,30925,00479357,Hayes township,T1,A
+KS,20,059,Franklin County,33000,00479641,Homewood township,T1,A
+KS,20,059,Franklin County,40700,00479640,Lincoln township,T1,A
+KS,20,059,Franklin County,52350,00479686,Ohio township,T1,A
+KS,20,059,Franklin County,53550,00485638,Ottawa city,C5,F
+KS,20,059,Franklin County,53575,00479366,Ottawa township,T1,A
+KS,20,059,Franklin County,55425,00479373,Peoria township,T1,A
+KS,20,059,Franklin County,57025,00479328,Pomona township,T1,A
+KS,20,059,Franklin County,57225,00477613,Pottawatomie township,T1,A
+KS,20,059,Franklin County,59700,00477588,Richmond township,T1,A
+KS,20,059,Franklin County,79325,00479627,Williamsburg township,T1,A
+KS,20,061,Geary County,07275,00485529,Blakely township,T1,A
+KS,20,061,Geary County,34775,00476721,Jackson township,T1,A
+KS,20,061,Geary County,35200,00476710,Jefferson township,T1,A
+KS,20,061,Geary County,35750,00485600,Junction City city,C5,F
+KS,20,061,Geary County,40050,00476723,Liberty township,T1,A
+KS,20,061,Geary County,43500,00476700,Lyon township,T1,A
+KS,20,061,Geary County,46550,00476328,Milford township,T1,A
+KS,20,061,Geary County,66000,00476557,Smoky Hill township,T1,A
+KS,20,061,Geary County,80025,00476722,Wingfield township,T1,A
+KS,20,063,Gove County,03775,00471318,Baker township,T1,A
+KS,20,063,Gove County,25000,00471376,Gaeland township,T1,A
+KS,20,063,Gove County,27075,00471377,Gove township,T1,A
+KS,20,063,Gove County,27225,00471315,Grainfield township,T1,A
+KS,20,063,Gove County,28925,00471305,Grinnell township,T1,A
+KS,20,063,Gove County,35425,00471397,Jerome township,T1,A
+KS,20,063,Gove County,38750,00471401,Larrabee township,T1,A
+KS,20,063,Gove County,39750,00471393,Lewis township,T1,A
+KS,20,063,Gove County,55050,00471317,Payne township,T1,A
+KS,20,065,Graham County,01325,00471114,Allodium township,T1,A
+KS,20,065,Graham County,08850,00471280,Bryant township,T1,A
+KS,20,065,Graham County,26175,00471228,Gettysburg township,T1,A
+KS,20,065,Graham County,27175,00472119,Graham township,T1,A
+KS,20,065,Graham County,29950,00472352,Happy township,T1,A
+KS,20,065,Graham County,32200,00472200,Hill City township,T1,A
+KS,20,065,Graham County,34000,00471116,Indiana township,T1,A
+KS,20,065,Graham County,46625,00472351,Millbrook township,T1,A
+KS,20,065,Graham County,48250,00485524,Morlan township,T1,A
+KS,20,065,Graham County,50575,00472210,Nicodemus township,T1,A
+KS,20,065,Graham County,55900,00472122,Pioneer township,T1,A
+KS,20,065,Graham County,66300,00471281,Solomon township,T1,A
+KS,20,065,Graham County,79225,00472211,Wildhorse township,T1,A
+KS,20,067,Grant County,40725,00470609,Lincoln township,T9,I
+KS,20,067,Grant County,64975,00471722,Sherman township,T9,I
+KS,20,067,Grant County,68875,00485082,Sullivan township,T9,I
+KS,20,069,Gray County,13300,00471651,Cimarron township,T1,A
+KS,20,069,Gray County,15500,00470620,Copeland township,T1,A
+KS,20,069,Gray County,19525,00470575,East Hess township,T1,A
+KS,20,069,Gray County,23675,00471627,Foote township,T9,I
+KS,20,069,Gray County,34250,00471648,Ingalls township,T1,A
+KS,20,069,Gray County,41900,00485283,Logan township,T1,A
+KS,20,069,Gray County,47900,00470573,Montezuma township,T1,A
+KS,20,071,Greeley County,71475,00485352,Tribune township,T9,I
+KS,20,073,Greenwood County,03625,00474428,Bachelor township,T1,A
+KS,20,073,Greenwood County,21800,00485572,Eureka city,C5,F
+KS,20,073,Greenwood County,21825,00474419,Eureka township,T1,A
+KS,20,073,Greenwood County,22800,00474651,Fall River township,T1,A
+KS,20,073,Greenwood County,35000,00474443,Janesville township,T1,A
+KS,20,073,Greenwood County,38425,00474450,Lane township,T1,A
+KS,20,073,Greenwood County,44075,00477834,Madison township,T1,A
+KS,20,073,Greenwood County,53650,00474632,Otter Creek township,T1,A
+KS,20,073,Greenwood County,56375,00474662,Pleasant Grove township,T1,A
+KS,20,073,Greenwood County,58175,00474451,Quincy township,T1,A
+KS,20,073,Greenwood County,62650,00474421,Salem township,T1,A
+KS,20,073,Greenwood County,62875,00474887,Salt Springs township,T1,A
+KS,20,073,Greenwood County,64600,00477839,Shell Rock township,T1,A
+KS,20,073,Greenwood County,66925,00474420,South Salem township,T1,A
+KS,20,073,Greenwood County,67425,00474633,Spring Creek township,T1,A
+KS,20,073,Greenwood County,71825,00474874,Twin Grove township,T1,A
+KS,20,075,Hamilton County,04850,00471578,Bear Creek township,T1,A
+KS,20,075,Hamilton County,15425,00485270,Coolidge township,T1,A
+KS,20,075,Hamilton County,36425,00485276,Kendall township,T1,A
+KS,20,075,Hamilton County,38275,00471582,Lamont township,T9,I
+KS,20,075,Hamilton County,40075,00485257,Liberty township,T9,I
+KS,20,075,Hamilton County,45650,00485271,Medway township,T9,I
+KS,20,075,Hamilton County,59325,00485245,Richland township,T9,I
+KS,20,075,Hamilton County,69875,00485273,Syracuse township,T9,I
+KS,20,077,Harper County,01975,00485540,Anthony city,C5,F
+KS,20,077,Harper County,30175,00485587,Harper city,C5,F
+KS,20,077,Harper County,71201,00470435,Township 1,T1,A
+KS,20,077,Harper County,71205,00470502,Township 2,T1,A
+KS,20,077,Harper County,71209,00470501,Township 3,T1,A
+KS,20,077,Harper County,71213,00470104,Township 4,T1,A
+KS,20,077,Harper County,71217,00470503,Township 5,T1,A
+KS,20,077,Harper County,71221,00470465,Township 6,T1,A
+KS,20,079,Harvey County,01500,00477740,Alta township,T1,A
+KS,20,079,Harvey County,09600,00473675,Burrton township,T1,A
+KS,20,079,Harvey County,17025,00473686,Darlington township,T1,A
+KS,20,079,Harvey County,21025,00477763,Emma township,T1,A
+KS,20,079,Harvey County,25300,00477753,Garden township,T1,A
+KS,20,079,Harvey County,29600,00485586,Halstead city,C5,F
+KS,20,079,Harvey County,29625,00473682,Halstead township,T1,A
+KS,20,079,Harvey County,31875,00477770,Highland township,T1,A
+KS,20,079,Harvey County,37825,00473670,Lake township,T1,A
+KS,20,079,Harvey County,38150,00473678,Lakin township,T1,A
+KS,20,079,Harvey County,43925,00473695,Macon township,T1,A
+KS,20,079,Harvey County,50475,00485629,Newton city,C5,F
+KS,20,079,Harvey County,50500,00473694,Newton township,T1,A
+KS,20,079,Harvey County,56250,00473696,Pleasant township,T1,A
+KS,20,079,Harvey County,59350,00473711,Richland township,T1,A
+KS,20,079,Harvey County,63825,00473687,Sedgwick township,T1,A
+KS,20,079,Harvey County,75225,00477771,Walton township,T1,A
+KS,20,081,Haskell County,18825,00470613,Dudley township,T1,A
+KS,20,081,Haskell County,30625,00470608,Haskell township,T1,A
+KS,20,081,Haskell County,41675,00485197,Lockport township,T1,A
+KS,20,083,Hodgeman County,06225,00471576,Benton township,T1,A
+KS,20,083,Hodgeman County,11725,00471562,Center township,T1,A
+KS,20,083,Hodgeman County,29525,00471563,Hallet township,T1,A
+KS,20,083,Hodgeman County,44575,00475704,Marena township,T1,A
+KS,20,083,Hodgeman County,51350,00471544,North Roscoe township,T1,A
+KS,20,083,Hodgeman County,63225,00471634,Sawlog township,T1,A
+KS,20,083,Hodgeman County,66900,00471630,South Roscoe township,T1,A
+KS,20,083,Hodgeman County,68175,00473533,Sterling township,T1,A
+KS,20,083,Hodgeman County,72825,00471545,Valley township,T1,A
+KS,20,085,Jackson County,00350,00476130,Adrian township,T9,I
+KS,20,085,Jackson County,04025,00478185,Banner township,T9,I
+KS,20,085,Jackson County,11275,00478197,Cedar township,T9,I
+KS,20,085,Jackson County,18350,00478303,Douglas township,T9,I
+KS,20,085,Jackson County,24400,00478189,Franklin township,T9,I
+KS,20,085,Jackson County,25625,00478198,Garfield township,T9,I
+KS,20,085,Jackson County,27700,01729694,Grant township,T9,I
+KS,20,085,Jackson County,32825,00485594,Holton city,C5,F
+KS,20,085,Jackson County,35225,00473450,Jefferson township,T9,I
+KS,20,085,Jackson County,40125,00473454,Liberty township,T9,I
+KS,20,085,Jackson County,40750,00478183,Lincoln township,T9,I
+KS,20,085,Jackson County,49975,00473236,Netawaka township,T9,I
+KS,20,085,Jackson County,66200,00472569,Soldier township,T9,I
+KS,20,085,Jackson County,68475,00473455,Straight Creek township,T9,I
+KS,20,085,Jackson County,75625,00476262,Washington township,T9,I
+KS,20,085,Jackson County,78125,00473239,Whiting township,T9,I
+KS,20,087,Jefferson County,17425,00478222,Delaware township,T1,A
+KS,20,087,Jefferson County,22525,00478496,Fairview township,T1,A
+KS,20,087,Jefferson County,35250,00478243,Jefferson township,T1,A
+KS,20,087,Jefferson County,36125,00478482,Kaw township,T1,A
+KS,20,087,Jefferson County,36575,00478495,Kentucky township,T1,A
+KS,20,087,Jefferson County,51475,00478223,Norton township,T1,A
+KS,20,087,Jefferson County,53400,00478346,Oskaloosa township,T1,A
+KS,20,087,Jefferson County,53950,00478336,Ozawkie township,T1,A
+KS,20,087,Jefferson County,60575,00478329,Rock Creek township,T1,A
+KS,20,087,Jefferson County,61700,00478497,Rural township,T1,A
+KS,20,087,Jefferson County,63100,00478519,Sarcoxie township,T1,A
+KS,20,087,Jefferson County,72150,00478347,Union township,T1,A
+KS,20,089,Jewell County,01225,00472110,Allen township,T1,A
+KS,20,089,Jewell County,02975,00472091,Athens township,T1,A
+KS,20,089,Jewell County,08725,00472099,Browns Creek township,T1,A
+KS,20,089,Jewell County,09125,00472109,Buffalo township,T1,A
+KS,20,089,Jewell County,09550,00471851,Burr Oak township,T1,A
+KS,20,089,Jewell County,10075,00472100,Calvin township,T1,A
+KS,20,089,Jewell County,11750,00471985,Center township,T1,A
+KS,20,089,Jewell County,21575,00472084,Erving township,T1,A
+KS,20,089,Jewell County,21625,00485523,Esbon township,T1,A
+KS,20,089,Jewell County,27725,00472007,Grant township,T1,A
+KS,20,089,Jewell County,30350,00471863,Harrison township,T1,A
+KS,20,089,Jewell County,31900,00471848,Highland township,T1,A
+KS,20,089,Jewell County,32800,00471869,Holmwood township,T1,A
+KS,20,089,Jewell County,34375,00472090,Ionia township,T1,A
+KS,20,089,Jewell County,34800,00471896,Jackson township,T1,A
+KS,20,089,Jewell County,40450,00471975,Limestone township,T1,A
+KS,20,089,Jewell County,47800,00471873,Montana township,T1,A
+KS,20,089,Jewell County,52125,00472082,Odessa township,T1,A
+KS,20,089,Jewell County,57400,00472108,Prairie township,T1,A
+KS,20,089,Jewell County,59375,00471874,Richland township,T1,A
+KS,20,089,Jewell County,65675,00471897,Sinclair township,T1,A
+KS,20,089,Jewell County,73725,00472115,Vicksburg township,T1,A
+KS,20,089,Jewell County,75000,00471850,Walnut township,T1,A
+KS,20,089,Jewell County,75650,00471991,Washington township,T1,A
+KS,20,089,Jewell County,77925,00471849,White Mound township,T1,A
+KS,20,091,Johnson County,03225,00479425,Aubry township,T1,A
+KS,20,091,Johnson County,07975,00485548,Bonner Springs city,C5,F
+KS,20,091,Johnson County,17850,00485562,De Soto city,C5,F
+KS,20,091,Johnson County,19825,00485565,Edgerton city,C5,F
+KS,20,091,Johnson County,22700,00485573,Fairway city,C5,F
+KS,20,091,Johnson County,25425,00485580,Gardner city,C5,F
+KS,20,091,Johnson County,25450,00479557,Gardner township,T1,A
+KS,20,091,Johnson County,37975,00485605,Lake Quivira city,C5,F
+KS,20,091,Johnson County,39075,00485611,Leawood city,C5,F
+KS,20,091,Johnson County,39350,00485612,Lenexa city,C5,F
+KS,20,091,Johnson County,39800,00479167,Lexington township,T1,A
+KS,20,091,Johnson County,43625,00479544,McCamish township,T1,A
+KS,20,091,Johnson County,46000,00485621,Merriam city,C5,F
+KS,20,091,Johnson County,47225,00485623,Mission city,C5,F
+KS,20,091,Johnson County,47350,00485624,Mission Hills city,C5,F
+KS,20,091,Johnson County,47425,00485625,Mission Woods city,C5,F
+KS,20,091,Johnson County,52575,00485633,Olathe city,C5,F
+KS,20,091,Johnson County,52600,00479196,Olathe township,T9,I
+KS,20,091,Johnson County,53775,00485639,Overland Park city,C5,F
+KS,20,091,Johnson County,53825,00479234,Oxford township,T1,A
+KS,20,091,Johnson County,57575,00485644,Prairie Village city,C5,F
+KS,20,091,Johnson County,60825,00485646,Roeland Park city,C5,F
+KS,20,091,Johnson County,64500,00485652,Shawnee city,C5,F
+KS,20,091,Johnson County,67625,00485653,Spring Hill city,C5,F
+KS,20,091,Johnson County,67650,00485533,Spring Hill township,T1,A
+KS,20,091,Johnson County,77500,00485660,Westwood city,C5,F
+KS,20,091,Johnson County,77525,00485661,Westwood Hills city,C5,F
+KS,20,093,Kearny County,17250,00471603,Deerfield township,T1,A
+KS,20,093,Kearny County,19550,00485249,East Hibbard township,T1,A
+KS,20,093,Kearny County,30500,00485278,Hartland township,T1,A
+KS,20,093,Kearny County,36450,00471585,Kendall township,T1,A
+KS,20,093,Kearny County,38200,00485281,Lakin township,T1,A
+KS,20,093,Kearny County,67025,00471596,Southside township,T1,A
+KS,20,093,Kearny County,77050,00485246,West Hibbard township,T1,A
+KS,20,095,Kingman County,01250,00470279,Allen township,T1,A
+KS,20,095,Kingman County,05675,00470409,Belmont township,T1,A
+KS,20,095,Kingman County,06050,00470280,Bennett township,T1,A
+KS,20,095,Kingman County,10450,00470281,Canton township,T1,A
+KS,20,095,Kingman County,13125,00485521,Chikaskia township,T1,A
+KS,20,095,Kingman County,16925,00485464,Dale township,T1,A
+KS,20,095,Kingman County,18650,00473948,Dresden township,T1,A
+KS,20,095,Kingman County,19225,00470418,Eagle township,T1,A
+KS,20,095,Kingman County,21850,00473955,Eureka township,T1,A
+KS,20,095,Kingman County,22000,00473973,Evan township,T1,A
+KS,20,095,Kingman County,25125,00473966,Galesburg township,T1,A
+KS,20,095,Kingman County,33050,00473954,Hoosier township,T1,A
+KS,20,095,Kingman County,36950,00485602,Kingman city,C5,F
+KS,20,095,Kingman County,36975,00470397,Kingman township,T1,A
+KS,20,095,Kingman County,40150,00470396,Liberty township,T1,A
+KS,20,095,Kingman County,50650,00485461,Ninnescah township,T1,A
+KS,20,095,Kingman County,55550,00470406,Peters township,T1,A
+KS,20,095,Kingman County,59400,00485459,Richland township,T1,A
+KS,20,095,Kingman County,60375,00470405,Rochester township,T1,A
+KS,20,095,Kingman County,61725,00473949,Rural township,T1,A
+KS,20,095,Kingman County,72175,00473956,Union township,T1,A
+KS,20,095,Kingman County,72850,00470417,Valley township,T1,A
+KS,20,095,Kingman County,73975,00485527,Vinita township,T1,A
+KS,20,095,Kingman County,77775,00473960,White township,T1,A
+KS,20,097,Kiowa County,37185,00470707,Kiowa Rural township,T9,I
+KS,20,099,Labette County,10325,00469195,Canada township,T1,A
+KS,20,099,Labette County,12950,00485554,Chetopa city,C5,F
+KS,20,099,Labette County,20750,00469175,Elm Grove township,T1,A
+KS,20,099,Labette County,22550,00469316,Fairview township,T1,A
+KS,20,099,Labette County,29350,00469318,Hackberry township,T1,A
+KS,20,099,Labette County,33300,00469197,Howard township,T1,A
+KS,20,099,Labette County,37400,00469443,Labette township,T9,I
+KS,20,099,Labette County,40175,00469454,Liberty township,T1,A
+KS,20,099,Labette County,47850,00469469,Montana township,T1,A
+KS,20,099,Labette County,48850,00469442,Mound Valley township,T1,A
+KS,20,099,Labette County,48950,00469171,Mount Pleasant township,T1,A
+KS,20,099,Labette County,49775,00469761,Neosho township,T1,A
+KS,20,099,Labette County,50975,00469792,North township,T1,A
+KS,20,099,Labette County,53150,00469815,Osage township,T1,A
+KS,20,099,Labette County,53450,00485637,Oswego city,C5,F
+KS,20,099,Labette County,53475,00469303,Oswego township,T1,A
+KS,20,099,Labette County,54675,00485641,Parsons city,C5,F
+KS,20,099,Labette County,59425,00469306,Richland township,T9,I
+KS,20,099,Labette County,75250,00469795,Walton township,T9,I
+KS,20,101,Lane County,00775,00471476,Alamota township,T1,A
+KS,20,101,Lane County,13050,00471442,Cheyenne township,T1,A
+KS,20,101,Lane County,18075,00471472,Dighton township,T1,A
+KS,20,101,Lane County,77950,00471448,White Rock township,T1,A
+KS,20,101,Lane County,79725,00471446,Wilson township,T1,A
+KS,20,103,Leavenworth County,01100,00485532,Alexandria township,T1,A
+KS,20,103,Leavenworth County,07975,00485548,Bonner Springs city,C5,F
+KS,20,103,Leavenworth County,17450,00478432,Delaware township,T1,A
+KS,20,103,Leavenworth County,17850,00485562,De Soto city,C5,F
+KS,20,103,Leavenworth County,19625,00478247,Easton township,T1,A
+KS,20,103,Leavenworth County,22325,00478550,Fairmount township,T1,A
+KS,20,103,Leavenworth County,32125,00478364,High Prairie township,T1,A
+KS,20,103,Leavenworth County,36700,00485531,Kickapoo township,T1,A
+KS,20,103,Leavenworth County,38650,00485607,Lansing city,C5,F
+KS,20,103,Leavenworth County,39000,00485610,Leavenworth city,C5,F
+KS,20,103,Leavenworth County,58950,00479130,Reno township,T1,A
+KS,20,103,Leavenworth County,65000,00479180,Sherman township,T1,A
+KS,20,103,Leavenworth County,68500,00478551,Stranger township,T1,A
+KS,20,103,Leavenworth County,70825,00478532,Tonganoxie township,T1,A
+KS,20,105,Lincoln County,04525,00472487,Battle Creek township,T1,A
+KS,20,105,Lincoln County,05075,00472499,Beaver township,T9,I
+KS,20,105,Lincoln County,11500,00472477,Cedron township,T9,I
+KS,20,105,Lincoln County,15000,00472560,Colorado township,T1,A
+KS,20,105,Lincoln County,20375,00472552,Elkhorn township,T9,I
+KS,20,105,Lincoln County,24425,00475252,Franklin township,T1,A
+KS,20,105,Lincoln County,26800,00475244,Golden Belt township,T1,A
+KS,20,105,Lincoln County,27750,00472488,Grant township,T9,I
+KS,20,105,Lincoln County,29850,00472486,Hanover township,T9,I
+KS,20,105,Lincoln County,31950,00475239,Highland township,T9,I
+KS,20,105,Lincoln County,34025,00472545,Indiana township,T9,I
+KS,20,105,Lincoln County,41925,00472510,Logan township,T1,A
+KS,20,105,Lincoln County,44100,00475261,Madison township,T1,A
+KS,20,105,Lincoln County,44725,00472489,Marion township,T9,I
+KS,20,105,Lincoln County,52950,00472478,Orange township,T9,I
+KS,20,105,Lincoln County,56275,00472543,Pleasant township,T1,A
+KS,20,105,Lincoln County,62800,00472504,Salt Creek township,T1,A
+KS,20,105,Lincoln County,63525,00472500,Scott township,T1,A
+KS,20,105,Lincoln County,72900,00475248,Valley township,T9,I
+KS,20,105,Lincoln County,73650,00472544,Vesper township,T9,I
+KS,20,107,Linn County,07625,00478137,Blue Mound township,T1,A
+KS,20,107,Linn County,12350,00477671,Centerville township,T1,A
+KS,20,107,Linn County,40200,00477617,Liberty township,T1,A
+KS,20,107,Linn County,40825,00477645,Lincoln township,T1,A
+KS,20,107,Linn County,48775,00477919,Mound City township,T1,A
+KS,20,107,Linn County,54375,00477697,Paris township,T1,A
+KS,20,107,Linn County,57175,00477920,Potosi township,T1,A
+KS,20,107,Linn County,63550,00477637,Scott township,T1,A
+KS,20,107,Linn County,64700,00478171,Sheridan township,T1,A
+KS,20,107,Linn County,67875,00478159,Stanton township,T1,A
+KS,20,107,Linn County,72925,00477704,Valley township,T1,A
+KS,20,109,Logan County,03350,00471385,Augustine township,T1,A
+KS,20,109,Logan County,20225,00471375,Elkader township,T1,A
+KS,20,109,Logan County,39200,00485229,Lees township,T1,A
+KS,20,109,Logan County,42325,00471372,Logansport township,T1,A
+KS,20,109,Logan County,43600,00485223,McAllaster township,T1,A
+KS,20,109,Logan County,48050,00471368,Monument township,T1,A
+KS,20,109,Logan County,51850,00471300,Oakley township,T1,A
+KS,20,109,Logan County,55025,00471386,Paxton township,T1,A
+KS,20,109,Logan County,61900,00471364,Russell Springs township,T1,A
+KS,20,109,Logan County,76900,00485222,Western township,T1,A
+KS,20,109,Logan County,80100,00485224,Winona township,T1,A
+KS,20,111,Lyon County,00525,00477033,Agnes City township,T1,A
+KS,20,111,Lyon County,01700,00477180,Americus township,T1,A
+KS,20,111,Lyon County,11800,00477427,Center township,T1,A
+KS,20,111,Lyon County,20687,00477435,Elmendaro township,T1,A
+KS,20,111,Lyon County,21275,00485571,Emporia city,C5,F
+KS,20,111,Lyon County,21300,00477527,Emporia township,T1,A
+KS,20,111,Lyon County,24750,00477186,Fremont township,T1,A
+KS,20,111,Lyon County,34700,00477040,Ivy township,T1,A
+KS,20,111,Lyon County,34825,00477547,Jackson township,T1,A
+KS,20,111,Lyon County,55825,00477525,Pike township,T1,A
+KS,20,111,Lyon County,58625,00479582,Reading township,T1,A
+KS,20,111,Lyon County,75925,00477047,Waterloo township,T1,A
+KS,20,113,McPherson County,04550,00477107,Battle Hill township,T1,A
+KS,20,113,McPherson County,07925,00477087,Bonaville township,T1,A
+KS,20,113,McPherson County,10500,00477222,Canton township,T1,A
+KS,20,113,McPherson County,10950,00475694,Castle township,T1,A
+KS,20,113,McPherson County,17575,00477088,Delmore township,T1,A
+KS,20,113,McPherson County,21200,00477211,Empire township,T1,A
+KS,20,113,McPherson County,29150,00477303,Groveland township,T1,A
+KS,20,113,McPherson County,29325,00477106,Gypsum Creek township,T1,A
+KS,20,113,McPherson County,30225,00477063,Harper township,T1,A
+KS,20,113,McPherson County,30950,00477289,Hayes township,T1,A
+KS,20,113,McPherson County,34850,00475696,Jackson township,T1,A
+KS,20,113,McPherson County,36900,00477320,King City township,T1,A
+KS,20,113,McPherson County,41375,00485614,Lindsborg city,C5,F
+KS,20,113,McPherson County,41600,00477293,Little Valley township,T1,A
+KS,20,113,McPherson County,42525,00477329,Lone Tree township,T1,A
+KS,20,113,McPherson County,43950,00485617,McPherson city,C5,F
+KS,20,113,McPherson County,43975,00477200,McPherson township,T1,A
+KS,20,113,McPherson County,44950,00477054,Marquette township,T1,A
+KS,20,113,McPherson County,45975,00484312,Meridian township,T1,A
+KS,20,113,McPherson County,48675,00477328,Mound township,T1,A
+KS,20,113,McPherson County,50350,00477077,New Gottland township,T1,A
+KS,20,113,McPherson County,66025,00477076,Smoky Hill township,T1,A
+KS,20,113,McPherson County,67000,00477055,South Sharps Creek township,T1,A
+KS,20,113,McPherson County,67750,00477339,Spring Valley township,T1,A
+KS,20,113,McPherson County,69475,00477302,Superior township,T1,A
+KS,20,113,McPherson County,71700,00477321,Turkey Creek township,T1,A
+KS,20,113,McPherson County,72225,00477062,Union township,T1,A
+KS,20,115,Marion County,07125,00477120,Blaine township,T9,I
+KS,20,115,Marion County,11075,00477361,Catlin township,T1,A
+KS,20,115,Marion County,12437,00477247,Centre township,T1,A
+KS,20,115,Marion County,13500,00477130,Clark township,T9,I
+KS,20,115,Marion County,13750,00477143,Clear Creek township,T1,A
+KS,20,115,Marion County,14800,00477128,Colfax township,T9,I
+KS,20,115,Marion County,18550,00477381,Doyle township,T1,A
+KS,20,115,Marion County,19100,00477121,Durham Park township,T1,A
+KS,20,115,Marion County,19325,00477349,East Branch township,T1,A
+KS,20,115,Marion County,22350,00477371,Fairplay township,T1,A
+KS,20,115,Marion County,23600,00485574,Florence city,C5,F
+KS,20,115,Marion County,25075,00477230,Gale township,T1,A
+KS,20,115,Marion County,27775,00477255,Grant township,T1,A
+KS,20,115,Marion County,32275,00485592,Hillsboro city,C5,F
+KS,20,115,Marion County,39250,00477225,Lehigh township,T1,A
+KS,20,115,Marion County,40225,00477341,Liberty township,T1,A
+KS,20,115,Marion County,41950,00477105,Logan township,T1,A
+KS,20,115,Marion County,42850,00477137,Lost Springs township,T9,I
+KS,20,115,Marion County,44750,00485619,Marion city,C5,F
+KS,20,115,Marion County,45800,00477340,Menno township,T1,A
+KS,20,115,Marion County,46900,00477790,Milton township,T9,I
+KS,20,115,Marion County,48100,00477108,Moore township,T9,I
+KS,20,115,Marion County,55125,00477777,Peabody township,T1,A
+KS,20,115,Marion County,60000,00477227,Risley township,T1,A
+KS,20,115,Marion County,69100,00477782,Summit township,T9,I
+KS,20,115,Marion County,76775,00477348,West Branch township,T1,A
+KS,20,115,Marion County,79750,00477362,Wilson township,T1,A
+KS,20,117,Marshall County,03850,00472682,Balderson township,T1,A
+KS,20,117,Marshall County,06725,00473186,Bigelow township,T1,A
+KS,20,117,Marshall County,07675,00473172,Blue Rapids township,T1,A
+KS,20,117,Marshall County,07700,00473171,Blue Rapids City township,T1,A
+KS,20,117,Marshall County,11850,00472920,Center township,T1,A
+KS,20,117,Marshall County,13875,00473188,Clear Fork township,T1,A
+KS,20,117,Marshall County,14100,00473201,Cleveland township,T1,A
+KS,20,117,Marshall County,15850,00473154,Cottage Hill township,T1,A
+KS,20,117,Marshall County,20600,00472910,Elm Creek township,T1,A
+KS,20,117,Marshall County,24450,00472683,Franklin township,T1,A
+KS,20,117,Marshall County,29225,00472696,Guittard township,T1,A
+KS,20,117,Marshall County,31450,00472655,Herkimer township,T1,A
+KS,20,117,Marshall County,40850,00472937,Lincoln township,T1,A
+KS,20,117,Marshall County,41975,00472656,Logan township,T1,A
+KS,20,117,Marshall County,45050,00485620,Marysville city,C5,F
+KS,20,117,Marshall County,45075,00472669,Marysville township,T1,A
+KS,20,117,Marshall County,49275,00472716,Murray township,T1,A
+KS,20,117,Marshall County,50850,00473200,Noble township,T1,A
+KS,20,117,Marshall County,52550,00472668,Oketo township,T1,A
+KS,20,117,Marshall County,59450,00472695,Richland township,T1,A
+KS,20,117,Marshall County,60425,00472935,Rock township,T1,A
+KS,20,117,Marshall County,62100,00472703,St. Bridget township,T1,A
+KS,20,117,Marshall County,73550,00473187,Vermillion township,T1,A
+KS,20,117,Marshall County,75025,00472908,Walnut township,T1,A
+KS,20,117,Marshall County,75975,00473153,Waterville township,T1,A
+KS,20,117,Marshall County,76525,00473174,Wells township,T1,A
+KS,20,119,Meade County,13325,00470680,Cimarron township,T1,A
+KS,20,119,Meade County,16450,00470593,Crooked Creek township,T1,A
+KS,20,119,Meade County,24200,00470717,Fowler township,T9,I
+KS,20,119,Meade County,42000,00470755,Logan township,T9,I
+KS,20,119,Meade County,45350,00470645,Meade Center township,T1,A
+KS,20,119,Meade County,46025,00470592,Mertilla township,T1,A
+KS,20,119,Meade County,52075,00470685,Odee township,T9,I
+KS,20,119,Meade County,62925,00470796,Sand Creek township,T1,A
+KS,20,119,Meade County,77300,00470635,West Plains township,T1,A
+KS,20,121,Miami County,42875,00485615,Louisburg city,C5,F
+KS,20,121,Miami County,45100,00479724,Marysville township,T1,A
+KS,20,121,Miami County,46100,00477638,Miami township,T1,A
+KS,20,121,Miami County,46225,00479727,Middle Creek township,T1,A
+KS,20,121,Miami County,48700,00477616,Mound township,T1,A
+KS,20,121,Miami County,53175,00479747,Osage township,T1,A
+KS,20,121,Miami County,53225,00485635,Osawatomie city,C5,F
+KS,20,121,Miami County,53250,00477615,Osawatomie township,T1,A
+KS,20,121,Miami County,54250,00485640,Paola city,C5,F
+KS,20,121,Miami County,54275,00479748,Paola township,T1,A
+KS,20,121,Miami County,59475,00479700,Richland township,T1,A
+KS,20,121,Miami County,67625,00485653,Spring Hill city,C5,F
+KS,20,121,Miami County,67925,00479699,Stanton township,T1,A
+KS,20,121,Miami County,68825,00477641,Sugar Creek township,T1,A
+KS,20,121,Miami County,70125,00479725,Ten Mile township,T1,A
+KS,20,121,Miami County,72950,00479746,Valley township,T1,A
+KS,20,121,Miami County,76225,00479757,Wea township,T1,A
+KS,20,123,Mitchell County,02625,00472344,Asherville township,T1,A
+KS,20,123,Mitchell County,05775,00485547,Beloit city,C5,F
+KS,20,123,Mitchell County,05800,00472336,Beloit township,T1,A
+KS,20,123,Mitchell County,07425,00472335,Bloomfield township,T1,A
+KS,20,123,Mitchell County,07575,00472405,Blue Hill township,T1,A
+KS,20,123,Mitchell County,10850,00472309,Carr Creek township,T1,A
+KS,20,123,Mitchell County,11150,00472168,Cawker township,T1,A
+KS,20,123,Mitchell County,11875,00472312,Center township,T9,I
+KS,20,123,Mitchell County,16875,00472404,Custer township,T1,A
+KS,20,123,Mitchell County,21875,00472422,Eureka township,T1,A
+KS,20,123,Mitchell County,26525,00472169,Glen Elder township,T1,A
+KS,20,123,Mitchell County,30975,00472311,Hayes township,T1,A
+KS,20,123,Mitchell County,42025,00472343,Logan township,T1,A
+KS,20,123,Mitchell County,43225,00472198,Lulu township,T9,I
+KS,20,123,Mitchell County,56050,00472310,Pittsburg township,T1,A
+KS,20,123,Mitchell County,56825,00472190,Plum Creek township,T1,A
+KS,20,123,Mitchell County,61500,00472417,Round Springs township,T1,A
+KS,20,123,Mitchell County,62825,00472418,Salt Creek township,T1,A
+KS,20,123,Mitchell County,66450,00472183,Solomon Rapids township,T1,A
+KS,20,123,Mitchell County,71725,00472327,Turkey Creek township,T1,A
+KS,20,123,Mitchell County,75150,00472302,Walnut Creek township,T1,A
+KS,20,125,Montgomery County,10375,00485551,Caney city,C5,F
+KS,20,125,Montgomery County,10400,00469262,Caney township,T1,A
+KS,20,125,Montgomery County,12850,00469184,Cherokee township,T1,A
+KS,20,125,Montgomery County,12875,00469816,Cherry township,T1,A
+KS,20,125,Montgomery County,12925,00485553,Cherryvale city,C5,F
+KS,20,125,Montgomery County,14600,00485556,Coffeyville city,C5,F
+KS,20,125,Montgomery County,18700,00469424,Drum Creek township,T1,A
+KS,20,125,Montgomery County,23325,00469237,Fawn Creek township,T1,A
+KS,20,125,Montgomery County,33875,00485598,Independence city,C5,F
+KS,20,125,Montgomery County,33900,00469243,Independence township,T1,A
+KS,20,125,Montgomery County,40275,00469229,Liberty township,T1,A
+KS,20,125,Montgomery County,42900,00469849,Louisburg township,T1,A
+KS,20,125,Montgomery County,54525,00469202,Parker township,T1,A
+KS,20,125,Montgomery County,61925,00469266,Rutland township,T1,A
+KS,20,125,Montgomery County,69750,00469845,Sycamore township,T1,A
+KS,20,125,Montgomery County,76825,00469820,West Cherry township,T1,A
+KS,20,127,Morris County,15925,00485560,Council Grove city,C5,F
+KS,20,127,Morris County,31400,00485590,Herington city,C5,F
+KS,20,127,Morris County,31975,00476870,Highland township,T1,A
+KS,20,127,Morris County,53750,01729701,Overland township,T9,I
+KS,20,127,Morris County,71202,00477025,Township 1,T9,I
+KS,20,127,Morris County,71206,00476902,Township 2,T1,A
+KS,20,127,Morris County,71210,00485451,Township 3,T9,I
+KS,20,127,Morris County,71214,00476891,Township 4,T9,I
+KS,20,127,Morris County,71218,00476876,Township 5,T1,A
+KS,20,127,Morris County,71222,00476877,Township 6,T9,I
+KS,20,127,Morris County,71227,00477002,Township 7,T1,A
+KS,20,127,Morris County,71232,00477153,Township 8,T1,A
+KS,20,127,Morris County,71237,00477007,Township 9,T1,A
+KS,20,129,Morton County,13350,00485094,Cimarron township,T9,I
+KS,20,129,Morton County,35650,00485088,Jones township,T9,I
+KS,20,129,Morton County,59225,00485083,Richfield township,T1,A
+KS,20,129,Morton County,60925,00470654,Rolla township,T9,I
+KS,20,129,Morton County,69975,00485093,Taloga township,T9,I
+KS,20,129,Morton County,77225,00485073,Westola township,T9,I
+KS,20,131,Nemaha County,00275,00472955,Adams township,T1,A
+KS,20,131,Nemaha County,06375,00472750,Berwick township,T1,A
+KS,20,131,Nemaha County,10575,00472958,Capioma township,T1,A
+KS,20,131,Nemaha County,11900,00472943,Center township,T1,A
+KS,20,131,Nemaha County,13775,00472718,Clear Creek township,T1,A
+KS,20,131,Nemaha County,26275,00472727,Gilman township,T1,A
+KS,20,131,Nemaha County,27275,00473230,Granada township,T1,A
+KS,20,131,Nemaha County,30375,00473216,Harrison township,T1,A
+KS,20,131,Nemaha County,32900,00473207,Home township,T1,A
+KS,20,131,Nemaha County,33725,00473208,Illinois township,T1,A
+KS,20,131,Nemaha County,44775,00472721,Marion township,T1,A
+KS,20,131,Nemaha County,47475,00472944,Mitchell township,T1,A
+KS,20,131,Nemaha County,49625,00472719,Nemaha township,T1,A
+KS,20,131,Nemaha County,50050,00473210,Neuchatel township,T1,A
+KS,20,131,Nemaha County,58750,00473209,Red Vermillion township,T1,A
+KS,20,131,Nemaha County,58900,00473217,Reilly township,T1,A
+KS,20,131,Nemaha County,59725,00472720,Richmond township,T1,A
+KS,20,131,Nemaha County,60600,00472751,Rock Creek township,T1,A
+KS,20,131,Nemaha County,62025,00485648,Sabetha city,C5,F
+KS,20,131,Nemaha County,63950,00485651,Seneca city,C5,F
+KS,20,131,Nemaha County,75675,00472726,Washington township,T1,A
+KS,20,131,Nemaha County,77575,00473223,Wetmore township,T1,A
+KS,20,133,Neosho County,06675,00474972,Big Creek township,T1,A
+KS,20,133,Neosho County,10525,00474942,Canville township,T1,A
+KS,20,133,Neosho County,12375,00469694,Centerville township,T1,A
+KS,20,133,Neosho County,12500,00485552,Chanute city,C5,F
+KS,20,133,Neosho County,12975,00469674,Chetopa township,T1,A
+KS,20,133,Neosho County,21525,00474973,Erie township,T1,A
+KS,20,133,Neosho County,27800,00474983,Grant township,T1,A
+KS,20,133,Neosho County,37600,00469693,Ladore township,T1,A
+KS,20,133,Neosho County,40875,00469702,Lincoln township,T1,A
+KS,20,133,Neosho County,47250,00469703,Mission township,T1,A
+KS,20,133,Neosho County,65300,00469676,Shiloh township,T1,A
+KS,20,133,Neosho County,70650,00474941,Tioga township,T1,A
+KS,20,133,Neosho County,75175,00474984,Walnut Grove township,T1,A
+KS,20,135,Ness County,04800,00475592,Bazine township,T1,A
+KS,20,135,Ness County,11925,00475585,Center township,T1,A
+KS,20,135,Ness County,19775,00471480,Eden township,T1,A
+KS,20,135,Ness County,23875,00471487,Forrester township,T1,A
+KS,20,135,Ness County,24475,00471527,Franklin township,T1,A
+KS,20,135,Ness County,32100,00475591,Highpoint township,T1,A
+KS,20,135,Ness County,35550,00471524,Johnson township,T1,A
+KS,20,135,Ness County,50125,00471458,Nevada township,T1,A
+KS,20,135,Ness County,52400,00471455,Ohio township,T1,A
+KS,20,135,Ness County,75400,00475377,Waring township,T1,A
+KS,20,137,Norton County,01450,00471749,Almena-District 4 township,T1,A
+KS,20,137,Norton County,12260,00471729,Center-District 1 township,T1,A
+KS,20,137,Norton County,32060,00471083,Highland-District 2 township,T1,A
+KS,20,137,Norton County,51500,00485631,Norton city,C5,F
+KS,20,137,Norton County,66410,00472011,Solomon-District 3 township,T1,A
+KS,20,139,Osage County,00450,00479612,Agency township,T1,A
+KS,20,139,Osage County,02550,00479593,Arvonia township,T1,A
+KS,20,139,Osage County,04175,00479592,Barclay township,T1,A
+KS,20,139,Osage County,09375,00479440,Burlingame township,T1,A
+KS,20,139,Osage County,18575,00479303,Dragoon township,T1,A
+KS,20,139,Osage County,20175,00479469,Elk township,T1,A
+KS,20,139,Osage County,22150,00479467,Fairfax township,T1,A
+KS,20,139,Osage County,27850,00479287,Grant township,T1,A
+KS,20,139,Osage County,35725,00479313,Junction township,T1,A
+KS,20,139,Osage County,40925,00479614,Lincoln township,T1,A
+KS,20,139,Osage County,45725,00479613,Melvern township,T1,A
+KS,20,139,Osage County,52725,00479603,Olivet township,T1,A
+KS,20,139,Osage County,53200,00485634,Osage City city,C5,F
+KS,20,139,Osage County,59825,00479460,Ridgeway township,T1,A
+KS,20,139,Osage County,63700,00479447,Scranton township,T1,A
+KS,20,139,Osage County,69500,00479304,Superior township,T1,A
+KS,20,139,Osage County,73200,00479305,Valley Brook township,T1,A
+KS,20,141,Osborne County,06425,00472280,Bethany township,T1,A
+KS,20,141,Osborne County,07400,00472292,Bloom township,T1,A
+KS,20,141,Osborne County,15625,00472291,Corinth township,T1,A
+KS,20,141,Osborne County,16100,00472396,Covert township,T1,A
+KS,20,141,Osborne County,17500,00472402,Delhi township,T1,A
+KS,20,141,Osborne County,27875,02575214,Grant township,T1,A
+KS,20,141,Osborne County,29825,00472279,Hancock township,T1,A
+KS,20,141,Osborne County,30850,00472265,Hawkeye township,T1,A
+KS,20,141,Osborne County,33925,00472278,Independence township,T1,A
+KS,20,141,Osborne County,34875,00472472,Jackson township,T1,A
+KS,20,141,Osborne County,36750,00472267,Kill Creek township,T1,A
+KS,20,141,Osborne County,38925,00472277,Lawrence township,T1,A
+KS,20,141,Osborne County,40300,00472456,Liberty township,T1,A
+KS,20,141,Osborne County,48875,00472252,Mount Ayr township,T1,A
+KS,20,141,Osborne County,49450,00472450,Natoma township,T1,A
+KS,20,141,Osborne County,53325,00485636,Osborne city,C5,F
+KS,20,141,Osborne County,55350,00472283,Penn township,T1,A
+KS,20,141,Osborne County,61375,00472289,Ross township,T1,A
+KS,20,141,Osborne County,61475,00472392,Round Mound township,T1,A
+KS,20,141,Osborne County,69150,00472251,Sumner township,T1,A
+KS,20,141,Osborne County,70575,00472266,Tilden township,T1,A
+KS,20,141,Osborne County,73000,00472457,Valley township,T1,A
+KS,20,141,Osborne County,73750,00485525,Victor township,T1,A
+KS,20,141,Osborne County,79975,00472400,Winfield township,T1,A
+KS,20,143,Ottawa County,06100,00476459,Bennington township,T1,A
+KS,20,143,Ottawa County,07150,00476283,Blaine township,T1,A
+KS,20,143,Ottawa County,08975,00476468,Buckeye township,T1,A
+KS,20,143,Ottawa County,11975,00476278,Center township,T1,A
+KS,20,143,Ottawa County,12575,00476162,Chapman township,T1,A
+KS,20,143,Ottawa County,15175,00476282,Concord township,T1,A
+KS,20,143,Ottawa County,16725,00476457,Culver township,T1,A
+KS,20,143,Ottawa County,19075,00476289,Durham township,T1,A
+KS,20,143,Ottawa County,24075,00476265,Fountain township,T1,A
+KS,20,143,Ottawa County,25725,00476274,Garfield township,T1,A
+KS,20,143,Ottawa County,27900,00476285,Grant township,T1,A
+KS,20,143,Ottawa County,31325,00476273,Henry township,T1,A
+KS,20,143,Ottawa County,40950,00476472,Lincoln township,T1,A
+KS,20,143,Ottawa County,42050,00476145,Logan township,T1,A
+KS,20,143,Ottawa County,47075,00485622,Minneapolis city,C5,F
+KS,20,143,Ottawa County,48500,00476455,Morton township,T1,A
+KS,20,143,Ottawa County,53600,00476297,Ottawa township,T1,A
+KS,20,143,Ottawa County,59500,00476288,Richland township,T1,A
+KS,20,143,Ottawa County,64725,00476140,Sheridan township,T1,A
+KS,20,143,Ottawa County,65025,00476151,Sherman township,T1,A
+KS,20,143,Ottawa County,67950,00476139,Stanton township,T1,A
+KS,20,145,Pawnee County,02825,00475724,Ash Valley township,T1,A
+KS,20,145,Pawnee County,08750,00475712,Browns Grove township,T1,A
+KS,20,145,Pawnee County,15225,00475728,Conkling township,T1,A
+KS,20,145,Pawnee County,25775,00475936,Garfield township,T1,A
+KS,20,145,Pawnee County,27925,00475717,Grant township,T1,A
+KS,20,145,Pawnee County,36625,00475836,Keysville township,T1,A
+KS,20,145,Pawnee County,38700,00485608,Larned city,C5,F
+KS,20,145,Pawnee County,38725,00475736,Larned township,T1,A
+KS,20,145,Pawnee County,40975,00475715,Lincoln township,T1,A
+KS,20,145,Pawnee County,42075,00475863,Logan township,T1,A
+KS,20,145,Pawnee County,48525,00475727,Morton township,T1,A
+KS,20,145,Pawnee County,53000,00473556,Orange township,T1,A
+KS,20,145,Pawnee County,54800,00475730,Pawnee township,T1,A
+KS,20,145,Pawnee County,56400,00475851,Pleasant Grove township,T1,A
+KS,20,145,Pawnee County,56475,00475842,Pleasant Ridge township,T1,A
+KS,20,145,Pawnee County,56600,00473557,Pleasant Valley township,T1,A
+KS,20,145,Pawnee County,60050,00475733,River township,T1,A
+KS,20,145,Pawnee County,63025,00475849,Santa Fe township,T1,A
+KS,20,145,Pawnee County,63250,00475834,Sawmill township,T1,A
+KS,20,145,Pawnee County,65275,00475713,Shiley township,T1,A
+KS,20,145,Pawnee County,73225,00475943,Valley Center township,T1,A
+KS,20,145,Pawnee County,75050,00475729,Walnut township,T1,A
+KS,20,147,Phillips County,02150,00471931,Arcade township,T1,A
+KS,20,147,Phillips County,05100,00471912,Beaver township,T1,A
+KS,20,147,Phillips County,05700,00472027,Belmont township,T1,A
+KS,20,147,Phillips County,08075,00472035,Bow Creek township,T1,A
+KS,20,147,Phillips County,16550,00471794,Crystal township,T1,A
+KS,20,147,Phillips County,17100,00471759,Dayton township,T1,A
+KS,20,147,Phillips County,17200,00472034,Deer Creek township,T1,A
+KS,20,147,Phillips County,24650,00471761,Freedom township,T1,A
+KS,20,147,Phillips County,26650,00471780,Glenwood township,T1,A
+KS,20,147,Phillips County,27450,00471758,Granite township,T1,A
+KS,20,147,Phillips County,28775,00471782,Greenwood township,T1,A
+KS,20,147,Phillips County,37300,00472047,Kirwin township,T1,A
+KS,20,147,Phillips County,42125,00472020,Logan township,T1,A
+KS,20,147,Phillips County,42625,00471750,Long Island township,T1,A
+KS,20,147,Phillips County,48725,00471918,Mound township,T1,A
+KS,20,147,Phillips County,55675,00485642,Phillipsburg city,C5,F
+KS,20,147,Phillips County,55700,00471926,Phillipsburg township,T1,A
+KS,20,147,Phillips County,56125,00472028,Plainview township,T1,A
+KS,20,147,Phillips County,56775,00471942,Plum township,T1,A
+KS,20,147,Phillips County,57550,00471751,Prairie View township,T1,A
+KS,20,147,Phillips County,61800,00472033,Rushville township,T1,A
+KS,20,147,Phillips County,66350,00472029,Solomon township,T1,A
+KS,20,147,Phillips County,69175,00471793,Sumner township,T1,A
+KS,20,147,Phillips County,71175,00472021,Towanda township,T1,A
+KS,20,147,Phillips County,73025,00472048,Valley township,T1,A
+KS,20,147,Phillips County,75075,00471760,Walnut township,T1,A
+KS,20,149,Pottawatomie County,05950,00476245,Belvue township,T1,A
+KS,20,149,Pottawatomie County,07550,00476219,Blue township,T1,A
+KS,20,149,Pottawatomie County,07725,00473398,Blue Valley township,T1,A
+KS,20,149,Pottawatomie County,12000,00476115,Center township,T1,A
+KS,20,149,Pottawatomie County,13800,00473414,Clear Creek township,T1,A
+KS,20,149,Pottawatomie County,21125,00476250,Emmett township,T1,A
+KS,20,149,Pottawatomie County,27950,00473439,Grant township,T1,A
+KS,20,149,Pottawatomie County,28450,00476074,Green township,T1,A
+KS,20,149,Pottawatomie County,41000,00476120,Lincoln township,T1,A
+KS,20,149,Pottawatomie County,42550,00473428,Lone Tree township,T1,A
+KS,20,149,Pottawatomie County,42950,00476233,Louisville township,T1,A
+KS,20,149,Pottawatomie County,44250,00485618,Manhattan city,C5,F
+KS,20,149,Pottawatomie County,46700,00473435,Mill Creek township,T1,A
+KS,20,149,Pottawatomie County,57250,00476085,Pottawatomie township,T1,A
+KS,20,149,Pottawatomie County,60625,00476087,Rock Creek township,T1,A
+KS,20,149,Pottawatomie County,62150,00476122,St. Clere township,T1,A
+KS,20,149,Pottawatomie County,62225,00476234,St. George township,T1,A
+KS,20,149,Pottawatomie County,62425,01729704,St. Marys township,T1,A
+KS,20,149,Pottawatomie County,64300,00476084,Shannon township,T1,A
+KS,20,149,Pottawatomie County,65050,00476105,Sherman township,T1,A
+KS,20,149,Pottawatomie County,67475,00473411,Spring Creek township,T1,A
+KS,20,149,Pottawatomie County,72250,00476095,Union township,T1,A
+KS,20,149,Pottawatomie County,73875,00476121,Vienna township,T1,A
+KS,20,149,Pottawatomie County,75350,00476425,Wamego township,T1,A
+KS,20,151,Pratt County,57625,00485645,Pratt city,C5,F
+KS,20,151,Pratt County,71223,00473770,Township 6,T1,A
+KS,20,151,Pratt County,71228,00473766,Township 7,T1,A
+KS,20,151,Pratt County,71233,00473760,Township 8,T1,A
+KS,20,151,Pratt County,71238,00473909,Township 9,T1,A
+KS,20,151,Pratt County,71242,00470371,Township 10,T1,A
+KS,20,151,Pratt County,71245,00470386,Township 11,T1,A
+KS,20,151,Pratt County,71248,00473919,Township 12,T1,A
+KS,20,153,Rawlins County,00175,00471055,Achilles township,T1,A
+KS,20,153,Rawlins County,03175,00470906,Atwood township,T1,A
+KS,20,153,Rawlins County,12037,00471053,Center township,T1,A
+KS,20,153,Rawlins County,18675,00470902,Driftwood township,T1,A
+KS,20,153,Rawlins County,31462,00470911,Herl township,T1,A
+KS,20,153,Rawlins County,35300,00471056,Jefferson township,T1,A
+KS,20,153,Rawlins County,43200,00470910,Ludell township,T1,A
+KS,20,153,Rawlins County,47175,00471051,Mirage township,T1,A
+KS,20,153,Rawlins County,60362,01729738,Rocewood township,T1,A
+KS,20,153,Rawlins County,72275,00470999,Union township,T1,A
+KS,20,155,Reno County,00875,00473790,Albion township,T1,A
+KS,20,155,Reno County,02350,00473619,Arlington township,T1,A
+KS,20,155,Reno County,05350,00473782,Bell township,T1,A
+KS,20,155,Reno County,11000,00473799,Castleton township,T1,A
+KS,20,155,Reno County,12050,00473631,Center township,T1,A
+KS,20,155,Reno County,13600,00473660,Clay township,T1,A
+KS,20,155,Reno County,21475,00473617,Enterprise township,T1,A
+KS,20,155,Reno County,28025,00475902,Grant township,T1,A
+KS,20,155,Reno County,29025,00473608,Grove township,T1,A
+KS,20,155,Reno County,30750,00473808,Haven township,T1,A
+KS,20,155,Reno County,31000,00473610,Hayes township,T1,A
+KS,20,155,Reno County,33550,00473605,Huntsville township,T1,A
+KS,20,155,Reno County,33625,00485597,Hutchinson city,C5,F
+KS,20,155,Reno County,38525,00473609,Langdon township,T1,A
+KS,20,155,Reno County,41050,01729703,Lincoln township,T1,A
+KS,20,155,Reno County,41550,00477732,Little River township,T1,A
+KS,20,155,Reno County,41700,00473781,Loda township,T1,A
+KS,20,155,Reno County,45450,00475890,Medford township,T1,A
+KS,20,155,Reno County,45600,00477718,Medora township,T1,A
+KS,20,155,Reno County,46125,00473775,Miami township,T1,A
+KS,20,155,Reno County,50525,00485630,Nickerson city,C5,F
+KS,20,155,Reno County,50700,00485526,Ninnescah township,T1,A
+KS,20,155,Reno County,56750,00473606,Plevna township,T1,A
+KS,20,155,Reno County,58975,00473646,Reno township,T1,A
+KS,20,155,Reno County,61150,00473787,Roscoe township,T1,A
+KS,20,155,Reno County,62850,00473630,Salt Creek township,T1,A
+KS,20,155,Reno County,69200,00473807,Sumner township,T1,A
+KS,20,155,Reno County,69825,00473607,Sylvia township,T1,A
+KS,20,155,Reno County,71600,00473632,Troy township,T1,A
+KS,20,155,Reno County,73075,00473669,Valley township,T1,A
+KS,20,155,Reno County,75100,00475892,Walnut township,T1,A
+KS,20,155,Reno County,77175,00473618,Westminster township,T1,A
+KS,20,155,Reno County,80775,00473647,Yoder township,T1,A
+KS,20,157,Republic County,00900,00472609,Albion township,T1,A
+KS,20,157,Republic County,05150,00473071,Beaver township,T1,A
+KS,20,157,Republic County,05600,00485546,Belleville city,C5,F
+KS,20,157,Republic County,05625,00485431,Belleville township,T1,A
+KS,20,157,Republic County,06550,00472570,Big Bend township,T1,A
+KS,20,157,Republic County,16050,00472828,Courtland township,T1,A
+KS,20,157,Republic County,20275,00473102,Elk Creek township,T1,A
+KS,20,157,Republic County,22575,00472603,Fairview township,T1,A
+KS,20,157,Republic County,23200,00472610,Farmington township,T1,A
+KS,20,157,Republic County,24675,00472596,Freedom township,T1,A
+KS,20,157,Republic County,28050,00473088,Grant township,T1,A
+KS,20,157,Republic County,35325,00472843,Jefferson township,T1,A
+KS,20,157,Republic County,40325,00472595,Liberty township,T1,A
+KS,20,157,Republic County,41075,00485437,Lincoln township,T1,A
+KS,20,157,Republic County,51575,00485432,Norway township,T1,A
+KS,20,157,Republic County,59575,00472852,Richland township,T1,A
+KS,20,157,Republic County,61200,00472602,Rose Creek township,T1,A
+KS,20,157,Republic County,63375,00485430,Scandia township,T1,A
+KS,20,157,Republic County,72300,00472593,Union township,T1,A
+KS,20,157,Republic County,75700,00472591,Washington township,T1,A
+KS,20,157,Republic County,77975,00472571,White Rock township,T1,A
+KS,20,159,Rice County,03075,00475786,Atlanta township,T1,A
+KS,20,159,Rice County,05375,00475778,Bell township,T1,A
+KS,20,159,Rice County,12075,00475787,Center township,T1,A
+KS,20,159,Rice County,19725,00475811,East Washington township,T1,A
+KS,20,159,Rice County,21900,00475552,Eureka township,T1,A
+KS,20,159,Rice County,23100,00475540,Farmer township,T1,A
+KS,20,159,Rice County,25175,00475562,Galt township,T1,A
+KS,20,159,Rice County,30425,00475673,Harrison township,T1,A
+KS,20,159,Rice County,41100,00475672,Lincoln township,T1,A
+KS,20,159,Rice County,43525,00485616,Lyons city,C5,F
+KS,20,159,Rice County,47525,00475675,Mitchell township,T1,A
+KS,20,159,Rice County,52150,00475572,Odessa township,T1,A
+KS,20,159,Rice County,55925,00475658,Pioneer township,T1,A
+KS,20,159,Rice County,58575,00475777,Raymond township,T1,A
+KS,20,159,Rice County,60725,00475813,Rockville township,T1,A
+KS,20,159,Rice County,68200,00485654,Sterling city,C5,F
+KS,20,159,Rice County,68225,00475784,Sterling township,T1,A
+KS,20,159,Rice County,72325,00475683,Union township,T1,A
+KS,20,159,Rice County,73100,00475785,Valley township,T1,A
+KS,20,159,Rice County,73825,00475561,Victoria township,T1,A
+KS,20,159,Rice County,77425,00475796,West Washington township,T1,A
+KS,20,159,Rice County,79775,00475795,Wilson township,T1,A
+KS,20,161,Riley County,02725,00476362,Ashland township,T1,A
+KS,20,161,Riley County,03825,00476057,Bala township,T1,A
+KS,20,161,Riley County,12100,00473377,Center township,T1,A
+KS,20,161,Riley County,22950,00476054,Fancy Creek township,T1,A
+KS,20,161,Riley County,28075,00476211,Grant township,T1,A
+KS,20,161,Riley County,34900,00473384,Jackson township,T1,A
+KS,20,161,Riley County,44125,00476200,Madison township,T1,A
+KS,20,161,Riley County,44250,00485618,Manhattan city,C5,F
+KS,20,161,Riley County,44275,00476220,Manhattan township,T1,A
+KS,20,161,Riley County,45225,00473376,May Day township,T1,A
+KS,20,161,Riley County,52300,00476348,Ogden township,T1,A
+KS,20,161,Riley County,65075,00476066,Sherman township,T1,A
+KS,20,161,Riley County,69650,00473383,Swede Creek township,T1,A
+KS,20,161,Riley County,79175,00476212,Wildcat township,T1,A
+KS,20,161,Riley County,80900,00476384,Zeandale township,T1,A
+KS,20,163,Rooks County,71203,00472247,Township 1,T1,A
+KS,20,163,Rooks County,71207,00472231,Township 2,T1,A
+KS,20,163,Rooks County,71211,00472128,Township 3,T1,A
+KS,20,163,Rooks County,71215,00472225,Township 4,T1,A
+KS,20,163,Rooks County,71219,00472125,Township 5,T1,A
+KS,20,163,Rooks County,71224,00472224,Township 6,T1,A
+KS,20,163,Rooks County,71229,00472217,Township 7,T1,A
+KS,20,163,Rooks County,71234,00485294,Township 8,T1,A
+KS,20,163,Rooks County,71239,00485305,Township 9,T1,A
+KS,20,163,Rooks County,71243,00472372,Township 10,T1,A
+KS,20,163,Rooks County,71246,00472373,Township 11,T1,A
+KS,20,163,Rooks County,71249,00472385,Township 12,T1,A
+KS,20,165,Rush County,01087,00475601,Alexander-Belle Prairie township,T1,A
+KS,20,165,Rush County,04075,00475617,Banner township,T1,A
+KS,20,165,Rush County,06775,00475390,Big Timber township,T1,A
+KS,20,165,Rush County,12125,00475614,Center township,T1,A
+KS,20,165,Rush County,25800,00475622,Garfield township,T1,A
+KS,20,165,Rush County,29812,00475382,Hampton-Fairview township,T1,A
+KS,20,165,Rush County,33750,00475391,Illinois township,T1,A
+KS,20,165,Rush County,37525,00475615,La Crosse-Brookdale township,T1,A
+KS,20,165,Rush County,42500,00475616,Lone Star township,T1,A
+KS,20,165,Rush County,55950,00475620,Pioneer township,T1,A
+KS,20,165,Rush County,56325,00475399,Pleasantdale township,T1,A
+KS,20,165,Rush County,72350,00475608,Union township,T1,A
+KS,20,167,Russell County,06700,00475213,Big Creek township,T1,A
+KS,20,167,Russell County,12150,00475226,Center township,T1,A
+KS,20,167,Russell County,22200,00475315,Fairfield township,T1,A
+KS,20,167,Russell County,22650,00472473,Fairview township,T1,A
+KS,20,167,Russell County,28100,00475309,Grant township,T1,A
+KS,20,167,Russell County,41125,00475311,Lincoln township,T1,A
+KS,20,167,Russell County,43275,00472471,Luray township,T1,A
+KS,20,167,Russell County,54350,00472453,Paradise township,T1,A
+KS,20,167,Russell County,56925,00475235,Plymouth township,T1,A
+KS,20,167,Russell County,61825,00485647,Russell city,C5,F
+KS,20,167,Russell County,61850,00475216,Russell township,T1,A
+KS,20,167,Russell County,74600,00472463,Waldo township,T1,A
+KS,20,167,Russell County,80125,00475305,Winterset township,T1,A
+KS,20,169,Saline County,10100,00476650,Cambria township,T1,A
+KS,20,169,Saline County,17125,00476657,Dayton township,T1,A
+KS,20,169,Saline County,20650,00476639,Elm Creek township,T1,A
+KS,20,169,Saline County,21925,00476842,Eureka township,T1,A
+KS,20,169,Saline County,22925,00476943,Falun township,T1,A
+KS,20,169,Saline County,26475,00476622,Glendale township,T1,A
+KS,20,169,Saline County,28375,00476832,Greeley township,T1,A
+KS,20,169,Saline County,29275,00476973,Gypsum township,T1,A
+KS,20,169,Saline County,40350,00476956,Liberty township,T1,A
+KS,20,169,Saline County,52425,00476787,Ohio township,T1,A
+KS,20,169,Saline County,56625,00476630,Pleasant Valley township,T1,A
+KS,20,169,Saline County,62700,00485649,Salina city,C5,F
+KS,20,169,Saline County,66050,00476796,Smoky Hill township,T1,A
+KS,20,169,Saline County,66075,00476949,Smoky View township,T1,A
+KS,20,169,Saline County,66125,00476797,Smolan township,T1,A
+KS,20,169,Saline County,66375,00476843,Solomon township,T1,A
+KS,20,169,Saline County,67500,00476779,Spring Creek township,T1,A
+KS,20,169,Saline County,75125,00476831,Walnut township,T1,A
+KS,20,169,Saline County,75725,00476788,Washington township,T1,A
+KS,20,171,Scott County,05175,00471408,Beaver township,T1,A
+KS,20,171,Scott County,34575,00471461,Isbel township,T1,A
+KS,20,171,Scott County,36600,00471465,Keystone township,T9,I
+KS,20,171,Scott County,37850,00471511,Lake township,T9,I
+KS,20,171,Scott County,46175,00471439,Michigan township,T9,I
+KS,20,171,Scott County,63575,00471464,Scott township,T9,I
+KS,20,171,Scott County,63600,02396558,Scott City city,C5,F
+KS,20,171,Scott County,73125,00471502,Valley township,T9,I
+KS,20,173,Sedgwick County,00425,00473997,Afton township,T1,A
+KS,20,173,Sedgwick County,03125,00474005,Attica township,T1,A
+KS,20,173,Sedgwick County,05337,00485545,Bel Aire city,C5,F
+KS,20,173,Sedgwick County,17375,01729698,Delano township,T9,I
+KS,20,173,Sedgwick County,19250,00473816,Eagle township,T1,A
+KS,20,173,Sedgwick County,21550,00474300,Erie township,T1,A
+KS,20,173,Sedgwick County,25400,00473996,Garden Plain township,T1,A
+KS,20,173,Sedgwick County,27300,00473981,Grand River township,T1,A
+KS,20,173,Sedgwick County,28125,00473829,Grant township,T1,A
+KS,20,173,Sedgwick County,28400,00473826,Greeley township,T1,A
+KS,20,173,Sedgwick County,29300,00474213,Gypsum township,T1,A
+KS,20,173,Sedgwick County,33775,00474006,Illinois township,T1,A
+KS,20,173,Sedgwick County,36250,00473863,Kechi township,T1,A
+KS,20,173,Sedgwick County,41150,00473867,Lincoln township,T1,A
+KS,20,173,Sedgwick County,47125,00474228,Minneha township,T1,A
+KS,20,173,Sedgwick County,48550,00473982,Morton township,T1,A
+KS,20,173,Sedgwick County,50725,00470254,Ninnescah township,T1,A
+KS,20,173,Sedgwick County,52450,00474325,Ohio township,T1,A
+KS,20,173,Sedgwick County,54425,00473831,Park township,T1,A
+KS,20,173,Sedgwick County,55075,00473868,Payne township,T1,A
+KS,20,173,Sedgwick County,60125,00474180,Riverside township,T1,A
+KS,20,173,Sedgwick County,60675,00474358,Rockford township,T1,A
+KS,20,173,Sedgwick County,62675,00474324,Salem township,T1,A
+KS,20,173,Sedgwick County,65100,00473812,Sherman township,T1,A
+KS,20,173,Sedgwick County,72375,00473817,Union township,T1,A
+KS,20,173,Sedgwick County,73275,00473830,Valley Center township,T1,A
+KS,20,173,Sedgwick County,74050,00474308,Viola township,T1,A
+KS,20,173,Sedgwick County,74300,00474181,Waco township,T1,A
+KS,20,173,Sedgwick County,79000,00485662,Wichita city,C5,F
+KS,20,175,Seward County,23000,00470670,Fargo township,T1,A
+KS,20,175,Seward County,39825,00485613,Liberal city,C5,F
+KS,20,175,Seward County,39850,00470668,Liberal township,T1,A
+KS,20,175,Seward County,64075,00470585,Seward township,T1,A
+KS,20,177,Shawnee County,03275,00479055,Auburn township,T1,A
+KS,20,177,Shawnee County,18475,00478641,Dover township,T1,A
+KS,20,177,Shawnee County,29075,00478451,Grove township,T1,A
+KS,20,177,Shawnee County,45850,00478460,Menoken township,T1,A
+KS,20,177,Shawnee County,47275,00478655,Mission township,T1,A
+KS,20,177,Shawnee County,47700,00479090,Monmouth township,T1,A
+KS,20,177,Shawnee County,61425,00476449,Rossville township,T1,A
+KS,20,177,Shawnee County,65625,00478452,Silver Lake township,T1,A
+KS,20,177,Shawnee County,66225,00478472,Soldier township,T1,A
+KS,20,177,Shawnee County,70100,00479098,Tecumseh township,T1,A
+KS,20,177,Shawnee County,71000,00485655,Topeka city,C5,F
+KS,20,177,Shawnee County,71025,00479102,Topeka township,T1,A
+KS,20,177,Shawnee County,79350,00479064,Williamsport township,T1,A
+KS,20,179,Sheridan County,00300,00471111,Adell township,T9,I
+KS,20,179,Sheridan County,07450,00471213,Bloomfield township,T9,I
+KS,20,179,Sheridan County,08125,00471223,Bowcreek township,T1,A
+KS,20,179,Sheridan County,19675,00471279,East Saline township,T9,I
+KS,20,179,Sheridan County,36525,00471219,Kenneth township,T9,I
+KS,20,179,Sheridan County,42225,00471216,Logan township,T9,I
+KS,20,179,Sheridan County,54650,00471218,Parnell township,T9,I
+KS,20,179,Sheridan County,57500,00471104,Prairie Dog township,T9,I
+KS,20,179,Sheridan County,64750,00471106,Sheridan township,T9,I
+KS,20,179,Sheridan County,66400,00471267,Solomon township,T1,A
+KS,20,179,Sheridan County,67350,00471268,Springbrook township,T9,I
+KS,20,179,Sheridan County,72400,00471109,Union township,T9,I
+KS,20,179,Sheridan County,73150,00471220,Valley township,T9,I
+KS,20,179,Sheridan County,77375,00471272,West Saline township,T9,I
+KS,20,181,Sherman County,26875,00485583,Goodland city,C5,F
+KS,20,181,Sherman County,28150,00485216,Grant township,T1,A
+KS,20,181,Sherman County,34450,00471251,Iowa township,T9,I
+KS,20,181,Sherman County,34600,00471248,Itasca township,T1,A
+KS,20,181,Sherman County,41175,00471179,Lincoln township,T9,I
+KS,20,181,Sherman County,41650,00471185,Llanos township,T1,A
+KS,20,181,Sherman County,42250,00471180,Logan township,T1,A
+KS,20,181,Sherman County,44025,00471298,McPherson township,T1,A
+KS,20,181,Sherman County,65175,00471183,Shermanville township,T9,I
+KS,20,181,Sherman County,65950,00471250,Smoky township,T9,I
+KS,20,181,Sherman County,68150,00471177,Stateline township,T1,A
+KS,20,181,Sherman County,72425,00471186,Union township,T9,I
+KS,20,181,Sherman County,74175,00485217,Voltaire township,T1,A
+KS,20,181,Sherman County,75750,00471184,Washington township,T1,A
+KS,20,183,Smith County,04100,00472066,Banner township,T1,A
+KS,20,183,Smith County,05200,00471825,Beaver township,T1,A
+KS,20,183,Smith County,07200,00471961,Blaine township,T1,A
+KS,20,183,Smith County,11350,00471943,Cedar township,T1,A
+KS,20,183,Smith County,12175,00471960,Center township,T1,A
+KS,20,183,Smith County,15525,00471828,Cora township,T1,A
+KS,20,183,Smith County,16575,00472073,Crystal Plains township,T1,A
+KS,20,183,Smith County,18300,00472058,Dor township,T1,A
+KS,20,183,Smith County,25825,00472074,Garfield township,T1,A
+KS,20,183,Smith County,26150,00471795,German township,T1,A
+KS,20,183,Smith County,30100,00472072,Harlan township,T1,A
+KS,20,183,Smith County,30550,00472059,Harvey township,T1,A
+KS,20,183,Smith County,33225,00472060,Houston township,T1,A
+KS,20,183,Smith County,38450,00471954,Lane township,T1,A
+KS,20,183,Smith County,41200,00472083,Lincoln township,T1,A
+KS,20,183,Smith County,42275,00471846,Logan township,T1,A
+KS,20,183,Smith County,45000,00471809,Martin township,T1,A
+KS,20,183,Smith County,51650,00471967,Oak township,T1,A
+KS,20,183,Smith County,54825,00471827,Pawnee township,T1,A
+KS,20,183,Smith County,56300,00471815,Pleasant township,T1,A
+KS,20,183,Smith County,69625,00471796,Swan township,T1,A
+KS,20,183,Smith County,73175,00472053,Valley township,T1,A
+KS,20,183,Smith County,75775,00471826,Washington township,T1,A
+KS,20,183,Smith County,76275,00472081,Webster township,T1,A
+KS,20,183,Smith County,78000,00471847,White Rock township,T1,A
+KS,20,185,Stafford County,00800,00473567,Albano township,T1,A
+KS,20,185,Stafford County,09825,00475764,Byron township,T1,A
+KS,20,185,Stafford County,13825,00473559,Clear Creek township,T1,A
+KS,20,185,Stafford County,14125,00475935,Cleveland township,T1,A
+KS,20,185,Stafford County,18375,00485528,Douglas township,T1,A
+KS,20,185,Stafford County,19350,00473603,East Cooper township,T1,A
+KS,20,185,Stafford County,22675,00473604,Fairview township,T1,A
+KS,20,185,Stafford County,23250,00473558,Farmington township,T1,A
+KS,20,185,Stafford County,31025,00475876,Hayes township,T1,A
+KS,20,185,Stafford County,41225,00475739,Lincoln township,T1,A
+KS,20,185,Stafford County,51375,01729695,North Seward township,T1,A
+KS,20,185,Stafford County,52475,00473577,Ohio township,T1,A
+KS,20,185,Stafford County,58050,00475771,Putnam township,T1,A
+KS,20,185,Stafford County,59650,00473566,Richland township,T1,A
+KS,20,185,Stafford County,61300,00473578,Rose Valley township,T1,A
+KS,20,185,Stafford County,62300,00473576,St. John township,T1,A
+KS,20,185,Stafford County,66975,00475872,South Seward township,T1,A
+KS,20,185,Stafford County,67800,00473583,Stafford township,T1,A
+KS,20,185,Stafford County,72450,00473584,Union township,T1,A
+KS,20,185,Stafford County,76875,00473582,West Cooper township,T1,A
+KS,20,185,Stafford County,80800,00473593,York township,T1,A
+KS,20,187,Stanton County,06600,00485095,Big Bow township,T9,I
+KS,20,187,Stanton County,44400,00485081,Manter township,T9,I
+KS,20,187,Stanton County,67975,00485075,Stanton township,T9,I
+KS,20,189,Stevens County,04125,00470657,Banner township,T9,I
+KS,20,189,Stevens County,12200,00470629,Center township,T9,I
+KS,20,189,Stevens County,30150,00485072,Harmony township,T9,I
+KS,20,189,Stevens County,48625,00470627,Moscow township,T9,I
+KS,20,189,Stevens County,74200,00470655,Voorhees township,T9,I
+KS,20,189,Stevens County,76800,00485084,West Center township,T9,I
+KS,20,191,Sumner County,03575,00470329,Avon township,T1,A
+KS,20,191,Sumner County,05525,00470222,Belle Plaine township,T1,A
+KS,20,191,Sumner County,07750,00470094,Bluff township,T1,A
+KS,20,191,Sumner County,09900,00485550,Caldwell city,C5,F
+KS,20,191,Sumner County,09925,00470117,Caldwell township,T1,A
+KS,20,191,Sumner County,13150,00470314,Chikaskia township,T1,A
+KS,20,191,Sumner County,15300,00470266,Conway township,T1,A
+KS,20,191,Sumner County,16300,00470181,Creek township,T1,A
+KS,20,191,Sumner County,18200,00470182,Dixon township,T1,A
+KS,20,191,Sumner County,18525,00470320,Downs township,T1,A
+KS,20,191,Sumner County,19800,00470269,Eden township,T1,A
+KS,20,191,Sumner County,22875,00470086,Falls township,T1,A
+KS,20,191,Sumner County,26975,00470223,Gore township,T1,A
+KS,20,191,Sumner County,28525,00470326,Greene township,T1,A
+KS,20,191,Sumner County,29175,00470072,Guelph township,T1,A
+KS,20,191,Sumner County,30125,00470140,Harmon township,T1,A
+KS,20,191,Sumner County,33800,00470261,Illinois township,T1,A
+KS,20,191,Sumner County,34925,00470327,Jackson township,T1,A
+KS,20,191,Sumner County,42400,00470246,London township,T1,A
+KS,20,191,Sumner County,48375,00470298,Morris township,T1,A
+KS,20,191,Sumner County,53335,00485520,Osborne township,T1,A
+KS,20,191,Sumner County,53875,00470330,Oxford township,T1,A
+KS,20,191,Sumner County,54175,00470131,Palestine township,T1,A
+KS,20,191,Sumner County,61950,00470176,Ryan township,T1,A
+KS,20,191,Sumner County,64000,00470161,Seventy-Six township,T1,A
+KS,20,191,Sumner County,66675,00470085,South Haven township,T1,A
+KS,20,191,Sumner County,67575,00470264,Springdale township,T1,A
+KS,20,191,Sumner County,69225,00470165,Sumner township,T1,A
+KS,20,191,Sumner County,73350,00470336,Valverde township,T1,A
+KS,20,191,Sumner County,75300,00470052,Walton township,T1,A
+KS,20,191,Sumner County,76475,00485658,Wellington city,C5,F
+KS,20,191,Sumner County,76500,00470157,Wellington township,T1,A
+KS,20,193,Thomas County,04325,00471187,Barrett township,T1,A
+KS,20,193,Thomas County,14650,00485557,Colby city,C5,F
+KS,20,193,Thomas County,19475,00471191,East Hale township,T1,A
+KS,20,193,Thomas County,36925,00471254,Kingery township,T1,A
+KS,20,193,Thomas County,37425,00471206,Lacey township,T1,A
+KS,20,193,Thomas County,45775,00471210,Menlo township,T1,A
+KS,20,193,Thomas County,48200,00471193,Morgan township,T1,A
+KS,20,193,Thomas County,51300,00484332,North Randall township,T1,A
+KS,20,193,Thomas County,61525,00471194,Rovohl township,T1,A
+KS,20,193,Thomas County,65900,00471209,Smith township,T1,A
+KS,20,193,Thomas County,66875,00471260,South Randall township,T1,A
+KS,20,193,Thomas County,68975,00471259,Summers township,T1,A
+KS,20,193,Thomas County,76650,00471100,Wendell township,T1,A
+KS,20,193,Thomas County,76975,00471188,West Hale township,T1,A
+KS,20,195,Trego County,14925,00471324,Collyer township,T1,A
+KS,20,195,Trego County,24500,00471403,Franklin township,T1,A
+KS,20,195,Trego County,26425,00475173,Glencoe township,T1,A
+KS,20,195,Trego County,52250,00485296,Ogallah township,T1,A
+KS,20,195,Trego County,60150,00475266,Riverside township,T1,A
+KS,20,195,Trego County,74475,00472430,WaKeeney township,T1,A
+KS,20,195,Trego County,79137,00475262,Wilcox township,T1,A
+KS,20,197,Wabaunsee County,01375,00476749,Alma township,T1,A
+KS,20,197,Wabaunsee County,23125,00476750,Farmer township,T1,A
+KS,20,197,Wabaunsee County,25850,00476738,Garfield township,T1,A
+KS,20,197,Wabaunsee County,36150,00476438,Kaw township,T1,A
+KS,20,197,Wabaunsee County,44525,01729696,Maple Hill township,T1,A
+KS,20,197,Wabaunsee County,46725,00476751,Mill Creek township,T1,A
+KS,20,197,Wabaunsee County,47300,00476774,Mission Creek township,T1,A
+KS,20,197,Wabaunsee County,50275,00476771,Newbury township,T1,A
+KS,20,197,Wabaunsee County,56800,00479426,Plumb township,T1,A
+KS,20,197,Wabaunsee County,60650,00476919,Rock Creek township,T1,A
+KS,20,197,Wabaunsee County,74250,00476418,Wabaunsee township,T1,A
+KS,20,197,Wabaunsee County,75800,00476739,Washington township,T1,A
+KS,20,197,Wabaunsee County,79525,00476927,Wilmington township,T1,A
+KS,20,199,Wallace County,30450,00485210,Harrison township,T1,A
+KS,20,199,Wallace County,64400,00485207,Sharon Springs township,T1,A
+KS,20,199,Wallace County,74775,00485214,Wallace township,T1,A
+KS,20,199,Wallace County,76700,00485219,Weskan township,T1,A
+KS,20,201,Washington County,04275,00473143,Barnes township,T1,A
+KS,20,201,Washington County,08250,00473109,Brantford township,T1,A
+KS,20,201,Washington County,12625,00472644,Charleston township,T1,A
+KS,20,201,Washington County,14225,00473110,Clifton township,T1,A
+KS,20,201,Washington County,14750,00472860,Coleman township,T1,A
+KS,20,201,Washington County,23275,00472628,Farmington township,T1,A
+KS,20,201,Washington County,24525,00472638,Franklin township,T1,A
+KS,20,201,Washington County,28175,00472859,Grant township,T1,A
+KS,20,201,Washington County,28650,00473134,Greenleaf township,T1,A
+KS,20,201,Washington County,29425,00472625,Haddam township,T1,A
+KS,20,201,Washington County,29900,00472653,Hanover township,T1,A
+KS,20,201,Washington County,32025,00472627,Highland township,T1,A
+KS,20,201,Washington County,33950,00472650,Independence township,T1,A
+KS,20,201,Washington County,36850,00473135,Kimeo township,T1,A
+KS,20,201,Washington County,41250,00473144,Lincoln township,T1,A
+KS,20,201,Washington County,41450,00473128,Linn township,T1,A
+KS,20,201,Washington County,41500,00472889,Little Blue township,T1,A
+KS,20,201,Washington County,42300,00472879,Logan township,T1,A
+KS,20,201,Washington County,43025,00472618,Lowe township,T1,A
+KS,20,201,Washington County,46750,00472619,Mill Creek township,T1,A
+KS,20,201,Washington County,64775,00473112,Sheridan township,T1,A
+KS,20,201,Washington County,65125,00473129,Sherman township,T1,A
+KS,20,201,Washington County,68550,00473111,Strawberry township,T1,A
+KS,20,201,Washington County,72475,00472617,Union township,T1,A
+KS,20,201,Washington County,75825,00485656,Washington city,C5,F
+KS,20,201,Washington County,75850,00472878,Washington township,T1,A
+KS,20,203,Wichita County,39575,00485355,Leoti township,T9,I
+KS,20,205,Wilson County,11375,00469660,Cedar township,T1,A
+KS,20,205,Wilson County,12225,00469658,Center township,T1,A
+KS,20,205,Wilson County,13000,00469667,Chetopa township,T1,A
+KS,20,205,Wilson County,14250,00474916,Clifton township,T9,I
+KS,20,205,Wilson County,14825,00474929,Colfax township,T1,A
+KS,20,205,Wilson County,18800,00469991,Duck Creek township,T9,I
+KS,20,205,Wilson County,22825,00469992,Fall River township,T1,A
+KS,20,205,Wilson County,24575,00485576,Fredonia city,C5,F
+KS,20,205,Wilson County,29200,00474917,Guilford township,T1,A
+KS,20,205,Wilson County,49650,00485628,Neodesha city,C5,F
+KS,20,205,Wilson County,49675,00469661,Neodesha township,T1,A
+KS,20,205,Wilson County,50200,00469668,Newark township,T1,A
+KS,20,205,Wilson County,56650,00474930,Pleasant Valley township,T1,A
+KS,20,205,Wilson County,57425,00474907,Prairie township,T1,A
+KS,20,205,Wilson County,69900,00469659,Talleyrand township,T1,A
+KS,20,205,Wilson County,73500,00474906,Verdigris township,T1,A
+KS,20,205,Wilson County,76300,00474914,Webster township,T1,A
+KS,20,207,Woodson County,12250,00474465,Center township,T1,A
+KS,20,207,Woodson County,40375,00474466,Liberty township,T1,A
+KS,20,207,Woodson County,49850,00478094,Neosho Falls township,T1,A
+KS,20,207,Woodson County,51025,00474458,North township,T1,A
+KS,20,207,Woodson County,55475,00474707,Perry township,T1,A
+KS,20,207,Woodson County,71075,00474452,Toronto township,T1,A
+KS,20,207,Woodson County,80700,00485664,Yates Center city,C5,F
+KS,20,209,Wyandotte County,07975,00485548,Bonner Springs city,C5,F
+KS,20,209,Wyandotte County,17475,00479169,Delaware township,T9,I
+KS,20,209,Wyandotte County,20000,00485566,Edwardsville city,C5,F
+KS,20,209,Wyandotte County,36000,00485601,Kansas City city,C5,F
+KS,20,209,Wyandotte County,37975,00485605,Lake Quivira city,C5,F
