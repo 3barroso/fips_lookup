@@ -39,6 +39,16 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "csv", "~> 3.0"
 
+  # Core tools for playing with the gem locally
+  spec.add_development_dependency "irb"
+  spec.add_development_dependency "ostruct"
+
+  # Standard development and testing tools
+  spec.add_development_dependency "rake", "~> 13.0"
+  spec.add_development_dependency "rspec", "~> 3.2"
+  spec.add_development_dependency "rubocop", "~> 1.21"
+
+
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
 end
