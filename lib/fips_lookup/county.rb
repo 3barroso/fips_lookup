@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # County related section of FipsLookup module
-module FIPS
+module FipsLookup
   class << self
     def county(state_param:, county_param:, return_nil: false)
       state_code = find_state_code(state_param: state_param, return_nil: return_nil)

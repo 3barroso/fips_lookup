@@ -5,8 +5,7 @@ require_relative "lib/fips_lookup/version"
 
 Gem::Specification.new do |spec|
   spec.name = "fips_lookup"
-  # ^ Should be "FIPS"
-  spec.version = FIPS::VERSION
+  spec.version = FipsLookup::VERSION
   spec.authors = ["Erik Barroso"]
   spec.email = ["erikbarroso22@gmail.com"]
 
