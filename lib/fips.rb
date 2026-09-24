@@ -1,13 +1,14 @@
 # frozen_string_literal: true
 
 require "csv"
-require_relative "fips_lookup/version"
-require_relative "fips_lookup/subdivision"
-require_relative "fips_lookup/county"
-require_relative "fips_lookup/state"
+require "zeitwerk"
 
 # parent section of module defining constants, requiring relative worker methods
-module FipsLookup
+module FIPS
+  loader = Zeitwerk::Loader.for_gem
+  loader.inflector.inflect("fips" => "FIPS")
+  loader.setup
+
   STATE_CODES = { "AL" => "01", "AK" => "02", "AZ" => "04", "AR" => "05", "CA" => "06", "CO" => "08",
                   "CT" => "09", "DE" => "10", "DC" => "11", "FL" => "12", "GA" => "13", "HI" => "15",
                   "ID" => "16", "IL" => "17", "IN" => "18", "IA" => "19", "KS" => "20", "KY" => "21",
