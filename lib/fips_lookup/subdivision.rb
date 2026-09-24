@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # Subdivision related section of FIPS module
-module FIPS
+module FipsLookup
   class << self
     def subdivision(state_param:, subdivision_param:, return_nil: false)
       state_code = find_state_code(state_param: state_param, return_nil: return_nil)
