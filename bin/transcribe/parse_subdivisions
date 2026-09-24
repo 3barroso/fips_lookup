@@ -3,9 +3,9 @@
 
 require "pathname"
 require "fileutils"
-require "fips_lookup"
+require_relative "../../lib/fips_lookup"
 
-# CMD %  bin/transcribe/parse_subdivisions /Users/erik/workspace/data_files/national_cousub2020.txt
+# CMD %  bin/transcribe/parse_subdivisions
 # current source location: https://www2.census.gov/geo/docs/reference/codes2020/national_cousub2020.txt
 # Headers: STATE|STATEFP|COUNTYFP|COUNTYNAME|COUSUBFP|COUSUBNS|COUSUBNAME|CLASSFP|FUNCSTAT
 
@@ -22,7 +22,7 @@ string_conversion_dictionary = {
 # line 15: "Ã­" is technically 2 characters, not "Ã"; no '-' displayed in editor[vscode?] Paste into terminal and see "Ã-" # "Ã­" != "Ã-"
 conversion_re = Regexp.union(string_conversion_dictionary.keys)
 
-file_path = ARGV[0]
+file_path = Pathname.getwd.join("source_data/national_cousub2020.txt")
 subdivision_path = Pathname.getwd.join("lib/data/subdivision")
 
 puts "~~~ Now creating subdivision data files if they are not present ~~~"

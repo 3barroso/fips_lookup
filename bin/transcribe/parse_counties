@@ -7,7 +7,7 @@ require "pathname"
 require "fileutils"
 require_relative "../../lib/fips_lookup"
 
-# CMD %   bin/transcribe/parse_counties /Users/erik/workspace/data_files/national_county2020.txt
+# CMD %   bin/transcribe/parse_counties
 # current source location: https://www2.census.gov/geo/docs/reference/codes2020/national_county2020.txt
 # Headers: STATE|STATEFP|COUNTYFP|COUNTYNS|COUNTYNAME|CLASSFP|FUNCSTAT
 
@@ -24,7 +24,7 @@ string_conversion_dictionary = {
 # "Ã­" is technically 2 characters (not "Ã").. '-' is not displayed in the editor? [vscode] Paste into terminal and see "Ã-" # "Ã­" != "Ã-"
 conversion_re = Regexp.union(string_conversion_dictionary.keys)
 
-file_path = ARGV[0]
+file_path = Pathname.getwd.join("source_data/national_county2020.txt")
 county_path = Pathname.getwd.join("lib/data/county")
 
 puts "~~~ Now creating county data files if they are not present ~~~"
