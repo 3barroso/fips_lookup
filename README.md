@@ -46,7 +46,7 @@ Find County specific details using memoized hash state and county input. [ Retur
 
 Input the state name and county name and return the corresponding 5 digit FIPS code:
 ```
-FIPS.county(state_param: "AL", county_param: "Autauga County") # => {:state_code=>"AL", :fips=>"01001", :name=>"Autauga County", :class_code=>"H1"}
+FipsLookup.county(state_param: "AL", county_param: "Autauga County") # => {:state_code=>"AL", :fips=>"01001", :name=>"Autauga County", :class_code=>"H1"}
 ```
 
 * `state_param` - (String) flexible - able to find the state using its' 2 letter abbreviation ("AL"), 2 digit FIPS number ("01"), state name ("Alabama"), or the state ANSI code ("01779775").
@@ -63,7 +63,7 @@ FIPS.county(state_param: "AL", county_param: "Autauga County") # => {:state_code
 
 Class attribute hash: [`@county_fips = { ["state_code", "county name"] => {:state_code, :fips, :name, :class_code} }`](/fips_lookup/lib/fips_lookup.rb?#L21)
 
-The `county_fips` hash is built of key value pairs that grows as the `.county` method is used. Calls to `county` first searches `@county_fips` attribute with `[state_code, county_param]` before opening `.csv` files.  Therefore any duplicate calls made to `county` will return the value stored in `@county_fips`.  Instance variable lasts the lifespan of the FIPS class.
+The `county_fips` hash is built of key value pairs that grows as the `.county` method is used. Calls to `county` first searches `@county_fips` attribute with `[state_code, county_param]` before opening `.csv` files.  Therefore any duplicate calls made to `county` will return the value stored in `@county_fips`.  Instance variable lasts the lifespan of the FipsLookup class.
 ```
 FipsLookup.county_fips # => { ["AL", "Autauga County"] => {:state_code=>"AL", :fips=>"01001", :name=>"Autauga County", :class_code=>"H1"} }
 ```
@@ -124,7 +124,7 @@ Data `csv` files are made accessible incase extra configuration is needed. Here 
 
 ### Path to state.csv file [.state_file](/fips_lookup/lib/fips_lookup.rb?#L64)
 
-Display state codes in a select option dropdown by using CSV on the FIPS method accessing the state.csv file ( `FipsLookup.state_file #=> "path/to/data/state.csv"` )
+Display state codes in a select option dropdown by using CSV on the FipsLookup method accessing the state.csv file ( `FipsLookup.state_file #=> "path/to/data/state.csv"` )
 
 ```
 # in controller.rb
@@ -142,7 +142,7 @@ end
 
 ### Path to state specific county csv files [.county_file(state_code: "state param")](/fips_lookup/lib/fips_lookup.rb?#L59)
 
-Display County name options in a select option dropdown by using CSV on the FIPS method accessing the county specific .csv file ( `FipsLookup.county_file(state_code: "MI") #=> "path/to/data/county/MI.csv"` )
+Display County name options in a select option dropdown by using CSV on the FipsLookup method accessing the county specific .csv file ( `FipsLookup.county_file(state_code: "MI") #=> "path/to/data/county/MI.csv"` )
 
 * `state_param` – strict parameter, must be string abbreviation of State code (suggested usage is to call `.find_state_code` above first)
 
@@ -150,7 +150,7 @@ Display County name options in a select option dropdown by using CSV on the FIPS
 # in controller.rb
 state_code = address_params[:state] # or use find_state_code from user input
 @county_options = []
-CSV.foreach(FIPS.county_file(state_code:)) do |county_row|
+CSV.foreach(FipsLookup.county_file(state_code:)) do |county_row|
     @county_options << county_row[3]
 end
 ```
