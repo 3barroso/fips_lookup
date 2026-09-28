@@ -1,8 +1,9 @@
 PATH
   remote: .
   specs:
-    fips_lookup (0.2.1)
+    fips_lookup (0.3.0)
       csv (~> 3.0)
+      zeitwerk (~> 2.8)
 
 GEM
   remote: https://rubygems.org/
@@ -74,6 +75,7 @@ GEM
     ruby-progressbar (1.13.0)
     tsort (0.2.0)
     unicode-display_width (2.5.0)
+    zeitwerk (2.8.3)
 
 PLATFORMS
   arm64-darwin-21

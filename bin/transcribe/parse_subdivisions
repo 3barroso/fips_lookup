@@ -3,7 +3,7 @@
 
 require "pathname"
 require "fileutils"
-require_relative "../../lib/fips_lookup"
+require_relative "../../lib/fips"
 
 # CMD %  bin/transcribe/parse_subdivisions
 # current source location: https://www2.census.gov/geo/docs/reference/codes2020/national_cousub2020.txt
@@ -27,7 +27,7 @@ subdivision_path = Pathname.getwd.join("lib/data/subdivision")
 
 puts "~~~ Now creating subdivision data files if they are not present ~~~"
 
-FipsLookup::STATE_CODES.each_key do |state_code|
+FIPS::STATE_CODES.each_key do |state_code|
   subdivision_state_file_path = subdivision_path.join("#{state_code}.csv")
   FileUtils.touch(subdivision_state_file_path) unless File.exist?(subdivision_state_file_path)
 end

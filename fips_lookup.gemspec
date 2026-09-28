@@ -1,11 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/fips_lookup/version"
-# ^ should be in lib/version.rb ?
+require_relative "lib/fips/version"
 
 Gem::Specification.new do |spec|
   spec.name = "fips_lookup"
-  spec.version = FipsLookup::VERSION
+  spec.version = FIPS::VERSION
   spec.authors = ["Erik Barroso"]
   spec.email = ["erikbarroso22@gmail.com"]
 
@@ -13,7 +12,7 @@ Gem::Specification.new do |spec|
   # spec.description = "TODO: Write a longer description or delete this line."
   spec.homepage = "https://github.com/3barroso/fips_lookup"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.0"
+  spec.required_ruby_version = ">= 3.2"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
@@ -37,6 +36,7 @@ Gem::Specification.new do |spec|
   spec.files += Dir["lib/data/*.csv"]
 
   spec.add_runtime_dependency "csv", "~> 3.0"
+  spec.add_runtime_dependency "zeitwerk", "~> 2.8"
 
   # Core tools for playing with the gem locally
   spec.add_development_dependency "irb"

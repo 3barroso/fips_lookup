@@ -1,6 +1,7 @@
 # frozen_string_literal: true
+$LOAD_PATH.unshift File.expand_path("../lib", __dir__)
 
-require "fips_lookup"
+require "fips"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

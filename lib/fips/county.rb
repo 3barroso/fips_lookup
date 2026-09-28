@@ -1,23 +1,23 @@
 # frozen_string_literal: true
 
-# County related section of FipsLookup module
-module FipsLookup
-  class << self
-    def county(state_param:, county_param:, return_nil: false)
-      state_code = find_state_code(state_param: state_param, return_nil: return_nil)
+# FIPS::County
+module FIPS
+  class County
+    def self.county1(state_param:, county_param:, return_nil: false)
+      state_code = FIPS::State.find_state_code(state_param: state_param, return_nil: return_nil)
       return {} if state_code.nil?
 
       lookup = [state_code, county_param.upcase]
-      @county_fips ||= {}
-      @county_fips[lookup] ||= county_lookup(state_code, county_param, return_nil)
+      county_cache = FIPS.county_fips ||= {}
+      county_cache[lookup] ||= county_lookup(state_code, county_param, return_nil, county_cache)
     end
 
-    def fips_county(fips:, return_nil: false)
+    def self.fips_county(fips:, return_nil: false)
       unless fips.is_a?(String) && fips.length == 5
         return_nil ? (return nil) : (raise StandardError, "FIPS input must be 5 digit string")
       end
 
-      state_code = find_state_code(state_param: fips[0..1], return_nil: return_nil)
+      state_code = FIPS::State.find_state_code(state_param: fips[0..1], return_nil: return_nil)
       return nil if state_code.nil?
 
       CSV.foreach(county_file(state_code: state_code)) do |county_row|
@@ -28,30 +28,30 @@ module FipsLookup
       raise StandardError, "Could not find county with fips: #{fips[2..4]}, in: #{state_code}" unless return_nil
     end
 
-    def county_file(state_code:)
+    def self.county_file(state_code:)
       file_path = "#{File.expand_path("..", __dir__)}/data/county/#{state_code}.csv"
       file_path if File.exist?(file_path)
     end
 
     private
 
-    def county_lookup(state_code, county_param, return_nil)
+    def self.county_lookup(state_code, county_param, return_nil, cache)
       upcase_param = county_param.upcase
       CSV.foreach(county_file(state_code: state_code)) do |row|
         return formatted_county(row) if match_county?(row, upcase_param)
 
         # keep? Memoize as file is being read but match isn't found ~ loses lookup flexiblity in county param + increases performacne?
-        @county_fips[[row[0], row[3].upcase]] = formatted_county(row) unless @county_fips.key?([row[0], row[3].upcase])
+        cache[[row[0], row[3].upcase]] = formatted_county(row) unless cache.key?([row[0], row[3].upcase])
       end
       return_nil ? (return {}) : (raise StandardError, "No county found matching: #{county_param}" unless return_nil)
     end
 
-    def match_county?(row, param)
+    def self.match_county?(row, param)
       # row => state (AL), state fips (01), county fips (001), name (Augtauga County), county gnis (00161526),  class code (H1), status (A)
       row[3].upcase == param || row[4] == param || row[2] == param || "#{row[1]}#{row[2]}" == param
     end
 
-    def formatted_county(row)
+    def self.formatted_county(row)
       {
         state_code: row[0],
         fips: (row[1] + row[2]),
