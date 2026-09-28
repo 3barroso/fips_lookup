@@ -12,8 +12,8 @@ module FIPS
       return {} if state_code.nil?
 
       lookup = [state_code, county_param.upcase]
-      @county_fips ||= {}
-      @county_fips[lookup] ||= county_lookup(state_code, county_param, return_nil)
+      county_cache = FIPS.county_fips ||= {}
+      county_cache[lookup] ||= county_lookup(state_code, county_param, return_nil, county_cache)
     end
 
     def self.fips_county(fips:, return_nil: false)
@@ -21,7 +21,7 @@ module FIPS
         return_nil ? (return nil) : (raise StandardError, "FIPS input must be 5 digit string")
       end
 
-      state_code = find_state_code(state_param: fips[0..1], return_nil: return_nil)
+      state_code = FIPS::State.find_state_code(state_param: fips[0..1], return_nil: return_nil)
       return nil if state_code.nil?
 
       CSV.foreach(county_file(state_code: state_code)) do |county_row|
@@ -39,13 +39,13 @@ module FIPS
 
     private
 
-    def self.county_lookup(state_code, county_param, return_nil)
+    def self.county_lookup(state_code, county_param, return_nil, cache)
       upcase_param = county_param.upcase
       CSV.foreach(county_file(state_code: state_code)) do |row|
         return formatted_county(row) if match_county?(row, upcase_param)
 
         # keep? Memoize as file is being read but match isn't found ~ loses lookup flexiblity in county param + increases performacne?
-        @county_fips[[row[0], row[3].upcase]] = formatted_county(row) unless @county_fips.key?([row[0], row[3].upcase])
+        cache[[row[0], row[3].upcase]] = formatted_county(row) unless cache.key?([row[0], row[3].upcase])
       end
       return_nil ? (return {}) : (raise StandardError, "No county found matching: #{county_param}" unless return_nil)
     end

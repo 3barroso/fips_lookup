@@ -7,8 +7,8 @@ class FIPS::State
   end
 
   def self.state(state_param:, return_nil: false)
-    @state_fips ||= {}
-    @state_fips[state_param] ||= state_lookup(state_param, return_nil)
+    state_cache = FIPS::state_fips ||= {}
+    state_cache[state_param] ||= state_lookup(state_param, return_nil)
   end
 
   def self.find_state_code(state_param:, return_nil: false)

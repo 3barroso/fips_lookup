@@ -7,12 +7,12 @@ class FIPS::Subdivision
   end
 
   def self.subdivision1(state_param:, subdivision_param:, return_nil: false)
-    state_code = find_state_code(state_param: state_param, return_nil: return_nil)
+    state_code = FIPS::State.find_state_code(state_param: state_param, return_nil: return_nil)
     return {} if state_code.nil?
 
     lookup = [state_code, subdivision_param.upcase]
-    @subdivision_fips ||= {}
-    @subdivision_fips[lookup] ||= subdivision_lookup(state_code, subdivision_param, return_nil)
+    subdivision_cache = FIPS.subdivision_fips ||= {}
+    subdivision_cache[lookup] ||= subdivision_lookup(state_code, subdivision_param, return_nil)
   end
 
   def self.subdivision_file(state_code:)
