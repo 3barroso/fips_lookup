@@ -2,8 +2,9 @@
 require "spec_helper"
 
 RSpec.describe FIPS::County do
-
-  it "tests the check method" do
-    expect(FIPS::County.rename_check).to eq("inside rename check for FIPS::County")
+  describe ".county_file" do
+    it "returns the path to the county csv of the given state" do
+      expect(FIPS::County.county_file(state_code: "MI")).to include("lib/data/county/MI.csv")
+    end
   end
 end

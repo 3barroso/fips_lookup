@@ -1,50 +1,48 @@
 # frozen_string_literal: true
 
-# Subdivision related section of FIPS module
-class FIPS::Subdivision
-  def self.rename_check()
-    puts "inside rename check for FIPS::Subdivision"
-  end
+# FIPS::Subdivision
+module FIPS
+  class Subdivision
+    def self.subdivision1(state_param:, subdivision_param:, return_nil: false)
+      state_code = FIPS::State.find_state_code(state_param: state_param, return_nil: return_nil)
+      return {} if state_code.nil?
 
-  def self.subdivision1(state_param:, subdivision_param:, return_nil: false)
-    state_code = FIPS::State.find_state_code(state_param: state_param, return_nil: return_nil)
-    return {} if state_code.nil?
-
-    lookup = [state_code, subdivision_param.upcase]
-    subdivision_cache = FIPS.subdivision_fips ||= {}
-    subdivision_cache[lookup] ||= subdivision_lookup(state_code, subdivision_param, return_nil)
-  end
-
-  def self.subdivision_file(state_code:)
-    file_path = "#{File.expand_path("..", __dir__)}/data/subdivision/#{state_code}.csv"
-    file_path if File.exist?(file_path)
-  end
-
-  private
-
-  def self.subdivision_lookup(state_code, subdivision_param, return_nil)
-    upcase_param = subdivision_param.upcase
-    CSV.foreach(subdivision_file(state_code: state_code)) do |subdivision_row|
-      return formatted_subdivision(subdivision_row) if match_subdivision?(subdivision_row, upcase_param)
+      lookup = [state_code, subdivision_param.upcase]
+      subdivision_cache = FIPS.subdivision_fips ||= {}
+      subdivision_cache[lookup] ||= subdivision_lookup(state_code, subdivision_param, return_nil)
     end
-    return_nil ? (return {}) : (raise StandardError, "No subdivision found matching: #{subdivision_param}" unless return_nil)
-  end
 
-  def self.match_subdivision?(row, param)
-    # row => state_code (AL), state fips (01), county fips (001), county name (Augtauga County)
-    #   row => subdivision name(Autaugaville CCD), class code (Z5), status (S)
-    row[6].upcase == param || row[4] == param || row[5] == param
-  end
+    def self.subdivision_file(state_code:)
+      file_path = "#{File.expand_path("..", __dir__)}/data/subdivision/#{state_code}.csv"
+      file_path if File.exist?(file_path)
+    end
 
-  def self.formatted_subdivision(row)
-    {
-      state_code: row[0],
-      fips: row[1] + row[2] + row[4],
-      county_name: row[3],
-      gnis: row[5],
-      name: row[6],
-      class_code: row[7],
-      status: row[8]
-    }
+    private
+
+    def self.subdivision_lookup(state_code, subdivision_param, return_nil)
+      upcase_param = subdivision_param.upcase
+      CSV.foreach(subdivision_file(state_code: state_code)) do |subdivision_row|
+        return formatted_subdivision(subdivision_row) if match_subdivision?(subdivision_row, upcase_param)
+      end
+      return_nil ? (return {}) : (raise StandardError, "No subdivision found matching: #{subdivision_param}" unless return_nil)
+    end
+
+    def self.match_subdivision?(row, param)
+      # row => state_code (AL), state fips (01), county fips (001), county name (Augtauga County)
+      #   row => subdivision name(Autaugaville CCD), class code (Z5), status (S)
+      row[6].upcase == param || row[4] == param || row[5] == param
+    end
+
+    def self.formatted_subdivision(row)
+      {
+        state_code: row[0],
+        fips: row[1] + row[2] + row[4],
+        county_name: row[3],
+        gnis: row[5],
+        name: row[6],
+        class_code: row[7],
+        status: row[8]
+      }
+    end
   end
 end

@@ -1,12 +1,8 @@
 # frozen_string_literal: true
 
-# County related section of FipsLookup module
+# FIPS::County
 module FIPS
   class County
-    def self.rename_check
-      return "inside rename check for FIPS::County"
-    end
-    
     def self.county1(state_param:, county_param:, return_nil: false)
       state_code = FIPS::State.find_state_code(state_param: state_param, return_nil: return_nil)
       return {} if state_code.nil?
