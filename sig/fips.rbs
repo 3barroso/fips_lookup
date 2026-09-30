@@ -1,4 +1,57 @@
 module FIPS
   VERSION: String
-  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+
+  type state_record = {
+    fips: String,
+    abbr: String,
+    name: String,
+    ansi: String
+  }
+
+  type county_record = {
+    state_abbr: String,
+    fips: String,
+    gnis: String,
+    name: String,
+    class_code: String,
+    status: String
+  }
+
+  type subdivision_record = {
+    state_abbr: String,
+    fips: String,
+    county_name: String,
+    gnis: String,
+    name: String,
+    class_code: String,
+    status: String
+  }
+
+  type lookup_record = state_record | county_record | subdivision_record
+
+  class NotFoundError < StandardError
+  end
+
+  def self.lookup: (?fips: String?, ?state: String?, ?county: String?, ?subdivision: String?) -> lookup_record
+
+  class State
+    ABBR_CODES: Hash[String, String]
+
+    def self.lookup: (?fips: String?, ?state: String?) -> state_record
+    def self.state_abbr: (String code) -> String
+    def self.all: () -> Array[state_record]
+    def self.file: () -> String
+  end
+
+  class County
+    def self.lookup: (?fips: String?, ?state: String?, ?county: String?) -> county_record
+    def self.file: (String state_abbr) -> String?
+    def self.all: (state: String state) -> Array[county_record]
+  end
+
+  class Subdivision
+    def self.lookup: (?fips: String?, ?state: String?, ?county: String?, ?subdivision: String?) -> subdivision_record
+    def self.file: (String state_abbr) -> String?
+    def self.all: (state: String state, ?county: String?) -> Array[subdivision_record]
+  end
 end

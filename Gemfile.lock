@@ -9,6 +9,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    benchmark (0.5.0)
     csv (3.3.6)
     diff-lcs (1.5.1)
     erb (6.0.7)
@@ -83,6 +84,7 @@ PLATFORMS
   arm64-darwin-25
 
 DEPENDENCIES
+  benchmark (~> 0.2)
   fips_lookup!
   irb
   ostruct

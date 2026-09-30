@@ -47,10 +47,10 @@ string_conversion_dictionary = {
 already_processed = uniq_words.all? do |identified_chars|
   string_conversion_dictionary.values.any? { |val| identified_chars.include?(val) }
 end
-  
-if already_processed 
+
+if already_processed
   puts "File was already processed, characters identified are valid"
-  return 
+  return
 end
 
 puts "Found unique characters within the text file"

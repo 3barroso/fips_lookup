@@ -1,198 +1,142 @@
-# FipsLookup
+# FIPS Lookup
 
-## Overview
-
-Fips_lookup is a gem that functions as a lookup used to identify county and state FIPS codes.
-
-What are FIPS codes? The United States Federal Communications Commission (FCC) [says:](https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt)
-
-> Federal Information Processing System (FIPS) Codes for States and Counties
->
-> FIPS codes are numbers which uniquely identify geographic areas.  The number of 
-digits in FIPS codes vary depending on the level of geography.  State-level FIPS
-codes have two digits, county-level FIPS codes have five digits of which the 
-first two are the FIPS code of the state to which the county belongs.
-
-_Note:_ FIPS codes are updated by the US census department they can be seen and accessed [here](https://www.census.gov/library/reference/code-lists/ansi.html).
-
-<br>
-
-**Interesting challenge:** <br>
-Multiple states can have the same county name — 16 states have a "Wayne County". This means a state & county pair is required to lookup and return the proper FIPS code.
-This gem utilizes memoization to increase lookup efficiency to csv files without adding complexity to your app.
+`fips_lookup` provides lookups for U.S. states, counties, and county subdivisions using Census FIPS identifiers and names. Results are hashes containing the fields for the requested geography.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add the gem to your application's Gemfile:
 
 ```ruby
-gem 'fips_lookup'
+gem "fips_lookup"
 ```
 
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install fips_lookup
+Then run `bundle install`.
 
 ## Usage
-<br>
 
-### County info from lookup:  [.county(state_param: "state", county_param: "county name", _return_nil: false_)](/fips_lookup/lib/fips_lookup.rb?#L24)
+Require the gem if your application does not use Bundler's automatic loading:
 
-Find County specific details using memoized hash state and county input. [ Returns state code, county fips, county name, and county class codes ]
-
-Input the state name and county name and return the corresponding 5 digit FIPS code:
-```
-FipsLookup.county(state_param: "AL", county_param: "Autauga County") # => {:state_code=>"AL", :fips=>"01001", :name=>"Autauga County", :class_code=>"H1"}
+```ruby
+require "fips"
 ```
 
-* `state_param` - (String) flexible - able to find the state using its' 2 letter abbreviation ("AL"), 2 digit FIPS number ("01"), state name ("Alabama"), or the state ANSI code ("01779775").
-* `county_param` - (String) must match spelling set by US Census Bureau, [resource library](https://www.census.gov/library/reference/code-lists/ansi.html)
-— "Autauga County" can be found, "Autauga" can not be found.
-* `return_nil` - (Boolean) is an optional parameter that when used overrides any Errors from input and returns an empty hash `{}`.
-    * Ex:  `FipsLookup.county(state_param: "AL", county_param: "Autauga", return_nil: true) # => {}`
+### General lookup
 
-    * Ex: Access the [:fips] symbol after a lookup `FipsLookup.county(state_param: "AL", county_param: "Autauga", return_nil: true)[:fips] # => nil`
+`FIPS.lookup` dispatches to the state, county, or subdivision lookup based on the supplied identifiers:
 
-<br>
+```ruby
+FIPS.lookup(fips: "02")
+# => { fips: "02", abbr: "AK", name: "Alaska", ansi: "01785533" }
 
-**How does it work?:**
+FIPS.lookup(fips: "02060")
+# => county record for Bristol Bay Borough
 
-Class attribute hash: [`@county_fips = { ["state_code", "county name"] => {:state_code, :fips, :name, :class_code} }`](/fips_lookup/lib/fips_lookup.rb?#L21)
+FIPS.lookup(fips: "0206009050")
+# => subdivision record for Bristol Bay census subarea
 
-The `county_fips` hash is built of key value pairs that grows as the `.county` method is used. Calls to `county` first searches `@county_fips` attribute with `[state_code, county_param]` before opening `.csv` files.  Therefore any duplicate calls made to `county` will return the value stored in `@county_fips`.  Instance variable lasts the lifespan of the FipsLookup class.
-```
-FipsLookup.county_fips # => { ["AL", "Autauga County"] => {:state_code=>"AL", :fips=>"01001", :name=>"Autauga County", :class_code=>"H1"} }
-```
-<br>
-<hr>
+FIPS.lookup(state: "Alaska", county: "Bristol Bay Borough")
+# => county record for Bristol Bay Borough
 
-### State / County lookup using FIPS code [.fips_county(fips: "fips", return_nil: _return_nil=false_)](/fips_lookup/lib/fips_lookup.rb?#L38)
-
-Input the 5 digit FIPS code for a county and return the county name and state name in an Array:
-```
-FipsLookup.fips_county(fips: "01001") # => ["Autauga County", "AL"]
+FIPS.lookup(state: "Alaska", county: "Bristol Bay Borough",
+            subdivision: "Bristol Bay census subarea")
+# => subdivision record for Bristol Bay census subarea
 ```
 
-* `fips` - (String) must be a 5 character string of numbers ex: "01001".
-* `return_nil` - (Boolean) is an optional parameter that when used overrides any Errors from input and returns `nil`.
-    * Ex: `FipsLookup.fips_county(fips: "03000", return_nil: true) # => nil`
+FIPS codes must be strings so leading zeroes are preserved. The general dispatcher supports state FIPS (2 digits), county FIPS (5 digits), and full subdivision FIPS (10 digits). Contextual forms are also available through the specific lookup methods below.
 
-<br>
-<hr>
+### State lookup
 
-### State info from lookup [.state(state_param: "state", _return_nil: false_)](/fips_lookup/lib/fips_lookup.rb?#L33)
-
-Using state information input return a dictionary of values for keys fips, state code, state name, state ansi code.
-
-```
-FipsLookup.state(state_param: "01") # => {:fips=>"01", :code=>"AL", :name=>"Alabama", :ansi=>"01779775"}
+```ruby
+FIPS::State.lookup(fips: "02")
+FIPS::State.lookup(state: "AK")
+FIPS::State.lookup(state: "Alaska")
+FIPS::State.lookup(state: "01785533") # ANSI code
 ```
 
-* `state_param` - (String) flexible - able to find the state using its' 2 letter abbreviation ("AL"), 2 digit FIPS number ("01"), state name ("Alabama"), or the state ANSI code ("01779775").
-* `return_nil` - (Boolean) is an optional parameter that when used overrides any Errors from input and returns an empty hash `{}`.
+The returned state hash has `:fips`, `:abbr`, `:name`, and `:ansi` keys. `FIPS::State.all` returns all state records in the same format:
 
-* `.state` functions similarly to the `.county` method in how it uses a memoized hash `@state_fips` to store state parameter lookups and return values before searching `state.csv` for more.
-
-**State code lookup hash** [`STATE_CODES["state code"] # => "fips code"`](/fips_lookup/lib/fips_lookup.rb?#L8)
-Can also be used for quick lookup translation between state 2-character abbreviations and state 2-digit FIPS code.
-```
-FipsLookup::STATE_CODES["AL"] #=> "01"
-FipsLookup::STATE_CODES.key("01") # => "AL"
-```
-<br>
-<hr>
-
-### Finding state abbreviation with flexible input [.find_state_code(state_param: "state", _return_nil: false_)](/fips_lookup/lib/fips_lookup.rb?#L52)
-
-* `state_param` - (String) flexible - able to find the state using its' 2 letter abbreviation ("AL"), 2 digit FIPS number ("01"), state name ("Alabama"), or the state ANSI code ("01779775").
-* `return_nil` - (Boolean) is an optional parameter that when used overrides any Errors from input and returns nil.
-
-```
-FipsLookup.find_state_code(state_param: "MicHiGan") # => "MI"
+```ruby
+FIPS::State.all.map { |state| [state[:name], state[:abbr]] }
 ```
 
-<br>
-<hr>
+### County lookup
 
-## Accessing county and state `.csv` files in your Rails app
-
-Data `csv` files are made accessible incase extra configuration is needed. Here is an example in a Rails application that displays the list of state and county names within a form. This is done by accessing the CSV files included in this gem, examples below are from Rails 7 app called [Build With](https://github.com/3barroso/build_with)
-
-### Path to state.csv file [.state_file](/fips_lookup/lib/fips_lookup.rb?#L64)
-
-Display state codes in a select option dropdown by using CSV on the FipsLookup method accessing the state.csv file ( `FipsLookup.state_file #=> "path/to/data/state.csv"` )
-
+```ruby
+FIPS::County.lookup(fips: "02060")
+FIPS::County.lookup(fips: "060", state: "AK")
+FIPS::County.lookup(fips: "02", county: "Bristol Bay Borough")
+FIPS::County.lookup(state: "Alaska", county: "Bristol Bay Borough")
 ```
-# in controller.rb
-@state_options = []
-CSV.foreach(FipsLookup.state_file) do |state_row|
-    @state_options << [state_row[2], state_row[1]]
+
+The returned county hash has `:state_abbr`, `:fips`, `:gnis`, `:name`, `:class_code`, and `:status` keys. State identifiers may be an abbreviation, name, FIPS code, or ANSI code.
+
+To list counties in a state, use `FIPS::County.all`:
+
+```ruby
+counties = FIPS::County.all(state: "AK")
+county_names = counties.map { |county| county[:name] }
+```
+
+### Subdivision lookup
+
+```ruby
+FIPS::Subdivision.lookup(fips: "0206009050")
+FIPS::Subdivision.lookup(fips: "09050", state: "AK")
+FIPS::Subdivision.lookup(fips: "02060", subdivision: "Bristol Bay census subarea")
+FIPS::Subdivision.lookup(fips: "060", state: "AK",
+                         subdivision: "Bristol Bay census subarea")
+FIPS::Subdivision.lookup(state: "Alaska", county: "Bristol Bay Borough",
+                         subdivision: "Bristol Bay census subarea")
+```
+
+The returned subdivision hash has `:state_abbr`, `:fips`, `:county_name`, `:gnis`, `:name`, `:class_code`, and `:status` keys. To retrieve subdivision records for a state, optionally filtered by county:
+
+```ruby
+FIPS::Subdivision.all(state: "AK")
+FIPS::Subdivision.all(state: "AK", county: "Bristol Bay Borough")
+```
+
+County and subdivision name matching is case-insensitive. State identifiers accept abbreviations, names, FIPS codes, and ANSI codes.
+
+### Data files
+
+The file helpers return paths to the bundled CSV data when direct access is needed:
+
+```ruby
+FIPS::State.file
+FIPS::County.file("AK")
+FIPS::Subdivision.file("AK")
+```
+
+For normal listing and lookup workflows, prefer the `all` and `lookup` methods, which return formatted records without requiring callers to parse CSV rows.
+
+### Errors
+
+Malformed or insufficient inputs raise `ArgumentError`. Validly formatted identifiers that do not match a record raise `FIPS::NotFoundError`, a subclass of `StandardError`:
+
+```ruby
+begin
+  FIPS::County.lookup(fips: "02999")
+rescue FIPS::NotFoundError => error
+  warn error.message
 end
-```
-
-```
-# in html.erb (within `form_with do |form|` block)
-<%= form.label :state, style: "display: block" %>
-<%= form.select :state, @state_options %>
-```
-
-### Path to state specific county csv files [.county_file(state_code: "state param")](/fips_lookup/lib/fips_lookup.rb?#L59)
-
-Display County name options in a select option dropdown by using CSV on the FipsLookup method accessing the county specific .csv file ( `FipsLookup.county_file(state_code: "MI") #=> "path/to/data/county/MI.csv"` )
-
-* `state_param` – strict parameter, must be string abbreviation of State code (suggested usage is to call `.find_state_code` above first)
-
-```
-# in controller.rb
-state_code = address_params[:state] # or use find_state_code from user input
-@county_options = []
-CSV.foreach(FipsLookup.county_file(state_code:)) do |county_row|
-    @county_options << county_row[3]
-end
-```
-
-```
-# in html.erb (within `form_with do |form|` block)
-<%= form.label :county, style: "display: block" %>
-<%= form.select :county, @county_options %>
 ```
 
 ## Development
 
-Download the repository locally, and from the directory run `bin/setup` to install gem dependencies.
+Install dependencies with `bin/setup`. Run tests and lint with:
 
-Check installation and any changes by running `rspec` to run the tests. 
+```sh
+bundle exec rspec
+bundle exec rubocop
+```
 
-Use `bin/console` to open IRB console with FIPS gem included and ready to use.
-
-To install this gem onto your local machine, run `bundle exec rake install`. 
-
-To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-### New to Ruby?
-On Mac, follow steps 1 and 2 of [this guide](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos) to install ruby with rbenv using brew.
-
-For PC, consult official ruby language [installation guides](https://www.ruby-lang.org/en/documentation/installation/).
-
-#### New to this gem?
-
-* The main working file is `lib/fips_lookup.rb` with usage examples in the test file: `spec/fips_lookup_spec.rb`
-* [The first pull request](https://github.com/3barroso/fips_lookup/pull/1) contains more details to decisions and considerations when first launching gem.
-
+Open an IRB console with `bin/console`. Install locally with `bundle exec rake install`.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at the [FIPS repo](https://github.com/3barroso/fips_lookup).
-This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/3barroso/fips_lookup/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome in the [FIPS repository](https://github.com/3barroso/fips_lookup). Contributors are expected to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the FIPS project's codebase, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/3barroso/fips_lookup/blob/main/CODE_OF_CONDUCT.md).
+This gem is available under the terms of the MIT License. See [LICENSE.txt](LICENSE.txt).
