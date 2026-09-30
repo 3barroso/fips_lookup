@@ -17,15 +17,18 @@ RSpec.describe FIPS::Subdivision do
     end
 
     it "returns the subdivision from county FIPS, state, and subdivision name" do
-      expect(FIPS::Subdivision.lookup(fips: "060", state: "AK", subdivision: "Bristol Bay census subarea")[:name]).to eq("Bristol Bay census subarea")
+      expect(FIPS::Subdivision.lookup(fips: "060", state: "AK",
+                                      subdivision: "Bristol Bay census subarea")[:name]).to eq("Bristol Bay census subarea")
     end
 
     it "returns the subdivision from state FIPS, county name, and subdivision name" do
-      expect(FIPS::Subdivision.lookup(fips: "02", county: "Bristol Bay Borough", subdivision: "Bristol Bay census subarea")[:name]).to eq("Bristol Bay census subarea")
+      expect(FIPS::Subdivision.lookup(fips: "02", county: "Bristol Bay Borough",
+                                      subdivision: "Bristol Bay census subarea")[:name]).to eq("Bristol Bay census subarea")
     end
 
     it "returns the subdivision from state, county, and subdivision names" do
-      expect(FIPS::Subdivision.lookup(state: "Alaska", county: "Bristol Bay Borough", subdivision: "Bristol Bay census subarea")[:name]).to eq("Bristol Bay census subarea")
+      expect(FIPS::Subdivision.lookup(state: "Alaska", county: "Bristol Bay Borough",
+                                      subdivision: "Bristol Bay census subarea")[:name]).to eq("Bristol Bay census subarea")
     end
 
     it "matches subdivision names without regard to case when given state and county FIPS" do
@@ -33,15 +36,18 @@ RSpec.describe FIPS::Subdivision do
     end
 
     it "matches state and subdivision names without regard to case when given county FIPS" do
-      expect(FIPS::Subdivision.lookup(fips: "060", state: "aK", subdivision: "bRiStOl bAy census subarea")[:name]).to eq("Bristol Bay census subarea")
+      expect(FIPS::Subdivision.lookup(fips: "060", state: "aK",
+                                      subdivision: "bRiStOl bAy census subarea")[:name]).to eq("Bristol Bay census subarea")
     end
 
     it "matches county and subdivision names without regard to case when given state FIPS" do
-      expect(FIPS::Subdivision.lookup(fips: "02", county: "bRiStOl bAy bOrOuGh", subdivision: "bRiStOl bAy census subarea")[:name]).to eq("Bristol Bay census subarea")
+      expect(FIPS::Subdivision.lookup(fips: "02", county: "bRiStOl bAy bOrOuGh",
+                                      subdivision: "bRiStOl bAy census subarea")[:name]).to eq("Bristol Bay census subarea")
     end
 
     it "matches state, county, and subdivision names without regard to case" do
-      expect(FIPS::Subdivision.lookup(state: "aLaSkA", county: "bRiStOl bAy bOrOuGh", subdivision: "bRiStOl bAy census subarea")[:name]).to eq("Bristol Bay census subarea")
+      expect(FIPS::Subdivision.lookup(state: "aLaSkA", county: "bRiStOl bAy bOrOuGh",
+                                      subdivision: "bRiStOl bAy census subarea")[:name]).to eq("Bristol Bay census subarea")
     end
 
     it "raises when no subdivision matches a full FIPS code" do

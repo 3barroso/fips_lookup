@@ -11,12 +11,8 @@ module FIPS
       unless fips.nil? || (fips.is_a?(String) && fips.match?(/\A(?:\d{2}|\d{3}|\d{5})\z/))
         raise ArgumentError, "FIPS input must be a 2, 3, or 5 digit string"
       end
-      unless state.nil? || (state.is_a?(String) && !state.strip.empty?)
-        raise ArgumentError, "State input must be a non-empty string"
-      end
-      unless county.nil? || (county.is_a?(String) && !county.strip.empty?)
-        raise ArgumentError, "County input must be a non-empty string"
-      end
+      raise ArgumentError, "State input must be a non-empty string" unless state.nil? || (state.is_a?(String) && !state.strip.empty?)
+      raise ArgumentError, "County input must be a non-empty string" unless county.nil? || (county.is_a?(String) && !county.strip.empty?)
 
       location = identify_with_fips(fips, state, county)
       return location unless location.nil?
@@ -34,27 +30,27 @@ module FIPS
       file_path if File.exist?(file_path)
     end
 
-    private
-
     def self.identify_with_fips(fips, state, county)
       return nil if fips.nil? || !fips.is_a?(String)
 
       case fips.length
       when 2
         return nil if county.nil?
+
         state_abbr = FIPS::State.state_abbr(fips)
         return by_name(state_abbr, county)
       when 3
         return nil if state.nil?
+
         state_abbr = FIPS::State.lookup(state: state)[:abbr]
         return by_code(fips, state_abbr)
       when 5
         return by_code(fips, FIPS::State.state_abbr(fips[0, 2]))
       end
-      return nil
+      nil
     end
 
-    def self.by_code(fips, state_abbr)      
+    def self.by_code(fips, state_abbr)
       CSV.foreach(file(state_abbr)) do |county_row|
         county_fips = fips.length == 3 ? fips : fips[2, 3]
         return formatted_county(county_row) if county_row[2] == county_fips

@@ -49,11 +49,13 @@ RSpec.describe FIPS do
     end
 
     it "dispatches a 2-digit state FIPS, county name, and subdivision name to the subdivision lookup" do
-      expect(FIPS.lookup(fips: "02", county: "Bristol Bay Borough", subdivision: "Bristol Bay census subarea")[:name]).to eq("Bristol Bay census subarea")
+      expect(FIPS.lookup(fips: "02", county: "Bristol Bay Borough",
+                         subdivision: "Bristol Bay census subarea")[:name]).to eq("Bristol Bay census subarea")
     end
 
     it "dispatches state, county, and subdivision names to the subdivision lookup" do
-      expect(FIPS.lookup(state: "Alaska", county: "Bristol Bay Borough", subdivision: "Bristol Bay census subarea")[:name]).to eq("Bristol Bay census subarea")
+      expect(FIPS.lookup(state: "Alaska", county: "Bristol Bay Borough",
+                         subdivision: "Bristol Bay census subarea")[:name]).to eq("Bristol Bay census subarea")
     end
 
     it "raises for a non-string FIPS input" do
