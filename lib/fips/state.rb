@@ -40,6 +40,10 @@ module FIPS
         ABBR_CODES.key(code)
       end
 
+      def all
+        CSV.foreach(file).map { |state_row| formatted_state(state_row) }
+      end
+
       def file
         "#{File.expand_path("..", __dir__)}/data/state.csv"
       end

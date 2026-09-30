@@ -83,4 +83,15 @@ RSpec.describe FIPS::County do
       expect(FIPS::County.file("MI")).to include("lib/data/county/MI.csv")
     end
   end
+
+  describe ".all" do
+    it "returns formatted county records for a state identifier" do
+      expect(FIPS::County.all(state: "AK")).to include(hash_including(name: "Bristol Bay Borough", fips: "02060"))
+    end
+
+    it "rejects a blank state identifier" do
+      expect { FIPS::County.all(state: " ") }
+        .to raise_error(ArgumentError, /State input must be a non-empty string/)
+    end
+  end
 end

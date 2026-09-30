@@ -72,4 +72,10 @@ RSpec.describe FIPS::State do
         .to raise_error(ArgumentError, /Could not identify state/)
     end
   end
+
+  describe ".all" do
+    it "returns formatted records for all states" do
+      expect(FIPS::State.all).to include(hash_including(abbr: "AK", name: "Alaska", fips: "02"))
+    end
+  end
 end

@@ -105,4 +105,22 @@ RSpec.describe FIPS::Subdivision do
         .to raise_error(ArgumentError, /FIPS input must be/)
     end
   end
+
+  describe ".all" do
+    it "returns formatted subdivision records for a state" do
+      expect(FIPS::Subdivision.all(state: "AK")).to include(hash_including(name: "Bristol Bay census subarea"))
+    end
+
+    it "can filter subdivision records by county name without regard to case" do
+      records = FIPS::Subdivision.all(state: "AK", county: "bRiStOl bAy bOrOuGh")
+
+      expect(records).not_to be_empty
+      expect(records).to all(include(county_name: "Bristol Bay Borough"))
+    end
+
+    it "rejects a non-string county filter" do
+      expect { FIPS::Subdivision.all(state: "AK", county: 60) }
+        .to raise_error(ArgumentError, /County input must be a non-empty string/)
+    end
+  end
 end

@@ -31,6 +31,15 @@ module FIPS
         file_path if File.exist?(file_path)
       end
 
+      def all(state:)
+        unless state.is_a?(String) && !state.strip.empty?
+          raise ArgumentError, "State input must be a non-empty string"
+        end
+
+        state_abbr = FIPS::State.lookup(state: state)[:abbr]
+        CSV.foreach(file(state_abbr)).map { |county_row| formatted_county(county_row) }
+      end
+
       private
 
       def identify_with_fips(fips, state, county)
