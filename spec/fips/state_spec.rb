@@ -1,0 +1,57 @@
+# frozen_string_literal: true
+
+require "spec_helper"
+
+RSpec.describe FIPS::State do
+  describe ".lookup" do
+    it "returns the state from its two-digit FIPS code" do
+      expect(FIPS::State.lookup(fips: "02")[:name]).to eq("Alaska")
+    end
+
+    it "returns the state from its abbreviation" do
+      expect(FIPS::State.lookup(state: "AK")[:name]).to eq("Alaska")
+    end
+
+    it "returns the state from its full name" do
+      expect(FIPS::State.lookup(state: "Alaska")[:abbr]).to eq("AK")
+    end
+
+    it "returns the state from its FIPS code passed as state" do
+      expect(FIPS::State.lookup(state: "02")[:name]).to eq("Alaska")
+    end
+
+    it "returns the state from its ANSI code" do
+      expect(FIPS::State.lookup(state: "01785533")[:name]).to eq("Alaska")
+    end
+
+    it "matches state abbreviations and names without regard to case" do
+      expect(FIPS::State.lookup(state: "aLaSkA")[:abbr]).to eq("AK")
+      expect(FIPS::State.lookup(state: "ak")[:name]).to eq("Alaska")
+    end
+
+    it "raises when no state matches a valid-length FIPS code" do
+      expect { FIPS::State.lookup(fips: "99") }
+        .to raise_error(StandardError, /No state found with fips 99/)
+    end
+
+    it "raises when the FIPS input is not a two-digit string" do
+      expect { FIPS::State.lookup(fips: "2") }
+        .to raise_error(StandardError, /FIPS input must be a 2 digit string/)
+    end
+
+    it "raises when no state matches the provided state identifier" do
+      expect { FIPS::State.lookup(state: "Atlantis") }
+        .to raise_error(StandardError, /No state found matching: Atlantis/)
+    end
+
+    it "raises when the state input is not a string" do
+      expect { FIPS::State.lookup(state: 2) }
+        .to raise_error(StandardError, /State input must be a string/)
+    end
+
+    it "raises when no lookup parameters are provided" do
+      expect { FIPS::State.lookup }
+        .to raise_error(StandardError, /Could not identify state/)
+    end
+  end
+end

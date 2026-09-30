@@ -12,9 +12,9 @@ RSpec.describe FIPS do
   describe ".county" do
     context "with valid state and county params" do
       it "returns the corresponding county row hash object" do
-        expect(FIPS::County.county1(state_param: "Al", county_param: "Autauga County")).to eq({ state_code: "AL", fips: "01001", name: "Autauga County", class_code: "H1", gnis: "00161526", status: "A" })
+        expect(FIPS::County.county1(state_param: "Al", county_param: "Autauga County")).to eq({ state_abbr: "AL", fips: "01001", name: "Autauga County", class_code: "H1", gnis: "00161526", status: "A" })
         expect(FIPS::County.county1(state_param: "Al", county_param: "Autauga County")[:fips]).to eq("01001")
-        expect(FIPS::County.county1(state_param: "Al", county_param: "Autauga County")[:state_code]).to eq("AL")
+        expect(FIPS::County.county1(state_param: "Al", county_param: "Autauga County")[:state_abbr]).to eq("AL")
         expect(FIPS::County.county1(state_param: "Al", county_param: "Autauga County")[:name]).to eq("Autauga County")
         expect(FIPS::County.county1(state_param: "Al", county_param: "Autauga County")[:class_code]).to eq("H1")
         expect(FIPS::County.county1(state_param: "Al", county_param: "Autauga County")[:status]).to eq("A")
@@ -61,29 +61,29 @@ RSpec.describe FIPS do
   describe ".state" do
     context "with valid state param" do
       it "returns the corresponding state row hash" do
-        expect(FIPS::State.state(state_param: "AL")).to eq({ ansi: "01779775", code: "AL", fips: "01", name: "Alabama" })
-        expect(FIPS::State.state(state_param: "AL")[:code]).to eq("AL")
-        expect(FIPS::State.state(state_param: "AL")[:ansi]).to eq("01779775")
-        expect(FIPS::State.state(state_param: "AL")[:fips]).to eq("01")
-        expect(FIPS::State.state(state_param: "AL")[:name]).to eq("Alabama")
+        expect(FIPS::State.state1(state_param: "AL")).to eq({ ansi: "01779775", abbr: "AL", fips: "01", name: "Alabama" })
+        expect(FIPS::State.state1(state_param: "AL")[:abbr]).to eq("AL")
+        expect(FIPS::State.state1(state_param: "AL")[:ansi]).to eq("01779775")
+        expect(FIPS::State.state1(state_param: "AL")[:fips]).to eq("01")
+        expect(FIPS::State.state1(state_param: "AL")[:name]).to eq("Alabama")
       end
     end
 
     context "with an invalid state param" do
       context "when return_nil parameter is not used" do
         it "returns an error" do
-          expect{FIPS::State.state(state_param: "BC")}.to raise_error(StandardError, "No state found matching: BC")
+          expect{FIPS::State.state1(state_param: "BC")}.to raise_error(StandardError, "No state found matching: BC")
         end
       end
       context "when return_nil parameter is used" do
         it "returns an empty dictionary" do
-          expect(FIPS::State.state(state_param: "BC", return_nil: true)).to eq({})
+          expect(FIPS::State.state1(state_param: "BC", return_nil: true)).to eq({})
         end
       end
     end
     context "as .state is called the state_fips class attribute grows" do
       it "with state param as key" do
-        expect(FIPS.state_fips["AL"]).to eq({ ansi: "01779775", code: "AL", fips: "01", name: "Alabama" })
+        expect(FIPS.state_fips["AL"]).to eq({ ansi: "01779775", abbr: "AL", fips: "01", name: "Alabama" })
       end
 
       context "when the state cannot be found, but return_nil is used, empty objects are created" do
@@ -98,14 +98,14 @@ RSpec.describe FIPS do
   describe ".subdivision" do
     context "with valid subdivision param" do
       it "returns the corresponding subdivision row hash" do
-        expect(FIPS::Subdivision.subdivision1(state_param: "CO", subdivision_param: "North Aurora CCD")).to eq({state_code: "CO", fips: "0800192622", county_name: "Adams County", gnis: "01935531", name: "North Aurora CCD", class_code: "Z5", status: "S"})
+        expect(FIPS::Subdivision.subdivision1(state_param: "CO", subdivision_param: "North Aurora CCD")).to eq({state_abbr: "CO", fips: "0800192622", county_name: "Adams County", gnis: "01935531", name: "North Aurora CCD", class_code: "Z5", status: "S"})
       end
     end
   end
 
-  describe "STATE_CODES" do
+  describe "ABBR_CODES" do
     it "is a hash with the same number of key value pairs as rows in the state.csv file" do
-      expect(FIPS::STATE_CODES.length).to eq(`wc -l #{state_file_path}`.to_i)
+      expect(FIPS::State::ABBR_CODES.length).to eq(`wc -l #{state_file_path}`.to_i)
     end
   end
 
@@ -189,9 +189,9 @@ RSpec.describe FIPS do
     end
   end
 
-  describe ".state_file" do
+  describe ".file" do
     it "returns the path to state.csv file as a string" do
-      expect(FIPS::State.state_file).to include(state_file_path.to_s)
+      expect(FIPS::State.file).to include(state_file_path.to_s)
     end
   end
 end

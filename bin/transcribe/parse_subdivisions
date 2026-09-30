@@ -27,7 +27,7 @@ subdivision_path = Pathname.getwd.join("lib/data/subdivision")
 
 puts "~~~ Now creating subdivision data files if they are not present ~~~"
 
-FIPS::STATE_CODES.each_key do |state_code|
+FIPS::State::ABBR_CODES.each_key do |state_code|
   subdivision_state_file_path = subdivision_path.join("#{state_code}.csv")
   FileUtils.touch(subdivision_state_file_path) unless File.exist?(subdivision_state_file_path)
 end
