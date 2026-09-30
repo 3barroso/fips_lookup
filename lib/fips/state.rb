@@ -20,23 +20,24 @@ module FIPS
       state = params.fetch(:state, nil)
 
       unless fips.nil?
-        unless fips.is_a?(String) && fips.length == 2
-          raise StandardError, "FIPS input must be a 2 digit string"
+        unless fips.is_a?(String) && fips.match?(/\A\d{2}\z/)
+          raise ArgumentError, "FIPS input must be a 2 digit string"
         end
         return by_code(fips)
       end
 
       if !state.nil?
-        unless state.is_a?(String)
-          raise StandardError, "State input must be a string"
+        unless state.is_a?(String) && !state.strip.empty?
+          raise ArgumentError, "State input must be a non-empty string"
         end
         return by_name(state)
       end
 
-      raise StandardError, "Could not identify state with parameters provided: #{params.inspect}"
+      raise ArgumentError, "Could not identify state with parameters provided: #{params.inspect}"
     end
 
     def self.state_abbr(code)
+      raise FIPS::NotFoundError, "No state found with code #{code}" if ABBR_CODES.key(code).nil?
       ABBR_CODES.key(code)
     end
 
@@ -51,7 +52,7 @@ module FIPS
         return formatted_state(state_row) if state_row[0] == fips
       end
       
-      raise StandardError, "No state found with fips #{fips}"
+      raise FIPS::NotFoundError, "No state found with fips #{fips}"
     end
 
     def self.by_name(state)
@@ -60,7 +61,7 @@ module FIPS
         return formatted_state(state_row) if state_row[1] == state_upcase || state_row[2].upcase == state_upcase || state_row[3] == state_upcase || state_row[0] == state_upcase
       end
 
-      raise StandardError, "No state found matching: #{state}"
+      raise FIPS::NotFoundError, "No state found matching: #{state}"
     end
     
     def self.formatted_state(row)

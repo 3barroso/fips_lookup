@@ -8,6 +8,16 @@ module FIPS
       state = params.fetch(:state, nil)
       county = params.fetch(:county, nil)
 
+      unless fips.nil? || (fips.is_a?(String) && fips.match?(/\A(?:\d{2}|\d{3}|\d{5})\z/))
+        raise ArgumentError, "FIPS input must be a 2, 3, or 5 digit string"
+      end
+      unless state.nil? || (state.is_a?(String) && !state.strip.empty?)
+        raise ArgumentError, "State input must be a non-empty string"
+      end
+      unless county.nil? || (county.is_a?(String) && !county.strip.empty?)
+        raise ArgumentError, "County input must be a non-empty string"
+      end
+
       location = identify_with_fips(fips, state, county)
       return location unless location.nil?
 
@@ -16,7 +26,7 @@ module FIPS
         return by_name(state_abbr, county)
       end
 
-      raise StandardError, "Could not identify county with parameters provided: #{params.inspect}"
+      raise ArgumentError, "Could not identify county with parameters provided: #{params.inspect}"
     end
 
     def self.file(state_abbr)
@@ -49,7 +59,7 @@ module FIPS
         county_fips = fips.length == 3 ? fips : fips[2, 3]
         return formatted_county(county_row) if county_row[2] == county_fips
       end
-      raise StandardError, "Could not identify county with fips: #{fips}, in: #{state_abbr}"
+      raise FIPS::NotFoundError, "Could not identify county with fips: #{fips}, in: #{state_abbr}"
     end
 
     def self.by_name(state_abbr, county)
@@ -58,7 +68,7 @@ module FIPS
       CSV.foreach(file(state_abbr)) do |county_row|
         return formatted_county(county_row) if county_upcase == county_row[3].upcase
       end
-      raise StandardError, "Could not identify county with name: #{county}, in: #{state_abbr}"
+      raise FIPS::NotFoundError, "Could not identify county with name: #{county}, in: #{state_abbr}"
     end
 
     def self.formatted_county(row)

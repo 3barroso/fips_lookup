@@ -8,6 +8,9 @@ module FIPS
   loader.inflector.inflect("fips" => "FIPS")
   loader.setup
 
+  class NotFoundError < StandardError
+  end
+
   class << self
     
     def lookup(**params)

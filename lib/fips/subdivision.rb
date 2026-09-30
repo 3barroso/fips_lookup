@@ -10,6 +10,19 @@ module FIPS
       county = params.fetch(:county, nil)
       subdivision = params.fetch(:subdivision, nil)
 
+      unless fips.nil? || (fips.is_a?(String) && fips.match?(/\A(?:\d{2}|\d{3}|\d{5}|\d{10})\z/))
+        raise ArgumentError, "FIPS input must be a 2, 3, 5, or 10 digit string"
+      end
+      unless state.nil? || (state.is_a?(String) && !state.strip.empty?)
+        raise ArgumentError, "State input must be a non-empty string"
+      end
+      unless county.nil? || (county.is_a?(String) && !county.strip.empty?)
+        raise ArgumentError, "County input must be a non-empty string"
+      end
+      unless subdivision.nil? || (subdivision.is_a?(String) && !subdivision.strip.empty?)
+        raise ArgumentError, "Subdivision input must be a non-empty string"
+      end
+
       # ensure the state can be determined from the provided parameters ? (set as a variable state_abbr) # set_state(params) method?
 
       location = identify_with_fips(fips, state, county, subdivision)
@@ -19,7 +32,7 @@ module FIPS
       if [:state, :county, :subdivision].all? { |key| !params[key].nil? }
         return by_name(state, county, subdivision)
       end
-      raise StandardError, "cannot determine subdivision: no valid parameters provided"
+      raise ArgumentError, "cannot determine subdivision: no valid parameters provided"
     end
 
     def self.subdivision1(state_param:, subdivision_param:, return_nil: false)
@@ -79,7 +92,7 @@ module FIPS
       CSV.foreach(subdivision_file) do |subdivision_row|
         return formatted_subdivision(subdivision_row) if subdivision_row[4] == fips
       end
-      raise StandardError, "No subdivision found matching fips: #{fips}"
+      raise FIPS::NotFoundError, "No subdivision found matching fips: #{fips}"
     end
 
     def self.by_fips_and_sub_name(fips, subdivision)
@@ -90,7 +103,7 @@ module FIPS
       CSV.foreach(subdivision_file) do |subdivision_row|
         return formatted_subdivision(subdivision_row) if subdivision_row[2] == fips[2, 3] && subdivision_row[6].upcase == upcase_sub
       end
-      raise StandardError, "No subdivision found matching fips: #{fips} and name: #{subdivision}"
+      raise FIPS::NotFoundError, "No subdivision found matching fips: #{fips} and name: #{subdivision}"
     end
 
     def self.by_county_fips_state_and_sub_name(fips, state_abbr, subdivision)
@@ -99,7 +112,7 @@ module FIPS
       CSV.foreach(self.file(state_abbr)) do |subdivision_row|
         return formatted_subdivision(subdivision_row) if subdivision_row[2] == fips && subdivision_row[6].upcase == sub_upcase
       end
-      raise StandardError, "No subdivision found matching county fips: #{fips}, state: #{state_abbr}, and name: #{subdivision}"
+      raise FIPS::NotFoundError, "No subdivision found matching county fips: #{fips}, state: #{state_abbr}, and name: #{subdivision}"
     end
       
     def self.by_fips(fips)
@@ -112,7 +125,7 @@ module FIPS
       CSV.foreach(subdivision_file) do |subdivision_row|
         return formatted_subdivision(subdivision_row) if subdivision_row[1] + subdivision_row[2] + subdivision_row[4] == fips
       end
-      raise StandardError, "No subdivision found matching fips: #{fips}"
+      raise FIPS::NotFoundError, "No subdivision found matching fips: #{fips}"
     end
 
     def self.by_name(state, county, subdivision)
@@ -125,7 +138,7 @@ module FIPS
         # match must be for subdivision and county name
         return formatted_subdivision(subdivision_row) if subdivision_row[3].upcase == county_upcase && subdivision_row[6].upcase == sub_upcase
       end
-      raise StandardError, "No subdivision found matching: #{subdivision} in #{county}"
+      raise FIPS::NotFoundError, "No subdivision found matching: #{subdivision} in #{county}"
     end
 
     def self.formatted_subdivision(row)

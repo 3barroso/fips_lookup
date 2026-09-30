@@ -46,42 +46,57 @@ RSpec.describe FIPS::Subdivision do
 
     it "raises when no subdivision matches a full FIPS code" do
       expect { FIPS::Subdivision.lookup(fips: "0206009999") }
-        .to raise_error(StandardError, /No subdivision found matching fips/)
+        .to raise_error(FIPS::NotFoundError, /No subdivision found matching fips/)
     end
 
     it "raises when no subdivision matches a subdivision FIPS code and state" do
       expect { FIPS::Subdivision.lookup(fips: "99999", state: "AK") }
-        .to raise_error(StandardError, /No subdivision found matching fips/)
+        .to raise_error(FIPS::NotFoundError, /No subdivision found matching fips/)
     end
 
     it "raises when no subdivision matches state and county FIPS with a subdivision name" do
       expect { FIPS::Subdivision.lookup(fips: "02099", subdivision: "Bristol Bay census subarea") }
-        .to raise_error(StandardError, /No subdivision found matching fips/)
+        .to raise_error(FIPS::NotFoundError, /No subdivision found matching fips/)
     end
 
     it "raises when no subdivision matches county FIPS, state, and subdivision name" do
       expect { FIPS::Subdivision.lookup(fips: "999", state: "AK", subdivision: "Bristol Bay census subarea") }
-        .to raise_error(StandardError, /No subdivision found matching county fips/)
+        .to raise_error(FIPS::NotFoundError, /No subdivision found matching county fips/)
     end
 
     it "raises when no subdivision matches state FIPS, county name, and subdivision name" do
       expect { FIPS::Subdivision.lookup(fips: "02", county: "Unknown Borough", subdivision: "Bristol Bay census subarea") }
-        .to raise_error(StandardError, /No subdivision found matching/)
+        .to raise_error(FIPS::NotFoundError, /No subdivision found matching/)
     end
 
     it "raises when no subdivision matches state, county, and subdivision names" do
       expect { FIPS::Subdivision.lookup(state: "Alaska", county: "Bristol Bay Borough", subdivision: "Unknown census subarea") }
-        .to raise_error(StandardError, /No subdivision found matching/)
+        .to raise_error(FIPS::NotFoundError, /No subdivision found matching/)
     end
 
     it "raises when no lookup parameters are provided" do
       expect { FIPS::Subdivision.lookup }
-        .to raise_error(StandardError, /cannot determine subdivision/)
+        .to raise_error(ArgumentError, /cannot determine subdivision/)
     end
 
     it "raises when the provided FIPS code lacks the names needed to identify a subdivision" do
       expect { FIPS::Subdivision.lookup(fips: "02") }
-        .to raise_error(StandardError, /cannot determine subdivision/)
+        .to raise_error(ArgumentError, /cannot determine subdivision/)
+    end
+
+    it "raises a not-found error for an unknown state FIPS prefix" do
+      expect { FIPS::Subdivision.lookup(fips: "9900000000") }
+        .to raise_error(FIPS::NotFoundError, /No state found with code 99/)
+    end
+
+    it "rejects a non-string subdivision name" do
+      expect { FIPS::Subdivision.lookup(state: "AK", county: "Bristol Bay Borough", subdivision: 9050) }
+        .to raise_error(ArgumentError, /Subdivision input must be a non-empty string/)
+    end
+
+    it "rejects malformed FIPS input" do
+      expect { FIPS::Subdivision.lookup(fips: "02060ABCDE") }
+        .to raise_error(ArgumentError, /FIPS input must be/)
     end
   end
 end
