@@ -4,7 +4,6 @@
 module FIPS
   class Subdivision
 
-    # FIPS::Subdivision.lookup(fips: "0206009050")
     def self.lookup(**params)
       fips = params.fetch(:fips, nil)
       state = params.fetch(:state, nil)
@@ -30,11 +29,6 @@ module FIPS
       lookup = [state_code, subdivision_param.upcase]
       subdivision_cache = FIPS.subdivision_fips ||= {}
       subdivision_cache[lookup] ||= subdivision_lookup(state_code, subdivision_param, return_nil)
-    end
-
-    def self.subdivision_file(state_code:)
-      file_path = "#{File.expand_path("..", __dir__)}/data/subdivision/#{state_code}.csv"
-      file_path if File.exist?(file_path)
     end
 
     def self.file(state_abbr)
@@ -132,18 +126,6 @@ module FIPS
         return formatted_subdivision(subdivision_row) if subdivision_row[3].upcase == county_upcase && subdivision_row[6].upcase == sub_upcase
       end
       raise StandardError, "No subdivision found matching: #{subdivision} in #{county}"
-    end
-
-    def self.subdivision_lookup(state_code, subdivision_param, return_nil)
-      upcase_param = subdivision_param.upcase
-      CSV.foreach(subdivision_file(state_code: state_code)) do |subdivision_row|
-        return formatted_subdivision(subdivision_row) if match_subdivision?(subdivision_row, upcase_param)
-      end
-      return_nil ? (return {}) : (raise StandardError, "No subdivision found matching: #{subdivision_param}" unless return_nil)
-    end
-
-    def self.match_subdivision?(row, param)
-      row[6].upcase == param || row[4] == param || row[5] == param
     end
 
     def self.formatted_subdivision(row)

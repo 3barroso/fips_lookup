@@ -40,18 +40,6 @@ module FIPS
       ABBR_CODES.key(code)
     end
 
-    def self.state1(state_param:, return_nil: false)
-      state_cache = FIPS::state_fips ||= {}
-      state_cache[state_param] ||= state_lookup(state_param, return_nil)
-    end
-
-    def self.find_state_code(state_param:, return_nil: false)
-      return state_param.upcase if ABBR_CODES.key?(state_param.upcase)
-      return ABBR_CODES.key(state_param) if ABBR_CODES.value?(state_param)
-
-      state1(state_param: state_param, return_nil: return_nil)[:abbr]
-    end
-
     def self.file
       "#{File.expand_path("..", __dir__)}/data/state.csv"
     end
@@ -74,21 +62,9 @@ module FIPS
 
       raise StandardError, "No state found matching: #{state}"
     end
-
-    def self.state_lookup(state_param, return_nil = false)
-      upstate_param = state_param.upcase
-      CSV.foreach(file) do |state_row|
-        return formatted_state(state_row) if state_match_row?(state_row, upstate_param)
-      end
-      return_nil ? (return {}) : (raise StandardError, "No state found matching: #{state_param}")
-    end
-
-    def self.state_match_row?(row, param)
-      # row => state fips (01), state code (AL), state name (Alabama), ansi (01779775)
-      row[0] == param || row[1] == param || row[2].upcase == param || row[3] == param
-    end
-
+    
     def self.formatted_state(row)
+      # row => state fips (01), state code (AL), state name (Alabama), ansi (01779775)
       {
         fips: row[0],
         abbr: row[1],
