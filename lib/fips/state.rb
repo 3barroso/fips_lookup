@@ -14,62 +14,66 @@ module FIPS
                    "WV" => "54", "WI" => "55", "WY" => "56", "AS" => "60", "GU" => "66", "MP" => "69",
                    "PR" => "72", "UM" => "74", "VI" => "78" }.freeze
 
-    def self.lookup(**params)
-      fips = params.fetch(:fips, nil)
-      state = params.fetch(:state, nil)
+    class << self
+      def lookup(**params)
+        fips = params.fetch(:fips, nil)
+        state = params.fetch(:state, nil)
 
-      unless fips.nil?
-        raise ArgumentError, "FIPS input must be a 2 digit string" unless fips.is_a?(String) && fips.match?(/\A\d{2}\z/)
+        unless fips.nil?
+          raise ArgumentError, "FIPS input must be a 2 digit string" unless fips.is_a?(String) && fips.match?(/\A\d{2}\z/)
 
-        return by_code(fips)
-      end
-
-      unless state.nil?
-        raise ArgumentError, "State input must be a non-empty string" unless state.is_a?(String) && !state.strip.empty?
-
-        return by_name(state)
-      end
-
-      raise ArgumentError, "Could not identify state with parameters provided: #{params.inspect}"
-    end
-
-    def self.state_abbr(code)
-      raise FIPS::NotFoundError, "No state found with code #{code}" if ABBR_CODES.key(code).nil?
-
-      ABBR_CODES.key(code)
-    end
-
-    def self.file
-      "#{File.expand_path("..", __dir__)}/data/state.csv"
-    end
-
-    def self.by_code(fips)
-      CSV.foreach(file) do |state_row|
-        return formatted_state(state_row) if state_row[0] == fips
-      end
-
-      raise FIPS::NotFoundError, "No state found with fips #{fips}"
-    end
-
-    def self.by_name(state)
-      state_upcase = state.upcase
-      CSV.foreach(file) do |state_row|
-        if state_row[1] == state_upcase || state_row[2].upcase == state_upcase || state_row[3] == state_upcase || state_row[0] == state_upcase
-          return formatted_state(state_row)
+          return by_code(fips)
         end
+
+        unless state.nil?
+          raise ArgumentError, "State input must be a non-empty string" unless state.is_a?(String) && !state.strip.empty?
+
+          return by_name(state)
+        end
+
+        raise ArgumentError, "Could not identify state with parameters provided: #{params.inspect}"
       end
 
-      raise FIPS::NotFoundError, "No state found matching: #{state}"
-    end
+      def state_abbr(code)
+        raise FIPS::NotFoundError, "No state found with code #{code}" if ABBR_CODES.key(code).nil?
 
-    def self.formatted_state(row)
-      # row => state fips (01), state code (AL), state name (Alabama), ansi (01779775)
-      {
-        fips: row[0],
-        abbr: row[1],
-        name: row[2],
-        ansi: row[3]
-      }
+        ABBR_CODES.key(code)
+      end
+
+      def file
+        "#{File.expand_path("..", __dir__)}/data/state.csv"
+      end
+
+      private
+
+      def by_code(fips)
+        CSV.foreach(file) do |state_row|
+          return formatted_state(state_row) if state_row[0] == fips
+        end
+
+        raise FIPS::NotFoundError, "No state found with fips #{fips}"
+      end
+
+      def by_name(state)
+        state_upcase = state.upcase
+        CSV.foreach(file) do |state_row|
+          if state_row[1] == state_upcase || state_row[2].upcase == state_upcase || state_row[3] == state_upcase || state_row[0] == state_upcase
+            return formatted_state(state_row)
+          end
+        end
+
+        raise FIPS::NotFoundError, "No state found matching: #{state}"
+      end
+
+      def formatted_state(row)
+        # row => state fips (01), state code (AL), state name (Alabama), ansi (01779775)
+        {
+          fips: row[0],
+          abbr: row[1],
+          name: row[2],
+          ansi: row[3]
+        }
+      end
     end
   end
 end

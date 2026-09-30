@@ -31,6 +31,8 @@ module FIPS
       raise ArgumentError, "Insufficient parameters to identify a state, county, or subdivision: #{params.inspect}"
     end
 
+    private
+
     def identify_by_fips(fips, state, county, subdivision)
       raise ArgumentError, "FIPS input must be a string" unless fips.is_a?(String)
 
