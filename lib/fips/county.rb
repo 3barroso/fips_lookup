@@ -54,26 +54,14 @@ module FIPS
           return nil if state.nil?
 
           state_fips = FIPS::State.lookup(state: state)[:fips]
-          return by_code(fips, state_fips)
+          return by_fips("#{state_fips}#{fips}")
         when 5
-          return by_full_fips(fips)
+          return by_fips(fips)
         end
         nil
       end
 
-      def by_code(county_fips, state_fips)
-        county_row = FIPS::Database.first(
-          "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
-          "FROM counties JOIN states USING (state_fips) WHERE counties.state_fips = ? AND counties.county_fips = ?",
-          [state_fips, county_fips]
-        )
-        return formatted_county(county_row) unless county_row.nil?
-
-        raise FIPS::NotFoundError, "Could not identify county with fips: #{county_fips}, in: #{state_fips}"
-      end
-
-      def by_full_fips(fips)
-        FIPS::State.lookup(fips: fips[0, 2])
+      def by_fips(fips)
         county_row = FIPS::Database.first(
           "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
           "FROM counties JOIN states USING (state_fips) WHERE counties.full_fips = ?",

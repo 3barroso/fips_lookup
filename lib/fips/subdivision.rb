@@ -51,10 +51,7 @@ module FIPS
       private
 
       def identify_with_fips(fips, state, county, subdivision)
-        return nil if fips.nil? || !fips.is_a?(String)
-
-        valid_lengths = [2, 3, 5, 10]
-        return nil unless valid_lengths.include?(fips.length)
+        return nil if fips.nil?
 
         case fips.length
         when 2
@@ -65,7 +62,7 @@ module FIPS
           return nil if state.nil? || subdivision.nil?
 
           state_fips = FIPS::State.lookup(state: state)[:fips]
-          by_county_fips_state_and_sub_name(fips, state_fips, subdivision)
+          by_fips_and_sub_name(state_fips + fips, subdivision)
         when 5
           return by_fips_and_sub_name(fips, subdivision) unless subdivision.nil?
           return nil if state.nil?
@@ -89,23 +86,10 @@ module FIPS
 
       def by_fips_and_sub_name(fips, subdivision)
         FIPS::State.lookup(fips: fips[0, 2])
-        subdivision_row = select_subdivision(
-          "subdivisions.state_fips = ? AND subdivisions.county_fips = ? AND subdivisions.name_key = ?",
-          [fips[0, 2], fips[2, 3], subdivision.upcase]
-        )
+        subdivision_row = by_county_fips_and_sub_name(fips[0, 2], fips[2, 3], subdivision)
         return subdivision_row unless subdivision_row.nil?
 
         raise FIPS::NotFoundError, "No subdivision found matching fips: #{fips} and name: #{subdivision}"
-      end
-
-      def by_county_fips_state_and_sub_name(fips, state_fips, subdivision)
-        subdivision_row = select_subdivision(
-          "subdivisions.state_fips = ? AND subdivisions.county_fips = ? AND subdivisions.name_key = ?",
-          [state_fips, fips, subdivision.upcase]
-        )
-        return subdivision_row unless subdivision_row.nil?
-
-        raise FIPS::NotFoundError, "No subdivision found matching county fips: #{fips}, state: #{state_fips}, and name: #{subdivision}"
       end
 
       def by_fips(fips)
@@ -117,34 +101,43 @@ module FIPS
       end
 
       def by_name(state_fips, county, subdivision)
-        county_row = FIPS::Database.first(
-          "SELECT county_fips FROM counties WHERE state_fips = ? AND name_key = ?",
-          [state_fips, county.upcase]
+        subdivision_row = select_subdivision(
+          "subdivisions.state_fips = ? AND counties.name_key = ? AND subdivisions.name_key = ?",
+          [state_fips, county.upcase, subdivision.upcase]
         )
-        unless county_row.nil?
-          subdivision_row = select_subdivision(
-            "subdivisions.state_fips = ? AND subdivisions.county_fips = ? AND subdivisions.name_key = ?",
-            [state_fips, county_row["county_fips"], subdivision.upcase]
-          )
-          return subdivision_row unless subdivision_row.nil?
-        end
+        return subdivision_row unless subdivision_row.nil?
 
         raise FIPS::NotFoundError, "No subdivision found matching: #{subdivision} in #{county}"
       end
 
+      def by_county_fips_and_sub_name(state_fips, county_fips, subdivision)
+        select_subdivision(
+          "subdivisions.state_fips = ? AND subdivisions.county_fips = ? AND subdivisions.name_key = ?",
+          [state_fips, county_fips, subdivision.upcase]
+        )
+      end
+
       def select_subdivision(where_clause, bind_vars)
-        select_subdivisions(where_clause, bind_vars).first
+        row = FIPS::Database.first(
+          "#{subdivision_select_sql(where_clause)} LIMIT 1",
+          bind_vars
+        )
+        formatted_subdivision(row)
       end
 
       def select_subdivisions(where_clause, bind_vars)
         rows = FIPS::Database.all(
-          "SELECT states.state_abbr AS state_abbr, subdivisions.full_fips AS fips, counties.name AS county_name, " \
-          "subdivisions.gnis AS gnis, subdivisions.name AS name, subdivisions.class_code AS class_code, subdivisions.status AS status " \
-          "FROM subdivisions JOIN states USING (state_fips) JOIN counties USING (state_fips, county_fips) " \
-          "WHERE #{where_clause} ORDER BY subdivisions.full_fips",
+          "#{subdivision_select_sql(where_clause)} ORDER BY subdivisions.full_fips",
           bind_vars
         )
         rows.map { |row| formatted_subdivision(row) }
+      end
+
+      def subdivision_select_sql(where_clause)
+        "SELECT states.state_abbr AS state_abbr, subdivisions.full_fips AS fips, counties.name AS county_name, " \
+          "subdivisions.gnis AS gnis, subdivisions.name AS name, subdivisions.class_code AS class_code, subdivisions.status AS status " \
+          "FROM subdivisions JOIN states USING (state_fips) JOIN counties USING (state_fips, county_fips) " \
+          "WHERE #{where_clause}"
       end
 
       def formatted_subdivision(row)

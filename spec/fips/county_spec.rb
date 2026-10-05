@@ -34,12 +34,12 @@ RSpec.describe FIPS::County do
 
     it "raises when no county matches a full FIPS code" do
       expect { FIPS::County.lookup(fips: "02999") }
-        .to raise_error(FIPS::NotFoundError, /Could not identify county with fips/)
+        .to raise_error(FIPS::NotFoundError, /Could not identify county with fips: 02999/)
     end
 
     it "raises when no county matches county FIPS and state" do
       expect { FIPS::County.lookup(fips: "999", state: "AK") }
-        .to raise_error(FIPS::NotFoundError, /Could not identify county with fips/)
+        .to raise_error(FIPS::NotFoundError, /Could not identify county with fips: 02999/)
     end
 
     it "raises when no county matches state FIPS and county name" do
@@ -64,7 +64,7 @@ RSpec.describe FIPS::County do
 
     it "raises a not-found error for an unknown state FIPS prefix" do
       expect { FIPS::County.lookup(fips: "99000") }
-        .to raise_error(FIPS::NotFoundError, /No state found with fips 99/)
+        .to raise_error(FIPS::NotFoundError, /Could not identify county with fips: 99/)
     end
 
     it "rejects a non-string county name" do

@@ -67,7 +67,7 @@ RSpec.describe FIPS::Subdivision do
 
     it "raises when no subdivision matches county FIPS, state, and subdivision name" do
       expect { FIPS::Subdivision.lookup(fips: "999", state: "AK", subdivision: "Bristol Bay census subarea") }
-        .to raise_error(FIPS::NotFoundError, /No subdivision found matching county fips/)
+        .to raise_error(FIPS::NotFoundError, /No subdivision found matching fips/)
     end
 
     it "raises when no subdivision matches state FIPS, county name, and subdivision name" do
