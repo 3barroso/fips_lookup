@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     fips_lookup (0.3.0)
-      csv (~> 3.0)
+      sqlite3 (~> 2.0)
       zeitwerk (~> 2.8)
 
 GEM
@@ -74,6 +74,7 @@ GEM
     rubocop-ast (1.31.2)
       parser (>= 3.3.0.4)
     ruby-progressbar (1.13.0)
+    sqlite3 (2.9.6-arm64-darwin)
     tsort (0.2.0)
     unicode-display_width (2.5.0)
     zeitwerk (2.8.3)
@@ -85,6 +86,7 @@ PLATFORMS
 
 DEPENDENCIES
   benchmark (~> 0.2)
+  csv (~> 3.0)
   fips_lookup!
   irb
   ostruct

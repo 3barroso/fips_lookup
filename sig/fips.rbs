@@ -28,30 +28,33 @@ module FIPS
   }
 
   type lookup_record = state_record | county_record | subdivision_record
+  type database_row = Hash[String, untyped]
 
   class NotFoundError < StandardError
+  end
+
+  module Database
+    DB_PATH: String
+
+    def self.all: (String sql, ?Array[String] bind_vars) -> Array[database_row]
+    def self.first: (String sql, ?Array[String] bind_vars) -> database_row?
   end
 
   def self.lookup: (?fips: String?, ?state: String?, ?county: String?, ?subdivision: String?) -> lookup_record
 
   class State
-    ABBR_CODES: Hash[String, String]
-
     def self.lookup: (?fips: String?, ?state: String?) -> state_record
     def self.state_abbr: (String code) -> String
     def self.all: () -> Array[state_record]
-    def self.file: () -> String
   end
 
   class County
     def self.lookup: (?fips: String?, ?state: String?, ?county: String?) -> county_record
-    def self.file: (String state_abbr) -> String?
     def self.all: (state: String state) -> Array[county_record]
   end
 
   class Subdivision
     def self.lookup: (?fips: String?, ?state: String?, ?county: String?, ?subdivision: String?) -> subdivision_record
-    def self.file: (String state_abbr) -> String?
     def self.all: (state: String state, ?county: String?) -> Array[subdivision_record]
   end
 end

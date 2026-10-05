@@ -64,7 +64,7 @@ RSpec.describe FIPS::County do
 
     it "raises a not-found error for an unknown state FIPS prefix" do
       expect { FIPS::County.lookup(fips: "99000") }
-        .to raise_error(FIPS::NotFoundError, /No state found with code 99/)
+        .to raise_error(FIPS::NotFoundError, /No state found with fips 99/)
     end
 
     it "rejects a non-string county name" do
@@ -75,12 +75,6 @@ RSpec.describe FIPS::County do
     it "rejects malformed FIPS input" do
       expect { FIPS::County.lookup(fips: "12A45") }
         .to raise_error(ArgumentError, /FIPS input must be/)
-    end
-  end
-
-  describe ".file" do
-    it "returns the path to the county csv of the given state" do
-      expect(FIPS::County.file("MI")).to include("lib/data/county/MI.csv")
     end
   end
 

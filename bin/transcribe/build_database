@@ -1,0 +1,68 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "csv"
+require "fileutils"
+require "pathname"
+require "sqlite3"
+require "tempfile"
+
+root = Pathname.new(__dir__).join("../..").expand_path
+schema_path = root.join("db/schema.sql")
+state_path = root.join("source_data/state.csv")
+county_source = root.join("source_data/national_county2020.txt")
+subdivision_source = root.join("source_data/national_cousub2020.txt")
+output_path = Pathname.new(ARGV.fetch(0, root.join("lib/data/fips.sqlite3").to_s)).expand_path
+
+sources = [schema_path, state_path, county_source, subdivision_source]
+missing_sources = sources.reject(&:file?)
+abort "Missing source files: #{missing_sources.join(", ")}" unless missing_sources.empty?
+
+text_fixes = {
+  "Ã³" => "ó",
+  "Ã±" => "ñ",
+  "Ã­" => "í",
+  "Ã¡" => "á",
+  "Ã¼" => "ü",
+  "Ã©" => "é",
+  "Ãº" => "ú",
+  "Ã¥" => "å"
+}
+text_fix_pattern = Regexp.union(text_fixes.keys)
+
+FileUtils.mkdir_p(output_path.dirname)
+Tempfile.create(["fips-lookup-", ".sqlite3"], output_path.dirname.to_s) do |tempfile|
+  database = SQLite3::Database.new(tempfile.path)
+  database.execute_batch(schema_path.read)
+
+  database.transaction do
+    CSV.foreach(state_path, headers: false) do |row|
+      database.execute(
+        "INSERT INTO states (state_fips, state_abbr, name, name_key, ansi) VALUES (?, ?, ?, ?, ?)",
+        [row[0], row[1], row[2], row[2].upcase, row[3]]
+      )
+    end
+
+    CSV.foreach(county_source, col_sep: "|", headers: false) do |row|
+      name = row[4].gsub(text_fix_pattern, text_fixes)
+      database.execute(
+        "INSERT INTO counties (state_fips, county_fips, full_fips, name, name_key, gnis, class_code, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        [row[1], row[2], row[1] + row[2], name, name.upcase, row[3], row[5], row[6]]
+      )
+    end
+
+    CSV.foreach(subdivision_source, col_sep: "|", headers: false) do |row|
+      name = row[6].gsub(text_fix_pattern, text_fixes)
+      database.execute(
+        "INSERT INTO subdivisions (full_fips, state_fips, county_fips, subdivision_fips, name, name_key, gnis, class_code, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        [row[1] + row[2] + row[4], row[1], row[2], row[4], name, name.upcase, row[5], row[7], row[8]]
+      )
+    end
+  end
+
+  database.close
+  File.rename(tempfile.path, output_path)
+  File.chmod(0o644, output_path)
+end
+
+puts "Created SQLite lookup database at #{output_path}"

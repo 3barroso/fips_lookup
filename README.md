@@ -1,6 +1,6 @@
 # FIPS Lookup
 
-`fips_lookup` provides lookups for U.S. states, counties, and county subdivisions using Census FIPS identifiers and names. Results are hashes containing the fields for the requested geography.
+`fips_lookup` provides lookups for U.S. states, counties, and county subdivisions using Census FIPS identifiers and names. Results are hashes containing the fields for the requested geography. Lookup data is stored in a bundled SQLite database and queried read-only at runtime.
 
 ## Installation
 
@@ -98,17 +98,19 @@ FIPS::Subdivision.all(state: "AK", county: "Bristol Bay Borough")
 
 County and subdivision name matching is case-insensitive. State identifiers accept abbreviations, names, FIPS codes, and ANSI codes.
 
-### Data files
+### Source data
 
-The file helpers return paths to the bundled CSV data when direct access is needed:
+The raw and intermediate CSV datasets are retained under `source_data/` for rebuilding and auditing. They are development inputs, are not used at runtime, and are not included in the published gem. Runtime lookups and collection methods use the bundled SQLite database.
 
-```ruby
-FIPS::State.file
-FIPS::County.file("AK")
-FIPS::Subdivision.file("AK")
+### Database build
+
+The checked-in schema is in `db/schema.sql`. The bundled database is built from the 2020 Census county and county-subdivision source files. To rebuild it from the source text files and state data, run:
+
+```sh
+bundle exec ruby bin/transcribe/build_database
 ```
 
-For normal listing and lookup workflows, prefer the `all` and `lookup` methods, which return formatted records without requiring callers to parse CSV rows.
+The builder reads `source_data/state.csv`, `source_data/national_county2020.txt`, and `source_data/national_cousub2020.txt`, then writes `lib/data/fips.sqlite3`. The county and subdivision CSV snapshots under `source_data/county/` and `source_data/subdivision/` are retained for reference but are not used by the builder. An alternate output path can be supplied as the first argument. When updating the Census data vintage, replace the source files and rebuild the database. Only the generated SQLite file is packaged; source data is needed only when rebuilding or auditing it.
 
 ### Errors
 

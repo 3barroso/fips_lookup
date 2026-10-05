@@ -3,19 +3,6 @@
 require "spec_helper"
 
 RSpec.describe FIPS::State do
-  describe "ABBR_CODES" do
-    it "is a hash with the same number of key value pairs as rows in the state.csv file" do
-      expect(FIPS::State::ABBR_CODES.length).to eq(`wc -l #{state_file_path}`.to_i)
-    end
-  end
-
-  let(:state_file_path) { Pathname.getwd.join("lib/data/state.csv") }
-  describe ".file" do
-    it "returns the path to state.csv file as a string" do
-      expect(FIPS::State.file).to include(state_file_path.to_s)
-    end
-  end
-
   describe ".lookup" do
     it "returns the state from its two-digit FIPS code" do
       expect(FIPS::State.lookup(fips: "02")[:name]).to eq("Alaska")

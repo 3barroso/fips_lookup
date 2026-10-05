@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require "csv"
 require "zeitwerk"
+require "fips/database"
 
 module FIPS
   loader = Zeitwerk::Loader.for_gem
