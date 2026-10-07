@@ -11,7 +11,7 @@ module FIPS
         unless fips.nil?
           raise ArgumentError, "FIPS input must be a 2 digit string" unless fips.is_a?(String) && fips.match?(/\A\d{2}\z/)
 
-          return by_code(fips)
+          return by_fips(fips)
         end
 
         unless state.nil?
@@ -41,7 +41,7 @@ module FIPS
 
       private
 
-      def by_code(fips)
+      def by_fips(fips)
         state = FIPS::Database.first(
           "SELECT state_fips AS fips, state_abbr AS abbr, name, ansi FROM states WHERE state_fips = ?",
           [fips]
@@ -55,7 +55,7 @@ module FIPS
         state_upcase = state.upcase
         state_row = FIPS::Database.first(
           "SELECT state_fips AS fips, state_abbr AS abbr, name, ansi FROM states WHERE state_abbr = ? OR name_key = ? OR ansi = ? OR state_fips = ? LIMIT 1",
-          [state_upcase, state_upcase, state_upcase, state_upcase]
+          [state_upcase, state_upcase, state, state]
         )
         return formatted_state(state_row) unless state_row.nil?
 
