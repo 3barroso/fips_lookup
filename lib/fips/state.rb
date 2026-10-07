@@ -23,16 +23,6 @@ module FIPS
         raise ArgumentError, "Could not identify state with parameters provided: #{params.inspect}"
       end
 
-      def state_abbr(code)
-        state = FIPS::Database.first(
-          "SELECT state_abbr FROM states WHERE state_fips = ?",
-          [code]
-        )
-        raise FIPS::NotFoundError, "No state found with code #{code}" if state.nil?
-
-        state["state_abbr"]
-      end
-
       def all
         FIPS::Database.all(
           "SELECT state_fips AS fips, state_abbr AS abbr, name, ansi FROM states ORDER BY state_fips"

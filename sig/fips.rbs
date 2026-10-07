@@ -44,7 +44,6 @@ module FIPS
 
   class State
     def self.lookup: (?fips: String?, ?state: String?) -> state_record
-    def self.state_abbr: (String code) -> String
     def self.all: () -> Array[state_record]
   end
 
