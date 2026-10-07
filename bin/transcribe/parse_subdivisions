@@ -50,7 +50,7 @@ previous_state_code = "AL"
 current_state_data = []
 
 puts "... Parsing input file and creating CSVs..."
-File.open(file_path).each do |line|
+File.foreach(file_path) do |line|
   row = line.split("|")
 
   if previous_state_code == row[0]
