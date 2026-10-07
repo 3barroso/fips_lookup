@@ -7,6 +7,8 @@ require "pathname"
 require "sqlite3"
 require "tempfile"
 
+# run with `bin/db/build [output_path]` to create the SQLite lookup database
+
 root = Pathname.new(__dir__).join("../..").expand_path
 schema_path = root.join("db/schema.sql")
 state_path = root.join("source_data/state.csv")

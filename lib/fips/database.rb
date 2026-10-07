@@ -29,7 +29,7 @@ module FIPS
       def connection
         @connection ||= begin
           unless File.file?(DB_PATH)
-            raise LoadError, "FIPS SQLite database is missing at #{DB_PATH}; run bin/transcribe/build_database"
+            raise LoadError, "FIPS SQLite database is missing at #{DB_PATH}; run bin/db/build"
           end
 
           database = SQLite3::Database.new(DB_PATH, readonly: true)

@@ -107,7 +107,7 @@ The raw and intermediate CSV datasets are retained under `source_data/` for rebu
 The checked-in schema is in `db/schema.sql`. The bundled database is built from the 2020 Census county and county-subdivision source files. To rebuild it from the source text files and state data, run:
 
 ```sh
-bundle exec ruby bin/transcribe/build_database
+bundle exec ruby bin/db/build
 ```
 
 The builder reads `source_data/state.csv`, `source_data/national_county2020.txt`, and `source_data/national_cousub2020.txt`, then writes `lib/data/fips.sqlite3`. The county and subdivision CSV snapshots under `source_data/county/` and `source_data/subdivision/` are retained for reference but are not used by the builder. An alternate output path can be supplied as the first argument. When updating the Census data vintage, replace the source files and rebuild the database. Only the generated SQLite file is packaged; source data is needed only when rebuilding or auditing it.
