@@ -92,7 +92,12 @@ RSpec.describe FIPS::Subdivision do
 
     it "raises a not-found error for an unknown state FIPS prefix" do
       expect { FIPS::Subdivision.lookup(fips: "9900000000") }
-        .to raise_error(FIPS::NotFoundError, /No state found with fips 99/)
+        .to raise_error(FIPS::NotFoundError, /No subdivision found matching fips: 99/)
+    end
+
+    it "raises a not-found error for an unknown state param" do
+      expect { FIPS::Subdivision.lookup(state: "Canada", fips: "012", subdivision: "Bristol Bay census subarea") }
+        .to raise_error(FIPS::NotFoundError, /No state found matching: Canada/)
     end
 
     it "rejects a non-string subdivision name" do

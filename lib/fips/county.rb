@@ -54,7 +54,7 @@ module FIPS
           return nil if state.nil?
 
           state_fips = FIPS::State.lookup(state: state)[:fips]
-          return by_fips("#{state_fips}#{fips}")
+          return by_fips(state_fips + fips)
         when 5
           return by_fips(fips)
         end

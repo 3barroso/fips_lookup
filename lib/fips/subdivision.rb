@@ -24,7 +24,7 @@ module FIPS
 
         if %i[state county subdivision].all? { |key| !params[key].nil? }
           state_fips = FIPS::State.lookup(state: state)[:fips]
-          return by_name(state_fips, county, subdivision)
+          return by_name(state_fips, county, subdivision) unless state_fips.nil?
         end
 
         raise ArgumentError, "cannot determine subdivision: no valid parameters provided"
@@ -85,7 +85,6 @@ module FIPS
       end
 
       def by_fips_and_sub_name(fips, subdivision)
-        FIPS::State.lookup(fips: fips[0, 2])
         subdivision_row = by_county_fips_and_sub_name(fips[0, 2], fips[2, 3], subdivision)
         return subdivision_row unless subdivision_row.nil?
 
@@ -93,7 +92,6 @@ module FIPS
       end
 
       def by_fips(fips)
-        FIPS::State.lookup(fips: fips[0, 2])
         subdivision_row = select_subdivision("subdivisions.full_fips = ?", [fips])
         return subdivision_row unless subdivision_row.nil?
 
@@ -101,10 +99,16 @@ module FIPS
       end
 
       def by_name(state_fips, county, subdivision)
-        subdivision_row = select_subdivision(
-          "subdivisions.state_fips = ? AND counties.name_key = ? AND subdivisions.name_key = ?",
+        row = FIPS::Database.first(
+          "SELECT states.state_abbr AS state_abbr, subdivisions.full_fips AS fips, counties.name AS county_name, " \
+          "subdivisions.gnis AS gnis, subdivisions.name AS name, subdivisions.class_code AS class_code, subdivisions.status AS status " \
+          "FROM counties INDEXED BY counties_state_name_idx " \
+          "JOIN subdivisions INDEXED BY subdivisions_county_name_idx USING (state_fips, county_fips) " \
+          "JOIN states USING (state_fips) " \
+          "WHERE counties.state_fips = ? AND counties.name_key = ? AND subdivisions.name_key = ? LIMIT 1",
           [state_fips, county.upcase, subdivision.upcase]
         )
+        subdivision_row = formatted_subdivision(row)
         return subdivision_row unless subdivision_row.nil?
 
         raise FIPS::NotFoundError, "No subdivision found matching: #{subdivision} in #{county}"
