@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require "sqlite3"
-require "thread"
 
 module FIPS
   module Database
@@ -28,9 +27,7 @@ module FIPS
 
       def connection
         @connection ||= begin
-          unless File.file?(DB_PATH)
-            raise LoadError, "FIPS SQLite database is missing at #{DB_PATH}; run bin/db/build"
-          end
+          raise LoadError, "FIPS SQLite database is missing at #{DB_PATH}; run bin/db/build" unless File.file?(DB_PATH)
 
           database = SQLite3::Database.new(DB_PATH, readonly: true)
           database.results_as_hash = true

@@ -31,12 +31,8 @@ module FIPS
       end
 
       def all(state:, county: nil)
-        unless state.is_a?(String) && !state.strip.empty?
-          raise ArgumentError, "State input must be a non-empty string"
-        end
-        unless county.nil? || (county.is_a?(String) && !county.strip.empty?)
-          raise ArgumentError, "County input must be a non-empty string"
-        end
+        raise ArgumentError, "State input must be a non-empty string" unless state.is_a?(String) && !state.strip.empty?
+        raise ArgumentError, "County input must be a non-empty string" unless county.nil? || (county.is_a?(String) && !county.strip.empty?)
 
         state_fips = FIPS::State.lookup(state: state)[:fips]
         where_clause = "subdivisions.state_fips = ?"

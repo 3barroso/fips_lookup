@@ -27,9 +27,7 @@ module FIPS
       end
 
       def all(state:)
-        unless state.is_a?(String) && !state.strip.empty?
-          raise ArgumentError, "State input must be a non-empty string"
-        end
+        raise ArgumentError, "State input must be a non-empty string" unless state.is_a?(String) && !state.strip.empty?
 
         state_fips = FIPS::State.lookup(state: state)[:fips]
         rows = FIPS::Database.all(

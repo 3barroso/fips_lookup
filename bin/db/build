@@ -55,7 +55,7 @@ Tempfile.create(["fips-lookup-", ".sqlite3"], output_path.dirname.to_s) do |temp
 
     CSV.foreach(subdivision_source, col_sep: "|", headers: false) do |row|
       unless row[4] == "00000"
-      name = row[6].gsub(text_fix_pattern, text_fixes)
+        name = row[6].gsub(text_fix_pattern, text_fixes)
         database.execute(
           "INSERT INTO subdivisions (full_fips, state_fips, county_fips, subdivision_fips, name, name_key, gnis, class_code, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
           [row[1] + row[2] + row[4], row[1], row[2], row[4], name, name.upcase, row[5], row[7], row[8]]

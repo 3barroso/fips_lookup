@@ -37,8 +37,8 @@ Gem::Specification.new do |spec|
   spec.files += Dir["db/*.sql"]
   spec.files.uniq!
 
-  spec.add_runtime_dependency "sqlite3", "~> 2.0"
-  spec.add_runtime_dependency "zeitwerk", "~> 2.8"
+  spec.add_dependency "sqlite3", "~> 2.0"
+  spec.add_dependency "zeitwerk", "~> 2.8"
 
   # Core tools for playing with the gem locally
   spec.add_development_dependency "csv", "~> 3.0"
