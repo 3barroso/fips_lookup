@@ -15,7 +15,6 @@ PR,72,001,Adjuntas Municipio,85584,02416094,Vegas Abajo barrio,Z1,N
 PR,72,001,Adjuntas Municipio,85627,02416095,Vegas Arriba barrio,Z1,N
 PR,72,001,Adjuntas Municipio,87949,02416110,Yahuecas barrio,Z1,N
 PR,72,001,Adjuntas Municipio,88250,02416113,Yayales barrio,Z1,N
-PR,72,003,Aguada Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,003,Aguada Municipio,00659,02415089,Aguada barrio-pueblo,Z1,N
 PR,72,003,Aguada Municipio,04185,02415134,Asomante barrio,Z1,N
 PR,72,003,Aguada Municipio,04400,02415136,Atalaya barrio,Z1,N
@@ -34,7 +33,6 @@ PR,72,003,Aguada Municipio,51098,02415644,Marías barrio,Z1,N
 PR,72,003,Aguada Municipio,56215,02415719,Naranjo barrio,Z1,N
 PR,72,003,Aguada Municipio,61719,02415780,Piedras Blancas barrio,Z1,N
 PR,72,003,Aguada Municipio,70921,02415929,Río Grande barrio,Z1,N
-PR,72,005,Aguadilla Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,005,Aguadilla Municipio,00530,02415087,Aguacate barrio,Z1,N
 PR,72,005,Aguadilla Municipio,00788,02415090,Aguadilla barrio-pueblo,Z1,N
 PR,72,005,Aguadilla Municipio,03626,02415129,Arenales barrio,Z1,N
@@ -70,7 +68,6 @@ PR,72,009,Aibonito Municipio,45895,02415590,Llanos barrio,Z1,N
 PR,72,009,Aibonito Municipio,60042,02415759,Pasto barrio,Z1,N
 PR,72,009,Aibonito Municipio,62536,02415789,Plata barrio,Z1,N
 PR,72,009,Aibonito Municipio,71867,02415944,Robles barrio,Z1,N
-PR,72,011,Añasco Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,011,Añasco Municipio,02637,02415115,Añasco barrio-pueblo,Z1,N
 PR,72,011,Añasco Municipio,02723,02415113,Añasco Abajo barrio,Z1,N
 PR,72,011,Añasco Municipio,02766,02415114,Añasco Arriba barrio,Z1,N
@@ -94,7 +91,6 @@ PR,72,011,Añasco Municipio,62665,02415792,Playa barrio,Z1,N
 PR,72,011,Añasco Municipio,67567,02415883,Quebrada Larga barrio,Z1,N
 PR,72,011,Añasco Municipio,70147,02415913,Río Arriba barrio,Z1,N
 PR,72,011,Añasco Municipio,70534,02415926,Río Cañas barrio,Z1,N
-PR,72,013,Arecibo Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,013,Arecibo Municipio,03411,02415124,Arecibo barrio-pueblo,Z1,N
 PR,72,013,Arecibo Municipio,03540,02415126,Arenalejos barrio,Z1,N
 PR,72,013,Arecibo Municipio,04056,02415133,Arrozal barrio,Z1,N
@@ -114,14 +110,12 @@ PR,72,013,Arecibo Municipio,70190,02415914,Río Arriba barrio,Z1,N
 PR,72,013,Arecibo Municipio,73759,02415966,Sabana Hoyos barrio,Z1,N
 PR,72,013,Arecibo Municipio,78704,02416019,Santana barrio,Z1,N
 PR,72,013,Arecibo Municipio,81757,02416052,Tanamá barrio,Z1,N
-PR,72,015,Arroyo Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,015,Arroyo Municipio,02809,02415116,Ancones barrio,Z1,N
 PR,72,015,Arroyo Municipio,03970,02415132,Arroyo barrio-pueblo,Z1,N
 PR,72,015,Arroyo Municipio,31748,02415454,Guásimas barrio,Z1,N
 PR,72,015,Arroyo Municipio,58408,02415746,Palmas barrio,Z1,N
 PR,72,015,Arroyo Municipio,62192,02415786,Pitahaya barrio,Z1,N
 PR,72,015,Arroyo Municipio,88164,02416112,Yaurel barrio,Z1,N
-PR,72,017,Barceloneta Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,017,Barceloneta Municipio,05389,02415151,Barceloneta barrio-pueblo,Z1,N
 PR,72,017,Barceloneta Municipio,29039,02415418,Florida Afuera barrio,Z1,N
 PR,72,017,Barceloneta Municipio,30415,02415432,Garrochales barrio,Z1,N
@@ -146,7 +140,6 @@ PR,72,021,Bayamón Municipio,53162,02415677,Minillas barrio,Z1,N
 PR,72,021,Bayamón Municipio,56774,02415727,Nuevo barrio,Z1,N
 PR,72,021,Bayamón Municipio,57763,02415738,Pájaros barrio,Z1,N
 PR,72,021,Bayamón Municipio,78790,02416014,Santa Olaya barrio,Z1,N
-PR,72,023,Cabo Rojo Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,023,Cabo Rojo Municipio,04787,02415145,Bajura barrio,Z1,N
 PR,72,023,Cabo Rojo Municipio,08012,02415179,Boquerón barrio,Z1,N
 PR,72,023,Cabo Rojo Municipio,09818,02415198,Cabo Rojo barrio-pueblo,Z1,N
@@ -167,7 +160,6 @@ PR,72,025,Caguas Municipio,75651,02415987,San Antonio barrio,Z1,N
 PR,72,025,Caguas Municipio,77371,02416007,San Salvador barrio,Z1,N
 PR,72,025,Caguas Municipio,82918,02416067,Tomás de Castro barrio,Z1,N
 PR,72,025,Caguas Municipio,83950,02416079,Turabo barrio,Z1,N
-PR,72,027,Camuy Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,027,Camuy Municipio,00100,02415082,Abra Honda barrio,Z1,N
 PR,72,027,Camuy Municipio,11968,02415230,Camuy barrio-pueblo,Z1,N
 PR,72,027,Camuy Municipio,12011,02415229,Camuy Arriba barrio,Z1,N
@@ -187,7 +179,6 @@ PR,72,029,Canóvanas Municipio,22202,02415027,Cubuy barrio,Z1,N
 PR,72,029,Canóvanas Municipio,33812,02415486,Hato Puerco barrio,Z1,N
 PR,72,029,Canóvanas Municipio,46669,02415597,Lomas barrio,Z1,N
 PR,72,029,Canóvanas Municipio,83047,02416070,Torrecilla Alta barrio,Z1,N
-PR,72,031,Carolina Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,031,Carolina Municipio,05819,02415155,Barrazas barrio,Z1,N
 PR,72,031,Carolina Municipio,09150,02415508,Buena Vista barrio,Z1,N
 PR,72,031,Carolina Municipio,09947,02415201,Cacao barrio,Z1,N
@@ -225,7 +216,6 @@ PR,72,035,Cayey Municipio,69459,02415903,Rincón barrio,Z1,N
 PR,72,035,Cayey Municipio,80854,02416040,Sumido barrio,Z1,N
 PR,72,035,Cayey Municipio,82746,02416065,Toíta barrio,Z1,N
 PR,72,035,Cayey Municipio,85498,02416096,Vegas barrio,Z1,N
-PR,72,037,Ceiba Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,037,Ceiba Municipio,15967,02414953,Ceiba barrio-pueblo,Z1,N
 PR,72,037,Ceiba Municipio,17644,02414971,Chupacallos barrio,Z1,N
 PR,72,037,Ceiba Municipio,23019,02415040,Daguao barrio,Z1,N
@@ -296,7 +286,6 @@ PR,72,049,Culebra Municipio,29426,02415421,Fraile barrio,Z1,N
 PR,72,049,Culebra Municipio,63396,02415797,Playa Sardinas I barrio,Z1,N
 PR,72,049,Culebra Municipio,63439,02415798,Playa Sardinas II barrio,Z1,N
 PR,72,049,Culebra Municipio,76382,02415996,San Isidro barrio,Z1,N
-PR,72,051,Dorado Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,051,Dorado Municipio,24051,02415053,Dorado barrio-pueblo,Z1,N
 PR,72,051,Dorado Municipio,27448,02415406,Espinosa barrio,Z1,N
 PR,72,051,Dorado Municipio,34758,02415498,Higuillar barrio,Z1,N
@@ -313,7 +302,6 @@ PR,72,053,Fajardo Municipio,67868,02415887,Quebrada Vueltas barrio,Z1,N
 PR,72,053,Fajardo Municipio,70233,02415915,Río Arriba barrio,Z1,N
 PR,72,053,Fajardo Municipio,79779,02416027,Sardinera barrio,Z1,N
 PR,72,054,Florida Municipio,28996,02415417,Florida Adentro barrio,Z1,N
-PR,72,055,Guánica Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,055,Guánica Municipio,03454,02415125,Arena barrio,Z1,N
 PR,72,055,Guánica Municipio,12785,02415244,Caño barrio,Z1,N
 PR,72,055,Guánica Municipio,14032,02415262,Carenero barrio,Z1,N
@@ -322,7 +310,6 @@ PR,72,055,Guánica Municipio,26760,02415398,Ensenada barrio,Z1,N
 PR,72,055,Guánica Municipio,31232,02415446,Guánica barrio-pueblo,Z1,N
 PR,72,055,Guánica Municipio,54022,02415692,Montalva barrio,Z1,N
 PR,72,055,Guánica Municipio,81112,02416042,Susúa Baja barrio,Z1,N
-PR,72,057,Guayama Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,057,Guayama Municipio,01691,02415100,Algarrobo barrio,Z1,N
 PR,72,057,Guayama Municipio,10549,02415210,Caimital barrio,Z1,N
 PR,72,057,Guayama Municipio,14075,02415263,Carite barrio,Z1,N
@@ -333,7 +320,6 @@ PR,72,057,Guayama Municipio,38714,02415549,Jobos barrio,Z1,N
 PR,72,057,Guayama Municipio,48217,02415606,Machete barrio,Z1,N
 PR,72,057,Guayama Municipio,58494,02415748,Palmas barrio,Z1,N
 PR,72,057,Guayama Municipio,64256,02415808,Pozo Hondo barrio,Z1,N
-PR,72,059,Guayanilla Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,059,Guayanilla Municipio,05905,02415157,Barrero barrio,Z1,N
 PR,72,059,Guayanilla Municipio,07840,02415176,Boca barrio,Z1,N
 PR,72,059,Guayanilla Municipio,15795,02415284,Cedro barrio,Z1,N
@@ -371,7 +357,6 @@ PR,72,063,Gurabo Municipio,51786,02415659,Masa barrio,Z1,N
 PR,72,063,Gurabo Municipio,56473,02415724,Navarro barrio,Z1,N
 PR,72,063,Gurabo Municipio,67524,02415882,Quebrada Infierno barrio,Z1,N
 PR,72,063,Gurabo Municipio,69545,02415905,Rincón barrio,Z1,N
-PR,72,065,Hatillo Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,065,Hatillo Municipio,01347,02415095,Aibonito barrio,Z1,N
 PR,72,065,Hatillo Municipio,07066,02415167,Bayaney barrio,Z1,N
 PR,72,065,Hatillo Municipio,09216,02415190,Buena Vista barrio,Z1,N
@@ -388,7 +373,6 @@ PR,72,067,Hormigueros Municipio,35075,02415505,Hormigueros barrio,Z1,N
 PR,72,067,Hormigueros Municipio,35102,02415506,Hormigueros barrio-pueblo,Z1,N
 PR,72,067,Hormigueros Municipio,37768,02415539,Jaguitas barrio,Z1,N
 PR,72,067,Hormigueros Municipio,45035,02415580,Lavadero barrio,Z1,N
-PR,72,069,Humacao Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,069,Humacao Municipio,03239,02415122,Antón Ruíz barrio,Z1,N
 PR,72,069,Humacao Municipio,09302,02415191,Buena Vista barrio,Z1,N
 PR,72,069,Humacao Municipio,12570,02415240,Candelero Abajo barrio,Z1,N
@@ -402,7 +386,6 @@ PR,72,069,Humacao Municipio,50883,02415642,Mariana barrio,Z1,N
 PR,72,069,Humacao Municipio,66535,02415861,Punta Santiago barrio,Z1,N
 PR,72,069,Humacao Municipio,69975,02415910,Río Abajo barrio,Z1,N
 PR,72,069,Humacao Municipio,81800,02416053,Tejas barrio,Z1,N
-PR,72,071,Isabela Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,071,Isabela Municipio,03669,02415127,Arenales Altos barrio,Z1,N
 PR,72,071,Isabela Municipio,03712,02415128,Arenales Bajos barrio,Z1,N
 PR,72,071,Isabela Municipio,04805,02415146,Bajura barrio,Z1,N
@@ -428,7 +411,6 @@ PR,72,073,Jayuya Municipio,71007,02415930,Río Grande barrio,Z1,N
 PR,72,073,Jayuya Municipio,74748,02415976,Saliente barrio,Z1,N
 PR,72,073,Jayuya Municipio,85670,02416098,Veguitas barrio,Z1,N
 PR,72,073,Jayuya Municipio,88465,02416116,Zamas barrio,Z1,N
-PR,72,075,Juana Díaz Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,075,Juana Díaz Municipio,02551,02415112,Amuelas barrio,Z1,N
 PR,72,075,Juana Díaz Municipio,10979,02415219,Callabo barrio,Z1,N
 PR,72,075,Juana Díaz Municipio,13903,02415258,Capitanejo barrio,Z1,N
@@ -453,7 +435,6 @@ PR,72,077,Juncos Municipio,45723,02415586,Lirios barrio,Z1,N
 PR,72,077,Juncos Municipio,49679,02415627,Mamey barrio,Z1,N
 PR,72,077,Juncos Municipio,84810,02416088,Valenciano Abajo barrio,Z1,N
 PR,72,077,Juncos Municipio,84853,02416089,Valenciano Arriba barrio,Z1,N
-PR,72,079,Lajas Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,079,Lajas Municipio,12398,02415236,Candelaria barrio,Z1,N
 PR,72,079,Lajas Municipio,21041,02415011,Costa barrio,Z1,N
 PR,72,079,Lajas Municipio,40993,02415567,Lajas barrio,Z1,N
@@ -502,21 +483,18 @@ PR,72,085,Las Piedras Municipio,44433,02415579,Las Piedras barrio-pueblo,Z1,N
 PR,72,085,Las Piedras Municipio,54710,02415701,Montones barrio,Z1,N
 PR,72,085,Las Piedras Municipio,66793,02415864,Quebrada Arenas barrio,Z1,N
 PR,72,085,Las Piedras Municipio,81843,02416054,Tejas barrio,Z1,N
-PR,72,087,Loíza Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,087,Loíza Municipio,13043,02415246,Canóvanas barrio,Z1,N
 PR,72,087,Loíza Municipio,46411,02415595,Loíza barrio-pueblo,Z1,N
 PR,72,087,Loíza Municipio,52732,02415671,Medianía Alta barrio,Z1,N
 PR,72,087,Loíza Municipio,52775,02415672,Medianía Baja barrio,Z1,N
 PR,72,087,Loíza Municipio,83090,02416071,Torrecilla Alta barrio,Z1,N
 PR,72,087,Loíza Municipio,83133,02416072,Torrecilla Baja barrio,Z1,N
-PR,72,089,Luquillo Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,089,Luquillo Municipio,39316,02415554,Juan Martín barrio,Z1,N
 PR,72,089,Luquillo Municipio,47830,02415602,Luquillo barrio-pueblo,Z1,N
 PR,72,089,Luquillo Municipio,49980,02415632,Mameyes I barrio,Z1,N
 PR,72,089,Luquillo Municipio,51872,02415661,Mata de Plátano barrio,Z1,N
 PR,72,089,Luquillo Municipio,62364,02415787,Pitahaya barrio,Z1,N
 PR,72,089,Luquillo Municipio,73071,02415959,Sabana barrio,Z1,N
-PR,72,091,Manatí Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,091,Manatí Municipio,04873,02415143,Bajura Adentro barrio,Z1,N
 PR,72,091,Manatí Municipio,04916,02415144,Bajura Afuera barrio,Z1,N
 PR,72,091,Manatí Municipio,21342,02415015,Coto Norte barrio,Z1,N
@@ -533,7 +511,6 @@ PR,72,093,Maricao Municipio,36156,02415516,Indiera Fría barrio,Z1,N
 PR,72,093,Maricao Municipio,51313,02415649,Maricao barrio-pueblo,Z1,N
 PR,72,093,Maricao Municipio,51399,02415647,Maricao Afuera barrio,Z1,N
 PR,72,093,Maricao Municipio,54753,02415702,Montoso barrio,Z1,N
-PR,72,095,Maunabo Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,095,Maunabo Municipio,11108,02415222,Calzada barrio,Z1,N
 PR,72,095,Maunabo Municipio,26545,02415394,Emajagua barrio,Z1,N
 PR,72,095,Maunabo Municipio,45766,02415587,Lizas barrio,Z1,N
@@ -544,7 +521,6 @@ PR,72,095,Maunabo Municipio,59182,02415751,Palo Seco barrio,Z1,N
 PR,72,095,Maunabo Municipio,66836,02415865,Quebrada Arenas barrio,Z1,N
 PR,72,095,Maunabo Municipio,81370,02416046,Talante barrio,Z1,N
 PR,72,095,Maunabo Municipio,83798,02487485,Tumbao barrio,Z1,N
-PR,72,097,Mayagüez Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,097,Mayagüez Municipio,01820,02415103,Algarrobos barrio,Z1,N
 PR,72,097,Mayagüez Municipio,06464,02415161,Bateyes barrio,Z1,N
 PR,72,097,Mayagüez Municipio,31103,02415445,Guanajibo barrio,Z1,N
@@ -592,7 +568,6 @@ PR,72,101,Morovis Municipio,76984,02416002,San Lorenzo barrio,Z1,N
 PR,72,101,Morovis Municipio,83219,02416073,Torrecillas barrio,Z1,N
 PR,72,101,Morovis Municipio,83993,02416081,Unibón barrio,Z1,N
 PR,72,101,Morovis Municipio,84638,02416086,Vaga barrio,Z1,N
-PR,72,103,Naguabo Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,103,Naguabo Municipio,23105,02415041,Daguao barrio,Z1,N
 PR,72,103,Naguabo Municipio,24438,02415059,Duque barrio,Z1,N
 PR,72,103,Naguabo Municipio,35489,02415509,Húcares barrio,Z1,N
@@ -628,7 +603,6 @@ PR,72,107,Orocovis Municipio,57376,02415734,Orocovis barrio-pueblo,Z1,N
 PR,72,107,Orocovis Municipio,60816,02415769,Pellejas barrio,Z1,N
 PR,72,107,Orocovis Municipio,73114,02415960,Sabana barrio,Z1,N
 PR,72,107,Orocovis Municipio,75178,02415983,Saltos barrio,Z1,N
-PR,72,109,Patillas Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,109,Patillas Municipio,03282,02415123,Apeadero barrio,Z1,N
 PR,72,109,Patillas Municipio,04744,02415142,Bajo barrio,Z1,N
 PR,72,109,Patillas Municipio,10119,02415199,Cacao Alto barrio,Z1,N
@@ -645,7 +619,6 @@ PR,72,109,Patillas Municipio,60515,02415764,Patillas barrio-pueblo,Z1,N
 PR,72,109,Patillas Municipio,63740,02415800,Pollos barrio,Z1,N
 PR,72,109,Patillas Municipio,67094,02415871,Quebrada Arriba barrio,Z1,N
 PR,72,109,Patillas Municipio,71695,02415943,Ríos barrio,Z1,N
-PR,72,111,Peñuelas Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,111,Peñuelas Municipio,05862,02415156,Barreal barrio,Z1,N
 PR,72,111,Peñuelas Municipio,21127,02415013,Coto barrio,Z1,N
 PR,72,111,Peñuelas Municipio,22460,02415031,Cuebas barrio,Z1,N
@@ -659,7 +632,6 @@ PR,72,111,Peñuelas Municipio,79607,02416024,Santo Domingo barrio,Z1,N
 PR,72,111,Peñuelas Municipio,81499,02416047,Tallaboa Alta barrio,Z1,N
 PR,72,111,Peñuelas Municipio,81585,02416048,Tallaboa Poniente barrio,Z1,N
 PR,72,111,Peñuelas Municipio,81628,02416049,Tallaboa Saliente barrio,Z1,N
-PR,72,113,Ponce Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,113,Ponce Municipio,03067,02415119,Anón barrio,Z1,N
 PR,72,113,Ponce Municipio,08786,02415185,Bucaná barrio,Z1,N
 PR,72,113,Ponce Municipio,12312,02415234,Canas barrio,Z1,N
@@ -691,7 +663,6 @@ PR,72,113,Ponce Municipio,80080,02416030,Sexto barrio,Z1,N
 PR,72,113,Ponce Municipio,81929,02416056,Tercero barrio,Z1,N
 PR,72,113,Ponce Municipio,82058,02416059,Tibes barrio,Z1,N
 PR,72,113,Ponce Municipio,85068,02416090,Vayas barrio,Z1,N
-PR,72,115,Quebradillas Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,115,Quebradillas Municipio,10076,02415202,Cacao barrio,Z1,N
 PR,72,115,Quebradillas Municipio,17515,02414969,Charcas barrio,Z1,N
 PR,72,115,Quebradillas Municipio,18934,02414992,Cocos barrio,Z1,N
@@ -700,7 +671,6 @@ PR,72,115,Quebradillas Municipio,68083,02415892,Quebradillas barrio-pueblo,Z1,N
 PR,72,115,Quebradillas Municipio,75823,02415988,San Antonio barrio,Z1,N
 PR,72,115,Quebradillas Municipio,76597,02415997,San José barrio,Z1,N
 PR,72,115,Quebradillas Municipio,81972,02416057,Terranova barrio,Z1,N
-PR,72,117,Rincón Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,117,Rincón Municipio,04443,02415137,Atalaya barrio,Z1,N
 PR,72,117,Rincón Municipio,05948,02415158,Barrero barrio,Z1,N
 PR,72,117,Rincón Municipio,11065,02415221,Calvache barrio,Z1,N
@@ -711,7 +681,6 @@ PR,72,117,Rincón Municipio,64686,02415813,Pueblo barrio,Z1,N
 PR,72,117,Rincón Municipio,66449,02415862,Puntas barrio,Z1,N
 PR,72,117,Rincón Municipio,69631,02415907,Rincón barrio-pueblo,Z1,N
 PR,72,117,Rincón Municipio,71093,02415932,Río Grande barrio,Z1,N
-PR,72,119,Río Grande Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,119,Río Grande Municipio,18289,02414981,Ciénaga Alta barrio,Z1,N
 PR,72,119,Río Grande Municipio,18332,02414982,Ciénaga Baja barrio,Z1,N
 PR,72,119,Río Grande Municipio,33081,02415473,Guzmán Abajo barrio,Z1,N
@@ -729,7 +698,6 @@ PR,72,121,Sabana Grande Municipio,78747,02416020,Santana barrio,Z1,N
 PR,72,121,Sabana Grande Municipio,81026,02416044,Susúa barrio,Z1,N
 PR,72,121,Sabana Grande Municipio,81327,02416045,Tabonuco barrio,Z1,N
 PR,72,121,Sabana Grande Municipio,83004,02416069,Torre barrio,Z1,N
-PR,72,123,Salinas Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,123,Salinas Municipio,01175,02415093,Aguirre barrio,Z1,N
 PR,72,123,Salinas Municipio,41681,02415570,Lapa barrio,Z1,N
 PR,72,123,Salinas Municipio,58537,02415749,Palmas barrio,Z1,N
@@ -755,7 +723,6 @@ PR,72,125,San Germán Municipio,73415,02415962,Sabana Eneas barrio,Z1,N
 PR,72,125,San Germán Municipio,73673,02415963,Sabana Grande Abajo barrio,Z1,N
 PR,72,125,San Germán Municipio,76210,02415994,San Germán barrio-pueblo,Z1,N
 PR,72,125,San Germán Municipio,83821,02416078,Tuna barrio,Z1,N
-PR,72,127,San Juan Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,127,San Juan Municipio,10721,02415212,Caimito barrio,Z1,N
 PR,72,127,San Juan Municipio,22847,02415037,Cupey barrio,Z1,N
 PR,72,127,San Juan Municipio,24868,02415061,El Cinco barrio,Z1,N
@@ -809,7 +776,6 @@ PR,72,131,San Sebastián Municipio,71910,02415945,Robles barrio,Z1,N
 PR,72,131,San Sebastián Municipio,75049,02415982,Salto barrio,Z1,N
 PR,72,131,San Sebastián Municipio,77543,02416008,San Sebastián barrio-pueblo,Z1,N
 PR,72,131,San Sebastián Municipio,80424,02416034,Sonador barrio,Z1,N
-PR,72,133,Santa Isabel Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,133,Santa Isabel Municipio,07926,02415177,Boca Velázquez barrio,Z1,N
 PR,72,133,Santa Isabel Municipio,23492,02415047,Descalabrado barrio,Z1,N
 PR,72,133,Santa Isabel Municipio,28179,02415411,Felicia 1 barrio,Z1,N
@@ -827,7 +793,6 @@ PR,72,135,Toa Alta Municipio,66965,02415868,Quebrada Arenas barrio,Z1,N
 PR,72,135,Toa Alta Municipio,67180,02415875,Quebrada Cruz barrio,Z1,N
 PR,72,135,Toa Alta Municipio,71523,02415938,Río Lajas barrio,Z1,N
 PR,72,135,Toa Alta Municipio,82531,02416063,Toa Alta barrio-pueblo,Z1,N
-PR,72,137,Toa Baja Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,137,Toa Baja Municipio,12484,02415237,Candelaria barrio,Z1,N
 PR,72,137,Toa Baja Municipio,52646,02415670,Media Luna barrio,Z1,N
 PR,72,137,Toa Baja Municipio,59268,02415752,Palo Seco barrio,Z1,N
@@ -865,7 +830,6 @@ PR,72,141,Utuado Municipio,82015,02416058,Tetuán barrio,Z1,N
 PR,72,141,Utuado Municipio,84552,02416084,Utuado barrio-pueblo,Z1,N
 PR,72,141,Utuado Municipio,87562,02416106,Viví Abajo barrio,Z1,N
 PR,72,141,Utuado Municipio,87605,02416107,Viví Arriba barrio,Z1,N
-PR,72,143,Vega Alta Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,143,Vega Alta Municipio,04830,02415147,Bajura barrio,Z1,N
 PR,72,143,Vega Alta Municipio,12527,02415238,Candelaria barrio,Z1,N
 PR,72,143,Vega Alta Municipio,18418,02414985,Cienegueta barrio,Z1,N
@@ -874,7 +838,6 @@ PR,72,143,Vega Alta Municipio,51356,02415648,Maricao barrio,Z1,N
 PR,72,143,Vega Alta Municipio,52388,02415667,Mavilla barrio,Z1,N
 PR,72,143,Vega Alta Municipio,73157,02415961,Sabana barrio,Z1,N
 PR,72,143,Vega Alta Municipio,85240,02416091,Vega Alta barrio-pueblo,Z1,N
-PR,72,145,Vega Baja Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,145,Vega Baja Municipio,01734,02415101,Algarrobo barrio,Z1,N
 PR,72,145,Vega Baja Municipio,02121,02415106,Almirante Norte barrio,Z1,N
 PR,72,145,Vega Baja Municipio,02164,02415107,Almirante Sur barrio,Z1,N
@@ -889,7 +852,6 @@ PR,72,145,Vega Baja Municipio,70104,02415912,Río Abajo barrio,Z1,N
 PR,72,145,Vega Baja Municipio,70276,02415916,Río Arriba barrio,Z1,N
 PR,72,145,Vega Baja Municipio,85369,02416092,Vega Baja barrio-pueblo,Z1,N
 PR,72,145,Vega Baja Municipio,88379,02416115,Yeguada barrio,Z1,N
-PR,72,147,Vieques Municipio,00000,00000000,Municipio subdivision not defined,Z9,F
 PR,72,147,Vieques Municipio,28953,02415420,Florida barrio,Z1,N
 PR,72,147,Vieques Municipio,36564,02415519,Isabel II barrio-pueblo,Z1,N
 PR,72,147,Vieques Municipio,46196,02415594,Llave barrio,Z1,N

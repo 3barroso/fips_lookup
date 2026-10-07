@@ -18,7 +18,6 @@ WI,55,001,Adams County,69275,01584060,Rome town,T1,A
 WI,55,001,Adams County,76350,01584205,Springville town,T1,A
 WI,55,001,Adams County,77800,01584236,Strongs Prairie town,T1,A
 WI,55,001,Adams County,88150,01584462,Wisconsin Dells city,C5,F
-WI,55,003,Ashland County,00000,00000000,County subdivisions not defined,Z9,F
 WI,55,003,Ashland County,00550,01582660,Agenda town,T1,A
 WI,55,003,Ashland County,03225,01582723,Ashland city,C5,F
 WI,55,003,Ashland County,03250,01582724,Ashland town,T1,A
@@ -71,7 +70,6 @@ WI,55,005,Barron County,78450,01584251,Sumner town,T1,A
 WI,55,005,Barron County,81075,01584302,Turtle Lake village,C5,F
 WI,55,005,Barron County,81100,01584303,Turtle Lake town,T1,A
 WI,55,005,Barron County,82375,01584325,Vance Creek town,T1,A
-WI,55,007,Bayfield County,00000,00000000,County subdivisions not defined,Z9,F
 WI,55,007,Bayfield County,03225,01582723,Ashland city,C5,F
 WI,55,007,Bayfield County,04725,01582751,Barksdale town,T1,A
 WI,55,007,Bayfield County,04750,01582752,Barnes town,T1,A
@@ -451,7 +449,6 @@ WI,55,029,Door County,77875,01584239,Sturgeon Bay city,C5,F
 WI,55,029,Door County,77900,01584240,Sturgeon Bay town,T1,A
 WI,55,029,Door County,81525,01584310,Union town,T1,A
 WI,55,029,Door County,83600,01584352,Washington town,T1,A
-WI,55,031,Douglas County,00000,00000000,County subdivisions not defined,Z9,F
 WI,55,031,Douglas County,01825,01582692,Amnicon town,T1,A
 WI,55,031,Douglas County,06775,01582794,Bennett town,T1,A
 WI,55,031,Douglas County,10575,01582879,Brule town,T1,A
@@ -700,7 +697,6 @@ WI,55,049,Iowa County,67875,01584034,Ridgeway village,C5,F
 WI,55,049,Iowa County,67900,01584035,Ridgeway town,T1,A
 WI,55,049,Iowa County,83150,01584340,Waldwick town,T1,A
 WI,55,049,Iowa County,89350,01584490,Wyoming town,T1,A
-WI,55,051,Iron County,00000,00000000,County subdivisions not defined,Z9,F
 WI,55,051,Iron County,01925,01582694,Anderson town,T1,A
 WI,55,051,Iron County,12525,01582916,Carey town,T1,A
 WI,55,051,Iron County,31875,01583332,Gurney town,T1,A
@@ -796,7 +792,6 @@ WI,55,057,Juneau County,81725,01584316,Union Center village,C5,F
 WI,55,057,Juneau County,88150,01584462,Wisconsin Dells city,C5,F
 WI,55,057,Juneau County,88500,01584470,Wonewoc village,C5,F
 WI,55,057,Juneau County,88525,01584471,Wonewoc town,T1,A
-WI,55,059,Kenosha County,00000,00000000,County subdivisions not defined,Z9,F
 WI,55,059,Kenosha County,09635,01582859,Brighton town,T1,A
 WI,55,059,Kenosha County,09800,02646685,Bristol village,C5,F
 WI,55,059,Kenosha County,28675,01583264,Genoa City village,C5,F
@@ -810,7 +805,6 @@ WI,55,059,Kenosha County,74625,02772244,Somers village,C5,F
 WI,55,059,Kenosha County,74650,01584173,Somers town,T1,A
 WI,55,059,Kenosha County,81250,01584304,Twin Lakes village,C5,F
 WI,55,059,Kenosha County,86500,01584421,Wheatland town,T1,A
-WI,55,061,Kewaunee County,00000,00000000,County subdivisions not defined,Z9,F
 WI,55,061,Kewaunee County,00600,01582661,Ahnapee town,T1,A
 WI,55,061,Kewaunee County,01000,01582672,Algoma city,C5,F
 WI,55,061,Kewaunee County,12575,01582917,Carlton town,T1,A
@@ -908,7 +902,6 @@ WI,55,069,Lincoln County,74725,01584176,Somo town,T1,A
 WI,55,069,Lincoln County,80125,01584284,Tomahawk city,C5,F
 WI,55,069,Lincoln County,80150,01584285,Tomahawk town,T1,A
 WI,55,069,Lincoln County,87425,01584445,Wilson town,T1,A
-WI,55,071,Manitowoc County,00000,00000000,County subdivisions not defined,Z9,F
 WI,55,071,Manitowoc County,13237,01582933,Cato town,T1,A
 WI,55,071,Manitowoc County,13750,01582943,Centerville town,T1,A
 WI,55,071,Manitowoc County,15400,01582976,Cleveland village,C5,F
@@ -1045,7 +1038,6 @@ WI,55,077,Marquette County,75925,01584194,Springfield town,T1,A
 WI,55,077,Marquette County,85575,01584403,Westfield village,C5,F
 WI,55,077,Marquette County,85600,01584404,Westfield town,T1,A
 WI,55,078,Menominee County,50975,01583694,Menominee town,T1,A
-WI,55,079,Milwaukee County,00000,00000000,County subdivisions not defined,Z9,F
 WI,55,079,Milwaukee County,05450,01582766,Bayside village,C5,F
 WI,55,079,Milwaukee County,10375,01582874,Brown Deer village,C5,F
 WI,55,079,Milwaukee County,17975,01583035,Cudahy city,C5,F
@@ -1101,7 +1093,6 @@ WI,55,081,Monroe County,85150,01584395,Wells town,T1,A
 WI,55,081,Monroe County,87525,01584449,Wilton village,C5,F
 WI,55,081,Monroe County,87550,01584450,Wilton town,T1,A
 WI,55,081,Monroe County,89275,01584487,Wyeville village,C5,F
-WI,55,083,Oconto County,00000,00000000,County subdivisions not defined,Z9,F
 WI,55,083,Oconto County,00175,01582651,Abrams town,T1,A
 WI,55,083,Oconto County,04275,01582741,Bagley town,T1,A
 WI,55,083,Oconto County,09375,01582853,Brazeau town,T1,A
@@ -1186,7 +1177,6 @@ WI,55,087,Outagamie County,72750,01584130,Seymour town,T1,A
 WI,55,087,Outagamie County,73625,01584154,Shiocton village,C5,F
 WI,55,087,Outagamie County,82400,01584326,Vandenbroek town,T1,A
 WI,55,087,Outagamie County,89150,01584484,Wrightstown village,C5,F
-WI,55,089,Ozaukee County,00000,00000000,County subdivisions not defined,Z9,F
 WI,55,089,Ozaukee County,05450,01582766,Bayside village,C5,F
 WI,55,089,Ozaukee County,06150,01582781,Belgium village,C5,F
 WI,55,089,Ozaukee County,06175,01582782,Belgium town,T1,A
@@ -1325,7 +1315,6 @@ WI,55,099,Price County,65325,01583978,Prentice village,C5,F
 WI,55,099,Price County,65350,01583979,Prentice town,T1,A
 WI,55,099,Price County,75525,01584186,Spirit town,T1,A
 WI,55,099,Price County,89100,01584482,Worcester town,T1,A
-WI,55,101,Racine County,00000,00000000,County subdivisions not defined,Z9,F
 WI,55,101,Racine County,11200,01582888,Burlington city,C5,F
 WI,55,101,Racine County,11225,01582889,Burlington town,T1,A
 WI,55,101,Racine County,11950,02397529,Caledonia village,C5,F
@@ -1560,7 +1549,6 @@ WI,55,115,Shawano County,84225,01584370,Waukechon town,T1,A
 WI,55,115,Shawano County,85275,01584396,Wescott town,T1,A
 WI,55,115,Shawano County,88325,01584466,Wittenberg village,C5,F
 WI,55,115,Shawano County,88350,01584467,Wittenberg town,T1,A
-WI,55,117,Sheboygan County,00000,00000000,County subdivisions not defined,Z9,F
 WI,55,117,Sheboygan County,00450,01582658,Adell village,C5,F
 WI,55,117,Sheboygan County,12825,01582920,Cascade village,C5,F
 WI,55,117,Sheboygan County,13475,01582938,Cedar Grove village,C5,F

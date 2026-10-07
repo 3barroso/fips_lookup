@@ -42,7 +42,6 @@ OH,39,005,Ashland County,68966,01085714,Ruggles township,T1,A
 OH,39,005,Ashland County,75357,01085715,Sullivan township,T1,A
 OH,39,005,Ashland County,77532,01085716,Troy township,T1,A
 OH,39,005,Ashland County,79758,01085717,Vermillion township,T1,A
-OH,39,007,Ashtabula County,00000,00000000,County subdivisions not defined,Z9,F
 OH,39,007,Ashtabula County,02064,01085718,Andover township,T1,A
 OH,39,007,Ashtabula County,02652,01085719,Ashtabula township,T1,A
 OH,39,007,Ashtabula County,03156,01085720,Austinburg township,T1,A
@@ -278,7 +277,6 @@ OH,39,033,Crawford County,76463,01085945,Texas township,T1,A
 OH,39,033,Crawford County,76967,01085946,Tod township,T1,A
 OH,39,033,Crawford County,79786,01085947,Vernon township,T1,A
 OH,39,033,Crawford County,84644,01085948,Whetstone township,T1,A
-OH,39,035,Cuyahoga County,00000,00000000,County subdivisions not defined,Z9,F
 OH,39,035,Cuyahoga County,04416,01085949,Bay Village city,C2,F
 OH,39,035,Cuyahoga County,04500,01085950,Beachwood city,C2,F
 OH,39,035,Cuyahoga County,04878,01085951,Bedford city,C2,F
@@ -394,7 +392,6 @@ OH,39,041,Delaware County,77336,01086059,Trenton township,T1,A
 OH,39,041,Delaware County,77560,01086060,Troy township,T1,A
 OH,39,041,Delaware County,81242,01086117,Washington township,T5,C
 OH,39,041,Delaware County,83349,02585564,Westerville City township,Z1,N
-OH,39,043,Erie County,00000,00000000,County subdivisions not defined,Z9,F
 OH,39,043,Erie County,05228,01086341,Bellevue city,C2,F
 OH,39,043,Erie County,05802,01086061,Berlin township,T1,A
 OH,39,043,Erie County,27482,01086062,Florence township,T1,A
@@ -766,7 +763,6 @@ OH,39,083,Knox County,62652,01086411,Pike township,T1,A
 OH,39,083,Knox County,63310,01086412,Pleasant township,T1,A
 OH,39,083,Knox County,78358,01086413,Union township,T1,A
 OH,39,083,Knox County,82194,01086414,Wayne township,T1,A
-OH,39,085,Lake County,00000,00000000,County subdivisions not defined,Z9,F
 OH,39,085,Lake County,18196,01086415,Concord township,T1,A
 OH,39,085,Lake County,23618,01086416,Eastlake city,C2,F
 OH,39,085,Lake County,40642,01086419,Kirtland city,C2,F
@@ -845,7 +841,6 @@ OH,39,091,Logan County,74780,01086494,Stokes township,T1,A
 OH,39,091,Logan County,78414,01086495,Union township,T1,A
 OH,39,091,Logan County,81424,01086496,Washington township,T1,A
 OH,39,091,Logan County,88042,01086497,Zane township,T1,A
-OH,39,093,Lorain County,00000,00000000,County subdivisions not defined,Z9,F
 OH,39,093,Lorain County,01798,01086498,Amherst city,C2,F
 OH,39,093,Lorain County,01812,01086499,Amherst township,T1,A
 OH,39,093,Lorain County,03352,01086500,Avon city,C2,F

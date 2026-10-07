@@ -501,7 +501,6 @@ MN,27,029,Clearwater County,59800,00665598,Shevlin township,T1,A
 MN,27,029,Clearwater County,60502,00665619,Sinclair township,T1,A
 MN,27,029,Clearwater County,61303,00665647,South Clearwater UT,Z3,S
 MN,27,029,Clearwater County,71068,00666026,Winsor township,T1,A
-MN,27,031,Cook County,00000,00000000,County subdivisions not defined,Z9,F
 MN,27,031,Cook County,17531,00664025,East Cook UT,Z3,S
 MN,27,031,Cook County,24992,02394950,Grand Marais city,C5,F
 MN,27,031,Cook County,25071,00664317,Grand Portage UT,Z3,S
@@ -1161,7 +1160,6 @@ MN,27,073,Lac qui Parle County,54646,00665426,Riverside township,T1,A
 MN,27,073,Lac qui Parle County,64408,00665774,Ten Mile Lake township,T1,A
 MN,27,073,Lac qui Parle County,67882,00665904,Walter township,T1,A
 MN,27,073,Lac qui Parle County,72058,00666066,Yellow Bank township,T1,A
-MN,27,075,Lake County,00000,00000000,County subdivisions not defined,Z9,F
 MN,27,075,Lake County,04456,02394099,Beaver Bay city,C5,F
 MN,27,075,Lake County,04474,00663540,Beaver Bay township,T1,A
 MN,27,075,Lake County,14194,00663903,Crystal Bay township,T1,A
@@ -2150,7 +2148,6 @@ MN,27,135,Roseau County,62338,00665691,Stafford township,T1,A
 MN,27,135,Roseau County,62932,00665716,Stokes township,T1,A
 MN,27,135,Roseau County,63130,02395985,Strathcona city,C5,F
 MN,27,135,Roseau County,68224,02397198,Warroad city,C5,F
-MN,27,137,St. Louis County,00000,00000000,County subdivisions not defined,Z9,F
 MN,27,137,St. Louis County,00568,00663394,Alango township,T1,A
 MN,27,137,St. Louis County,00820,00663406,Alborn township,T1,A
 MN,27,137,St. Louis County,00874,00663409,Alden township,T1,A

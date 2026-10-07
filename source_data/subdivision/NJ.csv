@@ -1,4 +1,3 @@
-NJ,34,001,Atlantic County,00000,00000000,County subdivisions not defined,Z9,F
 NJ,34,001,Atlantic County,00100,00885134,Absecon city,C5,F
 NJ,34,001,Atlantic County,02080,00885142,Atlantic City city,C5,F
 NJ,34,001,Atlantic County,07810,00885171,Brigantine city,C5,F
@@ -169,7 +168,6 @@ NJ,34,007,Camden County,76220,00882153,Voorhees township,T1,A
 NJ,34,007,Camden County,77630,00882151,Waterford township,T1,A
 NJ,34,007,Camden County,81740,00882150,Winslow township,T1,A
 NJ,34,007,Camden County,82450,00885450,Woodlynne borough,C5,F
-NJ,34,009,Cape May County,00000,00000000,County subdivisions not defined,Z9,F
 NJ,34,009,Cape May County,02320,00885146,Avalon borough,C5,F
 NJ,34,009,Cape May County,10270,00885178,Cape May city,C5,F
 NJ,34,009,Cape May County,10330,00885179,Cape May Point borough,C5,F
@@ -186,7 +184,6 @@ NJ,34,009,Cape May County,80210,00885441,West Wildwood borough,C5,F
 NJ,34,009,Cape May County,81170,00885444,Wildwood city,C5,F
 NJ,34,009,Cape May County,81200,00885445,Wildwood Crest borough,C5,F
 NJ,34,009,Cape May County,81890,00885446,Woodbine borough,C5,F
-NJ,34,011,Cumberland County,00000,00000000,County subdivisions not defined,Z9,F
 NJ,34,011,Cumberland County,07600,00885169,Bridgeton city,C5,F
 NJ,34,011,Cumberland County,14710,00882062,Commercial township,T1,A
 NJ,34,011,Cumberland County,16900,00882054,Deerfield township,T1,A
@@ -322,7 +319,6 @@ NJ,34,023,Middlesex County,69390,00885402,South Plainfield borough,C5,F
 NJ,34,023,Middlesex County,69420,00885403,South River borough,C5,F
 NJ,34,023,Middlesex County,69810,00885405,Spotswood borough,C5,F
 NJ,34,023,Middlesex County,82000,00882165,Woodbridge township,T1,A
-NJ,34,025,Monmouth County,00000,00000000,County subdivisions not defined,Z9,F
 NJ,34,025,Monmouth County,00070,00882121,Aberdeen township,T1,A
 NJ,34,025,Monmouth County,00730,00885136,Allenhurst borough,C5,F
 NJ,34,025,Monmouth County,00760,00885137,Allentown borough,C5,F
@@ -415,7 +411,6 @@ NJ,34,027,Morris County,64980,00882203,Roxbury township,T1,A
 NJ,34,027,Morris County,75890,00885427,Victory Gardens borough,C5,F
 NJ,34,027,Morris County,77240,00882198,Washington township,T1,A
 NJ,34,027,Morris County,80390,00885443,Wharton borough,C5,F
-NJ,34,029,Ocean County,00000,00000000,County subdivisions not defined,Z9,F
 NJ,34,029,Ocean County,03050,00882070,Barnegat township,T1,A
 NJ,34,029,Ocean County,03130,00885148,Barnegat Light borough,C5,F
 NJ,34,029,Ocean County,03520,00885150,Bay Head borough,C5,F
