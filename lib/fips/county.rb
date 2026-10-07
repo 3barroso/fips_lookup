@@ -3,6 +3,8 @@
 # FIPS::County
 module FIPS
   class County
+    extend FIPS::Database::Access
+
     class << self
       def lookup(**params)
         fips = params.fetch(:fips, nil)
@@ -19,25 +21,23 @@ module FIPS
         return location unless location.nil?
 
         if !county.nil? && !state.nil?
-          state_abbr = FIPS::State.lookup(state: state)[:abbr]
-          return by_name(state_abbr, county)
+          state_fips = FIPS::State.lookup(state: state)[:fips]
+          return by_name(state_fips, county)
         end
 
         raise ArgumentError, "Could not identify county with parameters provided: #{params.inspect}"
       end
 
-      def file(state_abbr)
-        file_path = "#{File.expand_path("..", __dir__)}/data/county/#{state_abbr}.csv"
-        file_path if File.exist?(file_path)
-      end
-
       def all(state:)
-        unless state.is_a?(String) && !state.strip.empty?
-          raise ArgumentError, "State input must be a non-empty string"
-        end
+        raise ArgumentError, "State input must be a non-empty string" unless state.is_a?(String) && !state.strip.empty?
 
-        state_abbr = FIPS::State.lookup(state: state)[:abbr]
-        CSV.foreach(file(state_abbr)).map { |county_row| formatted_county(county_row) }
+        state_fips = FIPS::State.lookup(state: state)[:fips]
+        rows = db_all(
+          "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
+          "FROM counties JOIN states USING (state_fips) WHERE counties.state_fips = ? ORDER BY counties.county_fips",
+          [state_fips]
+        )
+        rows.map { |county_row| formatted_county(county_row) }
       end
 
       private
@@ -49,45 +49,48 @@ module FIPS
         when 2
           return nil if county.nil?
 
-          state_abbr = FIPS::State.state_abbr(fips)
-          return by_name(state_abbr, county)
+          return by_name(fips, county)
         when 3
           return nil if state.nil?
 
-          state_abbr = FIPS::State.lookup(state: state)[:abbr]
-          return by_code(fips, state_abbr)
+          state_fips = FIPS::State.lookup(state: state)[:fips]
+          return by_fips(state_fips + fips)
         when 5
-          return by_code(fips, FIPS::State.state_abbr(fips[0, 2]))
+          return by_fips(fips)
         end
         nil
       end
 
-      def by_code(fips, state_abbr)
-        CSV.foreach(file(state_abbr)) do |county_row|
-          county_fips = fips.length == 3 ? fips : fips[2, 3]
-          return formatted_county(county_row) if county_row[2] == county_fips
-        end
-        raise FIPS::NotFoundError, "Could not identify county with fips: #{fips}, in: #{state_abbr}"
+      def by_fips(fips)
+        county_row = db_first(
+          "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
+          "FROM counties JOIN states USING (state_fips) WHERE counties.full_fips = ?",
+          [fips]
+        )
+        return formatted_county(county_row) unless county_row.nil?
+
+        raise FIPS::NotFoundError, "Could not identify county with fips: #{fips}"
       end
 
-      def by_name(state_abbr, county)
-        county_upcase = county.upcase
+      def by_name(state_fips, county)
+        county_row = db_first(
+          "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
+          "FROM counties JOIN states USING (state_fips) WHERE counties.state_fips = ? AND counties.name_key = ?",
+          [state_fips, county.upcase]
+        )
+        return formatted_county(county_row) unless county_row.nil?
 
-        CSV.foreach(file(state_abbr)) do |county_row|
-          return formatted_county(county_row) if county_upcase == county_row[3].upcase
-        end
-        raise FIPS::NotFoundError, "Could not identify county with name: #{county}, in: #{state_abbr}"
+        raise FIPS::NotFoundError, "Could not identify county with name: #{county}, in: #{state_fips}"
       end
 
       def formatted_county(row)
-        # row => state (AL), state fips (01), county fips (001), name (Augtauga County), county gnis (00161526),  class code (H1), status (A)
         {
-          state_abbr: row[0],
-          fips: (row[1] + row[2]),
-          gnis: row[4],
-          name: row[3],
-          class_code: row[5],
-          status: row[6]
+          state_abbr: row["state_abbr"],
+          fips: row["fips"],
+          gnis: row["gnis"],
+          name: row["name"],
+          class_code: row["class_code"],
+          status: row["status"]
         }
       end
     end

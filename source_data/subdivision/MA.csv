@@ -1,4 +1,3 @@
-MA,25,001,Barnstable County,00000,00000000,County subdivisions not defined,Z9,F
 MA,25,001,Barnstable County,03690,00618248,Barnstable Town city,C5,F
 MA,25,001,Barnstable County,07175,00619412,Bourne town,T1,A
 MA,25,001,Barnstable County,07980,00618249,Brewster town,T1,A
@@ -46,7 +45,6 @@ MA,25,003,Berkshire County,73335,00618275,Washington town,T1,A
 MA,25,003,Berkshire County,77990,00618276,West Stockbridge town,T1,A
 MA,25,003,Berkshire County,79985,00619430,Williamstown town,T1,A
 MA,25,003,Berkshire County,80685,00619431,Windsor town,T1,A
-MA,25,005,Bristol County,00000,00000000,County subdivisions not defined,Z9,F
 MA,25,005,Bristol County,00520,01729673,Acushnet town,T1,A
 MA,25,005,Bristol County,02690,00618278,Attleboro city,C5,F
 MA,25,005,Bristol County,05280,00619432,Berkley town,T1,A
@@ -74,7 +72,6 @@ MA,25,007,Dukes County,26325,00618290,Gosnold town,T1,A
 MA,25,007,Dukes County,50390,00619442,Oak Bluffs town,T1,A
 MA,25,007,Dukes County,69940,00619443,Tisbury town,T1,A
 MA,25,007,Dukes County,78235,00618291,West Tisbury town,T1,A
-MA,25,009,Essex County,00000,00000000,County subdivisions not defined,Z9,F
 MA,25,009,Essex County,01260,00618292,Amesbury Town city,C5,F
 MA,25,009,Essex County,01465,00619444,Andover town,T1,A
 MA,25,009,Essex County,05595,00618293,Beverly city,C5,F
@@ -232,7 +229,6 @@ MA,25,017,Middlesex County,77255,00618245,Weston town,T1,A
 MA,25,017,Middlesex County,80230,00618246,Wilmington town,T1,A
 MA,25,017,Middlesex County,80510,00618247,Winchester town,T1,A
 MA,25,017,Middlesex County,81035,00619411,Woburn city,C5,F
-MA,25,019,Nantucket County,00000,00000000,County subdivisions not defined,Z9,F
 MA,25,019,Nantucket County,43790,00619376,Nantucket town,T1,A
 MA,25,021,Norfolk County,02935,00618314,Avon town,T1,A
 MA,25,021,Norfolk County,04930,00618315,Bellingham town,T1,A
@@ -262,7 +258,6 @@ MA,25,021,Norfolk County,74175,00618332,Wellesley town,T1,A
 MA,25,021,Norfolk County,78690,00618333,Westwood town,T1,A
 MA,25,021,Norfolk County,78972,00619462,Weymouth Town city,C5,F
 MA,25,021,Norfolk County,82315,00618334,Wrentham town,T1,A
-MA,25,023,Plymouth County,00000,00000000,County subdivisions not defined,Z9,F
 MA,25,023,Plymouth County,00170,00618336,Abington town,T1,A
 MA,25,023,Plymouth County,08130,00619466,Bridgewater Town city,C5,F
 MA,25,023,Plymouth County,09000,00619467,Brockton city,C5,F
@@ -290,7 +285,6 @@ MA,25,023,Plymouth County,60330,00618352,Scituate town,T1,A
 MA,25,023,Plymouth County,72985,00618353,Wareham town,T1,A
 MA,25,023,Plymouth County,75260,00618354,West Bridgewater town,T1,A
 MA,25,023,Plymouth County,79530,00618355,Whitman town,T1,A
-MA,25,025,Suffolk County,00000,00000000,County subdivisions not defined,Z9,F
 MA,25,025,Suffolk County,07000,00619463,Boston city,C5,F
 MA,25,025,Suffolk County,13205,00619464,Chelsea city,C5,F
 MA,25,025,Suffolk County,56585,00619465,Revere city,C5,F

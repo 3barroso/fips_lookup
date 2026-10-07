@@ -96,7 +96,6 @@ NY,36,009,Cattaraugus County,64749,00979450,Salamanca city,C5,F
 NY,36,009,Cattaraugus County,64760,00979451,Salamanca town,T1,A
 NY,36,009,Cattaraugus County,69870,00979510,South Valley town,T1,A
 NY,36,009,Cattaraugus County,84055,00979662,Yorkshire town,T1,A
-NY,36,011,Cayuga County,00000,00000000,County subdivisions not defined,Z9,F
 NY,36,011,Cayuga County,03078,00978695,Auburn city,C5,F
 NY,36,011,Cayuga County,03166,00978697,Aurelius town,T1,A
 NY,36,011,Cayuga County,10297,00978763,Brutus town,T1,A
@@ -121,7 +120,6 @@ NY,36,011,Cayuga County,72037,00979536,Summerhill town,T1,A
 NY,36,011,Cayuga County,73770,00979544,Throop town,T1,A
 NY,36,011,Cayuga County,77024,00979579,Venice town,T1,A
 NY,36,011,Cayuga County,77420,00979585,Victory town,T1,A
-NY,36,013,Chautauqua County,00000,00000000,County subdivisions not defined,Z9,F
 NY,36,013,Chautauqua County,02605,00978689,Arkwright town,T1,A
 NY,36,013,Chautauqua County,11451,00978768,Busti town,T1,A
 NY,36,013,Chautauqua County,12639,00978796,Carroll town,T1,A
@@ -278,7 +276,6 @@ NY,36,027,Dutchess County,70662,00979519,Stanford town,T1,A
 NY,36,027,Dutchess County,76166,00979573,Union Vale town,T1,A
 NY,36,027,Dutchess County,78157,00979595,Wappinger town,T1,A
 NY,36,027,Dutchess County,78388,00979601,Washington town,T1,A
-NY,36,029,Erie County,00000,00000000,County subdivisions not defined,Z9,F
 NY,36,029,Erie County,01099,00978662,Alden town,T1,A
 NY,36,029,Erie County,02000,00978675,Amherst town,T1,A
 NY,36,029,Erie County,03199,00978698,Aurora town,T1,A
@@ -417,7 +414,6 @@ NY,36,043,Herkimer County,70794,00979520,Stark town,T1,A
 NY,36,043,Herkimer County,78278,00979597,Warren town,T1,A
 NY,36,043,Herkimer County,78927,00979613,Webb town,T1,A
 NY,36,043,Herkimer County,82568,00979650,Winfield town,T1,A
-NY,36,045,Jefferson County,00000,00000000,County subdivisions not defined,Z9,F
 NY,36,045,Jefferson County,00210,00978655,Adams town,T1,A
 NY,36,045,Jefferson County,01176,00978664,Alexandria town,T1,A
 NY,36,045,Jefferson County,02297,00978684,Antwerp town,T1,A
@@ -492,7 +488,6 @@ NY,36,053,Madison County,54837,00979308,Oneida city,C5,F
 NY,36,053,Madison County,67785,00979497,Smithfield town,T1,A
 NY,36,053,Madison County,71399,00979527,Stockbridge town,T1,A
 NY,36,053,Madison County,71993,00979535,Sullivan town,T1,A
-NY,36,055,Monroe County,00000,00000000,County subdivisions not defined,Z9,F
 NY,36,055,Monroe County,08246,00978753,Brighton town,T1,A
 NY,36,055,Monroe County,15462,00978825,Chili town,T1,A
 NY,36,055,Monroe County,15957,00978831,Clarkson town,T1,A
@@ -531,7 +526,6 @@ NY,36,059,Nassau County,43335,00979167,Long Beach city,C5,F
 NY,36,059,Nassau County,53000,00979289,North Hempstead town,T1,A
 NY,36,059,Nassau County,56000,00979336,Oyster Bay town,T1,A
 NY,36,061,New York County,44919,00979190,Manhattan borough,Z1,G
-NY,36,063,Niagara County,00000,00000000,County subdivisions not defined,Z9,F
 NY,36,063,Niagara County,11803,00978775,Cambria town,T1,A
 NY,36,063,Niagara County,32490,00979054,Hartland town,T1,A
 NY,36,063,Niagara County,42158,00979146,Lewiston town,T1,A
@@ -640,7 +634,6 @@ NY,36,071,Orange County,77992,00979592,Wallkill town,T1,A
 NY,36,071,Orange County,78366,00979600,Warwick town,T1,A
 NY,36,071,Orange County,78839,00979610,Wawayanda town,T1,A
 NY,36,071,Orange County,82755,00979653,Woodbury town,T1,A
-NY,36,073,Orleans County,00000,00000000,County subdivisions not defined,Z9,F
 NY,36,073,Orleans County,01044,00978660,Albion town,T1,A
 NY,36,073,Orleans County,04572,00978710,Barre town,T1,A
 NY,36,073,Orleans County,12496,00978792,Carlton town,T1,A
@@ -651,7 +644,6 @@ NY,36,073,Orleans County,49286,00979246,Murray town,T1,A
 NY,36,073,Orleans County,61742,00979422,Ridgeway town,T1,A
 NY,36,073,Orleans County,66751,00979487,Shelby town,T1,A
 NY,36,073,Orleans County,83448,00979659,Yates town,T1,A
-NY,36,075,Oswego County,00000,00000000,County subdivisions not defined,Z9,F
 NY,36,075,Oswego County,01055,00978661,Albion town,T1,A
 NY,36,075,Oswego County,01649,00978673,Amboy town,T1,A
 NY,36,075,Oswego County,07674,00978746,Boylston town,T1,A
@@ -955,7 +947,6 @@ NY,36,115,Washington County,60092,00979402,Putnam town,T1,A
 NY,36,115,Washington County,64782,00979452,Salem town,T1,A
 NY,36,115,Washington County,81578,00979635,White Creek town,T1,A
 NY,36,115,Washington County,81633,00979636,Whitehall town,T1,A
-NY,36,117,Wayne County,00000,00000000,County subdivisions not defined,Z9,F
 NY,36,117,Wayne County,02440,00978686,Arcadia town,T1,A
 NY,36,117,Wayne County,11473,00978769,Butler town,T1,A
 NY,36,117,Wayne County,28013,00978983,Galen town,T1,A

@@ -14,7 +14,7 @@ return unless File.exist?(input_file)
 puts "Found file: #{file_name}"
 found_non_chars = []
 
-File.open(input_file).each do |line|
+File.foreach(input_file) do |line|
   clean_line = line.gsub(/[\s,'-.|]/, "").gsub("/", "")
   found = clean_line[/\W.?/]
   found_non_chars.append(found) unless found.nil?
