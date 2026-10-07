@@ -3,6 +3,8 @@
 # FIPS::Subdivision
 module FIPS
   class Subdivision
+    extend FIPS::Database::Access
+
     class << self
       def lookup(**params)
         fips = params.fetch(:fips, nil)
@@ -95,7 +97,7 @@ module FIPS
       end
 
       def by_name(state_fips, county, subdivision)
-        row = FIPS::Database.first(
+        row = db_first(
           "SELECT states.state_abbr AS state_abbr, subdivisions.full_fips AS fips, counties.name AS county_name, " \
           "subdivisions.gnis AS gnis, subdivisions.name AS name, subdivisions.class_code AS class_code, subdivisions.status AS status " \
           "FROM counties INDEXED BY counties_state_name_idx " \
@@ -118,7 +120,7 @@ module FIPS
       end
 
       def select_subdivision(where_clause, bind_vars)
-        row = FIPS::Database.first(
+        row = db_first(
           "#{subdivision_select_sql(where_clause)} LIMIT 1",
           bind_vars
         )
@@ -126,7 +128,7 @@ module FIPS
       end
 
       def select_subdivisions(where_clause, bind_vars)
-        rows = FIPS::Database.all(
+        rows = db_all(
           "#{subdivision_select_sql(where_clause)} ORDER BY subdivisions.full_fips",
           bind_vars
         )

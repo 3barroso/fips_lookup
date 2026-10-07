@@ -3,6 +3,8 @@
 # FIPS::County
 module FIPS
   class County
+    extend FIPS::Database::Access
+
     class << self
       def lookup(**params)
         fips = params.fetch(:fips, nil)
@@ -30,7 +32,7 @@ module FIPS
         raise ArgumentError, "State input must be a non-empty string" unless state.is_a?(String) && !state.strip.empty?
 
         state_fips = FIPS::State.lookup(state: state)[:fips]
-        rows = FIPS::Database.all(
+        rows = db_all(
           "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
           "FROM counties JOIN states USING (state_fips) WHERE counties.state_fips = ? ORDER BY counties.county_fips",
           [state_fips]
@@ -60,7 +62,7 @@ module FIPS
       end
 
       def by_fips(fips)
-        county_row = FIPS::Database.first(
+        county_row = db_first(
           "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
           "FROM counties JOIN states USING (state_fips) WHERE counties.full_fips = ?",
           [fips]
@@ -71,7 +73,7 @@ module FIPS
       end
 
       def by_name(state_fips, county)
-        county_row = FIPS::Database.first(
+        county_row = db_first(
           "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
           "FROM counties JOIN states USING (state_fips) WHERE counties.state_fips = ? AND counties.name_key = ?",
           [state_fips, county.upcase]

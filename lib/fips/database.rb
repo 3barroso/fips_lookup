@@ -6,34 +6,50 @@ module FIPS
   module Database
     DB_PATH = File.expand_path("../data/fips.sqlite3", __dir__).freeze
 
-    class << self
-      def all(sql, bind_vars = [])
-        synchronize { connection.execute(sql, bind_vars) }
-      end
-
-      def first(sql, bind_vars = [])
-        synchronize { connection.get_first_row(sql, bind_vars) }
-      end
-
+    module Access
       private
 
-      def synchronize(&block)
-        mutex.synchronize(&block)
+      def db_all(sql, bind_params = [])
+        Client.all(sql, bind_params)
       end
 
-      def mutex
-        @mutex ||= Mutex.new
+      def db_first(sql, bind_params = [])
+        Client.first(sql, bind_params)
       end
+    end
 
-      def connection
-        @connection ||= begin
-          raise LoadError, "FIPS SQLite database is missing at #{DB_PATH}; run bin/db/build" unless File.file?(DB_PATH)
+    class Client
+      class << self
+        def all(sql, bind_params = [])
+          synchronize { connection.execute(sql, bind_params) }
+        end
 
-          database = SQLite3::Database.new(DB_PATH, readonly: true)
-          database.results_as_hash = true
-          database
+        def first(sql, bind_params = [])
+          synchronize { connection.get_first_row(sql, bind_params) }
+        end
+
+        private
+
+        def synchronize(&)
+          mutex.synchronize(&)
+        end
+
+        def mutex
+          @mutex ||= Mutex.new
+        end
+
+        def connection
+          @connection ||= begin
+            raise LoadError, "FIPS SQLite database is missing at #{DB_PATH}; run bin/db/build" unless File.file?(DB_PATH)
+
+            database = SQLite3::Database.new(DB_PATH, readonly: true)
+            database.results_as_hash = true
+            database
+          end
         end
       end
     end
+
+    private_constant :Client
   end
 end

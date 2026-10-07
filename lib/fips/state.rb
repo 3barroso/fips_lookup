@@ -3,6 +3,8 @@
 # FIPS::State
 module FIPS
   class State
+    extend FIPS::Database::Access
+
     class << self
       def lookup(**params)
         fips = params.fetch(:fips, nil)
@@ -24,7 +26,7 @@ module FIPS
       end
 
       def all
-        FIPS::Database.all(
+        db_all(
           "SELECT state_fips AS fips, state_abbr AS abbr, name, ansi FROM states ORDER BY state_fips"
         ).map { |state_row| formatted_state(state_row) }
       end
@@ -32,7 +34,7 @@ module FIPS
       private
 
       def by_fips(fips)
-        state = FIPS::Database.first(
+        state = db_first(
           "SELECT state_fips AS fips, state_abbr AS abbr, name, ansi FROM states WHERE state_fips = ?",
           [fips]
         )
@@ -43,7 +45,7 @@ module FIPS
 
       def by_name(state)
         state_upcase = state.upcase
-        state_row = FIPS::Database.first(
+        state_row = db_first(
           "SELECT state_fips AS fips, state_abbr AS abbr, name, ansi FROM states WHERE state_abbr = ? OR name_key = ? OR ansi = ? OR state_fips = ? LIMIT 1",
           [state_upcase, state_upcase, state, state]
         )
