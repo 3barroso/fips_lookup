@@ -110,8 +110,6 @@ The checked-in schema is in `db/schema.sql`. The bundled database is built from 
 bundle exec ruby bin/db/build
 ```
 
-The builder reads `source_data/state.csv`, `source_data/national_county2020.txt`, and `source_data/national_cousub2020.txt`, then writes `lib/data/fips.sqlite3`. The county and subdivision CSV snapshots under `source_data/county/` and `source_data/subdivision/` are retained for reference but are not used by the builder. An alternate output path can be supplied as the first argument. When updating the Census data vintage, replace the source files and rebuild the database. Only the generated SQLite file is packaged; source data is needed only when rebuilding or auditing it.
-
 ### Errors
 
 Malformed or insufficient inputs raise `ArgumentError`. Validly formatted identifiers that do not match a record raise `FIPS::NotFoundError`, a subclass of `StandardError`:
