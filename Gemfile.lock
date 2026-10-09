@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fips_lookup (0.3.0)
+    fips_lookup (1.0.0)
       sqlite3 (~> 2.0)
       zeitwerk (~> 2.8)
 
