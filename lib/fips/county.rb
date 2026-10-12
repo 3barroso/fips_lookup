@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require "csv"
+require "pathname"
+
 # FIPS::County
 module FIPS
   class County
@@ -30,16 +33,16 @@ module FIPS
       def all(state:)
         raise ArgumentError, "State input must be a non-empty string" unless state.is_a?(String) && !state.strip.empty?
 
-        state_fips = FIPS::State.lookup(state: state)[:fips]
-        rows = db_all(
-          "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
-          "FROM counties JOIN states USING (state_fips) WHERE counties.state_fips = ? ORDER BY counties.county_fips",
-          [state_fips]
-        )
-        rows.map { |county_row| formatted_county(county_row) }
+        state_abbr = FIPS::State.lookup(state: state)[:abbr]
+        rows = CSV.read(file_path(state_abbr))
+        rows.map { |row| formatted_county(row) }
       end
 
       private
+
+      def file_path(state)
+        Pathname.getwd.join("lib/data/county/#{state.upcase}.csv")
+      end
 
       def identify_with_fips(fips, state, county)
         return nil if fips.nil? || !fips.is_a?(String)
@@ -61,35 +64,35 @@ module FIPS
       end
 
       def by_fips(fips)
-        county_row = db_first(
-          "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
-          "FROM counties JOIN states USING (state_fips) WHERE counties.full_fips = ?",
-          [fips]
-        )
-        return formatted_county(county_row) unless county_row.nil?
+        # county_row = db_first(
+        #   "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
+        #   "FROM counties JOIN states USING (state_fips) WHERE counties.full_fips = ?",
+        #   [fips]
+        # )
+        # return formatted_county(county_row) unless county_row.nil?
 
         raise FIPS::NotFoundError, "Could not identify county with fips: #{fips}"
       end
 
       def by_name(state_fips, county)
-        county_row = db_first(
-          "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
-          "FROM counties JOIN states USING (state_fips) WHERE counties.state_fips = ? AND counties.name_key = ?",
-          [state_fips, county.upcase]
-        )
-        return formatted_county(county_row) unless county_row.nil?
+        # county_row = db_first(
+        #   "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
+        #   "FROM counties JOIN states USING (state_fips) WHERE counties.state_fips = ? AND counties.name_key = ?",
+        #   [state_fips, county.upcase]
+        # )
+        # return formatted_county(county_row) unless county_row.nil?
 
         raise FIPS::NotFoundError, "Could not identify county with name: #{county}, in: #{state_fips}"
       end
 
       def formatted_county(row)
         {
-          state_abbr: row["state_abbr"],
-          fips: row["fips"],
-          gnis: row["gnis"],
-          name: row["name"],
-          class_code: row["class_code"],
-          status: row["status"]
+          state_abbr: row[0],
+          fips: row[1] + row[2],
+          gnis: row[4],
+          name: row[3],
+          class_code: row[5],
+          status: row[6]
         }
       end
     end

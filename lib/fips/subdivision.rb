@@ -96,6 +96,9 @@ module FIPS
       end
 
       def by_name(state_fips, county, subdivision)
+        # identify state subdivision file, 
+
+
         row = db_first(
           "SELECT states.state_abbr AS state_abbr, subdivisions.full_fips AS fips, counties.name AS county_name, " \
           "subdivisions.gnis AS gnis, subdivisions.name AS name, subdivisions.class_code AS class_code, subdivisions.status AS status " \
