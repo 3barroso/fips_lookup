@@ -33,7 +33,7 @@ string_conversion_dictionary = {
 conversion_re = Regexp.union(string_conversion_dictionary.keys)
 
 file_path = Pathname.getwd.join("source_data/national_cousub2020.txt")
-subdivision_path = Pathname.getwd.join("source_data/subdivision")
+subdivision_path = Pathname.getwd.join("lib/data/subdivision")
 
 puts "~~~ Now creating subdivision data files if they are not present ~~~"
 

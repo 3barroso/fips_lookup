@@ -3,7 +3,6 @@
 # FIPS::State
 module FIPS
   class State
-    extend FIPS::Database::Access
 
     class << self
       def lookup(**params)

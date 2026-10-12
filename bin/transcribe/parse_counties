@@ -35,7 +35,7 @@ string_conversion_dictionary = {
 conversion_re = Regexp.union(string_conversion_dictionary.keys)
 
 file_path = Pathname.getwd.join("source_data/national_county2020.txt")
-county_path = Pathname.getwd.join("source_data/county")
+county_path = Pathname.getwd.join("lib/data/county")
 
 puts "~~~ Now creating county data files if they are not present ~~~"
 

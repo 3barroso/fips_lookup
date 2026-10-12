@@ -3,7 +3,6 @@
 # FIPS::County
 module FIPS
   class County
-    extend FIPS::Database::Access
 
     class << self
       def lookup(**params)

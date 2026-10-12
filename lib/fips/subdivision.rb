@@ -3,7 +3,6 @@
 # FIPS::Subdivision
 module FIPS
   class Subdivision
-    extend FIPS::Database::Access
 
     class << self
       def lookup(**params)
