@@ -18,7 +18,15 @@ module FIPS
                "WV" => "54", "WI" => "55", "WY" => "56", "AS" => "60", "GU" => "66", "MP" => "69",
                "PR" => "72", "UM" => "74", "VI" => "78" }.freeze
 
-    class << self
+      class << self
+      def abbr_to_fips(abbr)
+        ABBR_CODES[abbr&.to_s.upcase]
+      end
+
+      def fips_to_abbr(fips)
+        ABBR_CODES.key(fips&.to_s)
+      end
+
       def lookup(**params)
         fips = params.fetch(:fips, nil)
         state = params.fetch(:state, nil)
@@ -32,19 +40,6 @@ module FIPS
             return formatted_state(row)
           end
         end
-
-        # unless fips.nil?
-        #   raise ArgumentError, "FIPS input must be a 2 digit string" unless fips.is_a?(String) && fips.match?(/\A\d{2}\z/)
-
-        #   return by_fips(fips)
-        # end
-
-        # unless state.nil?
-        #   raise ArgumentError, "State input must be a non-empty string" unless state.is_a?(String) && !state.strip.empty?
-
-        #   return by_name(state)
-        # end
-
         raise ArgumentError, "Could not identify state with parameters provided: #{params.inspect}"
       end
 

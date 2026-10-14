@@ -65,4 +65,40 @@ RSpec.describe FIPS::State do
       expect(FIPS::State.all).to include(hash_including(abbr: "AK", name: "Alaska", fips: "02"))
     end
   end
+
+  describe ".abbr_to_fips" do
+    it "returns the two-digit FIPS code for a state abbreviation" do
+      expect(FIPS::State.abbr_to_fips("AK")).to eq("02")
+    end
+
+    it "matches state abbreviations without regard to case" do
+      expect(FIPS::State.abbr_to_fips("ak")).to eq("02")
+    end
+
+    it "raises when no state matches the provided abbreviation" do
+      expect(FIPS::State.abbr_to_fips("XX")).to eq(nil)
+    end
+
+    it "raises when the abbreviation input is not a string" do
+      expect(FIPS::State.abbr_to_fips(20)).to eq(nil)
+    end
+  end
+
+  describe ".fips_to_abbr" do
+    it "returns the state abbreviation for a two-digit FIPS code" do
+      expect(FIPS::State.fips_to_abbr("02")).to eq("AK")
+    end
+
+    it "raises when no state matches a valid-length FIPS code" do
+      expect(FIPS::State.fips_to_abbr("99")).to eq(nil)
+    end
+
+    it "raises when the FIPS input is not a two-digit string" do
+      expect(FIPS::State.fips_to_abbr("2")).to eq(nil)
+    end
+
+    it "rejects non-digit FIPS input" do
+      expect(FIPS::State.fips_to_abbr("A2")).to eq(nil)
+    end
+  end
 end

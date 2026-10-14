@@ -34,27 +34,27 @@ RSpec.describe FIPS::County do
 
     it "raises when no county matches a full FIPS code" do
       expect { FIPS::County.lookup(fips: "02999") }
-        .to raise_error(FIPS::NotFoundError, /Could not identify county with fips: 02999/)
+        .to raise_error(ArgumentError, /Could not identify county with parameters provided:/)
     end
 
     it "raises when no county matches county FIPS and state" do
       expect { FIPS::County.lookup(fips: "999", state: "AK") }
-        .to raise_error(FIPS::NotFoundError, /Could not identify county with fips: 02999/)
+        .to raise_error(ArgumentError, /Could not identify county with parameters provided:/)
     end
 
     it "raises when no county matches state FIPS and county name" do
       expect { FIPS::County.lookup(fips: "02", county: "Unknown Borough") }
-        .to raise_error(FIPS::NotFoundError, /Could not identify county with name/)
+        .to raise_error(ArgumentError, /Could not identify county with parameters provided:/)
     end
 
     it "raises when no county matches state and county names" do
       expect { FIPS::County.lookup(state: "Alaska", county: "Unknown Borough") }
-        .to raise_error(FIPS::NotFoundError, /Could not identify county with name/)
+        .to raise_error(ArgumentError, /Could not identify county with parameters provided:/)
     end
 
     it "raises when no lookup parameters are provided" do
       expect { FIPS::County.lookup }
-        .to raise_error(ArgumentError, /Could not identify county/)
+        .to raise_error(ArgumentError, /Lookup requires at least one of fips, state, or county parameters/)
     end
 
     it "raises when the provided FIPS code lacks the county identifier" do
@@ -64,7 +64,7 @@ RSpec.describe FIPS::County do
 
     it "raises a not-found error for an unknown state FIPS prefix" do
       expect { FIPS::County.lookup(fips: "99000") }
-        .to raise_error(FIPS::NotFoundError, /Could not identify county with fips: 99/)
+        .to raise_error(ArgumentError, /Could not determine state abbreviation from parameters provided:/)
     end
 
     it "rejects a non-string county name" do
