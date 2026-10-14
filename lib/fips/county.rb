@@ -64,8 +64,8 @@ module FIPS
 
       private
 
-      def file_path(state)
-        Pathname.getwd.join("lib/data/county/#{state.upcase}.csv")
+      def file_path(state_abbr)
+        Pathname.getwd.join("lib/data/county/#{state_abbr.upcase}.csv")
       end
 
       def determine_state_abbr(fips, state)
@@ -96,47 +96,6 @@ module FIPS
           county_cache[fips_key] = row_hash
         end
         loaded_states[state_abbr] = true
-      end
-
-      def identify_with_fips(fips, state, county)
-        return nil if fips.nil? || !fips.is_a?(String)
-
-        case fips.length
-        when 2
-          return nil if county.nil?
-
-          return by_name(fips, county)
-        when 3
-          return nil if state.nil?
-
-          state_fips = FIPS::State.lookup(state: state)[:fips] # swap to method?
-          return by_fips(state_fips + fips)
-        when 5
-          return by_fips(fips)
-        end
-        nil
-      end
-
-      def by_fips(fips)
-        # county_row = db_first(
-        #   "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
-        #   "FROM counties JOIN states USING (state_fips) WHERE counties.full_fips = ?",
-        #   [fips]
-        # )
-        # return formatted_county(county_row) unless county_row.nil?
-
-        raise FIPS::NotFoundError, "Could not identify county with fips: #{fips}"
-      end
-
-      def by_name(state_fips, county)
-        # county_row = db_first(
-        #   "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
-        #   "FROM counties JOIN states USING (state_fips) WHERE counties.state_fips = ? AND counties.name_key = ?",
-        #   [state_fips, county.upcase]
-        # )
-        # return formatted_county(county_row) unless county_row.nil?
-
-        raise FIPS::NotFoundError, "Could not identify county with name: #{county}, in: #{state_fips}"
       end
 
       def formatted_county(row)

@@ -31,15 +31,23 @@ module FIPS
         fips = params.fetch(:fips, nil)
         state = params.fetch(:state, nil)
 
-        state_row = raw_csv.find{ |row| row.include?(fips) || row.include?(state) }
+        unless fips.nil?
+          raise ArgumentError, "FIPS input must be a 2 digit string" unless fips.is_a?(String) && fips.match?(/\A\d{2}\z/)
 
-        return formatted_state(state_row) unless state_row.nil?
-
-        raw_csv.each do |row|
-          if row[0] == fips || row[1].casecmp?(state) || row[2].casecmp?(state) || row[3] == state
-            return formatted_state(row)
-          end
+          state_row = raw_csv.find { |row| row[0] == fips }
+          return formatted_state(state_row) unless state_row.nil?
         end
+
+        unless state.nil?
+          raise ArgumentError, "State input must be a non-empty string" unless state.is_a?(String) && !state.strip.empty?
+
+          state_value = state.strip
+          state_row = raw_csv.find do |row|
+            row[1].casecmp?(state_value) || row[2].casecmp?(state_value) || row[3] == state_value || row[0] == state_value
+          end
+          return formatted_state(state_row) unless state_row.nil?
+        end
+
         raise ArgumentError, "Could not identify state with parameters provided: #{params.inspect}"
       end
 
@@ -48,13 +56,13 @@ module FIPS
       end
 
       def raw_csv
-        CSV.read(file_path)
+        @raw_csv ||= CSV.read(file_path)
       end
 
       private
 
       def file_path
-        Pathname.getwd.join("lib/data/state.csv")
+        Pathname.new(File.expand_path("../data/state.csv", __dir__))
       end
 
       def formatted_state(row)
