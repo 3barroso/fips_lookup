@@ -1,6 +1,8 @@
 # FIPS Lookup
 
-`fips_lookup` provides lookups for U.S. states, counties, and county subdivisions using Census FIPS identifiers and names. Results are hashes containing the fields for the requested geography. Lookup data is stored in a bundled SQLite database and queried read-only at runtime.
+`fips_lookup` is a ruby gem that functions as a lookup for U.S. states, counties, and county subdivisions using Census FIPS identifiers and names. 
+
+Lookup results are hashes containing the fields for the requested geography. Lookup data is stored in a bundled SQLite database and queried read-only at runtime.
 
 ## Installation
 
@@ -9,8 +11,13 @@ Add the gem to your application's Gemfile:
 ```ruby
 gem "fips_lookup"
 ```
+Then run `bundle install`
 
-Then run `bundle install`.
+### What version is right for you?
+
+fips_lookup >= 1.0 - SQLite database, with indexed lookups, zeitwerk, lightning fast lookups, more infrastructure required to run SQLite
+
+fips lookup < 1.0 - CSV memoization and indexed lookup, lightweight, zeitwerk compatible, 
 
 ## Usage
 
@@ -20,83 +27,12 @@ Require the gem if your application does not use Bundler's automatic loading:
 require "fips"
 ```
 
-### General lookup
+### Examples in Gist
 
-`FIPS.lookup` dispatches to the state, county, or subdivision lookup based on the supplied identifiers:
+Check out this RunRuby.dev gist of examples of how to use the gem, and what parameters are available
+[FIPS examples](https://runruby.dev/?gist=864b1b4aa26014684c95465a7159d453)
 
-```ruby
-FIPS.lookup(fips: "02")
-# => { fips: "02", abbr: "AK", name: "Alaska", ansi: "01785533" }
 
-FIPS.lookup(fips: "02060")
-# => county record for Bristol Bay Borough
-
-FIPS.lookup(fips: "0206009050")
-# => subdivision record for Bristol Bay census subarea
-
-FIPS.lookup(state: "Alaska", county: "Bristol Bay Borough")
-# => county record for Bristol Bay Borough
-
-FIPS.lookup(state: "Alaska", county: "Bristol Bay Borough",
-            subdivision: "Bristol Bay census subarea")
-# => subdivision record for Bristol Bay census subarea
-```
-
-FIPS codes must be strings so leading zeroes are preserved. The general dispatcher supports state FIPS (2 digits), county FIPS (5 digits), and full subdivision FIPS (10 digits). Contextual forms are also available through the specific lookup methods below.
-
-### State lookup
-
-```ruby
-FIPS::State.lookup(fips: "02")
-FIPS::State.lookup(state: "AK")
-FIPS::State.lookup(state: "Alaska")
-FIPS::State.lookup(state: "01785533") # ANSI code
-```
-
-The returned state hash has `:fips`, `:abbr`, `:name`, and `:ansi` keys. `FIPS::State.all` returns all state records in the same format:
-
-```ruby
-FIPS::State.all.map { |state| [state[:name], state[:abbr]] }
-```
-
-### County lookup
-
-```ruby
-FIPS::County.lookup(fips: "02060")
-FIPS::County.lookup(fips: "060", state: "AK")
-FIPS::County.lookup(fips: "02", county: "Bristol Bay Borough")
-FIPS::County.lookup(state: "Alaska", county: "Bristol Bay Borough")
-```
-
-The returned county hash has `:state_abbr`, `:fips`, `:gnis`, `:name`, `:class_code`, and `:status` keys. State identifiers may be an abbreviation, name, FIPS code, or ANSI code.
-
-To list counties in a state, use `FIPS::County.all`:
-
-```ruby
-counties = FIPS::County.all(state: "AK")
-county_names = counties.map { |county| county[:name] }
-```
-
-### Subdivision lookup
-
-```ruby
-FIPS::Subdivision.lookup(fips: "0206009050")
-FIPS::Subdivision.lookup(fips: "09050", state: "AK")
-FIPS::Subdivision.lookup(fips: "02060", subdivision: "Bristol Bay census subarea")
-FIPS::Subdivision.lookup(fips: "060", state: "AK",
-                         subdivision: "Bristol Bay census subarea")
-FIPS::Subdivision.lookup(state: "Alaska", county: "Bristol Bay Borough",
-                         subdivision: "Bristol Bay census subarea")
-```
-
-The returned subdivision hash has `:state_abbr`, `:fips`, `:county_name`, `:gnis`, `:name`, `:class_code`, and `:status` keys. To retrieve subdivision records for a state, optionally filtered by county:
-
-```ruby
-FIPS::Subdivision.all(state: "AK")
-FIPS::Subdivision.all(state: "AK", county: "Bristol Bay Borough")
-```
-
-County and subdivision name matching is case-insensitive. State identifiers accept abbreviations, names, FIPS codes, and ANSI codes.
 
 ### Source data
 
