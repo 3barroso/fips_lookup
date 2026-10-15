@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require "pathname"
 require "fileutils"
 require_relative "../../lib/fips"
 
@@ -22,13 +21,14 @@ string_conversion_dictionary = {
 # line 15: "Ã­" is technically 2 characters, not "Ã"; no '-' displayed in editor[vscode?] Paste into terminal and see "Ã-" # "Ã­" != "Ã-"
 conversion_re = Regexp.union(string_conversion_dictionary.keys)
 
-file_path = Pathname.getwd.join("source_data/national_cousub2020.txt")
-subdivision_path = Pathname.getwd.join("lib/data/subdivision")
+project_root = File.expand_path("../..", __dir__)
+file_path = File.join(project_root, "source_data/national_cousub2020.txt")
+subdivision_path = File.join(project_root, "lib/data/subdivision")
 
 puts "~~~ Now creating subdivision data files if they are not present ~~~"
 
 FIPS::State::ABBR_CODES.each_key do |state_code|
-  subdivision_state_file_path = subdivision_path.join("#{state_code}.csv")
+  subdivision_state_file_path = File.join(subdivision_path, "#{state_code}.csv")
   FileUtils.touch(subdivision_state_file_path) unless File.exist?(subdivision_state_file_path)
 end
 
@@ -49,7 +49,7 @@ File.foreach(file_path) do |line|
                              row[6].gsub(conversion_re, string_conversion_dictionary), row[7], row[8]]
     end
   else
-    current_csv_path = subdivision_path.join("#{previous_state_code}.csv")
+    current_csv_path = File.join(subdivision_path, "#{previous_state_code}.csv")
     File.write(current_csv_path, current_state_data.map { |e| e.join(",") }.join)
 
     previous_state_code = row[0]
@@ -62,7 +62,7 @@ File.foreach(file_path) do |line|
   end
 end
 
-last_state_path = subdivision_path.join("#{previous_state_code}.csv")
+last_state_path = File.join(subdivision_path, "#{previous_state_code}.csv")
 File.write(last_state_path, current_state_data.map { |e| e.join(",") }.join)
 
 puts "~~~ Finished creating subdivision CSV files ~~~"

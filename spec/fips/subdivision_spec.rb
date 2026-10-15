@@ -62,12 +62,12 @@ RSpec.describe FIPS::Subdivision do
 
     it "raises when no subdivision matches state and county FIPS with a subdivision name" do
       expect { FIPS::Subdivision.lookup(fips: "02099", subdivision: "Bristol Bay census subarea") }
-        .to raise_error(FIPS::NotFoundError, /No subdivision found matching fips/)
+        .to raise_error(ArgumentError, /cannot determine subdivision: no valid parameters provided/)
     end
 
     it "raises when no subdivision matches county FIPS, state, and subdivision name" do
       expect { FIPS::Subdivision.lookup(fips: "999", state: "AK", subdivision: "Bristol Bay census subarea") }
-        .to raise_error(FIPS::NotFoundError, /No subdivision found matching fips/)
+        .to raise_error(ArgumentError, /cannot determine subdivision: no valid parameters provided/)
     end
 
     it "raises when no subdivision matches state FIPS, county name, and subdivision name" do
@@ -82,7 +82,7 @@ RSpec.describe FIPS::Subdivision do
 
     it "raises when no lookup parameters are provided" do
       expect { FIPS::Subdivision.lookup }
-        .to raise_error(ArgumentError, /cannot determine subdivision/)
+        .to raise_error(ArgumentError, /Could not determine state abbreviation from parameters provided:/)
     end
 
     it "raises when the provided FIPS code lacks the names needed to identify a subdivision" do
@@ -92,12 +92,12 @@ RSpec.describe FIPS::Subdivision do
 
     it "raises a not-found error for an unknown state FIPS prefix" do
       expect { FIPS::Subdivision.lookup(fips: "9900000000") }
-        .to raise_error(FIPS::NotFoundError, /No subdivision found matching fips: 99/)
+        .to raise_error(ArgumentError, /Could not determine state abbreviation from parameters provided:/)
     end
 
     it "raises a not-found error for an unknown state param" do
       expect { FIPS::Subdivision.lookup(state: "Canada", fips: "012", subdivision: "Bristol Bay census subarea") }
-        .to raise_error(FIPS::NotFoundError, /No state found matching: Canada/)
+        .to raise_error(ArgumentError, /Could not identify state with parameters provided:/)
     end
 
     it "rejects a non-string subdivision name" do

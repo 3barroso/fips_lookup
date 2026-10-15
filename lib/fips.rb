@@ -17,7 +17,6 @@ module FIPS
 
     # state files method ?
 
-    
     def lookup(**params)
       # params: fips, state, county, subdivision, (add gnis?, etc.)
       fips = params.fetch(:fips, nil)

@@ -39,8 +39,8 @@ Gem::Specification.new do |spec|
   spec.files.uniq!
 
   # Core tools for gem functionality
-  spec.add_dependency "zeitwerk", "~> 2.8"
   spec.add_dependency "csv", "~> 3.0"
+  spec.add_dependency "zeitwerk", "~> 2.8"
 
   # Tools for using the gem locally
   spec.add_development_dependency "irb"

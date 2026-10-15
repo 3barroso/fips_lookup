@@ -1,14 +1,11 @@
 # frozen_string_literal: true
 
 require "csv"
-require "pathname"
 
 # FIPS::County
 module FIPS
   class County
-
     class << self
-
       def county_cache
         @county_cache ||= {}
       end
@@ -62,24 +59,26 @@ module FIPS
         rows.map { |row| formatted_county(row) }
       end
 
-      private
-
       def file_path(state_abbr)
-        Pathname.getwd.join("lib/data/county/#{state_abbr.upcase}.csv")
+        File.expand_path("../data/county/#{state_abbr.upcase}.csv", __dir__)
       end
+
+      private
 
       def determine_state_abbr(fips, state)
         case fips&.length
         when 2
-          return FIPS::State.fips_to_abbr(fips)
+          FIPS::State.fips_to_abbr(fips)
         when 3
           raise ArgumentError, "A 3-digit FIPS code requires a state for county lookup" if state.nil?
-          return FIPS::State.lookup(state: state)[:abbr]
+
+          FIPS::State.lookup(state: state)[:abbr]
         when 5
-          return FIPS::State.fips_to_abbr(fips[0..1])
+          FIPS::State.fips_to_abbr(fips[0..1])
         else
           raise ArgumentError, "State input is required to lookup county information" if state.nil?
-          return FIPS::State.lookup(state: state)[:abbr]
+
+          FIPS::State.lookup(state: state)[:abbr]
         end
       end
 

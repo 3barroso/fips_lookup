@@ -3,7 +3,6 @@
 
 # need to add execution permission for this file CMD % `chmod +x  bin/transcribe/parse_counties`
 
-require "pathname"
 require "fileutils"
 require_relative "../../lib/fips"
 
@@ -24,13 +23,14 @@ string_conversion_dictionary = {
 # "Ã­" is technically 2 characters (not "Ã").. '-' is not displayed in the editor? [vscode] Paste into terminal and see "Ã-" # "Ã­" != "Ã-"
 conversion_re = Regexp.union(string_conversion_dictionary.keys)
 
-file_path = Pathname.getwd.join("source_data/national_county2020.txt")
-county_path = Pathname.getwd.join("lib/data/county")
+project_root = File.expand_path("../..", __dir__)
+file_path = File.join(project_root, "source_data/national_county2020.txt")
+county_path = File.join(project_root, "lib/data/county")
 
 puts "~~~ Now creating county data files if they are not present ~~~"
 
 FIPS::State::ABBR_CODES.each_key do |state_code|
-  county_state_file_path = county_path.join("#{state_code}.csv")
+  county_state_file_path = File.join(county_path, "#{state_code}.csv")
   FileUtils.touch(county_state_file_path) unless File.exist?(county_state_file_path)
 end
 
@@ -48,7 +48,7 @@ File.foreach(file_path) do |line|
   if previous_state_code == row[0]
     current_state_data << [row[0], row[1], row[2], row[4].gsub(conversion_re, string_conversion_dictionary), row[3], row[5], row[6]]
   else
-    current_csv_path = county_path.join("#{previous_state_code}.csv")
+    current_csv_path = File.join(county_path, "#{previous_state_code}.csv")
     File.write(current_csv_path, current_state_data.map { |e| e.join(",") }.join)
 
     previous_state_code = row[0]
@@ -56,7 +56,7 @@ File.foreach(file_path) do |line|
   end
 end
 
-last_state_path = county_path.join("#{previous_state_code}.csv")
+last_state_path = File.join(county_path, "#{previous_state_code}.csv")
 File.write(last_state_path, current_state_data.map { |e| e.join(",") }.join)
 
 puts "~~~ Finished creating county CSV files ~~~"
