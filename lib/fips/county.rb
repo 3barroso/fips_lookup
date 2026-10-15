@@ -1,11 +1,19 @@
 # frozen_string_literal: true
 
+require "csv"
+
 # FIPS::County
 module FIPS
   class County
-    extend FIPS::Database::Access
-
     class << self
+      def county_cache
+        @county_cache ||= {}
+      end
+
+      def loaded_states
+        @loaded_states ||= {}
+      end
+
       def lookup(**params)
         fips = params.fetch(:fips, nil)
         state = params.fetch(:state, nil)
@@ -16,81 +24,87 @@ module FIPS
         end
         raise ArgumentError, "State input must be a non-empty string" unless state.nil? || (state.is_a?(String) && !state.strip.empty?)
         raise ArgumentError, "County input must be a non-empty string" unless county.nil? || (county.is_a?(String) && !county.strip.empty?)
+        raise ArgumentError, "Lookup requires at least one of fips, state, or county parameters" if fips.nil? && state.nil? && county.nil?
 
-        location = identify_with_fips(fips, state, county)
-        return location unless location.nil?
+        state_abbr = determine_state_abbr(fips, state)
+        raise ArgumentError, "Could not determine state abbreviation from parameters provided: #{params.inspect}" if state_abbr.nil?
 
-        if !county.nil? && !state.nil?
-          state_fips = FIPS::State.lookup(state: state)[:fips]
-          return by_name(state_fips, county)
+        ensure_csv_indexed!(state_abbr)
+
+        if county
+          cache_key = "#{state_abbr}:#{county.to_s.strip.downcase}"
+          match = county_cache[cache_key]
+          return match if match
         end
 
+        if fips
+          case fips.length
+          when 3
+            full_fips = FIPS::State.abbr_to_fips(state_abbr) + fips
+            cache_key = "#{state_abbr}:#{full_fips.to_s.strip}"
+          when 5
+            cache_key = "#{state_abbr}:#{fips.to_s.strip}"
+          end
+          match = county_cache[cache_key]
+          return match if match
+        end
         raise ArgumentError, "Could not identify county with parameters provided: #{params.inspect}"
       end
 
       def all(state:)
         raise ArgumentError, "State input must be a non-empty string" unless state.is_a?(String) && !state.strip.empty?
 
-        state_fips = FIPS::State.lookup(state: state)[:fips]
-        rows = db_all(
-          "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
-          "FROM counties JOIN states USING (state_fips) WHERE counties.state_fips = ? ORDER BY counties.county_fips",
-          [state_fips]
-        )
-        rows.map { |county_row| formatted_county(county_row) }
+        state_abbr = FIPS::State.lookup(state: state)[:abbr]
+        rows = CSV.read(file_path(state_abbr))
+        rows.map { |row| formatted_county(row) }
+      end
+
+      def file_path(state_abbr)
+        File.expand_path("../data/county/#{state_abbr.upcase}.csv", __dir__)
       end
 
       private
 
-      def identify_with_fips(fips, state, county)
-        return nil if fips.nil? || !fips.is_a?(String)
-
-        case fips.length
+      def determine_state_abbr(fips, state)
+        case fips&.length
         when 2
-          return nil if county.nil?
-
-          return by_name(fips, county)
+          FIPS::State.fips_to_abbr(fips)
         when 3
-          return nil if state.nil?
+          raise ArgumentError, "A 3-digit FIPS code requires a state for county lookup" if state.nil?
 
-          state_fips = FIPS::State.lookup(state: state)[:fips]
-          return by_fips(state_fips + fips)
+          FIPS::State.lookup(state: state)[:abbr]
         when 5
-          return by_fips(fips)
+          FIPS::State.fips_to_abbr(fips[0..1])
+        else
+          raise ArgumentError, "State input is required to lookup county information" if state.nil?
+
+          FIPS::State.lookup(state: state)[:abbr]
         end
-        nil
       end
 
-      def by_fips(fips)
-        county_row = db_first(
-          "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
-          "FROM counties JOIN states USING (state_fips) WHERE counties.full_fips = ?",
-          [fips]
-        )
-        return formatted_county(county_row) unless county_row.nil?
+      def ensure_csv_indexed!(state_abbr)
+        return if loaded_states[state_abbr]
 
-        raise FIPS::NotFoundError, "Could not identify county with fips: #{fips}"
-      end
+        raw_content = CSV.read(file_path(state_abbr))
+        raw_content.each do |row|
+          row_hash = formatted_county(row)
 
-      def by_name(state_fips, county)
-        county_row = db_first(
-          "SELECT states.state_abbr AS state_abbr, counties.full_fips AS fips, counties.gnis, counties.name, counties.class_code, counties.status " \
-          "FROM counties JOIN states USING (state_fips) WHERE counties.state_fips = ? AND counties.name_key = ?",
-          [state_fips, county.upcase]
-        )
-        return formatted_county(county_row) unless county_row.nil?
-
-        raise FIPS::NotFoundError, "Could not identify county with name: #{county}, in: #{state_fips}"
+          name_key = "#{state_abbr}:#{row_hash[:name].to_s.strip.downcase}"
+          county_cache[name_key] = row_hash
+          fips_key = "#{state_abbr}:#{row_hash[:fips].to_s.strip}"
+          county_cache[fips_key] = row_hash
+        end
+        loaded_states[state_abbr] = true
       end
 
       def formatted_county(row)
         {
-          state_abbr: row["state_abbr"],
-          fips: row["fips"],
-          gnis: row["gnis"],
-          name: row["name"],
-          class_code: row["class_code"],
-          status: row["status"]
+          state_abbr: row[0],
+          fips: row[1] + row[2],
+          gnis: row[4],
+          name: row[3],
+          class_code: row[5],
+          status: row[6]
         }
       end
     end

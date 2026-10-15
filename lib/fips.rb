@@ -12,7 +12,6 @@ module FIPS
 
   class << self
     def lookup(**params)
-      # params: fips, state, county, subdivision, (add gnis?, etc.)
       fips = params.fetch(:fips, nil)
       state = params.fetch(:state, nil)
       county = params.fetch(:county, nil)

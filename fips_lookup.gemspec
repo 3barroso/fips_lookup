@@ -32,20 +32,21 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.files += Dir["lib/data/*.sqlite3"]
   spec.files += Dir["lib/**/*.rb"]
-  spec.files += Dir["db/*.sql"]
+  spec.files += Dir["lib/data/*.csv"]
+  spec.files += Dir["lib/data/county/*.csv"]
+  spec.files += Dir["lib/data/subdivision/*.csv"]
   spec.files.uniq!
 
-  spec.add_dependency "sqlite3", "~> 2.0"
+  # Core tools for gem functionality
+  spec.add_dependency "csv", "~> 3.0"
   spec.add_dependency "zeitwerk", "~> 2.8"
 
-  # Core tools for playing with the gem locally
-  spec.add_development_dependency "csv", "~> 3.0"
+  # Tools for using the gem locally
   spec.add_development_dependency "irb"
   spec.add_development_dependency "ostruct"
 
-  # Standard development and testing tools
+  # Tools for development and testing
   spec.add_development_dependency "benchmark", "~> 0.2"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.2"
