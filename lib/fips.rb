@@ -11,14 +11,7 @@ module FIPS
   end
 
   class << self
-    def states_cache
-      @states_cache ||= {}
-    end
-
-    # state files method ?
-
     def lookup(**params)
-      # params: fips, state, county, subdivision, (add gnis?, etc.)
       fips = params.fetch(:fips, nil)
       state = params.fetch(:state, nil)
       county = params.fetch(:county, nil)
